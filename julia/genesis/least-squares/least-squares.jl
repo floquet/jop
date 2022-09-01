@@ -11,11 +11,6 @@ println( "")
 println( "design matrix:")
 println( "A = ", A )
 
-# rows and columns
-( m, n ) =  size( A )
-println( "")
-println( "matrix dimensions ( rows, cols ):" )
-println( "( m, n ) = ", ( m, n ) )
 
 # Define data
 T = [ 78/5; 35/2; 183/5; 219/5; 291/5; 308/5; 321/5; 352/5; 494/5 ];
@@ -61,12 +56,18 @@ println( "invert Gram matrix:" )
 println( "Winv = inv( W )" )
 println( "Winv = ", Winv )
 
-# invert Gram matrix
+# harvest diagonal elements
 values = diag( Winv )
 println( "" )
 println( "harvest diagonal elements of Winv:" )
 println( "values = diag( Winv )" )
 println( "values = ", values )
+
+# rows and columns
+( m, n ) =  size( A )
+println( "")
+println( "matrix dimensions ( rows, cols ):" )
+println( "( m, n ) = ", ( m, n ) )
 
 # compute error elements
 sigma = sqrt.( t2 / ( m - n ) * values )
@@ -105,7 +106,7 @@ println( "error in intercept and slope sigmas in machine epsilon" )
 println( "epsError = numericError ./ eps( 1.0 )" )
 println( "epsError = ", epsError )
 
-# dantopa@Quaxolotl.local:least-squares $ julia least-squares.jl 
+# dantopa@Quaxolotl.local:least-squares $ julia least-squares.jl
 # Bevington Example 6.1
 # 2022-08-29T18:10:15.791
 #
