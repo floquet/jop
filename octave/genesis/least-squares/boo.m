@@ -14,6 +14,15 @@ xls = A \ T;
 xls
 
 # error analysis
+
+# residual error vector
+residual = A * xls - T;
+t2 = dot( residual, residual );
+
+# compute Gram matrix
+W = transpose( A ) * A
+
+# m = rows, n = columns
 [ m, n ] = size ( A );
 g = sprintf('%d ', [ m, n ]);
 fprintf('matrix dimensions: %s\n', g);
