@@ -23,7 +23,7 @@ print ( "least squares solution xls =", xls )
 Winv  = np.linalg.inv( W )
 Ap    = np.dot( Winv, A.transpose( ) )
 xpinv = np.dot( Ap, T.transpose( ) )
-print( "pseudoinverse         xpinv =", xpinv )
+print( "pseudoinverse        xpinv =", xpinv )
 
 # dantopa@Quaxolotl.attlocal.net:least-squares $ ./least-squares.py
 # importing numpy...
