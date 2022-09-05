@@ -25,6 +25,16 @@ Ap    = np.dot( Winv, A.transpose( ) )
 xpinv = np.dot( Ap, T.transpose( ) )
 print( "pseudoinverse        xpinv =", xpinv )
 
+# error propagation
+residual = np.dot( A, xls ) - T
+t2 = np.dot( residual, residual )
+print( "least total squared error =", t2 )
+[ m, n ] = A.shape
+print( "A matrix dimensions =", [ m, n ] )
+diag  = np.diag( Winv )
+sigma = np.sqrt( t2 / ( m - n ) * diag )
+print ( "sigma =", sigma )
+
 # dantopa@Quaxolotl.attlocal.net:least-squares $ ./least-squares.py
 # importing numpy...
 # design matrix A
