@@ -256,7 +256,7 @@ def bothFactors( d1, d2, x ):
 x = 39916800; # 17! = 1 * 2 * 3 * ... * 16 * 17
 d1 = 7;
 d2 = 19;
-print( "\nx = ", x, " = 17!" )
+print( "\nx = ", x, " = 11!" )
 print( "is d1 = ", d1, " a factor of 17!: YES")
 print( "is d2 = ", d2, " a factor of 17!: NO")
 bothFactors( d1, d2, x )
@@ -265,21 +265,54 @@ bothFactors( d1, d2, x )
 #    radius x and the area and perimeter of a square with side x.  Use your previous
 #    functions for these computations.  Leave a blank line above and below the printing.
 def squareAndCircle( x ):
+    circumference = circumferenceOfCircle ( radius = x );
+    areaCircle = areaOfCircle ( radius = x );
+    perimeter = perimeterOfSquare( side = x )
+    areaSquare = areaOfSquare( side = x )
+    return ( circumference, areaCircle, perimeter, areaSquare );
+
 print( "\n (11): compute and print out the area and circumference of a circle" )
 
 radius = 2.2;
-side = 1.1;
+side = 2.2;
 expectedCircumference = 2 * math.pi * radius;
-resultCircumference = circumferenceOfCircle( radius )
-expectedArea = math.pi * radius^2;
-resultArea = circumferenceOfCircle( radius )
+expectedAreaCircle = math.pi * radius**2;
+expectedPerimeter = 4 * side;
+expectedAreaSquare = radius**2;
+( resultCircumference, resultAreaCircle, resultPerimeter, resultAreaSquare ) = squareAndCircle( radius );
 
-print( "\n radius = ", radius )
-print( "circumference = ", circumferenceOfCircle( radius ) )
-print( "area = \n", areadOfCircle( radius ) )
+print( "\n circle radius = ", radius )
+print( "circumference = ", resultCircumference )
+print( "area circle = ", resultAreaCircle )
+print( "expected circumference? ", expectedCircumference == resultCircumference )
+print( "expected area? ", expectedAreaCircle == resultAreaCircle, "\n" )
+
+print( "\n square side = ", radius )
+print( "perimeter = ", resultPerimeter )
+print( "area square = ", resultAreaSquare )
+print( "expected perimeter? ", expectedPerimeter == resultPerimeter )
+print( "expected area? ", expectedAreaSquare == resultAreaSquare, "\n" )
+
+# 12. Write a function that returns the factorial of a positive
+#     integer n.  Use a for loop to compute the factorial.  You can
+#     assume the input is an integer, but print an error message if
+#     it's not positive and return None.
+print( "\n (12): factorial using a loop" )
+def factorial( n ):
+    fact = 1;
+    while n >= 2:
+        fact = fact * n;
+        n = n - 1;
+    return fact;
+
+n = 17;
+expected = 355687428096000;
+result = factorial ( n );
+print( "result = ", result)
+print( "does ", n,"! = ", expected, "?  ", expected==result)
 
 # $ python hw-06.py
-# Sep-30-2022
+# Oct-01-2022
 # /Volumes/T7-Touch/repos/github/jop/python/CS303E-06
 #
 #  (1)
@@ -374,11 +407,31 @@ print( "area = \n", areadOfCircle( radius ) )
 # radius =  -1
 # expect error message
 #
-#  (10): integer factos
+#  (10): integer factors
 #
-# x =  39916800  = 17!
+# x =  39916800  = 11!
 # is d1 =  7  a factor of 17!: YES
 # is d2 =  19  a factor of 17!: NO
 # d1 =  7  is a factor of x =  39916800
 # x / d1 =  5702400.0
 # d2 =  19  is NOT a factor of x =  39916800
+#
+#  (11): compute and print out the area and circumference of a circle
+#
+#  circle radius =  2.2
+# circumference =  13.823007675795091
+# area circle =  15.205308443374602
+# expected circumference?  True
+# expected area?  True
+#
+#
+#  square side =  2.2
+# perimeter =  8.8
+# area square =  4.840000000000001
+# expected perimeter?  True
+# expected area?  True
+#
+#
+#  (12): factorial using a loop
+# result =  355687428096000
+# does  17 ! =  355687428096000 ?   True
