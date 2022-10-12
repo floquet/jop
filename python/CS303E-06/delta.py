@@ -56,7 +56,7 @@ def computeExamAvg():
 
 def computeStudentGradeReport(hwAvg, prjAvg, exAvg):
     courseScore = ( hwAvg * 3 + prjAvg * 3 + exAvg * 4 ) / 10
-    print( "\nDebug: weighted average = ", courseScore )
+    #print( "\nDebug: weighted average = ", courseScore )
     return (courseScore)
 
 def computeStudentLetterGrade(courseScore):
@@ -73,7 +73,7 @@ def printGradeBlock( name, hwAvg, prjAvg, exAvg, courseAverage, letterGrade ):
         print( "   Project average (30% of grade): ", f'{prjAvg:.2f}')
         print( "   Exam average (40% of grade): ", f'{exAvg:.2f}')
         print( "   Student course average: ", f'{courseAverage:.2f}')
-        print( "   Course grade (CS303E: Fall, 2022) : ", letterGrade )
+        print( "   Course grade (CS303E: Fall, 2022): ", letterGrade )
         return()
 
 def main():
@@ -86,23 +86,22 @@ def main():
     # homework average: routine takes keyboard input for hw1, h2, hw3 and returns the average
     hwAvg = computeHomeworkAvg()
     # diagnostic message to verify correct return
-    print( "\nDebug: homework average = ", hwAvg )
+    #print( "\nDebug: homework average = ", hwAvg )
 
     # project average: routine takes keyboard input for prj1, prj2 and returns the average
     prjAvg = computeProjectAvg()
     # diagnostic message to verify correct return
-    print( "\nDebug: project average = ", prjAvg )
+    #print( "\nDebug: project average = ", prjAvg )
 
     # exam average: routine takes keyboard input for ex1, ex2 and returns the average
     exAvg = computeExamAvg()
     # diagnostic message to verify correct return
-    print( "\nDebug: exam average = ", exAvg )
-
-    # compute weighted average of coursework
+    #print( "\nDebug: exam average = ", exAvg )
+ d average of coursework
     courseAverage = computeStudentGradeReport(hwAvg, prjAvg, exAvg)
-    print( "Your weighted average = ", courseAverage )
+    #print( "Your weighted average = ", courseAverage )
     letterGrade = computeStudentLetterGrade(courseAverage)
-    print( "Your overall grade = ", letterGrade )
+    #print( "Your overall grade = ", letterGrade )
 
     printGradeBlock( name, hwAvg, prjAvg, exAvg, courseAverage, letterGrade )
     # all tasks completed
