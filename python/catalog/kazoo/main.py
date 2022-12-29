@@ -12,6 +12,11 @@ import sys                  # python version
 
 # # computation
 import pandas as pd
+import h5py
+
+# # toolkits
+import xl_toolkit      # spreadsheet authoring tools
+
 
 #  ==   ==   == ==   ==   == ==   ==   == ==   ==   ==  #
 
@@ -34,10 +39,11 @@ if __name__ == "__main__":
     for name in sheetNames:
         print( "expecting sheet name '%s'" % name )
 
+    dict_df = pd.read_excel( "../" + dataName, sheet_name=sheetNames, header = 2 )
 
     # https://pbpython.com/pandas-excel-tabs.html
-    first_df = pd.read_excel( workbook_url, sheet_name='sheetNames[0]' )
-    print( df )
+    #first_df = pd.read_excel( "../" + dataName, sheet_name='sheetNames[0]' )
+    print( dict_df )
 
     # fundamental object: a catalog
     #book        = cls_Book.Book( )     # instantiate book
