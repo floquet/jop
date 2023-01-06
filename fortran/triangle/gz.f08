@@ -55,24 +55,10 @@ program ground_zero
             ! determinant of Gram matrix
             det = cc * ss - cs ** 2
 
-            write ( * , * ) "cc = ", cc
-            write ( * , * ) "cs = ", cs
-            write ( * , * ) "ss = ", ss
-            write ( * , * ) "cb = ", cb
-            write ( * , * ) "sb = ", sb
-            write ( * , * ) "det = ", det
-            write ( * , * ) "A = ", A
-            write ( * , * ) "xi = ", xi
-            write ( * , * ) "eta = ", eta
-            write ( * , * ) "b = ", b
-
             ! Fortran is COLUMN major
+            ! construct inverse, do not compute inverse
             Winv = reshape ( [ [ ss, cs ], [ cs, cc ] ], [ n, n ] ) / det
-            !Winv = [ [ ss, cs ], [ cs, cc ] ] / det
             atb = matmul ( transpose ( A ), b )
-            write ( * , * ) "A^* = ", transpose( A )
-            write ( * , * ) "Winv = ", Winv
-            write ( * , * ) "atb = ", atb
 
             ! least squares solution via normal equations
             gz = matmul ( Winv, atb )
@@ -82,7 +68,7 @@ program ground_zero
 
             ! parent standard deviation, equation 6.19
             psd = t2 / real ( m - n, kind = rp )
-            ! equations 6-21, 22
+            ! Bevington equations 6-21, 22
             sigma = sqrt( psd * [ ss, cc ] / det )
 
             ! compare to values in table 6-1, p. 93
@@ -101,17 +87,18 @@ program ground_zero
 
 end program ground_zero
 
-! dantopa@Xiuhcoatl.local:triangle $ gfortran -Wall gz.f08
-! dantopa@Xiuhcoatl.local:triangle $ ./a.out
+! dantopa@Xiuhcoatl.local:triangle $ gfortran -Wall -o gz gz.f08
+
+! dantopa@Xiuhcoatl.local:triangle $ ./gz
 !  particular least squares solution for ground zero
-!  x0 =    53.131513333455359       +/-    70.217462895360043
-! y0 =    60.908916382549272       +/-    78.336925875502942
-
-! - - - - - - - - -
-
-! 2023-01-05 17:19:48
-
+!  x0 =    117.97723925949958       +/-    18.698052680295692
+!  y0 =    135.24677447077607       +/-    20.860166494699182
+!
+!  - - - - - - - - -
+!
+!  2023-01-05 17:41:04
+!
 ! compiler version: GCC version 12.2.0.
 ! compiler options: -fPIC -mmacosx-version-min=13.0.0 -mtune=core2 -Wall.
-
+!
 ! STOP Successful termination for "ground_zero.f08".
