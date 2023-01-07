@@ -9,11 +9,15 @@ println( now( ) )
 # Define mesh
 x = [  1; 20; 50 ];
 y = [ 66; 15; -3 ];
+# bearing angles (radians)
 theta = [ 1.0; 0.74; 0.43 ];
+
+# data vectors
 c = cos.( theta );
 s = sin.( theta );
 A = vcat( c, -s );
 A = reshape( A, ( 3, 2 ) );
+
 println( "")
 println( "design matrix:")
 println( "A = ", A )
