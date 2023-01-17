@@ -2,7 +2,7 @@
 # Solving ground zero triangulation with Julia
 # https://stackoverflow.com/questions/22240581/running-julia-jl-files
 println(" Running julia script '", PROGRAM_FILE, "'")
-println( "Finding ground zero with bearing angle" )
+println( "Finding ground zero with bearing angles" )
 using Dates
 println( now( ) )
 
