@@ -22,7 +22,7 @@ import tools_xl             # spreadsheet authoring tools
 if __name__ == "__main__":
 
     print(os.environ)
-    print( "os.environ[ 'HOSTNAME' ] = %s" % os.environ[ 'HOSTNAME' ] )
+    print( "os.environ[ 'HOSTNAME' ] = %s" % os.environ[ "HOSTNAME" ] )
     # create xl notebook for results
     workbook = tools_xl.xl_new_workbook( "output.xlsx" )
     # worksheets for debugging
