@@ -68,7 +68,7 @@ print( "\nnumeric epsilons, sigma parameters: ", numericErrorXLSsigma )
 print( "particular least squares solution for ground zero\n" )
 # print( "x0 = %f +/- %f", %( xls( 1 ), sigma( 1 ) ) )
 # print( "y0 = %4.15f +/- %4.15f\n", xls( 2 ), sigma( 2 ) )
-print( '{0'..16f}'.format(xls( 1 )))
+print( '{0:..16f}'.format(xls( 1 )))
 
 
 #   farewell with provenance

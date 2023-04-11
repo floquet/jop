@@ -1,0 +1,22 @@
+#! /opt/local/bin/python
+#! /home/dantopa/spacktivity/ubuntu-22.04-dantopa-docker-spack/opt/spack/linux-ubuntu22.04-haswell/gcc-12.2.0/python-3.10.6-ybcookynohghdr6i72gwalqle6hq27z5/bin/python
+# Solving Bevington example 6.1 with Python
+import datetime             # timestamps
+import os                   # opeating system
+import sys                  # python version
+
+# Data reduction and error analysis for the physical sciences
+# Philip R Bevington
+
+# chapter 4: Propagation of errors
+# section 4-2: Specific formulas
+
+# addition and subtraction
+sl=2
+sw=1
+
+
+#   farewell with provenance
+print( "\n", datetime.datetime.now( ) )
+print( "source: %s/%s" % ( os.getcwd( ), os.path.basename( __file__ ) ) )
+print( "python version %s" % sys.version )
