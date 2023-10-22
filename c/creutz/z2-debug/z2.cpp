@@ -1,13 +1,19 @@
 /* Z_2 lattice gauge simulation */
 /* Michael Creutz <creutz@bnl.gov>     */
 /* http://thy.phy.bnl.gov/~creutz/z2.c */
+#include <limits.h>
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <unistd.h>
+//#include <iostream>
+#include <fstream>
+
+using namespace std;
 
 /* the lattice is of dimensions SIZE**4  */
 #define SIZE 2
-int link[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives link direction */
+int lnk[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives lnk direction */
 
 /* utility functions */
 void moveup(int x[],int d) {
@@ -20,14 +26,14 @@ void movedown(int x[],int d) {
   if (x[d]<0) x[d]+=SIZE;
   return;
 }
-void coldstart(){  /* set all links to unity */
+void coldstart(){  /* set all lnks to unity */
   int x[4],d;
   for (x[0]=0;x[0]<SIZE;x[0]++)
     for (x[1]=0;x[1]<SIZE;x[1]++)
       for (x[2]=0;x[2]<SIZE;x[2]++)
         for (x[3]=0;x[3]<SIZE;x[3]++)
           for (d=0;d<4;d++)
-	    link[x[0]][x[1]][x[2]][x[3]][d]=1;
+	    lnk[x[0]][x[1]][x[2]][x[3]][d]=1;
   return;
 }
 /* for a random start: call coldstart() and then update once at beta=0 */
@@ -54,19 +60,19 @@ double update(double beta){
                 /* plaquette 1234 */
                 movedown(x,dperp);
                 //printf( "%d %d %d %d %d %d %d \n", x[0], x[1], x[2], x[3], d, dperp );
-                staple=link[x[0]][x[1]][x[2]][x[3]][dperp]
-                  *link[x[0]][x[1]][x[2]][x[3]][d];
+                staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp]
+                  *lnk[x[0]][x[1]][x[2]][x[3]][d];
                 moveup(x,d);
-                staple*=link[x[0]][x[1]][x[2]][x[3]][dperp];  
+                staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];  
                 moveup(x,dperp);
                 staplesum+=staple;
                 /* plaquette 1456 */
-                staple=link[x[0]][x[1]][x[2]][x[3]][dperp];
+                staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
                 moveup(x,dperp);
                 movedown(x,d);
-                staple*=link[x[0]][x[1]][x[2]][x[3]][d];
+                staple*=lnk[x[0]][x[1]][x[2]][x[3]][d];
                 movedown(x,dperp);
-                staple*=link[x[0]][x[1]][x[2]][x[3]][dperp];
+                staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
                 staplesum+=staple;
               }
 	    }
@@ -76,14 +82,14 @@ double update(double beta){
             bplus=bplus/(bplus+bminus);
             /* the heatbath algorithm */
             rnum = drand48();
-            printf( " \nrnum = %3f, bplus = %3f", rnum, bplus );
+            // printf( " \nrnum = %3f, bplus = %3f", rnum, bplus );
             if ( rnum < bplus ){
-              printf( ": rnum < bplus");
-              link[x[0]][x[1]][x[2]][x[3]][d]=1;
+              // printf( ": rnum < bplus");
+              lnk[x[0]][x[1]][x[2]][x[3]][d]=1;
               action+=staplesum;
             }
             else{ 
-              link[x[0]][x[1]][x[2]][x[3]][d]=-1;
+              lnk[x[0]][x[1]][x[2]][x[3]][d]=-1;
               action-=staplesum;
             }
           }
@@ -108,7 +114,7 @@ int main(){
     dbeta=.01;
     coldstart();
     /* heat it up */
-    fptr = fopen("heat.bin", "wb");
+    fptr = fopen("heat.txt", "w");
     for (pair.beta=1; pair.beta>0.0; pair.beta-=dbeta){
         pair.action=update(pair.beta);
         /* printf("%g\t%g\n",beta,action); */
@@ -118,15 +124,38 @@ int main(){
 
     printf("\n heating cycle completed - now cooling\n ");
     /* cool it down */
-    fptr = fopen("cool.bin", "wb");
+    // fptr = fopen("cool.txt", "w");
+    std::ofstream myfile;
+    myfile.open ("cool.txt");
     for (pair.beta=0; pair.beta<1.0; pair.beta+=dbeta){
         pair.action=update(pair.beta);
-        // printf("%g\t%g\n",pair.beta,pair.action); 
-        fwrite(&pair, sz, 1, fptr);
+        printf("%g\t%g\n",pair.beta,pair.action); 
+        myfile << pair;
+        // fputc(pair, fptr);
+        // fptr << pair
+        // fwrite(&pair, sz, 1, fptr);
     }
-    fclose(fptr); 
+    myfile.close();
+    // fclose(fptr); 
     // printf("\n\n");
+    char cwd[1024];
+    if (getcwd(cwd, sizeof(cwd)) != NULL) {
+        printf("Current working dir: %s\n", cwd);
+    } else {
+        perror("getcwd() error");
+        return 1;
+   }
+
     exit(0);
 }
 
 /* 165. M. Creutz, "Simulating quarks," Computers in Science & Engineering, March/April 2004, p. 80 (IEEE CS and AIP, 2004). */
+
+// dantopa@Quaxolotl.local:z2-debug $ gcc z2.c
+// z2.c:12:5: error: 'link' redeclared as different kind of symbol
+//    12 | int link[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives link direction */
+//       |     ^~~~
+// In file included from z2.c:8:
+// /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/unistd.h:464:10: note: previous declaration of 'link' with type 'int(const char *, const char *)'
+//   464 | int      link(const char *, const char *);
+//       |          ^~~~

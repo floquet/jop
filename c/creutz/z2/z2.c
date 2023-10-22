@@ -6,7 +6,7 @@
 #include <math.h>
 
 /* the lattice is of dimensions SIZE**4  */
-#define SIZE 36
+#define SIZE 2
 int link[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives link direction */
 
 /* utility functions */
@@ -104,7 +104,7 @@ int main(){
     dbeta=.01;
     coldstart();
     /* heat it up */
-    fptr = fopen("heat.bin", "wb");
+    fptr = fopen("heat.txt", "w");
     for (pair.beta=1; pair.beta>0.0; pair.beta-=dbeta){
         pair.action=update(pair.beta);
         /* printf("%g\t%g\n",beta,action); */
@@ -114,10 +114,11 @@ int main(){
 
     printf("\n heating cycle completed - now cooling\n ");
     /* cool it down */
-    fptr = fopen("cool.bin", "wb");
+    fptr = fopen("cool.txt", "w");
     for (pair.beta=0; pair.beta<1.0; pair.beta+=dbeta){
         pair.action=update(pair.beta);
         // printf("%g\t%g\n",pair.beta,pair.action); 
+        fput(pair, fptr)
         fwrite(&pair, sz, 1, fptr);
     }
     fclose(fptr); 
