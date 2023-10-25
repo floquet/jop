@@ -118,7 +118,8 @@ int main(){
     for (pair.beta=1; pair.beta>0.0; pair.beta-=dbeta){
         pair.action=update(pair.beta);
         /* printf("%g\t%g\n",beta,action); */
-        fwrite(&pair, sz, 1, fptr);
+        fprintf(fptr, "%g\t%g\n", pair.beta, pair.action);
+        // fwrite(&pair, sz, 1, fptr);
     }
     fclose(fptr); 
 
