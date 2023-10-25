@@ -125,17 +125,21 @@ int main(){
     printf("\n heating cycle completed - now cooling\n ");
     /* cool it down */
     // fptr = fopen("cool.txt", "w");
-    std::ofstream myfile;
-    myfile.open ("cool.txt");
+    // std::ofstream myfile;
+    // myfile.open ("cool.txt");
+    FILE *fp;
+    fp = fopen("cool.txt", "w");
     for (pair.beta=0; pair.beta<1.0; pair.beta+=dbeta){
         pair.action=update(pair.beta);
-        printf("%g\t%g\n",pair.beta,pair.action); 
-        myfile << pair;
+        // printf("%g\t%g\n",pair.beta,pair.action); 
+        //myfile << pair;
+        fprintf(fp, "%g\t%g\n", pair.beta, pair.action);
         // fputc(pair, fptr);
         // fptr << pair
         // fwrite(&pair, sz, 1, fptr);
     }
-    myfile.close();
+    fclose( fp );
+    // myfile.close();
     // fclose(fptr); 
     // printf("\n\n");
     char cwd[1024];
