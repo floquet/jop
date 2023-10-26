@@ -147,8 +147,8 @@ int main(){
     char cwd[1024];
     if (getcwd(cwd, sizeof(cwd)) != NULL) {
         printf("Current working dir: %s\n", cwd);
+        printf("size  = %d\n", SIZE);
         printf("dbeta = %g\n", dbeta);
-        printf("size  = %g\n", SIZE);
     } else {
         perror("getcwd() error");
         return 1;
@@ -157,14 +157,22 @@ int main(){
     exit(0);
 }
 
+// dantopa@Quaxolotl.local:z2-debug $ date
+// Wed Oct 25 21:02:47 MDT 2023
+
+// dantopa@Quaxolotl.local:z2-debug $ gcc z2.cpp 
+
 // dantopa@Quaxolotl.local:z2-debug $ time ./a.out
 
 //  heating cycle completed - now cooling
 //  Current working dir: /Volumes/T7-Touch/repos/github/jop/c/creutz/z2-debug
+// size  = 6
+// dbeta = 0.0006
 
-// real  0m2.948s
-// user  0m2.911s
-// sys 0m0.032s
+// real  0m3.029s
+// user  0m2.923s
+// sys 0m0.034s
+
 
 
 /* 165. M. Creutz, "Simulating quarks," Computers in Science & Engineering, March/April 2004, p. 80 (IEEE CS and AIP, 2004). */
