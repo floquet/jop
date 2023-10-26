@@ -12,7 +12,7 @@
 using namespace std;
 
 /* the lattice is of dimensions SIZE**4  */
-#define SIZE 2
+#define SIZE 6
 int lnk[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives lnk direction */
 
 /* utility functions */
@@ -111,11 +111,12 @@ int main(){
     FILE *fptr;
     srand48(1234L);  /* initialize random number generator */
     /* do your experiment here; this example is a thermal cycle */
-    dbeta=.01;
+    dbeta=0.015625;
+    dbeta=0.0006;
     coldstart();
     /* heat it up */
     fptr = fopen("heat.txt", "w");
-    for (pair.beta=1; pair.beta>0.0; pair.beta-=dbeta){
+    for (pair.beta=1.2; pair.beta>0.0; pair.beta-=dbeta){
         pair.action=update(pair.beta);
         /* printf("%g\t%g\n",beta,action); */
         fprintf(fptr, "%g\t%g\n", pair.beta, pair.action);
@@ -130,7 +131,7 @@ int main(){
     // myfile.open ("cool.txt");
     FILE *fp;
     fp = fopen("cool.txt", "w");
-    for (pair.beta=0; pair.beta<1.0; pair.beta+=dbeta){
+    for (pair.beta=0; pair.beta<1.2; pair.beta+=dbeta){
         pair.action=update(pair.beta);
         // printf("%g\t%g\n",pair.beta,pair.action); 
         //myfile << pair;
@@ -146,6 +147,8 @@ int main(){
     char cwd[1024];
     if (getcwd(cwd, sizeof(cwd)) != NULL) {
         printf("Current working dir: %s\n", cwd);
+        printf("dbeta = %g\n", dbeta);
+        printf("size  = %g\n", SIZE);
     } else {
         perror("getcwd() error");
         return 1;
@@ -154,13 +157,17 @@ int main(){
     exit(0);
 }
 
+// dantopa@Quaxolotl.local:z2-debug $ time ./a.out
+
+//  heating cycle completed - now cooling
+//  Current working dir: /Volumes/T7-Touch/repos/github/jop/c/creutz/z2-debug
+
+// real  0m2.948s
+// user  0m2.911s
+// sys 0m0.032s
+
+
 /* 165. M. Creutz, "Simulating quarks," Computers in Science & Engineering, March/April 2004, p. 80 (IEEE CS and AIP, 2004). */
 
-// dantopa@Quaxolotl.local:z2-debug $ gcc z2.c
-// z2.c:12:5: error: 'link' redeclared as different kind of symbol
-//    12 | int link[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives link direction */
-//       |     ^~~~
-// In file included from z2.c:8:
-// /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/unistd.h:464:10: note: previous declaration of 'link' with type 'int(const char *, const char *)'
-//   464 | int      link(const char *, const char *);
-//       |          ^~~~
+/* “Experiments with a Gauge Invariant Ising System,” Physical Rev. Letters, vol. 42, no. 21, 1979, pp. 1390–1393.
+*/
