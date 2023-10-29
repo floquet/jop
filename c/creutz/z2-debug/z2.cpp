@@ -12,7 +12,7 @@
 using namespace std;
 
 /* the lattice is of dimensions SIZE**4  */
-#define SIZE 6
+#define SIZE 3
 int lnk[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives lnk direction */
 
 /* utility functions */
@@ -39,7 +39,7 @@ void coldstart(){  /* set all lnks to unity */
 /* for a random start: call coldstart() and then update once at beta=0 */
 
 /* do a Monte Carlo sweep; return energy */
-double update(double beta){
+double update(double beta, FILE** fr){
   int x[4],d,dperp,staple,staplesum;    
   double bplus,bminus,action=0.0;
   double rnum=0.0; 
@@ -59,9 +59,10 @@ double update(double beta){
                     -----> d     2--3  */
                 /* plaquette 1234 */
                 movedown(x,dperp);
-                //printf( "%d %d %d %d %d %d %d \n", x[0], x[1], x[2], x[3], d, dperp );
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp]
-                  *lnk[x[0]][x[1]][x[2]][x[3]][d];
+                      *lnk[x[0]][x[1]][x[2]][x[3]][d];
+                // printf( "%d %d %d %d %d %d \n", x[0], x[1], x[2], x[3], d, dperp );
+                // printf( "%d = %d * %d \n", staple, lnk[x[0]][x[1]][x[2]][x[3]][dperp], lnk[x[0]][x[1]][x[2]][x[3]][d] );
                 moveup(x,d);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];  
                 moveup(x,dperp);
@@ -75,14 +76,16 @@ double update(double beta){
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
                 staplesum+=staple;
               }
-	    }
+	          }
             /* calculate the Boltzmann weight */
             bplus=exp(beta*staplesum);
             bminus=1/bplus;
             bplus=bplus/(bplus+bminus);
             /* the heatbath algorithm */
             rnum = drand48();
-            // printf( " \nrnum = %3f, bplus = %3f", rnum, bplus );
+            printf( "%d \t %g \t %g\n", staplesum, rnum, bplus );
+            // printf( "rnum = %3f, bplus = %3f \n", rnum, bplus );
+            // fprintf(fr, "%g\t%g\n", rnum, bplus);
             if ( rnum < bplus ){
               // printf( ": rnum < bplus");
               lnk[x[0]][x[1]][x[2]][x[3]][d]=1;
@@ -109,15 +112,18 @@ int main(){
     struct doublet pair;
     int sz = sizeof(struct doublet);
     FILE *fptr;
+    FILE *fr;
     srand48(1234L);  /* initialize random number generator */
     /* do your experiment here; this example is a thermal cycle */
-    dbeta=0.015625;
     dbeta=0.0006;
+    dbeta=0.015625;
+    dbeta=0.125;
     coldstart();
     /* heat it up */
+    fr = fopen("randoms.txt", "w");
     fptr = fopen("heat.txt", "w");
     for (pair.beta=1.2; pair.beta>0.0; pair.beta-=dbeta){
-        pair.action=update(pair.beta);
+        pair.action=update(pair.beta, &fr);
         /* printf("%g\t%g\n",beta,action); */
         fprintf(fptr, "%g\t%g\n", pair.beta, pair.action);
         // fwrite(&pair, sz, 1, fptr);
@@ -132,7 +138,7 @@ int main(){
     FILE *fp;
     fp = fopen("cool.txt", "w");
     for (pair.beta=0; pair.beta<1.2; pair.beta+=dbeta){
-        pair.action=update(pair.beta);
+        pair.action=update(pair.beta, &fr);
         // printf("%g\t%g\n",pair.beta,pair.action); 
         //myfile << pair;
         fprintf(fp, "%g\t%g\n", pair.beta, pair.action);
@@ -141,6 +147,7 @@ int main(){
         // fwrite(&pair, sz, 1, fptr);
     }
     fclose( fp );
+    fclose( fr );
     // myfile.close();
     // fclose(fptr); 
     // printf("\n\n");
