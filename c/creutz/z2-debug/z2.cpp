@@ -66,6 +66,7 @@ double update(double beta, FILE** fr){
                 moveup(x,d);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];  
                 moveup(x,dperp);
+                printf("%d A staplesum = staplesum + staple = %d + %d = %d\n", dperp, staplesum, staple, staple + staplesum );
                 staplesum+=staple;
                 /* plaquette 1456 */
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
@@ -74,16 +75,18 @@ double update(double beta, FILE** fr){
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][d];
                 movedown(x,dperp);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
+                printf("%d B staplesum = staplesum + staple = %d + %d = %d\n", dperp, staplesum, staple, staple + staplesum );
                 staplesum+=staple;
               }
 	          }
+            printf("staplesum = %d\n", staplesum );
             /* calculate the Boltzmann weight */
             bplus=exp(beta*staplesum);
             bminus=1/bplus;
             bplus=bplus/(bplus+bminus);
             /* the heatbath algorithm */
             rnum = drand48();
-            printf( "%d \t %g \t %g\n", staplesum, rnum, bplus );
+            // printf( "%d \t %g \t %g\n", staplesum, rnum, bplus );
             // printf( "rnum = %3f, bplus = %3f \n", rnum, bplus );
             // fprintf(fr, "%g\t%g\n", rnum, bplus);
             if ( rnum < bplus ){
@@ -125,7 +128,7 @@ int main(){
     for (pair.beta=1.2; pair.beta>0.0; pair.beta-=dbeta){
         pair.action=update(pair.beta, &fr);
         /* printf("%g\t%g\n",beta,action); */
-        fprintf(fptr, "%g\t%g\n", pair.beta, pair.action);
+        // fprintf(fptr, "%g\t%g\n", pair.beta, pair.action);
         // fwrite(&pair, sz, 1, fptr);
     }
     fclose(fptr); 
@@ -141,7 +144,7 @@ int main(){
         pair.action=update(pair.beta, &fr);
         // printf("%g\t%g\n",pair.beta,pair.action); 
         //myfile << pair;
-        fprintf(fp, "%g\t%g\n", pair.beta, pair.action);
+        // fprintf(fp, "%g\t%g\n", pair.beta, pair.action);
         // fputc(pair, fptr);
         // fptr << pair
         // fwrite(&pair, sz, 1, fptr);
