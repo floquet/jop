@@ -92,11 +92,13 @@ double update(double beta, FILE** fr){
             if ( rnum < bplus ){
               // printf( ": rnum < bplus");
               lnk[x[0]][x[1]][x[2]][x[3]][d]=1;
+              printf( "T action = action + staplesum = %g + %d = %g \n", action, staplesum, action + staplesum );
               action+=staplesum;
             }
             else{ 
               lnk[x[0]][x[1]][x[2]][x[3]][d]=-1;
               action-=staplesum;
+              printf( "F action = action - staplesum = %g - %d = %g \n", action, staplesum, action - staplesum );
             }
           }
   action /= (SIZE*SIZE*SIZE*SIZE*4*6);
