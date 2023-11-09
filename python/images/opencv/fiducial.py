@@ -4,9 +4,11 @@
 import datetime             # timestamps
 import os                   # opeating system
 import sys                  # python version
-import opencv as cv
+
+import opencv3 as cv
 
 print( 'opensv version = ', cv2.__version__ )
+
 
 #   farewell with provenance
 print( "\n", datetime.datetime.now( ) )

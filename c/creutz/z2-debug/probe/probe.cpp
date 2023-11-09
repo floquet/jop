@@ -39,7 +39,9 @@ void coldstart(){  /* set all lnks to unity */
 /* for a random start: call coldstart() and then update once at beta=0 */
 
 /* do a Monte Carlo sweep; return energy */
-double update(double beta, FILE** fr){
+// double update(double beta, FILE** fr){
+// https://stackoverflow.com/questions/2581493/c-newbie-passing-an-fstream-to-a-function-to-read-data
+double update(double beta, int inc, FILE** fr, ifstream &file){
   int x[4],d,dperp,staple,staplesum;    
   double bplus,bminus,action=0.0;
   double rnum=0.0; 
@@ -66,7 +68,7 @@ double update(double beta, FILE** fr){
                 moveup(x,d);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];  
                 moveup(x,dperp);
-                printf("%d A staplesum = staplesum + staple = %d + %d = %d\n", dperp, staplesum, staple, staple + staplesum );
+                // printf("%d A staplesum = staplesum + staple = %d + %d = %d\n", dperp, staplesum, staple, staple + staplesum );
                 staplesum+=staple;
                 /* plaquette 1456 */
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
@@ -75,30 +77,34 @@ double update(double beta, FILE** fr){
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][d];
                 movedown(x,dperp);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
-                printf("%d B staplesum = staplesum + staple = %d + %d = %d\n", dperp, staplesum, staple, staple + staplesum );
+                // printf("%d B staplesum = staplesum + staple = %d + %d = %d\n", dperp, staplesum, staple, staple + staplesum );
                 staplesum+=staple;
               }
 	          }
-            printf("staplesum = %d\n", staplesum );
+            // printf("staplesum = %d\n", staplesum );
             /* calculate the Boltzmann weight */
             bplus=exp(beta*staplesum);
             bminus=1/bplus;
             bplus=bplus/(bplus+bminus);
             /* the heatbath algorithm */
-            rnum = drand48();
+            // rnum = drand48();
+            inc++;
+            &file >> rnum;
             // printf( "%d \t %g \t %g\n", staplesum, rnum, bplus );
             // printf( "rnum = %3f, bplus = %3f \n", rnum, bplus );
             // fprintf(fr, "%g\t%g\n", rnum, bplus);
             if ( rnum < bplus ){
               // printf( ": rnum < bplus");
               lnk[x[0]][x[1]][x[2]][x[3]][d]=1;
-              printf( "T action = action + staplesum = %g + %d = %g \n", action, staplesum, action + staplesum );
+              // printf( "T action = action + staplesum = %g + %d = %g \n", action, staplesum, action + staplesum );
               action+=staplesum;
+              printf ( "%d. %lf action = %lf staplesum = %d \n", inc, rnum, action, staplesum );
             }
             else{ 
               lnk[x[0]][x[1]][x[2]][x[3]][d]=-1;
               action-=staplesum;
-              printf( "F action = action - staplesum = %g - %d = %g \n", action, staplesum, action - staplesum );
+              // printf( "F action = action - staplesum = %g - %d = %g \n", action, staplesum, action - staplesum );
+              printf ( "%d. %lf action = %lf staplesum = %d \n", inc , rnum, action, staplesum );
             }
           }
   action /= (SIZE*SIZE*SIZE*SIZE*4*6);
@@ -115,7 +121,8 @@ struct doublet
 int main(){
     double dbeta;
     struct doublet pair;
-    int sz = sizeof(struct doublet);
+    // int sz = sizeof(struct doublet), inc;
+    int inc;
     FILE *fptr;
     FILE *fr;
     srand48(1234L);  /* initialize random number generator */
@@ -123,12 +130,15 @@ int main(){
     dbeta=0.0006;
     dbeta=0.015625;
     dbeta=0.125;
-    coldstart();
+    inc=0;
+    ifstream FileName;               
+    FileName.open( "/Volumes/T7-Touch/repos/github/f/projects/lattice/z2/randoms/list_randoms.txt", ios::in );    
     /* heat it up */
     fr = fopen("randoms.txt", "w");
     fptr = fopen("heat.txt", "w");
     for (pair.beta=1.2; pair.beta>0.0; pair.beta-=dbeta){
-        pair.action=update(pair.beta, &fr);
+        //pair.action=update(pair.beta, &fr);
+        pair.action=update(pair.beta, inc, &fr, FileName);
         /* printf("%g\t%g\n",beta,action); */
         // fprintf(fptr, "%g\t%g\n", pair.beta, pair.action);
         // fwrite(&pair, sz, 1, fptr);
@@ -143,7 +153,8 @@ int main(){
     FILE *fp;
     fp = fopen("cool.txt", "w");
     for (pair.beta=0; pair.beta<1.2; pair.beta+=dbeta){
-        pair.action=update(pair.beta, &fr);
+        pair.action=update(pair.beta, inc, &fr, FileName);
+        //pair.action=update(pair.beta, &fr);
         // printf("%g\t%g\n",pair.beta,pair.action); 
         //myfile << pair;
         // fprintf(fp, "%g\t%g\n", pair.beta, pair.action);
@@ -153,6 +164,7 @@ int main(){
     }
     fclose( fp );
     fclose( fr );
+    FileName.close( );
     // myfile.close();
     // fclose(fptr); 
     // printf("\n\n");
