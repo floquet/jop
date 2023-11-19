@@ -12,7 +12,7 @@
 using namespace std;
 
 /* the lattice is of dimensions SIZE**4  */
-#define SIZE 3
+#define SIZE 6
 int lnk[SIZE][SIZE][SIZE][SIZE][4]; /* last index gives lnk direction */
 
 /* utility functions */
@@ -92,13 +92,13 @@ double update(double beta, int& inc, ifstream &file){
               // printf( ": rnum < bplus");
               lnk[x[0]][x[1]][x[2]][x[3]][d]=1;
               action+=staplesum;
-              printf ( "%d. %lf action = %lf staplesum = %d \n", inc, rnum, action, staplesum );
+              printf ( "%d. %lf action = %lf staplesum = %d bplus = %lf \n", inc, rnum, action, staplesum, bplus );
             }
             else{ 
               lnk[x[0]][x[1]][x[2]][x[3]][d]=-1;
               action-=staplesum;
               // printf( "F action = action - staplesum = %g - %d = %g \n", action, staplesum, action - staplesum );
-              printf ( "%d. %lf action = %lf staplesum = %d \n", inc , rnum, action, staplesum );
+              printf ( "%d. %lf action = %lf staplesum = %d bplus = %lf \n", inc , rnum, action, staplesum, bplus );
             }
           }
   action /= (SIZE*SIZE*SIZE*SIZE*4*6);
@@ -149,30 +149,19 @@ int main(){
     exit(0);
 }
 
-// dantopa@Quaxolotl.local:z2-debug $ date
-// Wed Oct 25 21:02:47 MDT 2023
+// dantopa@Quaxolotl.local:probe $ g++ -Wall -p -g -o alpha-probe alpha-probe.cpp 
 
-// dantopa@Quaxolotl.local:z2-debug $ gcc z2.cpp 
+// dantopa@Quaxolotl.local:probe $ ./alpha-probe > text-out.txt
 
-// dantopa@Quaxolotl.local:z2-debug $ time ./a.out
+// dantopa@Quaxolotl.local:probe $ date
+// Sat Nov 18 21:42:28 MST 2023
 
-//  heating cycle completed - now cooling
-//  Current working dir: /Volumes/T7-Touch/repos/github/jop/c/creutz/z2-debug
-// size  = 6
-// dbeta = 0.0006
+// dantopa@Quaxolotl.local:probe $ pwd
+// /Volumes/T7-Touch/repos/github/jop/c/creutz/z2-debug/probe
 
-// real  0m3.029s
-// user  0m2.923s
-// sys 0m0.034s
-
-// dantopa@Quaxolotl.local:probe $ g++ -Wall -p -g -o probe probe.cpp 
-// probe.cpp: In function 'double update(double, int, FILE**, std::ifstream&)':
-// probe.cpp:92:19: error: invalid operands of types 'std::ifstream*' {aka 'std::basic_ifstream<char>*'} and 'double' to binary 'operator>>'
-//    92 |             &file >> rnum;
-//       |             ~~~~~ ^~ ~~~~
-//       |             |        |
-//       |             |        double
-//       |             std::ifstream* {aka std::basic_ifstream<char>*}
+// Current working dir: /Volumes/T7-Touch/repos/github/jop/c/creutz/z2-debug/probe
+// size  = 3
+// dbeta = 0.125
 
 /* 165. M. Creutz, "Simulating quarks," Computers in Science & Engineering, March/April 2004, p. 80 (IEEE CS and AIP, 2004). */
 
