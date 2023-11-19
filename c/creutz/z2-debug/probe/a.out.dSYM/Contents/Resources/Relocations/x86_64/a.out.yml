@@ -1,0 +1,17 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     a.out
+relocations:
+  - { offsetInCU: 0xB9, offset: 0xB9, size: 0x8, addend: 0x0, symName: __Z6readerRSt14basic_ifstreamIcSt11char_traitsIcEERi, symObjAddr: 0x0, symBinAddr: 0x100003BF9, symSize: 0xAC }
+  - { offsetInCU: 0x3540, offset: 0x3540, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0xEE88, symBinAddr: 0x100008013, symSize: 0x0 }
+  - { offsetInCU: 0x3921, offset: 0x3921, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, symObjAddr: 0x29C, symBinAddr: 0x100003EDA, symSize: 0x0 }
+  - { offsetInCU: 0x393B, offset: 0x393B, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedImEE, symObjAddr: 0x29D, symBinAddr: 0x100003EDB, symSize: 0x0 }
+  - { offsetInCU: 0x3955, offset: 0x3955, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, symObjAddr: 0x29E, symBinAddr: 0x100003EDC, symSize: 0x0 }
+  - { offsetInCU: 0x397B, offset: 0x397B, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_main.cpp, symObjAddr: 0x227, symBinAddr: 0x100003E20, symSize: 0x10 }
+  - { offsetInCU: 0x39A7, offset: 0x39A7, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x1E9, symBinAddr: 0x100003DE2, symSize: 0x3E }
+  - { offsetInCU: 0x39AF, offset: 0x39AF, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_main.cpp, symObjAddr: 0x227, symBinAddr: 0x100003E20, symSize: 0x10 }
+  - { offsetInCU: 0x39AD, offset: 0x39AD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xAC, symBinAddr: 0x100003CA5, symSize: 0x13D }
+  - { offsetInCU: 0x39B5, offset: 0x39B5, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x1E9, symBinAddr: 0x100003DE2, symSize: 0x3E }
+  - { offsetInCU: 0x3A3D, offset: 0x3A3D, size: 0x8, addend: 0x0, symName: __Z6readerRSt14basic_ifstreamIcSt11char_traitsIcEERi, symObjAddr: 0x0, symBinAddr: 0x100003BF9, symSize: 0xAC }
+  - { offsetInCU: 0x3A45, offset: 0x3A45, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xAC, symBinAddr: 0x100003CA5, symSize: 0x13D }
+...

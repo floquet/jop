@@ -31,3 +31,19 @@ int main() {
 
 // https://www.fiverr.com/ranazaviyar?source=inbox
 // Zaviyar@ranazaviyar
+
+// dantopa@Quaxolotl.local:probe $ g++ -Wall -p -g main.cpp -o main
+
+// dantopa@Quaxolotl.local:probe $ ./main
+// file randoms.txt opened
+// 1 0.474664
+// 2 0.791912
+// 3 0.704909
+// 4 0.29375
+// file randoms.txt closed
+
+// dantopa@Quaxolotl.local:probe $ date
+// Sat Nov 18 21:11:17 MST 2023
+
+// dantopa@Quaxolotl.local:probe $ pwd
+// /Volumes/T7-Touch/repos/github/jop/c/creutz/z2-debug/probe
