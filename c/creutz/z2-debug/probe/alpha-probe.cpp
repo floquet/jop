@@ -63,7 +63,7 @@ double update(double beta, int& inc, ifstream &file){
                 movedown(x,dperp);
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp]
                       *lnk[x[0]][x[1]][x[2]][x[3]][d];
-                printf( "%d * %d = %d\n", lnk[x[0]][x[1]][x[2]][x[3]][dperp], lnk[x[0]][x[1]][x[2]][x[3]][d], staple );
+                //printf( "%d * %d = %d\n", lnk[x[0]][x[1]][x[2]][x[3]][dperp], lnk[x[0]][x[1]][x[2]][x[3]][d], staple );
                 // printf( "x[0] = %d, x[1] = %d, x[2] = %d, x[3] = %d, d = %d, dperp = %d\n", x[0], x[1], x[2], x[3], d, dperp );
                 // printf( "staple 0 = %d\n", staple );
                 moveup(x,d);
@@ -71,7 +71,7 @@ double update(double beta, int& inc, ifstream &file){
                 // printf( "staple 1 = %d\n", staple );
                 moveup(x,dperp);
                 staplesum+=staple;
-                printf( "staplesum + %d = %d\n", staple, staplesum );
+                //printf( "staplesum + %d = %d\n", staple, staplesum );
                 // printf( "staple 2 = %d, staplesum = %d\n", staple, staplesum );
                 /* plaquette 1456 */
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp];
