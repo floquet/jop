@@ -63,8 +63,8 @@ double update(double beta, int& inc, ifstream &file){
                 movedown(x,dperp);
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp]
                       *lnk[x[0]][x[1]][x[2]][x[3]][d];
-                //printf( "%d * %d = %d\n", lnk[x[0]][x[1]][x[2]][x[3]][dperp], lnk[x[0]][x[1]][x[2]][x[3]][d], staple );
-                // printf( "x[0] = %d, x[1] = %d, x[2] = %d, x[3] = %d, d = %d, dperp = %d\n", x[0], x[1], x[2], x[3], d, dperp );
+                // printf( "%d * %d = %d\n", lnk[x[0]][x[1]][x[2]][x[3]][dperp], lnk[x[0]][x[1]][x[2]][x[3]][d], staple );
+                printf( "x[0] = %d, x[1] = %d, x[2] = %d, x[3] = %d, d = %d, dperp = %d\n", x[0], x[1], x[2], x[3], d, dperp );
                 // printf( "staple 0 = %d\n", staple );
                 moveup(x,d);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];  
@@ -106,6 +106,9 @@ double update(double beta, int& inc, ifstream &file){
               // printf( "F action = action - staplesum = %g - %d = %g \n", action, staplesum, action - staplesum );
               printf ( "%d. m %lf action = %lf staplesum = %d bplus = %lf \n", inc , rnum, action, staplesum, bplus );
             }
+            if ( bplus > 0.6 ){
+              exit(0);
+            };
           }
   action /= (SIZE*SIZE*SIZE*SIZE*4*6);
   return 1.-action;
