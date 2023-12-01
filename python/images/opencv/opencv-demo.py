@@ -4,56 +4,155 @@ import datetime             # timestamps
 import os                   # opeating system
 import sys                  # python version
 
+from pathlib import Path
+
 import cv2 as cv
-print( "loaded opencv ", cv.__version__ )
+# define modules
+def image_box_bounding( image ):
+    clr       = ( 0, 0, 255 )
+    start_red = ( 0, 0 ) 
+    end_red   = ( image.shape[ 1 ], image.shape[ 0 ] ) 
+    thickness = 5 
+    out = cv.rectangle( image, start_red, end_red, clr, thickness )
+    return out
+
+
+# define modules
+def image_box_semi( image ):
+    clr    = ( 255, 0, 0 )
+    height = image.shape[ 0 ]
+    width  = image.shape[ 1 ]
+    start_blue = ( round( width / 4    ), round( height / 4     ) ) 
+    end_blue   = ( round( width / 4 * 3), round( height / 4 * 3 ) ) 
+    thickness  = 8 
+    out = cv.rectangle( image, start_blue, end_blue, clr, thickness )
+    return out
+
+
+# define modules
+def image_bisect( image ):
+    clr    = ( 0, 255, 0 )
+    height = image.shape[ 0 ]
+    width  = image.shape[ 1 ]
+    start_vert = ( round( width / 2 ), 0 ) 
+    end_vert   = ( round( width / 2 ), height ) 
+    start_horz = (     0,              round( height / 2 ) )
+    end_horz   = ( width,              round( height / 2 ) ) 
+    thickness  = 4 
+    cv.line( image, start_vert, end_vert, clr, thickness )
+    cv.line( image, start_horz, end_horz, clr, thickness )
+    return image
+
+
+def image_show( image, delay, fileIn, fileOut ):
+    cv.imshow( winname = fileIn, mat = image )
+    k = cv.waitKey( delay ) # miliseconds
+
+    if k == 27:
+        sys.exit( "escape key causes exit" )
+    elif k == ord( "s" ):
+    	print( "writing to file ", fileOut )
+    	cv.imwrite( fileOut, image )
+
+
+def image_tag( image, fileIn, fileSizeBits ):
+    # label image with fundamental data
+    loc = [ 20, 40 ] # start point for text
+    inc = [  0, 40 ] # next line of text
+
+    font = cv.FONT_HERSHEY_SIMPLEX
+    fontScale = 1
+    thickness = 2
+    clr = ( 128, 128, 128 )
+
+    cv.putText( image, fileIn, loc, font, fontScale, clr, thickness )
+
+    new = tuple( map( lambda x, y: x + y, loc, inc ) )
+    cv.putText( image, str( image.shape ), new, font, fontScale, clr, thickness )
+
+    new = tuple( map( lambda x, y: x + y, new, inc ) )
+    cv.putText( image, str( image.dtype ), new, font, fontScale, clr, thickness )
+
+    new = tuple( map( lambda x, y: x + y, new, inc ) )
+    cv.putText( image, str( fsize ), new, font, fontScale, clr, thickness )	
+
+    return image
+
+
+def write_file_descriptor( fileIn, dir_images ):
+    stem = Path( fileIn ).stem
+    nameOut = stem + '.txt'
+    fullNameIn = os.path.join( dir_images, fileIn )
+    print( f"{os.path.getsize( fullNameIn )/(1<<20):,.0f} MB" )
+    with open( nameOut, 'w' ) as f:
+        f.writelines( 'file name = {fileIn}\n' )
+        f.writelines( 'file path = {dir_images}\n' )
+        f.writelines( 'file size, bits = {fsize}\n' )
+        f.writelines( 'file size, MBytes = {fsize}\n' )
+    f.close( )
+
+
+def check_file_size( fileIn, dir_images ):
+    fullNameIn = os.path.join( dir_images, fileIn )
+    fsize      = os.path.getsize( fullNameIn )
+    if fsize <= 0:
+    	print( 'file size in bits = {fsize}' )
+    	print( 'file size must be > 0' )
+    	print( 'file name: {fileIn}' )
+    	print( 'path     : {dir_images}' )
+    	sys.exit( "exit cause by empty or corrupt image file" )
+    return fsize
+
 
 #  ==   ==   == ==   ==   == ==   ==   == ==   ==   ==  #
 
+
 if __name__ == "__main__":
 
-    dir_images = r'/Volumes/T7-Touch/repos/github/jop/python/images/opencv/'
+    dir_images = f'/Volumes/T7-Touch/repos/github/jop/python/images/opencv/'
+    fileIn     = f'moon.png'
+
     print( "dir_images = ", dir_images )
 
-    fileIn = f'moon.png'
-    img = cv.imread( fileIn )
+    fullNameIn = os.path.join( dir_images, fileIn )
+    img = cv.imread( fullNameIn )
 
-    if img is None:
-    	sys.exit( "could not read image ", dir_images)
+    #if img is None:
+    #	sys.exit( "could not read image ", dir_images)
+    # check: is file extant?
+    assert img is not None, sys.exit( "could not read image '", fileIn, "'\nfrom directory ", dir_images )
 
+    # check: verify file not empty
+    file_size_bits = check_file_size( fileIn = fileIn, dir_images = dir_images )
     height, width, layers = img.shape
 
-    #red box
-    clr       = ( 0, 0, 255 )
-    start_red = ( 0, 0 ) 
-    end_red   = ( width, height ) 
-    thickness = 8 
-    cv.rectangle( img, start_red, end_red, clr, thickness )
+    # draw rectangles
+    img = image_box_bounding ( image = img )
+    img = image_box_semi     ( image = img )
+    img = image_bisect       ( image = img )
+    img = image_tag          ( image = img, fileIn = fileIn, fileSizeBits = fsize )
 
-    #blue box
-    clr        = ( 255,   0,   0 )
-    start_blue = ( round( width / 4    ), round( height / 4     ) ) 
-    end_blue   = ( round( width / 4 * 3), round( height / 4 * 3 ) ) 
-    thickness  = 5 
-    cv.rectangle( img, start_blue, end_blue, clr, thickness )
+    # preview image: "s" to save, "esc" to exit
+    fileOut = "output.png"
+    fullNameOut = os.path.join( dir_images, fileOut )
+    image_show( image = img, delay = 2000, fileIn = fileIn, fileOut = fullNameOut )
 
-    # image properties
-    clr        = ( 200, 200, 200 )
-    org = ( 10, 10 )
-    font = cv.FONT_HERSHEY_SIMPLEX
-    fontScale = 1
-    cv.putText( img, str( "shape = {img.shape}" ), org, font, fontScale, clr )
+    # write query file
+    write_file_descriptor( fileIn, dir_images )
 
-    cv.imshow( fileIn, img )
-    k = cv.waitKey( 2000 ) # miliseconds
-
-    if k == ord( "s" ):
-    	fileOut = "output.png"
-    	print( "writing to file ", fileOut )
-    	cv.imwrite( fileOut, img )
-
+    # shut down with provenance
     print( "\n", datetime.datetime.now( ) )
     print( "source: %s/%s" % ( os.getcwd( ), os.path.basename( __file__ ) ) )
     print( "python version %s" % sys.version )
+    print( "loaded opencv version ", cv.__version__ )
+
 
 # https://www.geeksforgeeks.org/python-opencv-cv2-rectangle-method/
 # https://www.geeksforgeeks.org/python-opencv-cv2-puttext-method/
+# https://stackoverflow.com/questions/497885/python-element-wise-tuple-operations-like-sum
+# https://docs.opencv.org/3.4/d7/d4d/tutorial_py_thresholding.html
+# https://stackoverflow.com/questions/14639077/how-to-use-sys-exit-in-python
+# https://stackoverflow.com/questions/7132861/how-can-i-create-a-full-path-to-a-file-from-parts-e-g-path-to-the-folder-name
+# https://stackoverflow.com/questions/5194057/better-way-to-convert-file-sizes-in-python
+# https://www.pythontutorial.net/python-basics/python-write-text-file/
+# https://stackoverflow.com/questions/541390/extracting-extension-from-filename-in-python
