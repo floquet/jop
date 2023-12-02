@@ -2,11 +2,14 @@
 
 import datetime             # timestamps
 import os                   # opeating system
+import platform				# uname
+import pwd
 import sys                  # python version
 
 from pathlib import Path
 
 import cv2 as cv
+
 # define modules
 def image_box_bounding( image ):
     clr       = ( 0, 0, 255 )
@@ -53,6 +56,7 @@ def image_show( image, delay, fileIn, fileOut ):
     elif k == ord( "s" ):
     	print( "writing to file ", fileOut )
     	cv.imwrite( fileOut, image )
+    return
 
 
 def image_tag( image, fileIn, fileSizeBits ):
@@ -74,7 +78,7 @@ def image_tag( image, fileIn, fileSizeBits ):
     cv.putText( image, str( image.dtype ), new, font, fontScale, clr, thickness )
 
     new = tuple( map( lambda x, y: x + y, new, inc ) )
-    cv.putText( image, str( fsize ), new, font, fontScale, clr, thickness )	
+    cv.putText( image, str( fileSizeBits ), new, font, fontScale, clr, thickness )	
 
     return image
 
@@ -90,6 +94,7 @@ def write_file_descriptor( fileIn, dir_images ):
         f.writelines( 'file size, bits = {fsize}\n' )
         f.writelines( 'file size, MBytes = {fsize}\n' )
     f.close( )
+    return
 
 
 def check_file_size( fileIn, dir_images ):
@@ -100,8 +105,23 @@ def check_file_size( fileIn, dir_images ):
     	print( 'file size must be > 0' )
     	print( 'file name: {fileIn}' )
     	print( 'path     : {dir_images}' )
-    	sys.exit( "exit cause by empty or corrupt image file" )
+    	sys.exit( "exit caused by empty or corrupt image file" )
     return fsize
+
+
+def write_provenance():
+    print( "\n", datetime.datetime.now( ) )
+    print( "source:  %s/%s" % ( os.getcwd( ), os.path.basename( __file__ ) ) )
+    print( "user id:", pwd.getpwuid( os.getuid( ) ).pw_name )
+    print( "platform info:")
+    print( "    platform: ", platform.platform() )
+    print( "    uname:    ", platform.uname() )
+    #print( "    node:     ", platform.node( ) )
+    #print( os.environ )
+    print( "version info:")
+    print( "    python:   %s" % sys.version )
+    print( "    opencv:  ", cv.__version__ )
+    print( "    platform:", platform.__version__ )
 
 
 #  ==   ==   == ==   ==   == ==   ==   == ==   ==   ==  #
@@ -111,6 +131,7 @@ if __name__ == "__main__":
 
     dir_images = f'/Volumes/T7-Touch/repos/github/jop/python/images/opencv/'
     fileIn     = f'moon.png'
+    fileIn     = f'fireball2.jpeg'
 
     print( "dir_images = ", dir_images )
 
@@ -125,15 +146,18 @@ if __name__ == "__main__":
     # check: verify file not empty
     file_size_bits = check_file_size( fileIn = fileIn, dir_images = dir_images )
     height, width, layers = img.shape
-
+    print( "img.shape = ", img.shape )
+    print( "file_size_bits = ", file_size_bits )
+   
     # draw rectangles
     img = image_box_bounding ( image = img )
     img = image_box_semi     ( image = img )
     img = image_bisect       ( image = img )
-    img = image_tag          ( image = img, fileIn = fileIn, fileSizeBits = fsize )
+    img = image_tag          ( image = img, fileIn = fileIn, fileSizeBits = file_size_bits )
 
     # preview image: "s" to save, "esc" to exit
-    fileOut = "output.png"
+    stem = Path( fileIn ).stem
+    fileOut = "out-" + stem + ".png"
     fullNameOut = os.path.join( dir_images, fileOut )
     image_show( image = img, delay = 2000, fileIn = fileIn, fileOut = fullNameOut )
 
@@ -141,11 +165,7 @@ if __name__ == "__main__":
     write_file_descriptor( fileIn, dir_images )
 
     # shut down with provenance
-    print( "\n", datetime.datetime.now( ) )
-    print( "source: %s/%s" % ( os.getcwd( ), os.path.basename( __file__ ) ) )
-    print( "python version %s" % sys.version )
-    print( "loaded opencv version ", cv.__version__ )
-
+    write_provenance( )
 
 # https://www.geeksforgeeks.org/python-opencv-cv2-rectangle-method/
 # https://www.geeksforgeeks.org/python-opencv-cv2-puttext-method/
@@ -156,3 +176,5 @@ if __name__ == "__main__":
 # https://stackoverflow.com/questions/5194057/better-way-to-convert-file-sizes-in-python
 # https://www.pythontutorial.net/python-basics/python-write-text-file/
 # https://stackoverflow.com/questions/541390/extracting-extension-from-filename-in-python
+# https://stackoverflow.com/questions/842059/is-there-a-portable-way-to-get-the-current-username-in-python
+# https://stackoverflow.com/questions/4271740/how-can-i-use-python-to-get-the-system-hostname

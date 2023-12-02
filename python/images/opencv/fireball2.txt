@@ -1,0 +1,4 @@
+file name = {fileIn}
+file path = {dir_images}
+file size, bits = {fsize}
+file size, MBytes = {fsize}
