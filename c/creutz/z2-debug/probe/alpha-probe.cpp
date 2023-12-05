@@ -60,14 +60,15 @@ double update(double beta, int& inc, ifstream &file){
                     |            |  |
                     -----> d     2--3  */
                 /* plaquette 1234 */
-                printf( "x[0] = %d, x[1] = %d, x[2] = %d, x[3] = %d, d = %d, dperp = %d\n", x[0], x[1], x[2], x[3], d, dperp );
+                // printf( "x[0] = %d, x[1] = %d, x[2] = %d, x[3] = %d, d = %d, dperp = %d\n", x[0], x[1], x[2], x[3], d, dperp );
+                printf( "( %d, %d, %d, %d ), (%d, %d)\n", x[0], x[1], x[2], x[3], d, dperp );
                 movedown(x,dperp);
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp]
                       *lnk[x[0]][x[1]][x[2]][x[3]][d];
                 printf( "movedown, staple\n" );
                 // printf( "%d * %d = %d\n", lnk[x[0]][x[1]][x[2]][x[3]][dperp], lnk[x[0]][x[1]][x[2]][x[3]][d], staple );
-                printf( "x[0] = %d, x[1] = %d, x[2] = %d, x[3] = %d, d = %d, dperp = %d\n", x[0], x[1], x[2], x[3], d, dperp );
-                printf( "staple = %d\n", staple );
+                printf( "( %d, %d, %d, %d ), (%d, %d)\n", x[0], x[1], x[2], x[3], d, dperp );
+                printf( "staple = %d\n\n", staple );
                 moveup(x,d);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];  
                 // printf( "staple 1 = %d\n", staple );
