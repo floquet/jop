@@ -1,112 +1,364 @@
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 0, dperp = 1
+movedown, staple
 x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 0, d = 0, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 0, d = 0, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 0, dperp = 3
-1. p 0.474664 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 0
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 0, d = 1, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 1, dperp = 3
-2. m 0.791912 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 0, d = 2, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 0, d = 2, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 2, dperp = 3
-3. m 0.704909 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 0, d = 3, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 0, d = 3, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 0, d = 3, dperp = 2
-4. p 0.293750 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 1, d = 0, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 1, d = 0, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 0, dperp = 3
-5. m 0.587579 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 1, d = 1, dperp = 0
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 1, d = 1, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 3
-6. m 0.887142 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 1, d = 2, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 1, d = 2, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 2, dperp = 3
-7. m 0.928956 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 1, d = 3, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 1, d = 3, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 1, d = 3, dperp = 2
-8. p 0.384338 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 2, d = 0, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 2, d = 0, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 0, dperp = 3
-9. p 0.000837 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 2, d = 1, dperp = 0
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 2, d = 1, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 1, dperp = 3
-10. m 0.694421 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 2, d = 2, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 2, d = 2, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 2, dperp = 3
-11. m 0.772950 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 2, d = 3, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 2, d = 3, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 2, d = 3, dperp = 2
-12. p 0.264564 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 3, d = 0, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 3, d = 0, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 0, dperp = 3
-13. m 0.667708 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 3, d = 1, dperp = 0
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 3, d = 1, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 1, dperp = 3
-14. m 0.720443 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 3, d = 2, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 3, d = 2, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 2, dperp = 3
-15. m 0.573757 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 3, d = 3, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 3, d = 3, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 3, d = 3, dperp = 2
-16. p 0.002860 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 4, d = 0, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 4, d = 0, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 0, dperp = 3
-17. p 0.451361 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 4, d = 1, dperp = 0
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 4, d = 1, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 1, dperp = 3
-18. p 0.427172 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 4, d = 2, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 4, d = 2, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 2, dperp = 3
-19. p 0.202838 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 4, d = 3, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 4, d = 3, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 4, d = 3, dperp = 2
-20. m 0.985979 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 5, d = 0, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 5, d = 0, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 0, dperp = 3
-21. p 0.146640 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 5, d = 1, dperp = 0
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 5, d = 1, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 1, dperp = 3
-22. p 0.332611 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 5, d = 2, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 5, d = 2, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 2, dperp = 3
-23. m 0.715374 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 5, d = 3, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 5, d = 3, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 5, d = 3, dperp = 2
-24. m 0.626073 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 0, x[1] = 5, x[2] = 1, x[3] = 0, d = 0, dperp = 1
+staple = 0
 x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 0, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 5, d = 0, dperp = 3
-25. p 0.474995 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 1, x[3] = 0, d = 1, dperp = 0
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 0, d = 0, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 0, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 0, dperp = 3
+staple = 0
+1. p 0.474664 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 0
+staple = 0
 x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 2
-x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 5, d = 1, dperp = 3
-26. m 0.997176 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 1, x[3] = 0, d = 2, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 1, x[3] = 0, d = 2, dperp = 1
-x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 5, d = 2, dperp = 3
-27. m 0.990093 action = 0.000000 staplesum = 0 bplus = 0.500000 
-x[0] = 5, x[1] = 0, x[2] = 1, x[3] = 0, d = 3, dperp = 0
-x[0] = 0, x[1] = 5, x[2] = 1, x[3] = 0, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 0, d = 1, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 1, dperp = 3
+staple = 0
+2. m 0.791912 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 2, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 0, d = 2, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 2, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 0, d = 2, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 2, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 2, dperp = 3
+staple = 0
+3. m 0.704909 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 3, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 0, d = 3, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 0, d = 3, dperp = 1
+staple = 0
 x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 3, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 0, d = 3, dperp = 2
+staple = 0
+4. p 0.293750 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 0, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 1, d = 0, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 0, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 1, d = 0, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 0, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 0, dperp = 3
+staple = 1
+5. m 0.587579 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 1, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 1, d = 1, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 1, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 1, d = 1, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 1, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 3
+staple = -1
+6. m 0.887142 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 2, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 1, d = 2, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 2, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 1, d = 2, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 2, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 2, dperp = 3
+staple = -1
+7. m 0.928956 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 3, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 1, d = 3, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 1, d = 3, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 3, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 1, d = 3, dperp = 2
+staple = 0
+8. p 0.384338 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 0, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 2, d = 0, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 0, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 2, d = 0, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 0, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 0, dperp = 3
+staple = -1
+9. p 0.000837 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 1, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 2, d = 1, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 1, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 2, d = 1, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 1, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 1, dperp = 3
+staple = -1
+10. m 0.694421 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 2, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 2, d = 2, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 2, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 2, d = 2, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 2, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 1, d = 2, dperp = 3
+staple = -1
+11. m 0.772950 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 3, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 2, d = 3, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 2, d = 3, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 3, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 2, d = 3, dperp = 2
+staple = 0
+12. p 0.264564 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 0, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 3, d = 0, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 0, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 3, d = 0, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 0, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 0, dperp = 3
+staple = 1
+13. m 0.667708 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 1, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 3, d = 1, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 1, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 3, d = 1, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 1, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 1, dperp = 3
+staple = -1
+14. m 0.720443 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 2, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 3, d = 2, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 2, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 3, d = 2, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 2, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 2, d = 2, dperp = 3
+staple = -1
+15. m 0.573757 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 3, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 3, d = 3, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 3, d = 3, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 3, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 3, d = 3, dperp = 2
+staple = 0
+16. p 0.002860 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 0, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 4, d = 0, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 0, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 4, d = 0, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 0, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 0, dperp = 3
+staple = -1
+17. p 0.451361 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 1, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 4, d = 1, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 1, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 4, d = 1, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 1, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 1, dperp = 3
+staple = -1
+18. p 0.427172 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 2, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 4, d = 2, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 2, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 4, d = 2, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 2, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 3, d = 2, dperp = 3
+staple = -1
+19. p 0.202838 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 3, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 4, d = 3, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 4, d = 3, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 3, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 4, d = 3, dperp = 2
+staple = 0
+20. m 0.985979 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 0, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 5, d = 0, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 0, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 5, d = 0, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 0, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 0, dperp = 3
+staple = -1
+21. p 0.146640 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 1, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 5, d = 1, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 1, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 5, d = 1, dperp = 2
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 1, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 1, dperp = 3
+staple = -1
+22. p 0.332611 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 2, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 5, d = 2, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 2, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 5, d = 2, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 2, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 4, d = 2, dperp = 3
+staple = -1
+23. m 0.715374 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 3, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 0, x[3] = 5, d = 3, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 0, x[3] = 5, d = 3, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 5, d = 3, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 5, x[3] = 5, d = 3, dperp = 2
+staple = 0
+24. m 0.626073 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 0, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 1, x[3] = 0, d = 0, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 0, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 0, dperp = 2
+staple = -1
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 0, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 5, d = 0, dperp = 3
+staple = 0
+25. p 0.474995 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 1, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 1, x[3] = 0, d = 1, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 1, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 1, dperp = 2
+staple = 1
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 1, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 5, d = 1, dperp = 3
+staple = 0
+26. m 0.997176 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 2, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 1, x[3] = 0, d = 2, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 2, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 1, x[3] = 0, d = 2, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 2, dperp = 3
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 5, d = 2, dperp = 3
+staple = 0
+27. m 0.990093 action = 0.000000 staplesum = 0 bplus = 0.500000 
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 3, dperp = 0
+movedown, staple
+x[0] = 5, x[1] = 0, x[2] = 1, x[3] = 0, d = 3, dperp = 0
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 3, dperp = 1
+movedown, staple
+x[0] = 0, x[1] = 5, x[2] = 1, x[3] = 0, d = 3, dperp = 1
+staple = 0
+x[0] = 0, x[1] = 0, x[2] = 1, x[3] = 0, d = 3, dperp = 2
+movedown, staple
+x[0] = 0, x[1] = 0, x[2] = 0, x[3] = 0, d = 3, dperp = 2
+staple = -1
 28. p 0.556916 action = 1.000000 staplesum = 1 bplus = 0.916827 
