@@ -22,8 +22,10 @@ void moveup(int x[],int d) {
   return;
 }
 void movedown(int x[],int d) {
+printf( "( %d, %d, %d, %d ), inx = %d, link = %d \n", x[0]+1, x[1]+1, x[2]+1, x[3]+1, d+1, lnk[x[0]][x[1]][x[2]][x[3]][d] );
   x[d]-=1;
   if (x[d]<0) x[d]+=SIZE;
+  printf( "( %d, %d, %d, %d ) link = %d \n\n", x[0]+1, x[1]+1, x[2]+1, x[3]+1, lnk[x[0]][x[1]][x[2]][x[3]][d] );
   return;
 }
 void coldstart(){  /* set all lnks to unity */
@@ -42,7 +44,7 @@ void coldstart(){  /* set all lnks to unity */
 // double update(double beta, FILE** fr){
 // https://stackoverflow.com/questions/2581493/c-newbie-passing-an-fstream-to-a-function-to-read-data
 double update(double beta, int& inc, ifstream &file){
-  int x[4],d,dperp,staple,staplesum;    
+  int x[4],d,dperp,staple,staplesum, cnt=1;    
   double bplus,bminus,action=0.0;
   double rnum=0.0; 
   for (x[0]=0; x[0]<SIZE; x[0]++)
@@ -61,14 +63,14 @@ double update(double beta, int& inc, ifstream &file){
                     -----> d     2--3  */
                 /* plaquette 1234 */
                 // printf( "x[0] = %d, x[1] = %d, x[2] = %d, x[3] = %d, d = %d, dperp = %d\n", x[0], x[1], x[2], x[3], d, dperp );
-                printf( "( %d, %d, %d, %d ), (%d, %d)\n", x[0], x[1], x[2], x[3], d, dperp );
+                //printf( "%d. ( %d, %d, %d, %d ), (%d, %d), (%d, %d)\n", cnt++, x[0], x[1], x[2], x[3], d, dperp, lnk[x[0]][x[1]][x[2]][x[3]][d], lnk[x[0]][x[1]][x[2]][x[3]][dperp] );
                 movedown(x,dperp);
                 staple=lnk[x[0]][x[1]][x[2]][x[3]][dperp]
                       *lnk[x[0]][x[1]][x[2]][x[3]][d];
-                printf( "movedown, staple\n" );
+                //printf( "movedown index = %d, staple = %d\n", dperp, staple );
                 // printf( "%d * %d = %d\n", lnk[x[0]][x[1]][x[2]][x[3]][dperp], lnk[x[0]][x[1]][x[2]][x[3]][d], staple );
-                printf( "( %d, %d, %d, %d ), (%d, %d)\n", x[0], x[1], x[2], x[3], d, dperp );
-                printf( "staple = %d\n\n", staple );
+                //printf( "%d. ( %d, %d, %d, %d ), (%d, %d), (%d, %d)\n", cnt++, x[0], x[1], x[2], x[3], d, dperp, lnk[x[0]][x[1]][x[2]][x[3]][d], lnk[x[0]][x[1]][x[2]][x[3]][dperp] );
+                // printf( "staple = %d\n\n", staple );
                 moveup(x,d);
                 staple*=lnk[x[0]][x[1]][x[2]][x[3]][dperp];  
                 // printf( "staple 1 = %d\n", staple );
@@ -101,15 +103,20 @@ double update(double beta, int& inc, ifstream &file){
               // printf( ": rnum < bplus");
               lnk[x[0]][x[1]][x[2]][x[3]][d]=1;
               action+=staplesum;
-              printf ( "%d. p %lf action = %lf staplesum = %d bplus = %lf \n", inc, rnum, action, staplesum, bplus );
+              printf ( "%d. p %lf action = %lf staplesum = %d bplus = %lf \n\n", inc, rnum, action, staplesum, bplus );
             }
             else{ 
               lnk[x[0]][x[1]][x[2]][x[3]][d]=-1;
               action-=staplesum;
               // printf( "F action = action - staplesum = %g - %d = %g \n", action, staplesum, action - staplesum );
-              printf ( "%d. m %lf action = %lf staplesum = %d bplus = %lf \n", inc , rnum, action, staplesum, bplus );
+              printf ( "%d. m %lf action = %lf staplesum = %d bplus = %lf \n\n", inc , rnum, action, staplesum, bplus );
+            }
+            if ( inc > 10 ){
+              printf( "inc = %d", inc );
+              exit(0);
             }
             if ( bplus > 0.6 ){
+              printf( "bplus = %lf", bplus );
               exit(0);
             };
           }
