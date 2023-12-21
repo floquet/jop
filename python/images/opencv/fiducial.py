@@ -7,7 +7,7 @@ import sys                  # python version
 
 import opencv3 as cv
 
-print( 'opensv version = ', cv2.__version__ )
+print( 'opencv version = ', cv2.__version__ )
 
 
 #   farewell with provenance
