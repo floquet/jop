@@ -1,0 +1,27 @@
+This file is ${SACHOME}/doc/exmples/convolve/README
+
+In that directory, issue the command
+
+    ./run_convolvef.sh
+
+This will do the following:
+
+1.  \rm *.sac brune convolvef convolvec
+
+2.  Create the input files for convolve
+    - Some from SAC and one from a Fortran program that creates a Brune pulse.
+
+3.  Compile the Fortran program convolvef
+
+4.  Run convolvef first with a triangle pulse and an impulse waveform for
+    both discrete and time-series options.
+
+5.  Run convolvef for a synthetic waveform and both discrete and time-series
+    for a triangle pulse and then with a brune pulse for the time-series
+    option.
+
+Eight .sac files are created.  If they all worked, they will be the same
+as in ./sample-run.  This is checked using sacdiff.
+
+If one now enters    ./run_convolvec.sh it will repeat the steps but for the
+C program convolvec.

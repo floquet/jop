@@ -1,0 +1,41 @@
+WRITEHDR
+++++++++
+
+SUMMARY
+-------
+Overwrites the headers on disk with those in memory.
+
+SYNTAX
+------
+::
+
+  WRITEHDR
+
+DESCRIPTION
+-----------
+  The data on disk is NOT overwritten by this command.  Use the WRITE_ OVER
+  command to overwrite headers and data.  The WRITEHDR_ command should NEVER be
+  used if the CUT_ option is on.  The header in memory is modified to reflect
+  the effects of the CUT_, but the data on disk is not modified.
+  Use of the WRITEHDR_ command on cut data files will have the effect
+  of apparently shifting and truncating the data on disk in time.
+
+ERROR MESSAGES
+--------------
+- 1301: No data files read in.
+
+HEADER CHANGES
+--------------
+  Updates headers on disk.
+
+LIMITATIONS
+-----------
+  See description above about use of CUT_ and WRITEHDR_.
+
+SEE COMMANDS
+------------
+  CUT_, WRITE_
+
+LATEST REVISION
+---------------
+   Oct. 27, 1998 (Version 0.58)

@@ -1,0 +1,134 @@
+CONVOLVE
+++++++++
+
+SUMMARY
+-------
+Compute the convolution of a pulse shape with all other time series in memory.
+
+SYNTAX
+------
+::
+
+  CONVOLVE  {file} {PULSE n} {TRI v} {GAUSS v}
+
+INPUT
+-----
+
+   :PULSE n: The PULSE in filenumber n in memory (defaults to n=1)
+
+   :file: Convolve with data in file (not in memory)
+
+   :TRI v: Convolve with a triangle of half width v seconds
+
+   :GAUSS v: Convolve with a Gaussian with standard deviation v seconds
+
+   :CENTERED ON|OFF: Place zero time on center [ON] or beginning [OFF] of the pulse
+
+DEFAULT VALUES
+--------------
+::
+
+  CONVOLVE PULSE 1 CENTERED OFF
+
+DESCRIPTION
+-----------
+
+ In seismology, convolution is used in two ways:
+
+    1) convolving a pulse shape with a time-series, and
+    2) convolving a response with a time series (or, more typically,
+       deconvolving a response from a time series)
+
+  The equation for convolution takes a simple form in both the time
+  and frequency domains; (1) is more easily described in the time
+  domain, while (2) in the frequency domain.  The CONVOLVE function
+  here is oriented towards (1).  Function TRANSFER_ is more
+  appropriate for (2).
+
+  There are three ways to run CONVOLVE: (1) PULSE: read in N files
+  and convolve one of them with all the others; (2) file: read in N
+  files and convolve all of them with a file not among them: (3)
+  Using a PREDEFINED FUNCTION (see below).  Previous to SAC v102.0,
+  the PULSE method was the only option, so we start there.
+
+  The pulse file is convolved with all other time-series files in
+  memory using the discretized version of the following equation::
+
+      conv(tau) = INT ( f(t) g(tau - t) ) dt,
+
+  where f is the pulse file, g any from among the other signals in
+  memory, and INT means integration (summation) over all times t. All
+  signals in memory must have the same DELTA. The number of points in
+  f, the pulse shape, cannot be greater than the number of points in
+  any other file in memory. If NPTS(g) is the number of points in g
+  and NPTS(f) the number in f, the number in conv is
+  NPTS(g)+NPTS(f)-1. The start time for each output conv will be the
+  same as B(g).  Centering on the pulse shapes eliminates time shifts
+  introduced by convolution.  If CENTERED is OFF, B(f) = 0.0.
+  CENTERED ON should only be used for time-symmetric pulses.  As an
+  example, let synthetic.sac be a synthetic time series created by a
+  progra  such as WKBJ, consisting of spikes with time offsets,
+  amplitudes, and polarities representing phase arrivals.  Let that
+  file be called synthetic.sac.  One wants to compare that synthetic
+  with an observed sesimogram, and one creates a pulse file p_arrival.sac::
+
+      SAC> r p_arrival.sac synthetic.sac
+      SAC> PULSE 1 convolve CENTERED OFF
+
+FILE OPTION
+-----------
+
+  Given the same two files::
+
+      SAC> r synthetic.sac
+      SAC> convolve p_arrival.sac CENTER OFF
+
+PREDEFINED FUNCTIONS
+--------------------
+  The option to convolve with TRI and GAUSS automatically computes
+  these function with the correct time samplings.  For GAUSS or TRI,
+  there is no pulse-shape file read in; the predefined function takes
+  the place of f(t) in the above equation.  Both functions are
+  normalized such that they integrate to 1.0 and should not add
+  amplitude (or "moment" in the language of sources).  Both functions
+  are time-symmetric. If the exponent in GAUSS(t) is -0.5(t/v)^2, v is
+  the standard deviation.
+
+  Say one wants to look at file synthetic.sac simply as a spike series
+  (no source pulse). The file may have Gibbs phenomena accompanying
+  each arrival.  Convolving synthetic.sac with a predefined function
+  will result in a cleaner looking seismogram::
+
+      SAC> r synthetic.sac
+      SAC> convolve GAUSS 0.04 CENTERED ON
+      or
+      SAC> r synthetic.sac
+      SAC> convolve TRI 0.04 CENTERED ON
+
+  All three cases (source, gauss, tri) are shown in the figure below.
+  A Brune pulse is used as the p_arrival pulse.  No relative scaling
+  has been done except for the source pulse.
+
+RELATION TO CORRELATE
+---------------------
+  Note the similarity in the convolve equation and the one in CORRELATE_.
+  Many convolve routines, including the original one in SAC, mistakenly
+  use this similarity in deriving the procedure for convolution by simply
+  perturbing the procedure used in CORRELATE_. The time series from a
+  convolution (conv in the equation above) is typically a replacement time
+  series for the time series g; for example, adding a pulse shapee to a
+  synthetic seismogram.  The relative times for f and g are not used in
+  CORRELATE_, but in convolution they may play a role.
+
+
+HEADER CHANGES
+--------------
+  DEPMIN, DEPMAX, DEPMEN, NPTS
+
+LATEST REVISION
+---------------
+  2019 (Version 102.0)
+
+.. image:: convolve_output.png
+   :width: 90%
+   :align: center

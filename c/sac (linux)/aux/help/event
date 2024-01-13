@@ -1,0 +1,148 @@
+EVENT
++++++
+
+SUMMARY
+-------
+Search for events by region, magnitude and date
+
+SYNTAX
+------
+::
+
+  EVENT {MAG min [max]}
+      {TIME start end}
+      {REGION w e s n}
+      {RADIAL lon lat min_radius max_radius}
+      {DEPTH min max}
+      {OUTFILE filename}
+      {TO blackboard-variable}
+      {GCMT|ISC|NEIC|CMT|USGS|PDE}
+      {VERBOSE}
+
+INPUT
+-----
+   :TIME: Set the start and end times. End times can be set relatively.
+
+   :REGION west east south north: Set the geographic bounds of the search region
+
+   :RADIAL min max: Set the center and radius limits of the search region
+       in degrees
+
+   :DEPTH min max: Set the minumum and maximum depth values in km.
+
+   :MAG min [max]: Set the minimum and maximum magnitude values. A single value
+       can be used to set a minimum magnitude and the maximim magnitude
+       is set to 10.0.
+
+   :GCMT: Search the Global Centroid Moment Tensor Catalog,
+       CMT is an alias
+
+   :ISC: Search the ISC Catalog
+
+   :USGS: [Default] Search the USGS Catalog, PDE and NEIC are aliases
+
+   :TO blackboard-variable: Save all event identifiers to a space separated
+      list with a specific name
+
+   :OUTFILE: Save the event search into a file. Files ending in .xml
+       are saved as QuakeXML documents; those ending in .txt and others
+       are saved as "csv" text
+
+   :VERBOSE: [Not default] Watch the details of the event search process
+
+DEFAULT VALUES
+--------------
+::
+
+   EVENT USGS
+
+DESCRIPTION
+-----------
+  Search an catalog for events.  Results are returned to the screen or
+  to a file if desired with the *OUTPUT filename* option.
+
+  Time ranges can be set using a variety of formats, see examples
+  below. End times can be set using a relative value with units.
+  See `DATA ACCESS`_ for time formats.
+
+  Event IDs are saved and can be used to identify origin times and
+  locations in similar searching commands.  They can also be used to
+  set SAC file METADATA_ for an event.
+
+EXAMPLES
+--------
+
+To search for all events with Magnitudes :\math:`\ge` 9.0::
+
+   SAC> event mag 9
+   Origin              Lat.   Lon.    Depth  Mag.     Agency EventID
+   2011-03-11T05:46:24  38.30  142.37  29.00 9.10 mww US/official
+      usgs:official20110311054624120_30
+   2004-12-26T00:58:53   3.29   95.98  30.00 9.10 mw  US/official
+      usgs:official20041226005853450_30
+   1964-03-28T03:36:16  60.91 -147.34  25.00 9.20 mw  iscgem/official
+      usgs:official19640328033616_30
+   1960-05-22T19:11:20 -38.14  -73.41  25.00 9.50 mw  iscgem/official
+      usgs:official19600522191120_30
+   1952-11-04T16:58:30  52.62  159.78  21.60 9.00 mw  iscgem/official
+      usgs:official19521104165830_30
+
+If you were expecting to find a specific event, it can be useful to
+search different catalogs. Let's use the UGSS / NEIC Catalog::
+
+   SAC> event mag 9 cmt
+   Origin              Lat.   Lon.    Depth  Mag.     Agency EventID
+   2011-03-11T05:47:32  37.52  143.05  20.00 9.10 MW  GCMT/- gcmt:3279407
+   2004-12-26T01:01:09   3.09   94.26  28.60 9.00 MW  GCMT/- gcmt:1916079
+
+Let's try to focus into 1960 Chile by searching the southern
+hemisphere. Note, longitudes should be between -180 and 180::
+
+   SAC> event mag 9 usgs region -180 180 -90 0
+   Origin              Lat.   Lon.    Depth  Mag.     Agency EventID
+   1960-05-22T19:11:20 -38.14  -73.41  25.00 9.50 mw  iscgem/official
+   usgs:official19600522191120_30
+
+Consider the deep 1994 Bolivian earthquake.  Let's limit the depth
+and restrict the time range::
+
+   SAC> event time 1994-1 +1yr mag 8 usgs depth 610 1000
+   Origin              Lat.   Lon.    Depth  Mag.     Agency EventID
+   1994-06-09T00:33:16 -13.84  -67.55 631.30 8.20 mw  US/HRV usgs:usp0006dzc
+
+Consider the 1989 Loma Prieta Earthquake in Northern
+California. This time we use a radial search between 0 and 5 degrees
+around 120 W, 38 N::
+
+   SAC> event time 1989-1 +1yr mag 6 radial -120 38 0 5
+   Origin              Lat.   Lon.    Depth  Mag.     Agency EventID
+   1989-10-18T00:04:15  37.04 -121.88  17.21 6.90 mh  NC/NC usgs:nc216859
+
+Event Identifiers (eventid)
+---------------------------
+
+Events can be referenced in other commands using a unique identifier.
+The identifier is defined by *source:uniqueid*.  Where the *source* is
+defined below and the unique identifer is the reference id provided by
+the agency. Most identifiers are less than 16 characters and will fit
+into the *KEVNM* header variable; the *official* catalog of
+significant earthqukes is a notable execption.
+
+========= ================================== =============================
+Source    Catalog
+========= ================================== =============================
+isc       International Seismological Centre http://www.isc.ac.uk/
+usgs      United States Geological Survey    https://earthquake.usgs.gov/
+gcmt      Global Centroid Moment Tensor      https://www.globalcmt.org/
+========= ================================== =============================
+
+ERROR MESSAGES
+--------------
+
+SEE COMMANDS
+------------
+   STATION_, DATA_, RESPONSE_, METADATA_, `DATA ACCESS`_
+
+LATEST REVISION
+---------------
+   Version 102.0

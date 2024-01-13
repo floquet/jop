@@ -1,0 +1,38 @@
+SSSTRAVELTIME
++++++++++++++
+
+SUMMARY
+-------
+Computes traveltime of selected phases for pre-defined velocity models
+Description and examples assume the calls are made from within SSS.
+The source file is the same as the non-SSS version, and this file has
+only an example that uses SSS plotting.  For the full description, see
+TRAVELTIME_.
+
+EXAMPLE
+-------
+This example is the same traveltime run as in TRAVELTIME_, but here
+for the final plot we use PLOTRECORDSECTION_::
+
+     SAC> datagen sub deep  bla.r kev.r kip.r pas.r ; rtr
+     SAC> SSS
+     SAC/SSS> traveltime quiet picks 0 phase sPP
+     SAC/SSS> traveltime  quiet picks 1 phase P pP sP S sS SKS
+     SAC/SSS> dw units degrees fixed 50 90 ;  tw 400 1500
+     SAC/SSS> prs orient port ttime on labels kstcmp
+     SAC/SSS> save sakhalin-picks-prs.xpm
+
+One must put SAC files in memory before entering SSS.  We use the
+default aspect ratio in *prs*, so if we had used SAVEIMG_ to create a
+PDF file, the output plot would have errors.
+
+.. figure:: ./sakhalin-picks-prs.png
+   :width: 100%
+
+See Commands
+------------
+  TRAVELTIME_ PLOTRECORDSECTION_ TIMEWINDOW_ DISTANCEWINDOW_ SAVEIMG_
+
+LATEST REVISION
+---------------
+  Version 102.0

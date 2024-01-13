@@ -1,0 +1,150 @@
+ROTINC
+++++++
+
+SUMMARY
+-------
+
+Rotate a set of 3 perpendicular components either around the vertical (V) direction
+(TO VRT or TO VNE) or around the Transverse (T) direction (TO LQT)
+
+SYNTAX
+------
+
+Rotations around the vertical (cmpinc = 0 degrees) direction::
+
+  ROTINC {TO VRT|VNE}
+
+Rotations around the transverse (cmpaz = baz-90) direction::
+
+  ROTINC {TO LQT} {ANGLE angle}
+
+or::
+
+  ROTINC {TO LQT} {iP | iS} {vP alpha} {vS beta} {RAY p} {VERBOSE}
+
+
+INPUT
+-----
+  :TO VRT: rotate into vertical,radial, transverse coordinate system
+
+  :TO VNE: rotate into system aligned with vertical, north, and east
+
+  :TO LQT: rotate into P, SV, and SH coordinate system
+
+  :ANGLE a: Rotation through an angle a (V to L)  around T.  L cmpinc = a
+
+  :iP: incident P wave: calculated L cmpinc is the incident P apparent angle
+
+  :iS: Incident S wave: calculated Q cmpinc is the incident SV apparent angle
+
+  :vP v: v is P-wave velocity at the surface (default 5.8)
+
+  :vS v: v is S-wave velocity at the surface (default 3.36)
+
+  :RAY p: ray parameter, p in sec/km (no default value, so must be set)
+
+  :VERBOSE: prints information to the screen for iP or iS options (default off)
+
+DESCRIPTION
+-----------
+
+  Given three perpendicular components of a recorded time series, ROTINC
+  rotates the set into the selected coordinate system. It works its way
+  through all records in memory until it fails to find three consecutive
+  perpendicular traces. It assumes vertical up (cmpinc = 0.0), cmpaz
+  measured clockwise from N.  T to the right from the vertical-radial
+  plane facing towards the station (baz - 90).  Hence, VNE, VRT, and LQT are
+  all left-handed coordinate systems.
+
+  For TO LQT, the "TO LQT" can be left out because that is the only option for which
+  there are additional arguments.  For TO LQT, there are two choices:
+
+     1 ROTINC ANGLE a: rotation around the T axis (a=0.0 is up)
+
+     2.ROTINC iP or ROTINC iS: rotation around T, through a calculated angle that is
+     calculated assuming the P or SV wave is incident on the free surface (top of
+     a half space).  For iP, the output cmpinc for L is often called the apparent angle:
+     the arctangent of the radial (R) amplitude  divided by the vertical (V) amplitude.
+     For iS, the output cmpinc for Q is the incident SV apparent angle. For ROTINC iS, the
+     incident SV angle must be less than the critical angle: vP * RAY < 1.0.
+
+EXAMPLES
+--------
+
+Rotations around the vertical are straightforward: either TO VNE or TO VRT with no
+arguments.
+
+Here are examples for TO LQT.  For a rotation around T through an angle 24.44::
+
+  SAC> ROTINC ANGLE 24.44 (or ROTINC TO LQT ANGLE 24.44)
+     Input: rotation angle from V to L
+
+For a free-surface correction (Note: one must specify RAY.)  Here
+p = sin(21.32)/5.8) = 0.063, where 21.32 is the P incident angle::
+
+  SAC> ROTINC iP RAY 0.063 VERBOSE
+    Incident P wave; free-surface response
+    vP: 5.80 km/s vS: 3.36 km/s Ray Param: 0.063000 s/km
+    Apparent angle: 24.44
+  SAC> message &1,cmpinc &1,kcmpnm
+    24.4416
+    L
+
+Generally vP and vS are the velocities in the surface layer.  If the wavelength of the
+dominant arrivals are larger than the thickness of that layer, one may have to average
+over two or more layers.  This can be tested by plotting the vertical-radial particle
+motion (PLOTPM_) as the output motion is along the apparent angle.  The ray parameter
+will not be changed.  Here is an example for the same ray but assuming the wavelengths
+are long enough to average over the whole crust::
+
+  SAC> ROTINC iP vp 8.04 vs 4.47 RAY 0.063 VERBOSE
+    Incident P wave; free-surface response
+    vP: 8.04 km/s vS: 4.47 km/s Ray Param: 0.063000 s/km
+    Apparent angle: 32.71
+
+Here is an example for iS (p = sin(23.12)/3.36) = 0.1169, where 23.12 is the SV
+incident angle::
+
+  SAC> ROTINC iS RAY 0.1169 VERBOSE
+     Incident S wave; free surface response
+     vP: 5.80 km/s vS: 3.36 km/s Ray Param: 0.116900 s/km
+     Apparent angle: 115.82
+  SAC> message &2,cmpinc &2,kcmpnm
+    115.817
+    Q
+
+There is often interference with other arrivals for SV on the vertical, so the
+SV on V and R are generally not that similar.  Hence V-R particle motion is less
+useful for SV than it is for P.
+
+EQUATIONS
+---------
+
+The relevant cmpinc (apparent angle) is computed using the following equations:
+
+  * iP:: 
+
+     L cmpinc = atan(2*Vs*p*sqrt(1-(Vs*p)**2)/(1-2*(Vs*p)**2) )
+
+  * iS::
+
+     Q cmpinc = atan(Vp*(1-2*(Vs*p)**2))/(2*Vs**2*p*sqrt(1-(Vp*p)**2)) )
+
+where p is the ray parameter. Equations are based on Problem 5.6 in
+Aki and Richards, 2002, pg. 184.
+
+HEADER CHANGES
+--------------
+
+CMPINC, CMPAZ, KCMPNM, DEPMAX, DEPMIN, DEPMEN
+
+AUTHOR
+------
+
+This command was originally contributed by Frederik Tilmann in 2015,
+
+LATEST REVISION
+---------------
+
+May 2017 (Version 102.0)
+
