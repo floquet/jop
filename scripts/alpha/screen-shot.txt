@@ -1,0 +1,10 @@
+dantopa@Quaxolotl.local:alpha $ . demo-01.sh 
+Fri Feb  9 07:42:15 MST 2024, demo-01.sh
+
+Step 1: python3 apple.cfg 2>&1 | ./outputs/apple.cfg.out &
+
+Step 2: python3 banana.cfg 2>&1 | ./outputs/banana.cfg.out &
+
+Step 3: python3 coconut.cfg 2>&1 | ./outputs/coconut.cfg.out &
+execution time: 0h:0m:0s
+dantopa@Quaxolotl.local:alpha $ 
