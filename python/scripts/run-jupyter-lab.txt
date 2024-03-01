@@ -1,0 +1,400 @@
+Last login: Wed Feb 14 18:14:00 on ttys002
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+source ~/.quaxolotl.sh 
+Quaxolotl:~ dantopa$ source ~/.quaxolotl.sh 
+Mon Feb 19 15:06:24 MST 2024, /Users/dantopa/.quaxolotl.sh
+Mon Feb 19 15:06:24 MST 2024, /Users/dantopa/.bashrc
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/master.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/paths.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/gcc.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/git.sh
+-bash: fg: %: no such job
+-bash: %: command not found
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/ssh.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/vim.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/make.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bash.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/finds.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/cmake.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/python.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/docker.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/copy-configuration.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/c.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/fortran.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bookmarks.sh
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bookmarks-bitbucket.sh
+threads completed for copy-configuration.sh write to /Volumes/T7-Touch/repos/bitbucket/mac-configurations/MacBookPro16,1-(quaxolotl)/darwin-23.0.0/Sonoma-14.0.0/Quaxolotl.local ...
+${PWD} = /Volumes/T7-Touch/repos/bitbucket/mac-configurations
+git add -A . 
+Mon Feb 19 15:06:24 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bookmarks-github.sh
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/disk.sh
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/uname.sh
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/spack.sh
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/alias.sh
+[2]-  Done                    source "${core}/uname.sh"
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/lstopo.sh
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/prompt.sh
+git commit -m 'quaxolotl native Sonoma-14.0.0 2024-02-19 15:06'
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/modules.sh
+[4]+  Exit 127                module available >> ${my_log} 2>&1
+Failed to open /Users/dantopa/.info/lstopo-no-graphics.txt for writing (File exists)
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/macports.sh
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/environment.sh
+-bash: fg: job has terminated
+[master ae999389] quaxolotl native Sonoma-14.0.0 2024-02-19 15:06
+ 1 file changed, 236 insertions(+), 225 deletions(-)
+/Volumes/T7-Touch/repos/bitbucket/mac-configurations
+to push configuration to repo, use alias gomac
+[1]   Done                    source "${core}/copy-configuration.sh"
+[3]-  Exit 1                  source "${core}/lstopo.sh"
+[4]+  Exit 127                module list >> ${my_log} 2>&1
+user account = dantopa
+${SHELL} = /bin/bash
+gcc --version:
+gcc (MacPorts gcc13 13.2.0_4+stdlib_flag) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Mon Feb 19 15:06:25 MST 2024, /Users/dantopa/.platform-specific.sh
+Mon Feb 19 15:06:25 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/apple.sh
+Mon Feb 19 15:06:26 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/macports.sh
+dantopa@Quaxolotl.local:~ $ gojop
+/Volumes/T7-Touch/repos/github/jop
+dantopa@Quaxolotl.local:jop $ cd python/
+dantopa@Quaxolotl.local:python $ ls
+CS303E-06	ChatGPT		catalog		dtra		genesis		images		ls		youtube		zollweg
+dantopa@Quaxolotl.local:python $ cd ..
+dantopa@Quaxolotl.local:jop $ ls
+c	fortran	julia	jupyter	octave	pdf	python	scripts
+dantopa@Quaxolotl.local:jop $ cd jupyter/
+dantopa@Quaxolotl.local:jupyter $ pip install jupyterlab
+-bash: pip: command not found
+dantopa@Quaxolotl.local:jupyter $ python3 pip install jupyterlab
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3: can't open file '/Volumes/T7-Touch/repos/github/jop/jupyter/pip': [Errno 2] No such file or directory
+dantopa@Quaxolotl.local:jupyter $ python3 -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (24.0)
+dantopa@Quaxolotl.local:jupyter $ pip install jupyterlab
+-bash: pip: command not found
+dantopa@Quaxolotl.local:jupyter $ python3 -m pip install jupyter lab
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: jupyter in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (1.0.0)
+Collecting lab
+  Downloading lab-8.0-py2.py3-none-any.whl.metadata (3.4 kB)
+Requirement already satisfied: notebook in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter) (7.0.6)
+Requirement already satisfied: qtconsole in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter) (5.5.1)
+Requirement already satisfied: jupyter-console in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter) (6.6.3)
+Requirement already satisfied: nbconvert in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter) (7.13.0)
+Requirement already satisfied: ipykernel in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter) (6.27.1)
+Requirement already satisfied: ipywidgets in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter) (8.1.1)
+Requirement already satisfied: matplotlib in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from lab) (3.8.2)
+Collecting simplejson (from lab)
+  Downloading simplejson-3.19.2-cp39-cp39-macosx_10_9_x86_64.whl.metadata (3.1 kB)
+Collecting txt2tags>=3.6 (from lab)
+  Downloading txt2tags-3.9-py2.py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: appnope in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (0.1.3)
+Requirement already satisfied: comm>=0.1.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (0.2.0)
+Requirement already satisfied: debugpy>=1.6.5 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (1.8.0)
+Requirement already satisfied: ipython>=7.23.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (8.18.1)
+Requirement already satisfied: jupyter-client>=6.1.12 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (8.6.0)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (5.5.1)
+Requirement already satisfied: matplotlib-inline>=0.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (0.1.6)
+Requirement already satisfied: nest-asyncio in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (1.5.8)
+Requirement already satisfied: packaging in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (23.2)
+Requirement already satisfied: psutil in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (5.9.7)
+Requirement already satisfied: pyzmq>=20 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (25.1.2)
+Requirement already satisfied: tornado>=6.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (6.4)
+Requirement already satisfied: traitlets>=5.4.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipykernel->jupyter) (5.14.0)
+Requirement already satisfied: widgetsnbextension~=4.0.9 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipywidgets->jupyter) (4.0.9)
+Requirement already satisfied: jupyterlab-widgets~=3.0.9 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipywidgets->jupyter) (3.0.9)
+Requirement already satisfied: prompt-toolkit>=3.0.30 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-console->jupyter) (3.0.43)
+Requirement already satisfied: pygments in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-console->jupyter) (2.17.2)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (4.47.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (1.4.5)
+Requirement already satisfied: numpy<2,>=1.21 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (1.26.2)
+Requirement already satisfied: pillow>=8 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (10.1.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (3.1.1)
+Requirement already satisfied: python-dateutil>=2.7 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (2.8.2)
+Requirement already satisfied: importlib-resources>=3.2.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from matplotlib->lab) (6.1.1)
+Requirement already satisfied: beautifulsoup4 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (4.12.2)
+Requirement already satisfied: bleach!=5.0.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (6.1.0)
+Requirement already satisfied: defusedxml in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (0.7.1)
+Requirement already satisfied: importlib-metadata>=3.6 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (7.0.0)
+Requirement already satisfied: jinja2>=3.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (3.1.2)
+Requirement already satisfied: jupyterlab-pygments in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (0.3.0)
+Requirement already satisfied: markupsafe>=2.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (2.1.3)
+Requirement already satisfied: mistune<4,>=2.0.3 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (3.0.2)
+Requirement already satisfied: nbclient>=0.5.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (0.9.0)
+Requirement already satisfied: nbformat>=5.7 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (5.9.2)
+Requirement already satisfied: pandocfilters>=1.4.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (1.5.0)
+Requirement already satisfied: tinycss2 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbconvert->jupyter) (1.2.1)
+Requirement already satisfied: jupyter-server<3,>=2.4.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from notebook->jupyter) (2.12.1)
+Requirement already satisfied: jupyterlab-server<3,>=2.22.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from notebook->jupyter) (2.25.2)
+Requirement already satisfied: jupyterlab<5,>=4.0.2 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from notebook->jupyter) (4.0.9)
+Requirement already satisfied: notebook-shim<0.3,>=0.2 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from notebook->jupyter) (0.2.3)
+Requirement already satisfied: qtpy>=2.4.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from qtconsole->jupyter) (2.4.1)
+Requirement already satisfied: six>=1.9.0 in /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from bleach!=5.0.0->nbconvert->jupyter) (1.15.0)
+Requirement already satisfied: webencodings in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from bleach!=5.0.0->nbconvert->jupyter) (0.5.1)
+Requirement already satisfied: zipp>=0.5 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from importlib-metadata>=3.6->nbconvert->jupyter) (3.17.0)
+Requirement already satisfied: decorator in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipython>=7.23.1->ipykernel->jupyter) (5.1.1)
+Requirement already satisfied: jedi>=0.16 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.19.1)
+Requirement already satisfied: stack-data in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.6.3)
+Requirement already satisfied: typing-extensions in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipython>=7.23.1->ipykernel->jupyter) (4.9.0)
+Requirement already satisfied: exceptiongroup in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipython>=7.23.1->ipykernel->jupyter) (1.2.0)
+Requirement already satisfied: pexpect>4.3 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from ipython>=7.23.1->ipykernel->jupyter) (4.9.0)
+Requirement already satisfied: platformdirs>=2.5 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter) (4.1.0)
+Requirement already satisfied: anyio>=3.1.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (4.2.0)
+Requirement already satisfied: argon2-cffi in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (23.1.0)
+Requirement already satisfied: jupyter-events>=0.9.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.9.0)
+Requirement already satisfied: jupyter-server-terminals in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.5.0)
+Requirement already satisfied: overrides in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (7.4.0)
+Requirement already satisfied: prometheus-client in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.19.0)
+Requirement already satisfied: send2trash>=1.8.2 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (1.8.2)
+Requirement already satisfied: terminado>=0.8.3 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.18.0)
+Requirement already satisfied: websocket-client in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (1.7.0)
+Requirement already satisfied: async-lru>=1.0.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyterlab<5,>=4.0.2->notebook->jupyter) (2.0.4)
+Requirement already satisfied: jupyter-lsp>=2.0.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyterlab<5,>=4.0.2->notebook->jupyter) (2.2.1)
+Requirement already satisfied: tomli in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyterlab<5,>=4.0.2->notebook->jupyter) (2.0.1)
+Requirement already satisfied: babel>=2.10 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyterlab-server<3,>=2.22.1->notebook->jupyter) (2.14.0)
+Requirement already satisfied: json5>=0.9.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyterlab-server<3,>=2.22.1->notebook->jupyter) (0.9.14)
+Requirement already satisfied: jsonschema>=4.18.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyterlab-server<3,>=2.22.1->notebook->jupyter) (4.20.0)
+Requirement already satisfied: requests>=2.31 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyterlab-server<3,>=2.22.1->notebook->jupyter) (2.31.0)
+Requirement already satisfied: fastjsonschema in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from nbformat>=5.7->nbconvert->jupyter) (2.19.0)
+Requirement already satisfied: wcwidth in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from prompt-toolkit>=3.0.30->jupyter-console->jupyter) (0.2.12)
+Requirement already satisfied: soupsieve>1.2 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from beautifulsoup4->nbconvert->jupyter) (2.5)
+Requirement already satisfied: idna>=2.8 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from anyio>=3.1.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (3.6)
+Requirement already satisfied: sniffio>=1.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from anyio>=3.1.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.3.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyter) (0.8.3)
+Requirement already satisfied: attrs>=22.2.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.22.1->notebook->jupyter) (23.1.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.22.1->notebook->jupyter) (2023.11.2)
+Requirement already satisfied: referencing>=0.28.4 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.22.1->notebook->jupyter) (0.32.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.22.1->notebook->jupyter) (0.15.2)
+Requirement already satisfied: python-json-logger>=2.0.4 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.0.7)
+Requirement already satisfied: pyyaml>=5.3 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (6.0.1)
+Requirement already satisfied: rfc3339-validator in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (0.1.4)
+Requirement already satisfied: rfc3986-validator>=0.1.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (0.1.1)
+Requirement already satisfied: ptyprocess>=0.5 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from pexpect>4.3->ipython>=7.23.1->ipykernel->jupyter) (0.7.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from requests>=2.31->jupyterlab-server<3,>=2.22.1->notebook->jupyter) (3.3.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from requests>=2.31->jupyterlab-server<3,>=2.22.1->notebook->jupyter) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from requests>=2.31->jupyterlab-server<3,>=2.22.1->notebook->jupyter) (2023.11.17)
+Requirement already satisfied: argon2-cffi-bindings in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from argon2-cffi->jupyter-server<3,>=2.4.0->notebook->jupyter) (21.2.0)
+Requirement already satisfied: executing>=1.2.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (2.0.1)
+Requirement already satisfied: asttokens>=2.1.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (2.4.1)
+Requirement already satisfied: pure-eval in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (0.2.2)
+Requirement already satisfied: fqdn in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.5.1)
+Requirement already satisfied: isoduration in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (20.11.0)
+Requirement already satisfied: jsonpointer>1.13 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.4)
+Requirement already satisfied: uri-template in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.3.0)
+Requirement already satisfied: webcolors>=1.11 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.13)
+Requirement already satisfied: cffi>=1.0.1 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from argon2-cffi-bindings->argon2-cffi->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.16.0)
+Requirement already satisfied: pycparser in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.21)
+Requirement already satisfied: arrow>=0.15.0 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.3.0)
+Requirement already satisfied: types-python-dateutil>=2.8.10 in /Users/dantopa/Library/Python/3.9/lib/python/site-packages (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.8.19.14)
+Downloading lab-8.0-py2.py3-none-any.whl (99 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.1/99.1 kB 1.5 MB/s eta 0:00:00
+Downloading txt2tags-3.9-py2.py3-none-any.whl (52 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.5/52.5 kB 1.5 MB/s eta 0:00:00
+Downloading simplejson-3.19.2-cp39-cp39-macosx_10_9_x86_64.whl (76 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 76.4/76.4 kB 2.4 MB/s eta 0:00:00
+Installing collected packages: txt2tags, simplejson, lab
+  WARNING: The script txt2tags is installed in '/Users/dantopa/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed lab-8.0 simplejson-3.19.2 txt2tags-3.9
+dantopa@Quaxolotl.local:jupyter $ echo $PATH
+/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/TeX/texbin
+dantopa@Quaxolotl.local:jupyter $ export PATH="/Users/dantopa/Library/Python/3.9/bin:$PATH"
+dantopa@Quaxolotl.local:jupyter $ jupyter-lab
+/Users/dantopa/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[W 2024-02-19 15:10:24.456 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[W 2024-02-19 15:10:24.470 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-02-19 15:10:24.471 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-02-19 15:10:24.477 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-02-19 15:10:24.487 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-02-19 15:10:24.499 ServerApp] notebook | extension was successfully linked.
+[I 2024-02-19 15:10:25.171 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-02-19 15:10:25.231 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-02-19 15:10:25.234 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-02-19 15:10:25.236 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-02-19 15:10:25.240 LabApp] JupyterLab extension loaded from /Users/dantopa/Library/Python/3.9/lib/python/site-packages/jupyterlab
+[I 2024-02-19 15:10:25.240 LabApp] JupyterLab application directory is /Users/dantopa/Library/Python/3.9/share/jupyter/lab
+[I 2024-02-19 15:10:25.241 LabApp] Extension Manager is 'pypi'.
+[I 2024-02-19 15:10:25.244 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-02-19 15:10:25.248 ServerApp] notebook | extension was successfully loaded.
+[I 2024-02-19 15:10:25.249 ServerApp] Serving notebooks from local directory: /Volumes/T7-Touch/repos/github/jop/jupyter
+[I 2024-02-19 15:10:25.249 ServerApp] Jupyter Server 2.12.1 is running at:
+[I 2024-02-19 15:10:25.249 ServerApp] http://localhost:8888/lab?token=1216d9a8ee19b3e21de00811c67f5e472f44242079f54d03
+[I 2024-02-19 15:10:25.249 ServerApp]     http://127.0.0.1:8888/lab?token=1216d9a8ee19b3e21de00811c67f5e472f44242079f54d03
+[I 2024-02-19 15:10:25.249 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-02-19 15:10:33.303 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///Users/dantopa/Library/Jupyter/runtime/jpserver-98272-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=1216d9a8ee19b3e21de00811c67f5e472f44242079f54d03
+        http://127.0.0.1:8888/lab?token=1216d9a8ee19b3e21de00811c67f5e472f44242079f54d03
+[W 2024-02-19 15:10:36.662 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-02-19 15:10:48.398 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-02-19 15:11:22.583 ServerApp] Creating new notebook in 
+[I 2024-02-19 15:11:23.132 ServerApp] Kernel started: b68c6f92-db9a-4faa-8eaa-250a044fa688
+[I 2024-02-19 15:11:24.069 ServerApp] Connecting to kernel b68c6f92-db9a-4faa-8eaa-250a044fa688.
+[I 2024-02-19 15:11:24.071 ServerApp] Connecting to kernel b68c6f92-db9a-4faa-8eaa-250a044fa688.
+[I 2024-02-19 15:11:24.082 ServerApp] Connecting to kernel b68c6f92-db9a-4faa-8eaa-250a044fa688.
+[W 2024-02-19 15:11:24.106 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x108b64790>
+[I 2024-02-19 15:11:45.320 ServerApp] Kernel started: 98e42114-da80-4c36-837b-023ea37e6796
+[I 2024-02-19 15:11:45.971 ServerApp] Connecting to kernel 98e42114-da80-4c36-837b-023ea37e6796.
+[I 2024-02-19 15:13:23.454 ServerApp] Saving file at /Untitled.ipynb
+[I 2024-02-19 15:13:45.441 ServerApp] Saving file at /odeint.ipynb
+[I 2024-02-19 15:17:25.432 ServerApp] Saving file at /Untitled.ipynb
+[I 2024-02-19 15:19:25.467 ServerApp] Saving file at /Untitled.ipynb
+[W 2024-02-19 15:22:46.021 ServerApp] 404 GET /Volumes/T7-Touch/repos/github/jop/jupyter/taylor/taylor-tab-3.pdf (b68aa7c52d104e26ac75498ce7de28ff@::1) 26.39ms referer=http://localhost:8888/lab/tree/Untitled.ipynb
+[W 2024-02-19 15:23:14.736 ServerApp] 404 GET /Volumes/T7-Touch/repos/github/jop/jupyter/taylor/taylor-tab-3.png (b68aa7c52d104e26ac75498ce7de28ff@::1) 1.36ms referer=http://localhost:8888/lab/tree/Untitled.ipynb
+[I 2024-02-19 15:23:25.525 ServerApp] Saving file at /Untitled.ipynb
+which[W 2024-02-25 12:58:58.394 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-02-25 12:58:58.452 ServerApp] Connecting to kernel b68c6f92-db9a-4faa-8eaa-250a044fa688.
+[I 2024-02-25 12:58:58.466 ServerApp] Connecting to kernel 98e42114-da80-4c36-837b-023ea37e6796.
+[I 2024-02-25 12:59:17.908 ServerApp] Creating new notebook in /taylor
+[E 2024-02-25 12:59:18.014 ServerApp] Uncaught exception GET /api/nbconvert?1708891157956 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/api/nbconvert?1708891157956', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 633, in get
+        value = obj._trait_values[self.name]
+    KeyError: 'template_paths'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 633, in get
+        value = obj._trait_values[self.name]
+    KeyError: 'extra_template_basedirs'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/jupyter_server/services/nbconvert/handlers.py", line 40, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/anyio/_backends/_asyncio.py", line 2134, in run_sync_in_worker_thread
+        return await future
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+        result = context.run(func, *args)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/base.py", line 107, in get_exporter
+        if getattr(exporter(config=config), "enabled", True):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 350, in __init__
+        super().__init__(config=config, **kw)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/exporter.py", line 123, in __init__
+        self._init_preprocessors()
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 535, in _init_preprocessors
+        conf = self._get_conf()
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 553, in _get_conf
+        for path in map(Path, self.template_paths):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 688, in __get__
+        return t.cast(G, self.get(obj, cls))  # the G should encode the Optional
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 636, in get
+        default = obj.trait_defaults(self.name)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1900, in trait_defaults
+        return t.cast(Sentinel, self._get_trait_default_generator(names[0])(self))
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1243, in __call__
+        return self.func(*args, **kwargs)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 564, in _template_paths
+        template_names = self.get_template_names()
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 615, in get_template_names
+        for base_dir in self.extra_template_basedirs:
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 688, in __get__
+        return t.cast(G, self.get(obj, cls))  # the G should encode the Optional
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 636, in get
+        default = obj.trait_defaults(self.name)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1900, in trait_defaults
+        return t.cast(Sentinel, self._get_trait_default_generator(names[0])(self))
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1243, in __call__
+        return self.func(*args, **kwargs)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 264, in _default_extra_template_basedirs
+        return [os.getcwd()]
+    FileNotFoundError: [Errno 2] No such file or directory
+[W 2024-02-25 12:59:18.076 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 633, in get
+        value = obj._trait_values[self.name]
+    KeyError: 'template_paths'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 633, in get
+        value = obj._trait_values[self.name]
+    KeyError: 'extra_template_basedirs'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/jupyter_server/services/nbconvert/handlers.py", line 40, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/anyio/_backends/_asyncio.py", line 2134, in run_sync_in_worker_thread
+        return await future
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+        result = context.run(func, *args)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/base.py", line 107, in get_exporter
+        if getattr(exporter(config=config), "enabled", True):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 350, in __init__
+        super().__init__(config=config, **kw)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/exporter.py", line 123, in __init__
+        self._init_preprocessors()
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 535, in _init_preprocessors
+        conf = self._get_conf()
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 553, in _get_conf
+        for path in map(Path, self.template_paths):
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 688, in __get__
+        return t.cast(G, self.get(obj, cls))  # the G should encode the Optional
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 636, in get
+        default = obj.trait_defaults(self.name)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1900, in trait_defaults
+        return t.cast(Sentinel, self._get_trait_default_generator(names[0])(self))
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1243, in __call__
+        return self.func(*args, **kwargs)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 564, in _template_paths
+        template_names = self.get_template_names()
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 615, in get_template_names
+        for base_dir in self.extra_template_basedirs:
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 688, in __get__
+        return t.cast(G, self.get(obj, cls))  # the G should encode the Optional
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 636, in get
+        default = obj.trait_defaults(self.name)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1900, in trait_defaults
+        return t.cast(Sentinel, self._get_trait_default_generator(names[0])(self))
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/traitlets/traitlets.py", line 1243, in __call__
+        return self.func(*args, **kwargs)
+      File "/Users/dantopa/Library/Python/3.9/lib/python/site-packages/nbconvert/exporters/templateexporter.py", line 264, in _default_extra_template_basedirs
+        return [os.getcwd()]
+    FileNotFoundError: [Errno 2] No such file or directory
+[E 2024-02-25 12:59:18.077 ServerApp] {
+      "Host": "localhost:8888",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/lab/workspaces/auto-S/tree/taylor/Untitled.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+    }
+[E 2024-02-25 12:59:18.077 ServerApp] 500 GET /api/nbconvert?1708891157956 (b68aa7c52d104e26ac75498ce7de28ff@::1) 103.60ms referer=http://localhost:8888/lab/workspaces/auto-S/tree/taylor/Untitled.ipynb
+[I 2024-02-25 12:59:18.271 ServerApp] Kernel started: b12eff14-7601-4f28-b677-24c142cd88d6
+[I 2024-02-25 12:59:21.297 ServerApp] Connecting to kernel b12eff14-7601-4f28-b677-24c142cd88d6.
+[I 2024-02-25 13:00:11.634 ServerApp] Saving file at /taylor/Untitled.ipynb
+

@@ -2,7 +2,6 @@
 #! /home/dantopa/spacktivity/ubuntu-22.04-dantopa-docker-spack/opt/spack/linux-ubuntu22.04-haswell/gcc-12.2.0/python-3.10.6-ybcookynohghdr6i72gwalqle6hq27z5/bin/python
 # Solving Bevington example 6.1 with Python
 import datetime             # timestamps
-import math					# pi
 import numpy as np 			# array operations
 import os                   # opeating system
 import sys                  # python version
@@ -31,7 +30,7 @@ I2 = 0.187
 # Energy partition - kinetic + potential
 # (7) p. 178
 K = 2 * math.pi * I1
-K = K + 4 * math.pi * I2 / gamma / ( gamma - 1 )
+K = K + 4 * np.pi * I2 / gamma / ( gamma - 1 )
 K = 4 * K / 25
 
 # logarithmic transforms

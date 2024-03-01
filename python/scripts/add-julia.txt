@@ -1,0 +1,154 @@
+Last login: Mon Feb 19 19:27:57 on ttys006
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Quaxolotl:~ dantopa$ source ~/.quaxolotl.sh 
+Sun Feb 25 16:56:14 MST 2024, /Users/dantopa/.quaxolotl.sh
+Sun Feb 25 16:56:14 MST 2024, /Users/dantopa/.bashrc
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/master.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/paths.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/gcc.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/git.sh
+-bash: fg: %: no such job
+-bash: %: command not found
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/ssh.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/vim.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/make.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bash.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/finds.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/cmake.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/python.sh
+Sun Feb 25 16:56:14 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/docker.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/c.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/copy-configuration.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/fortran.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bookmarks.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/bookmarks-github.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/disk.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/uname.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/spack.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/alias.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/lstopo.sh
+[2]-  Done                    source "${core}/uname.sh"
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/prompt.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/modules.sh
+[4]+  Exit 127                module available >> ${my_log} 2>&1
+threads completed for copy-configuration.sh write to /Volumes/T7-Touch/repos/bitbucket/mac-configurations/MacBookPro16,1-(quaxolotl)/darwin-23.0.0/Sonoma-14.0.0/Quaxolotl.local ...
+${PWD} = /Volumes/T7-Touch/repos/bitbucket/mac-configurations
+git add -A . 
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/macports.sh
+Sun Feb 25 16:56:15 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/environment.sh
+-bash: fg: job has terminated
+[4]+  Exit 127                module list >> ${my_log} 2>&1
+git commit -m 'quaxolotl native Sonoma-14.0.0 2024-02-25 16:56'
+[master 706cafa3] quaxolotl native Sonoma-14.0.0 2024-02-25 16:56
+ 6 files changed, 136 insertions(+), 143 deletions(-)
+/Volumes/T7-Touch/repos/bitbucket/mac-configurations
+to push configuration to repo, use alias gomac
+[1]-  Done                    source "${core}/copy-configuration.sh"
+Failed to open /Users/dantopa/.info/lstopo-no-graphics.txt for writing (File exists)
+[3]+  Exit 1                  source "${core}/lstopo.sh"
+user account = dantopa
+${SHELL} = /bin/bash
+gcc --version:
+gcc (MacPorts gcc13 13.2.0_4+stdlib_flag) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Sun Feb 25 16:56:16 MST 2024, /Users/dantopa/.platform-specific.sh
+Sun Feb 25 16:56:16 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/apple.sh
+Sun Feb 25 16:56:17 MST 2024, /Volumes/T7-Touch/repos/github/gitlab-bash-scripts/core-scripts/macports.sh
+dantopa@Quaxolotl.local:~ $ julia
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.9.3 (2023-08-24)
+ _/ |\__'_|_|_|\__'_|  |  
+|__/                   |
+
+julia> using Pkg
+
+julia> Pkg.add("IJulia")
+  Installing known registries into `~/.julia`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+   Installed Conda ─────────── v1.10.0
+   Installed VersionParsing ── v1.3.0
+   Installed JLLWrappers ───── v1.5.0
+   Installed ZMQ ───────────── v1.2.2
+   Installed JSON ──────────── v0.21.4
+   Installed Preferences ───── v1.4.1
+   Installed Parsers ───────── v2.8.1
+   Installed PrecompileTools ─ v1.2.0
+   Installed IJulia ────────── v1.24.2
+   Installed SoftGlobalScope ─ v1.1.0
+   Installed ZeroMQ_jll ────── v4.3.4+0
+   Installed libsodium_jll ─── v1.0.20+0
+   Installed MbedTLS ───────── v1.1.9
+  Downloaded artifact: ZeroMQ
+  Downloaded artifact: libsodium
+    Updating `~/.julia/environments/v1.9/Project.toml`
+  [7073ff75] + IJulia v1.24.2
+    Updating `~/.julia/environments/v1.9/Manifest.toml`
+  [8f4d0f93] + Conda v1.10.0
+  [7073ff75] + IJulia v1.24.2
+  [692b3bcd] + JLLWrappers v1.5.0
+  [682c06a0] + JSON v0.21.4
+  [739be429] + MbedTLS v1.1.9
+  [69de0a69] + Parsers v2.8.1
+  [aea7be01] + PrecompileTools v1.2.0
+  [21216c6a] + Preferences v1.4.1
+  [b85f4697] + SoftGlobalScope v1.1.0
+  [81def892] + VersionParsing v1.3.0
+  [c2297ded] + ZMQ v1.2.2
+  [8f1865be] + ZeroMQ_jll v4.3.4+0
+  [a9144af2] + libsodium_jll v1.0.20+0
+  [0dad84c5] + ArgTools v1.1.1
+  [56f22d72] + Artifacts
+  [2a0f44e3] + Base64
+  [ade2ca70] + Dates
+  [f43a241f] + Downloads v1.6.0
+  [7b1f6079] + FileWatching
+  [b77e0a4c] + InteractiveUtils
+  [b27032c2] + LibCURL v0.6.3
+  [76f85450] + LibGit2
+  [8f399da3] + Libdl
+  [56ddb016] + Logging
+  [d6f4376e] + Markdown
+  [a63ad114] + Mmap
+  [ca575930] + NetworkOptions v1.2.0
+  [44cfe95a] + Pkg v1.9.2
+  [de0858da] + Printf
+  [3fa0cd96] + REPL
+  [9a3f8284] + Random
+  [ea8e919c] + SHA v0.7.0
+  [9e88b42a] + Serialization
+  [6462fe0b] + Sockets
+  [fa267f1f] + TOML v1.0.3
+  [a4e569a6] + Tar v1.10.0
+  [8dfed614] + Test
+  [cf7118a7] + UUIDs
+  [4ec0a83e] + Unicode
+  [deac9b47] + LibCURL_jll v7.84.0+0
+  [29816b5a] + LibSSH2_jll v1.10.2+0
+  [c8ffd9c3] + MbedTLS_jll v2.28.2+0
+  [14a3606d] + MozillaCACerts_jll v2022.10.11
+  [83775a58] + Zlib_jll v1.2.13+0
+  [8e850ede] + nghttp2_jll v1.48.0+0
+  [3f19e933] + p7zip_jll v17.4.0+0
+    Building Conda ─→ `~/.julia/scratchspaces/44cfe95a-1eb2-52ea-b672-e2afdf69b78f/51cab8e982c5b598eea9c8ceaced4b58d9dd37c9/build.log`
+    Building IJulia → `~/.julia/scratchspaces/44cfe95a-1eb2-52ea-b672-e2afdf69b78f/47ac8cc196b81001a711f4b2c12c97372338f00c/build.log`
+Precompiling project...
+  13 dependencies successfully precompiled in 33 seconds. 3 already precompiled.
+
+julia> # https://datatofish.com/add-julia-to-jupyter/
+
+julia> 
+
+
+
