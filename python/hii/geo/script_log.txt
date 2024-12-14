@@ -1,0 +1,9 @@
+
+===== Runtime Metadata =====
+Run ID: 7407d5e9-8f87-4737-9510-c08c7d96f7a6
+HOSTNAME: Unknown
+Working Directory: /Users/dantopa/repos-xiuhcoatal/github/jop/python/hii/geo
+Script: geo-list-01.py
+Python Version: 3.12.7 (main, Oct  5 2024, 00:14:26) [Clang 16.0.0 (clang-1600.0.26.3)]
+Timestamp: 2024-11-21 15:18:55.634852
+========================================

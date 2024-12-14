@@ -1,0 +1,11 @@
+geo-utils/
+├── geo_utils/              # Main package directory
+│   ├── __init__.py         # Makes this a package
+│   ├── satellite_utils.py  # Your utility module
+├── tests/                  # Directory for unit tests
+│   ├── __init__.py         # Makes this a package
+│   ├── test_satellite_utils.py  # Unit tests for the utilities
+├── setup.py                # For distributing the package
+├── README.md               # Documentation for your project
+└── requirements.txt        # List of dependencies (if any)
+
