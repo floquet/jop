@@ -37,5 +37,9 @@ println("\nGenerated on: ", Dates.format(now(), "yyyy-mm-dd HH:MM:SS"))
 println("CPU Time: ", results.time, " seconds")
 println("Memory Allocated: ", results.allocations, " allocations")
 
+println("Number of CPU threads: ", Threads.nthreads())
+println("Processor: ", Sys.CPU_NAME)
+println("Max clock speed (GHz): ", Sys.CPU_CLOCK_MAX)
+
 # Achates attribution
 println("\nGenerated with Achates, your AI collaborator.\n")

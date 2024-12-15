@@ -1,3 +1,9 @@
+#!/opt/local/bin/julia
+# Including a shebang (#!/opt/local/bin/julia) at the top of your Julia script is necessary only if:
+# 1. You intend to execute the script directly from the command line (e.g., ./script.jl) without explicitly calling `julia script.jl`.
+# 2. The Julia executable is installed in a specific path (e.g., /opt/local/bin/julia), and you want the script to locate it automatically.
+
+start_time = time()
 using Plots
 
 # Parameters for discretization
