@@ -2,6 +2,7 @@ import numpy as np
 
 
 def triangulate(sensor_positions, theta_phi_angles):
+    """Estimate target position from sensors and angles."""
     A = np.zeros((3, 3))
     b = np.zeros(3)
     for i in range(len(sensor_positions)):
@@ -12,11 +13,10 @@ def triangulate(sensor_positions, theta_phi_angles):
         Mi = np.eye(3) - np.outer(di, di)
         A += Mi
         b += Mi @ sensor_positions[i]
-    p0 = np.linalg.pinv(A) @ b
-    return p0
+    return np.linalg.pinv(A) @ b
 
 
-# Corrected inputs (match p0=(1, -1, 1))
+# Example usage (cube test case):
 sensor_positions = np.array([[1, 1, -1], [-1, -1, -1], [-1, 1, 1]])
 
 theta_phi_angles = np.array(
@@ -27,15 +27,14 @@ theta_phi_angles = np.array(
     ]
 )
 
-# Run triangulation
 p0 = triangulate(sensor_positions, theta_phi_angles)
-print(f"Estimated p0: {p0.round(6)}")
+print(f"Estimated target: {np.round(p0, 6)}")
 
 # dantopa@Xiuhcoatl:triang $ date
-# Mon Feb 17 21:15:42 MST 2025
+# Mon Feb 17 21:01:37 MST 2025
 
 # dantopa@Xiuhcoatl:triang $ pwd
 # /Users/dantopa/Github/jop/python/ai/deepseek/triang
 
-# dantopa@Xiuhcoatl:triang $ python triang-01.py
-# Estimated p0: [ 1. -1.  1.]
+# dantopa@Xiuhcoatl:triang $ python tri-01.py
+# Estimated target: [ 1. -1.  1.]
