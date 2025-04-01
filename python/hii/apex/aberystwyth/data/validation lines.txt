@@ -1,0 +1,57 @@
+
+Validation exercise for lines, case 1
+intercept,  Fortran           0.989893911107748E+00 +/-    0.320024788581390E-02
+intercept,  Mathematica       0.989893911107748E+00 +/-    0.320024788581390E-02
+Difference                    0.444E-15                    0.217E-17
+Difference, epsilons                  2.0                        0.1E-01
+
+gap,        Fortran           0.343772868880165E+01 +/-    0.130228854930303E-01
+gap,        Mathematica       0.343772868880165E+01 +/-    0.130228854930303E-01
+Difference                   -0.533E-14                    0.104E-16
+Difference, epsilons                 24.0                        0.5E-01
+
+slope,      Fortran           0.337614377841187E+00 +/-    0.165405427695300E-02
+slope,      Mathematica       0.337614377841188E+00 +/-    0.165405427695300E-02
+Difference                   -0.555E-15                    0.867E-18
+Difference, epsilons                  2.5                        0.4E-02
+
+ 2025-03-31 10:48:53
+
+
+Validation exercise for lines, case 2
+intercept,  Fortran           0.497428148499565E+01 +/-    0.524305283157246E-01
+intercept,  Mathematica       0.497428148499463E+01 +/-    0.524305283157190E-01
+Difference                    0.102E-11                    0.562E-14
+Difference, epsilons               4592.0                        0.3E+02
+
+gap,        Fortran          -0.207514689460427E+01 +/-    0.920777913646987E-01
+gap,        Mathematica      -0.207514689460362E+01 +/-    0.920777913646888E-01
+Difference                   -0.649E-12                    0.992E-14
+Difference, epsilons               2924.0                        0.4E+02
+
+slope,      Fortran           0.516839016591331E+01 +/-    0.521508071691429E-01
+slope,      Mathematica       0.516839016591234E+01 +/-    0.521508071691373E-01
+Difference                    0.973E-12                    0.559E-14
+Difference, epsilons               4380.0                        0.3E+02
+
+ 2025-03-31 10:48:53
+
+
+Validation exercise for lines, case 3
+intercept,  Fortran           0.123218059280431E+01 +/-    0.388468384065434E-02
+intercept,  Mathematica       0.123218059280430E+01 +/-    0.388468384065434E-02
+Difference                    0.511E-14                   -0.130E-17
+Difference, epsilons                 23.0                        0.6E-02
+
+gap,        Fortran          -0.750532255668239E+01 +/-    0.434544396699708E-01
+gap,        Mathematica      -0.750532255668240E+01 +/-    0.434544396699708E-01
+Difference                    0.160E-13                   -0.694E-17
+Difference, epsilons                 72.0                        0.3E-01
+
+slope,      Fortran          -0.857618378765638E+00 +/-    0.378896981719881E-02
+slope,      Mathematica      -0.857618378765642E+00 +/-    0.378896981719881E-02
+Difference                    0.333E-14                   -0.434E-18
+Difference, epsilons                 15.0                        0.2E-02
+
+ 2025-03-31 10:48:53
+

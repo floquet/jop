@@ -1,0 +1,119 @@
+dantopa@Xiuhcoatl:aberystwyth $ python3 aberystwyth.py 
+Running Fortran executable apex
+Return code: 0
+Output:
+
+Apex angles (ideal answer = pi/3 ≈ 1.04719755 or 60 deg):
+  1     1.04032 +/-    0.01801     (  59.60592 +/-    1.03174 ) degrees
+  2     1.03450 +/-    0.00293     (  59.27242 +/-    0.16798 ) degrees
+  3     1.04138 +/-    0.01812     (  59.66650 +/-    1.03828 ) degrees
+
+Total of all angles (ideal answer = pi or 180 deg ):
+   3.11620 +/-    0.02571     ( 178.54484 +/-    1.47334 ) degrees
+
+compiler version  = GCC version 14.2.0.
+
+compiler options  = -fdiagnostics-color=auto -fPIC -feliminate-unused-debug-symbols -mmacosx-version-min=15.0.0 -mtune=core2 -g -Og -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Wpedantic -Wfunction-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -Wconversion-extra -Wno-tabs -fno-realloc-lhs -ffpe-trap=denormal,invalid,zero -fbacktrace -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens -faggressive-function-elimination -finit-derived -fallocation-dce -fprofile-partial-training -fanalyzer.
+
+
+Validation for angles written to data/validation apex.txt
+Validation for lines  written to data/validation lines.txt
+
+
+Python execution complete
+
+ 2025-03-31 10:48:53.134308
+source:  /Users/dantopa/repos-xiuhcoatl/github/jop/python/hii/apex/aberystwyth/aberystwyth.py
+user id: dantopa
+platform info:
+    platform:  macOS-15.3.2-x86_64-i386-64bit-Mach-O
+    uname:     uname_result(system='Darwin', node='Xiuhcoatl', release='24.3.0', version='Darwin Kernel Version 24.3.0: Thu Jan  2 20:22:00 PST 2025; root:xnu-11215.81.4~3/RELEASE_X86_64', machine='x86_64')
+version info:
+    python:   3.13.2 (main, Feb  8 2025, 10:03:30) [Clang 16.0.0 (clang-1600.0.26.6)]
+    platform: 1.0.8
+dantopa@Xiuhcoatl:aberystwyth $ cat -n aberystwyth.py 
+     1	import datetime  # timestamps
+     2	import subprocess
+     3	import os
+     4	import platform  # uname
+     5	import pwd
+     6	import sys
+     7	
+     8	
+     9	def run_apex(input_file=None, output_file=None):
+    10	    """
+    11	    Run the APEX executable with optional input/output files
+    12	
+    13	    Parameters:
+    14	    -----------
+    15	    input_file : str, optional
+    16	        Path to input file
+    17	    output_file : str, optional
+    18	        Path to output file
+    19	
+    20	    Returns:
+    21	    --------
+    22	    int
+    23	        Return code from executable
+    24	    str
+    25	        Output from executable
+    26	    """
+    27	    # Construct command
+    28	    cmd = ["./apex"]  # Basic command
+    29	
+    30	    # Add input/output redirection if specified
+    31	    if input_file:
+    32	        cmd.extend(["<", input_file])
+    33	    if output_file:
+    34	        cmd.extend([">", output_file])
+    35	
+    36	    try:
+    37	        # Run the executable
+    38	        result = subprocess.run(
+    39	            cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True
+    40	        )
+    41	        return result.returncode, result.stdout
+    42	
+    43	    except subprocess.CalledProcessError as e:
+    44	        print(f"Error running apex: {e}")
+    45	        print(f"Error output: {e.stderr}")
+    46	        return e.returncode, e.stderr
+    47	
+    48	    except FileNotFoundError:
+    49	        print("Error: apex executable not found")
+    50	        return 1, "Executable not found"
+    51	
+    52	
+    53	def pr_provenance():
+    54	    print("\n", datetime.datetime.now())
+    55	    print("source:  %s/%s" % (os.getcwd(), os.path.basename(__file__)))
+    56	    print("user id:", pwd.getpwuid(os.getuid()).pw_name)
+    57	    print("platform info:")
+    58	    print("    platform: ", platform.platform())
+    59	    print("    uname:    ", platform.uname())
+    60	    # print( "    node:     ", platform.node( ) )
+    61	    # print( os.environ )
+    62	    print("version info:")
+    63	    print("    python:   %s" % sys.version)
+    64	    print("    platform:", platform.__version__)
+    65	    return
+    66	
+    67	
+    68	# Example usage
+    69	if __name__ == "__main__":
+    70	    # Check if executable exists
+    71	    if not os.path.exists("./apex"):
+    72	        print("Error: apex executable not found in current directory")
+    73	        sys.exit(1)
+    74	
+    75	    # Run without input/output files
+    76	    print(f"Running Fortran executable apex")
+    77	    returncode, output = run_apex()
+    78	    print(f"Return code: {returncode}")
+    79	    print(f"Output:\n{output}")
+    80	
+    81	    # Run with input/output files
+    82	    returncode, output = run_apex(input_file="input.dat", output_file="output.dat")
+    83	
+    84	    print(f"Python execution complete")
+    85	    pr_provenance()
