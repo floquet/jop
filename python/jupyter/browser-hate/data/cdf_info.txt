@@ -1,0 +1,402 @@
+CDF FILE ANALYSIS
+=================
+File: data/rbspa_ect-elec-L2_20180101_v2.1.0.cdf
+Analysis date: 2025-06-18 23:18:46
+
+** CDF File Information **
+File path: /Users/dantopa/repos-xiuhcoatl/github/jop/python/jupyter/browser-hate/data/rbspa_ect-elec-L2_20180101_v2.1.0.cdf
+CDF Format Version: 3.8.0
+Encoding (Endianness): 6
+Majority (Storage Order): Row_major
+Number of rDimensions: 0
+
+** Variables **
+rVariables: None
+zVariables: ['I', 'L', 'L_star', 'MLT', 'B_Calc', 'B_Eq', 'FESA_FIT_Quality', 'Position', 'Position_LABL_1', 'FESA', 'FESA_Energy', 'FESA_Energy_DELTA_plus', 'FESA_Energy_DELTA_minus', 'FESA_Quality', 'FESA_Instrument', 'Epoch', 'FESA_FIT', 'FESA_FIT_Energy', 'HOPE_FACTOR', 'FESA_FIT_Knots', 'FESA_FIT_Coeffs']
+
+** Global Attributes **
+- Project: ['LWS>Living With a Star']
+- Source_name: ['RBSP-A>Radiation Belt Storm Probe A']
+- Discipline: ['Space Physics>Magnetospheric Science']
+- Data_type: ['pre>Preliminary']
+- Descriptor: ['ECT>Energetic Particle, Composition and Thermal Plasma Suite']
+- File_naming_convention: ['source_datatype_descriptor_yyyyMMdd']
+- Data_version: ['1.0.0']
+- PI_name: ['Harlan Spence (harlan.spence@unh.edu)']
+- PI_affiliation: ['University of New Hampshire']
+- TEXT: ['The ECT instrument suite consists of three instruments: HOPE, MagEIS and REPT. This data product combines spin averaged electron fluxes from all three instruments.']
+- Instrument_type: ['Particles (space)']
+- Mission_group: ['RBSP']
+- Logical_source: ['rbspa_ect-elec-L2']
+- Logical_file_id: ['rbspa_ect-elec-L2_20180101_v2.0.0']
+- Logical_source_description: ['rbspa_ect-elec-L2']
+- Rules_of_use: ['See Usage Guidelines at: http://www.rbsp-ect.lanl.gov/DataProductsUsage.php']
+- LINK_TEXT: ['LANL RBSP ECT SOC homepage']
+- LINK_TITLE: ['LANL RBSP ECT SOC homepage']
+- HTTP_LINK: ['http://www.rbsp-ect.lanl.gov/']
+- data_type: ['L2>level2']
+
+** Variable: I **
+Shape: (480,)
+Values: [3.7128449e-04 1.9293949e-04 7.0360395e-05 8.0991558e-06 1.0539430e-05]
+Attributes:
+  - CATDESC: Adiabatic invariant (bounce)
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: I
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: I
+  - UNITS: none
+  - VALIDMIN: 0.0
+  - VALIDMAX: 1.0000000150474662e+30
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson & Pfitzer quiet Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q.
+
+** Variable: L **
+Shape: (480,)
+Values: [4.487865 4.54544  4.601405 4.65579  4.708605]
+Attributes:
+  - CATDESC: Calculated McIlwains L parameter (Earths radii)
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: L
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: L
+  - UNITS: Re
+  - VALIDMIN: 0.0
+  - VALIDMAX: 20.0
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson & Pfitzer quiet Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q.
+
+** Variable: L_star **
+Shape: (480,)
+Values: [4.25021  4.29759  4.34359  4.38807  4.431175]
+Attributes:
+  - CATDESC: Calculated Roederers L* parameter
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: L_star
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E10.3
+  - LABLAXIS: Lstar
+  - UNITS: dimensionless
+  - VALIDMIN: 0.0
+  - VALIDMAX: 20.0
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson & Pfitzer quiet Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q.
+
+** Variable: MLT **
+Shape: (480,)
+Values: [6.285316  6.3466916 6.406752  6.4655843 6.5232706]
+Attributes:
+  - CATDESC: Calculated Magnetic Local Time (hours)
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: MLT
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: MLT
+  - UNITS: hr
+  - VALIDMIN: 0.0
+  - VALIDMAX: 24.0
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson & Pfitzer quiet Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q.
+
+** Variable: B_Calc **
+Shape: (480,)
+Values: [331.391  318.939  307.43   296.7765 286.902 ]
+Attributes:
+  - CATDESC: Calculated magnetic field strength
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: B_Calc
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E10.3
+  - LABLAXIS: B
+  - UNITS: nT
+  - VALIDMIN: 0.0
+  - VALIDMAX: 1.0000000150474662e+30
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson & Pfitzer quiet Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q.
+
+** Variable: B_Eq **
+Shape: (480,)
+Values: [331.349  318.918  307.423  296.776  286.9005]
+Attributes:
+  - CATDESC: Calculated magnetic field strength at magnetic equator
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: B_Eq
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E10.3
+  - LABLAXIS: B_Eq
+  - UNITS: nT
+  - VALIDMIN: -1.0000000150474662e+30
+  - VALIDMAX: 1.0000000150474662e+30
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson & Pfitzer quiet Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q.
+
+** Variable: FESA_FIT_Quality **
+Shape: (480,)
+Values: [0 0 0 0 0]
+Attributes:
+  - CATDESC: FESA FIT Quality Flag
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: FESA_FIT_Quality
+  - FILLVAL: -32768
+  - FORMAT: I11
+  - LABLAXIS: FESA_FIT_Quality
+  - UNITS: none
+  - VALIDMIN: 0
+  - VALIDMAX: 32767
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Quality flag for the spline fit spectra. 0. nominal fit, 1. Smoothing was increased due to large residual 2. Smooting was increased due to data gap, use with caution 3. The smoothing of the fit was increased due to a data gap, and there was still a significant difference compared to a linear interpolation. These spectra possibly contain non-physical features and should be used with extreme caution.  4. Smoothing was increased due to a large second derivative
+
+** Variable: Position **
+Shape: (480, 3)
+Values: [-6791.7656 27254.984   4730.709  -6933.8926 27585.117 ]
+Attributes:
+  - CATDESC: Position of the satellite in geographic coordinates
+  - DEPEND_0: Epoch
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: Position
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: Position
+  - LABL_PTR_1: Position_LABL_1
+  - UNITS: km
+  - VALIDMIN: [-63700. -63700. -63700.]
+  - VALIDMAX: [63700. 63700. 63700.]
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: Origin = Earths center of mass. X = Intersection of Greenwich meridian and geographic equator. Z = Geographic North Pole. Y = completes a right-handed Cartesian triad
+
+** Variable: Position_LABL_1 **
+Shape: (3,)
+Values: [['Xgeo']
+ ['Ygeo']
+ ['Zgeo']]
+Attributes:
+  - CATDESC: Position_LABL_1
+  - FIELDNAM: Position_LABL_1
+  - FORMAT: A11
+  - LABLAXIS: Position_LABL_1
+  - VAR_TYPE: metadata
+
+** Variable: FESA **
+Shape: (480, 102)
+Values: [3.2240973e+09 2.5230971e+09 1.8891540e+09 1.4670426e+09 1.2341517e+09]
+Attributes:
+  - CATDESC: Combined Spin Averaged Differental Electron Flux
+  - DEPEND_0: Epoch
+  - DEPEND_1: FESA_Energy
+  - DISPLAY_TYPE: spectrogram
+  - FIELDNAM: FESA
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E10.3
+  - LABLAXIS: Flux
+  - UNITS: cm!U-2!N s!U-1!N sr!U-1!N keV!U-1!N
+  - VALIDMIN: 0.0
+  - VALIDMAX: 999999986991104.0
+  - VAR_TYPE: data
+  - SCALETYP: log
+  - VAR_NOTES: The combined differential electron flux from HOPE, MagEIS and REPT. This is used as the input spectra for FESA_FIT.
+
+** Variable: FESA_Energy **
+Shape: (102,)
+Values: [0.01498455 0.01681365 0.0188538  0.02117535 0.02370795]
+Attributes:
+  - CATDESC: Energy values for FESA
+  - FIELDNAM: FESA_Energy
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E10.3
+  - LABLAXIS: Energy
+  - UNITS: keV
+  - VALIDMIN: 0.0
+  - VALIDMAX: 30000.0
+  - VAR_TYPE: support_data
+  - SCALETYP: log
+  - VAR_NOTES: Energy values for the combined differential electron flux spectra from HOPE, MagEIS and REPT. 
+  - DELTA_PLUS_VAR: FESA_Energy_DELTA_plus
+  - DELTA_MINUS_VAR: FESA_Energy_DELTA_minus
+
+** Variable: FESA_Energy_DELTA_plus **
+Shape: (102,)
+Values: [0.00112384 0.00126102 0.00141404 0.00158815 0.0017781 ]
+Attributes:
+  - CATDESC: FESA_Energy_DELTA_plus
+  - FIELDNAM: FESA_Energy_DELTA_plus
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: FESA_INPUT_Energy_DELTA_plus
+  - UNITS: keV
+  - VALIDMIN: 0.0
+  - VALIDMAX: 30000.0
+  - VAR_TYPE: support_data
+  - SCALETYP: linear
+
+** Variable: FESA_Energy_DELTA_minus **
+Shape: (102,)
+Values: [0.00112384 0.00126102 0.00141404 0.00158815 0.0017781 ]
+Attributes:
+  - CATDESC: FESA_Energy_DELTA_minus
+  - FIELDNAM: FESA_Energy_DELTA_minus
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: FESA_INPUT_Energy_DELTA_minus
+  - UNITS: keV
+  - VALIDMIN: 0.0
+  - VALIDMAX: 30000.0
+  - VAR_TYPE: support_data
+  - SCALETYP: linear
+
+** Variable: FESA_Quality **
+Shape: (480, 102)
+Values: [0 0 0 0 0]
+Attributes:
+  - CATDESC: FESA INPUT Quality Flag
+  - DEPEND_0: Epoch
+  - DEPEND_1: FESA_Energy
+  - DISPLAY_TYPE: time_series
+  - FIELDNAM: FESA_Quality
+  - FILLVAL: -32768
+  - FORMAT: I11
+  - LABLAXIS: FESA_INPUT_Quality
+  - UNITS: none
+  - VALIDMIN: -32767
+  - VALIDMAX: 32767
+  - VAR_TYPE: data
+  - SCALETYP: linear
+  - VAR_NOTES: 0 => nominal data, 1 => point uses uncorrected data, 2=> point is used at a reduced weight (0.5) in the fit
+
+** Variable: FESA_Instrument **
+Shape: (102,)
+Values: [0 0 0 0 0]
+Attributes:
+  - CATDESC: Instrument source for FESA
+  - FIELDNAM: FESA_Instrument
+  - FILLVAL: -32768
+  - FORMAT: I11
+  - LABLAXIS: FESA_INPUT_Instrument2
+  - UNITS: none
+  - VALIDMIN: 0
+  - VALIDMAX: 32767
+  - VAR_TYPE: support_data
+  - SCALETYP: linear
+  - VAR_NOTES: Flag showing which ECT instrument the input energy value corresponds to: 0) HOPE, 1) MagEIS, 2) REPT
+
+** Variable: Epoch **
+Shape: (480,)
+Values: [6.36819841e+13 6.36819843e+13 6.36819844e+13 6.36819846e+13
+ 6.36819848e+13]
+Attributes:
+  - CATDESC: Default UTC time
+  - FIELDNAM: Epoch
+  - FILLVAL: -1e+31
+  - LABLAXIS: Epoch
+  - UNITS: ms
+  - VALIDMIN: 62798371200000.0
+  - VALIDMAX: 64060675199999.0
+  - VAR_TYPE: support_data
+  - SCALETYP: linear
+  - VAR_NOTES: Timestamp is placed at the middle of each 3 minute time bin.
+  - MONOTON: INCREASE
+  - TIME_BASE: 0 AD
+
+** Variable: FESA_FIT **
+Shape: (480, 127)
+Values: [-9.9999998e+30 -9.9999998e+30 -9.9999998e+30 -9.9999998e+30
+  2.7066248e+09]
+Attributes:
+  - CATDESC: Spline Fit Combined Spin Averaged Differential Electron Flux
+  - DEPEND_0: Epoch
+  - DEPEND_1: FESA_FIT_Energy
+  - DISPLAY_TYPE: spectrogram
+  - FIELDNAM: FESA_FIT
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E10.3
+  - LABLAXIS: Flux
+  - UNITS: cm!U-2!N s!U-1!N sr!U-1!N keV!U-1!N
+  - VALIDMIN: 0.0
+  - VALIDMAX: 999999986991104.0
+  - VAR_TYPE: data
+  - SCALETYP: log
+  - VAR_NOTES: Combined flux spectra fit using a cubic spline. The input spectra is given in FESA. In the inner zone (L < 2.5), all energies above 1 MeV are set to fill values. 
+
+** Variable: FESA_FIT_Energy **
+Shape: (127,)
+Values: [0.01       0.01122018 0.01258925 0.01412538 0.01584893]
+Attributes:
+  - CATDESC: Energy values for FESA FIT
+  - FIELDNAM: FESA_FIT_Energy
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: Energy
+  - UNITS: keV
+  - VALIDMIN: 0.0
+  - VALIDMAX: 30000.0
+  - VAR_TYPE: support_data
+  - SCALETYP: log
+  - VAR_NOTES: Energy values for the spline fit spectra. The spline outputs on a regular log-spaced energy grid, with 20 energy values per decade. 
+
+** Variable: HOPE_FACTOR **
+Shape: (480, 102)
+Values: [1. 1. 1. 1. 1.]
+Attributes:
+  - CATDESC: Correction factor applied to the HOPE data
+  - DEPEND_0: Epoch
+  - DEPEND_1: FESA_Energy
+  - FIELDNAM: HOPE_FACTOR
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: none
+  - UNITS: none
+  - VALIDMIN: 0.0
+  - VALIDMAX: 10000.0
+  - VAR_TYPE: support_data
+  - SCALETYP: linear
+  - VAR_NOTES: Multiplying factor applied to the HOPE data. This factor is the combination of two corrections: 1) Inner zone (L < 2.5) 2) Specific days where there is large difference between HOPE and MagEIS.
+
+** Variable: FESA_FIT_Knots **
+Shape: (480, 100)
+Values: [-1.8243563 -1.8243563 -1.8243563 -1.8243563 -0.6279505]
+Attributes:
+  - CATDESC: FESA_FIT_Knots
+  - DEPEND_0: Epoch
+  - FIELDNAM: FESA_FIT_Knots
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: FESA_FIT_Knots
+  - UNITS: none
+  - VALIDMIN: -1.0000000150474662e+30
+  - VALIDMAX: 1.0000000150474662e+30
+  - VAR_TYPE: support_data
+  - SCALETYP: linear
+  - VAR_NOTES: Knots of the Spline Fit. These knots represent base 10 logarithmic energy values in keV. Combined with FESA_FIT_Coeffs, can be used to reconstruct the spline in the B-Spline Basis. The resulting spline values are base 10 logarithmic spin-averaged fluxes (#/s-cm2-sr-keV). If less than 100 knots are used the remaining values are set to fill.
+
+** Variable: FESA_FIT_Coeffs **
+Shape: (480, 100)
+Values: [9.477585  8.735483  7.823159  7.0323434 6.647234 ]
+Attributes:
+  - CATDESC: FESA_FIT_Coeffs
+  - DEPEND_0: Epoch
+  - FIELDNAM: FESA_FIT_Coeffs
+  - FILLVAL: -9.999999848243207e+30
+  - FORMAT: E12.2
+  - LABLAXIS: FESA_FIT_Coeffs
+  - UNITS: none
+  - VALIDMIN: -1.0000000150474662e+30
+  - VALIDMAX: 1.0000000150474662e+30
+  - VAR_TYPE: support_data
+  - SCALETYP: linear
+  - VAR_NOTES: Coefficients of the Spline Fit. Combined with FESA_FIT_Knots, can be used to reconstruct the spline in the B-Spline Basis. The resulting spline values are base 10 logarithmic spin-averaged fluxes (#/s-cm2-sr-keV). If less than 100 coefficients are used the remaining values are set to fill.
