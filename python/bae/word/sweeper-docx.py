@@ -1,4 +1,37 @@
 #!/opt/local/bin/python3.13
+# =============================================================================
+# sweeper-docx.py
+#
+# Purpose
+# -------
+#
+# Explore the internal structure of Microsoft Word (*.docx) files.
+#
+# This program is intended as a reverse-engineering tool rather than a final
+# harvesting application.
+#
+# The goal is to determine:
+#
+#     • where visible text is stored,
+#     • whether user-entered information resides in paragraphs,
+#       tables, text boxes, or content controls,
+#     • what metadata accompanies each field,
+#     • and how future harvesting routines should extract that data.
+#
+# Lessons Learned
+# ---------------
+#
+# 1. A *.docx file is a ZIP archive containing XML.
+#
+# 2. python-docx provides a convenient high-level object model but does not
+#    expose every XML construct.
+#
+# 3. Government assessment forms frequently store user input inside
+#    Structured Document Tags (<w:sdt>) rather than ordinary paragraphs.
+#
+# 4. Reverse engineering should begin with an XML sweep before writing a
+#    specialized harvesting routine.
+# =============================================================================
 
 # =============================================================================
 # High-Level python-docx View
@@ -78,6 +111,18 @@ def sweep_document ( filename: str ) -> None:
     print ( f"Tables           : {len( doc.tables )}" )
     print ( f"Sections         : {len( doc.sections )}" )
 
+# =============================================================================
+# XML Paragraph Sweep
+#
+# Walk every XML paragraph (<w:p>) in the document.
+#
+# This is a lower-level view than doc.paragraphs. It reveals paragraphs that
+# python-docx does not necessarily expose as high-level Paragraph objects.
+#
+# Many reverse-engineering tasks begin by sweeping every paragraph and
+# examining the recovered text.
+# =============================================================================
+
     print ( "\n=== ALL XML PARAGRAPHS ===" )
 
     #for index, element in enumerate(doc.element.xpath(".//w:p" )):
@@ -87,6 +132,16 @@ def sweep_document ( filename: str ) -> None:
 
         if text.strip():
             print ( f"{index:4d}: {text!r}" )
+
+# =============================================================================
+# Text Boxes
+#
+# Many Word forms store information inside floating text boxes
+# (<w:txbxContent>). These are visually positioned on the page and often
+# contain user-editable text.
+#
+# The current assessment forms do NOT use text boxes.
+# =============================================================================
 
     print( "\n=== TEXT BOXES ===" )
 
@@ -102,8 +157,6 @@ def sweep_document ( filename: str ) -> None:
             if text.strip():
                 print ( f"    {text!r}" )
 
-    print ( "\n=== CONTENT CONTROLS ===" )
-
 # =============================================================================
 # XML Paragraph Sweep
 #
@@ -115,6 +168,8 @@ def sweep_document ( filename: str ) -> None:
 # Many reverse-engineering tasks begin by sweeping every paragraph and
 # examining the recovered text.
 # =============================================================================
+
+    print ( "\n=== CONTENT CONTROLS ===" )
 
     controls = doc.element.xpath( ".//w:sdt" )
     print ( f"Content controls : {len ( controls ) }" )
@@ -131,7 +186,44 @@ def sweep_document ( filename: str ) -> None:
 
     for control_index, control in enumerate ( controls ):
         text = paragraph_text(control).strip()
-        tags =    control.xpath ( "./w:sdtPr/w:tag/@w:val", namespaces = Word_NameSpace )
+
+# -------------------------------------------------------------------------
+# Content-control metadata
+#
+# Every content control consists of:
+#
+#     <w:sdt>
+#         <w:sdtPr>      properties describing the field
+#         <w:sdtContent> user-visible contents
+#
+# The metadata is optional.
+#
+# Tag
+# ----
+# A machine-readable identifier intended for programs.
+#
+# Example:
+#
+#     DateField
+#     GovernmentParticipants
+#     ConfidenceRating
+#
+# Alias
+# -----
+# A human-readable label displayed by Word.
+#
+# Example:
+#
+#     "Government Participants"
+#     "Date"
+#     "Overall Confidence"
+#
+# Some document generators populate these fields, while others leave them
+# empty. When present, they provide a convenient semantic description of the
+# field being harvested.
+# -------------------------------------------------------------------------
+
+        tags =    control.xpath ( "./w:sdtPr/w:tag/@w:val",   namespaces = Word_NameSpace )
         aliases = control.xpath ( "./w:sdtPr/w:alias/@w:val", namespaces = Word_NameSpace )
 
         if text:
