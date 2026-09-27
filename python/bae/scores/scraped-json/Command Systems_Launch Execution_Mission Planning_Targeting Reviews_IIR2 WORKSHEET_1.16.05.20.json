@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Mission Planning_Targeting Reviews\\IIR2 WORKSHEET_1.16.05.20.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T08:29:40.440891",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 7,
+    "inference_time_sec": 2221.49
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.20",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "Critical Strategic Reporting Scope Defined but Structurally Mismapped: Control Account 1.16.05.20 (CS_SW IFC 4.0_Update Mission Planning Status_NC3) represents the essential software status feedback loop responsible for reporting weapon system readiness and mission planning configurations to external Nuclear Command and Control (NC3) networks. While functionally clear and bounded, its WBS code places it in the wrong parent capability branch.\n\nFollows the Systemic WBS Coding Shift Pattern (+1): This control account exhibits the exact same systemic +1 WBS coding shift identified throughout the database, countdown, database compilation, and targeting sub-suites (such as WBS .21 through .28 and .18/.19). It resides under WBS prefix 1.16.05 (reserved in the proposed WBS for Increment 1 Capability / IFC 5.0) rather than mapping to 1.16.4 (IFC 4.0 / Full Launch Capability).\n\nSevere Integration Risk with Joint Strategic Command Networks: NC3 mission planning updates represent the primary electronic pathway verifying targeting success back to joint strategic authority. Because of the WBS coding mismatch, automated EVMS and scheduling tools cannot accurately link and track testing dependencies between this software's development status and physical hardware integrations at the command nodes.",
+    "score_overall": 0,
+    "rationale": "The Government has assigned a Moderate confidence rating. The functional software planning is mature: the NC3-specific mission planning status reporting scope is clearly bounded, and ownership is held by a specialized targeting and reporting CAM (Tyrone Jackson). However, the systemic WBS index shift remains unresolved. Placing a critical NC3 status-reporting software module for IFC 4.0 under the IFC 5.0 WBS branch breaks EVMS cost-schedule automated alignment, posing a significant risk to the integrity of future CSDR and IPMDAR compliance reports.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The functional scope of the work is well-defined as \"CS_SW IFC 4.0_Update TCG Support Data\" with a designated owner. However, because the WBS code assignment (1.16.05.21) is structurally misaligned with the parent WBS element 1.16.5 (which represents IFC 5.0 in the CSDR WBS Dictionary), the deliverables are not traceably mapped to the higher-level program structure. To achieve a Strong rating, the contractor must correct this structural mapping to align with WBS 1.16.4 (IFC 4.0 / Full Launch Capability)."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The internal software scope for reporting NC3 mission planning status is well-defined. However, because it is coded under WBS 1.16.05, it cannot be traceably mapped to the government's defined parent WBS element 1.16.4 (Full Launch Capability). The contractor must correct this structural mapping before the baseline is established."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The software work packages are technically sequence-ready. However, loading this control account into the IMS with the current code 1.16.05.20 will create immediate conflicts with the proposed WBS structure, necessitating manual, error-prone adjustments during automated schedule status updates."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix\nGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)\nProposed CSDR WBS Dictionary\nSentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consolidated Domain CAM): Tyrone Jackson owns the complete targeting execution, database, and safety reporting chain (Silo Target .23, Control Node Target .24, Wing-Wide Target .25, Wing-Wide Generator .26, Revoke Targeting .27, Report Retargeting Status .28, Wing Target Generator .19, and Mission Planning Status .20). This single-point accountability minimizes communication friction and ensures technical consistency across all dynamic targeting and planning schemas.\n\nStrength 2 (Logical Modular Boundaries): Bounding NC3-specific mission planning reporting in its own account isolates strategic-level status updates from tactical, launch-silo execution paths, aligning with standard system safety and modular partitioning practices (e.g., RTCA DO-178C).",
+    "concerns": "Concern 1 (Systemic WBS Coding Shift): The contractor has coded this IFC 4.0 strategic status reporting account under WBS 1.16.05.20. The proposed CSDR WBS reserves 1.16.5 for IFC 5.0. All IFC 4.0 tasks must reside under WBS 1.16.4 (Full Launch Capability).\n\nConcern 2 (Dynamic Inter-Segment and Agency Interface Risks): The NC3 mission planning status module is functionally dependent on data formats generated by ground-based command nodes and must distribute coordinates to joint strategic networks.",
+    "questions": "Question 1: What specific data schemas, data transaction boundaries, and encryption formats are defined between this NC3 status reporting module (.20) and the STOS Target Generator (.18)?\n\nFollow-Up 1: Contractor to provide the system/subsystem design description (SSDD) and Interface Requirements Specifications (IRsS) detailing the STOS-to-NC3 status transmission protocols.\n\nQuestion 2: Will the contractor present a unified correction plan to shift the entire 1.16.05.xx IFC 4.0 series back to 1.16.04 (to map to 1.16.4)?\n\nFollow-Up 2: Contractor to submit a corrected RAM showing government-aligned software mappings before PMB baseline locking.",
+    "integration": "Observation 1 (High Vertical Coupling to Strategic Operations Node): The software developed under this CA must integrate directly with the Strategic Operations (STOS) node under WBS 1.4.2.8 (proposed WBS) and the Infrastructure Strategic Operation under WBS 1.4.7.6 (old WBS). While the technical relationships between this reporting software and the physical STOS hardware consoles are planned internally, the WBS index shift prevents automated EVMS scheduling from flagging a delay in the hardware as a critical-path impact on the integrated software schedule.\n\nObservation 2 (Lack of Automated EVMS Linkage): The physical installation and verification of the STOS equipment occurs under WBS 1.4.2.8.2.1 (Strategic Operations Integrated Assemblies). Due to the WBS indexing misalignment, automated EVMS tools cannot automatically link and track this strategic targeting software's maturity against physical hardware availability at the STOS nodes."
+  }
+}

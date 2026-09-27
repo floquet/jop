@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Mission Planning_Targeting Reviews\\IIR2 WORKSHEET_1.16.05.22.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T09:34:00.729096",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 6,
+    "inference_time_sec": 1579.67
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.22",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Scope and Responsibility Clear, But Misaligned: Control Account 1.16.05.22 (CS_SW IFC 4.0_Update WS Timer Data) has a clearly established internal scope, is owned by the Command Systems Software (CS-SW) segment, and is led by an active CAM (Tyrone Jackson). However, it is structurally misaligned with the parent WBS hierarchy.\n2. Impacted by the Systemic WBS Index Shift (+1): This control account exhibits the exact same systemic +1 WBS index shift identified in 1.16.05.21. The contractor has mapped this IFC 4.0 task under WBS 1.16.05, which is reserved in the government’s proposed WBS and Dictionary for Increment 1 Capability (IFC 5.0). IFC 4.0 tasks must structurally reside under WBS 1.16.4 (Full Launch Capability).\n3. Corrective Action Required Prior to PMB Baseline Locking: This structural misalignment will corrupt all future Integrated Program Management Data and Analysis Report (IPMDAR) and Cost Search Data Report (CSDR) submissions. The WBS structure in the RAM must be corrected before final Master Schedule loading and baseline locking.",
+    "score_overall": 0,
+    "rationale": "The Government has Moderate confidence in the contractor's planning readiness for this control account. On a functional basis, the scope of work (\"Update WS Timer Data\") is clear, and the resource planning is managed by an experienced CAM. However, the underlying planning architecture is flawed due to the systemic WBS index shift. Placing an IFC 4.0 milestone task within the WBS block reserved for IFC 5.0 prevents a \"Strong\" confidence rating, as it breaks automated reporting and cost-schedule integration.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The internal scope of \"Update WS Timer Data\" within the IFC 4.0 release cycle is clear. However, its deliverable boundaries are weakened because the account is coded under 1.16.05 instead of 1.16.04. This mapping error means the account's deliverables do not cleanly trace to the higher-level program software milestones defined in the proposed CSDR WBS Dictionary."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The work package activities are ready to be integrated into the IMS from a task-dependency perspective. However, loading the IMS under the current WBS code 1.16.05.22 will lock in a structural mismatch between the schedule's WBS outline and the financial/reporting WBS, requiring manual intervention to map actual costs."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Integration planning is rated Low because the structural shift makes it exceedingly difficult to automatically align this software task with associated hardware and test events. \"Update WS Timer Data\" is critical for the integrated weapon system countdown and timer functions, which must align with launch silo facilities (WBS 1.4.2.1) and Vandenberg test events (WBS 1.7.6). The coding misalignment breaks automated cross-functional tracking."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix\nGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)\nProposed CSDR WBS Dictionary\nSentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consistent Subsegment Ownership): The control account is assigned to Tyrone Jackson, who manages other key countdown and retargeting software tasks within the CS_SW segment. This ensures a consistent technical lead for closely related launch-critical software capabilities.\nStrength 2 (Discrete Functional Scope): The scope of work is bounded and clearly named, allowing for straightforward progress tracking once the coding is corrected.",
+    "concerns": "Concern 1 (WBS Coding index Shift):\nThe contractor has coded this IFC 4.0 control account under WBS 1.16.05.22. The WBS Dictionary defines 1.16.5 as Increment 1 Capability (associated with the IFC 5.0 release). This IFC 4.0 task must reside under WBS 1.16.4 (Full Launch Capability).\nConcern 2 (Cross-Functional Countdown Integration Mismatch):\nUpdating weapon system timer data is highly dependent on hardware timing inputs from the Guidance Computer and launch control equipment.",
+    "questions": "Question 1: What are the specific countdown/timer interfaces that this software update affects, and are they documented under an existing Interface Control Document (ICD)?\nQuestion 2: Will the contractor commit to a complete re-alignment of the 1.16.05 sub-branch in their RAM to 1.16.04 to match the government's proposed WBS structure for IFC 4.0?",
+    "integration": "Observation 1 (Alignment with countdown and launch sequences): The \"Update WS Timer Data\" software function under this CA must integrate directly with launch control processing under WBS 1.4.3.1 (Launch Execution) and WBS 1.4.3.2 (Wing Operations).\nObservation 2 (Broken Automated Cost-Schedule Linking): While the technical relationship between the countdown timer software and launch facilities is understood by the engineering teams, the WBS coding shift prevents the program's scheduling and finance software from linking the progress of this account with the corresponding hardware integration milestones (such as Wing Command Center Node Integration under WBS 1.4.2.3.3)."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\ExHW Reviews\\1.04.03.01.03.10.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-23T20:44:33.497195",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 5,
+    "inference_time_sec": 1126.26
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.04.03.01.03.10 - CS_HW Launch Ex_NSCD",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "LtCol Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. Missing in WBS Dictionary. The complete absence of a WBS dictionary description is a significant concern.\n2. Without a clear scope definition, any schedule activities would be based on informal assumptions, increasing the risk of scope creep, schedule slips, and integration issues.",
+    "score_overall": -1,
+    "rationale": "Confidence in the contractor's readiness to load the IMS for this specific CA is Low. The lack of a WBS dictionary entry is a deficiency. While a CAM and WPs is assigned, the fundamental requirement of a clearly defined scope has not been met.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "Without a clear scope definition, any schedule activities would be based on informal assumptions, increasing the risk of scope creep, schedule slips, and integration issues."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "Without a clear scope definition, any schedule activities would be based on informal assumptions, increasing the risk of scope creep, schedule slips, and integration issues."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Further analysis into P6 may reveal other details that improve confidence but given the artifacts provided, confidence is low."
+      }
+    ],
+    "products": "SOW Rev 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31 July 2026\nWBS Dictionary 24 July 2026\nIMP Rev B\nNG RAM 16 July 2026",
+    "strengths": "",
+    "concerns": "Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.",
+    "questions": "",
+    "integration": "Further analysis into P6 may reveal other details for cross functional integration that improve confidence but given the artifacts provided, confidence is low."
+  }
+}

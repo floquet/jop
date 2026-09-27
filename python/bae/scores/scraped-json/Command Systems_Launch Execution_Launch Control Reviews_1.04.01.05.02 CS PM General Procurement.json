@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Launch Control Reviews\\1.04.01.05.02 CS PM General Procurement.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T02:08:28.120712",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 5,
+    "inference_time_sec": 1193.82
+  },
+  "data": {
+    "date": "2026-07-29",
+    "control_account": "1.04.01.05.02",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah",
+        "role": "PM"
+      },
+      {
+        "name": "Lt. Col. Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Dr. Troy Wynn",
+        "role": "LE"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Krystal Joscher",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "\"General Procurement\" is a critical support function that directly enables nearly all other product teams. Its success is entirely dependent on the quality and timeliness of information received from technical and project teams.\n\nThe processes for how technical teams submit procurement requests and how the procurement team integrates these needs into a master procurement schedule are vital. The current artifacts do not provide visibility into these processes.\n\nWhile ownership is clearly assigned to Damon, Mike under CS-PM, the planning artifacts lack detail on the workflow and dependencies for this WBS element. A clearly defined process for managing procurement requests from across the program is essential for success.",
+    "score_overall": 0,
+    "rationale": "Ownership is clearly defined, which is a solid foundation. However, procurement is a highly integrative function, and the lack of documented processes and dependency management in the provided artifacts introduces uncertainty. Stronger confidence requires evidence of a mature, integrated-procurement planning process.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The scope, while broad, is clearly defined in the WBS Dictionary as \"General Procurement,\" and the Responsibility Assignment Matrix (RAM) assigns clear ownership."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The schedule for general procurement is entirely dependent on the needs of other teams. Without documented workflows and dependencies, it is difficult to assess the readiness for IMS loading. Planning appears reactive rather than proactive at this stage."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "This WBS element is almost purely an integration function, yet the provided artifacts do not detail the processes for managing interfaces and dependencies with the many teams it must support. This lack of documented integration planning presents a significant gap."
+      }
+    ],
+    "products": "Sow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26",
+    "strengths": "The RAM clearly assigns WBS 1.04.01.05.02 to a specific manager (Damon, Mike) within a defined organization (CS-PM). This provides a clear point of contact and accountability for all general procurement activities under Command & Launch.",
+    "concerns": "The provided documents do not outline the process for how various product and functional teams submit their procurement needs to the \"General Procurement\" team. Risk: Without a standardized and well-understood process, there is a risk of missed requirements, schedule delays due to late orders, and budget overruns from uncoordinated purchasing.\n\nThe workflow for how a procurement request moves from identification by a technical team to a purchase order by the procurement team is not documented. Risk: This lack of a defined workflow can lead to inefficiencies, inconsistent cycle times, and a lack of visibility for program management into the status of critical procurements.",
+    "questions": "Request a demonstration or process flowchart that explains how the \"General Procurement\" team coordinates with the technical teams to receive, validate, and process purchase requests.",
+    "integration": "This WBS element is almost entirely dependent on inputs from all other teams within the Command & Launch (C&L) segment. It requires clear, accurate, and timely specifications and need-dates for materials, components, and equipment from design, engineering, test, and integration teams.\n\nThe timely execution of procurement directly impacts the schedules of all teams that require purchased goods. A delay in procurement will have a direct and often significant cascading effect on the ability of other teams to perform their work."
+  }
+}

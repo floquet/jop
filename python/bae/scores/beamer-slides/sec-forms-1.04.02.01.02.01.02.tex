@@ -1,0 +1,46 @@
+% \input{\pSections/"sec-forms-1.04.02.01.02.01.02.tex"}
+\typeout{\enumContent \pSections/"sec-forms-1.04.02.01.02.01.02.tex"}
+
+\section{Confidence Scores}
+\begin{frame}{\href{run:../local/source-docs/1.04.02.01.02.01.02.pdf}{1.04.02.01.02.01.02 CS\_HW Launch Silo Integrated Assemblies}}
+\centering
+\makebox[\textwidth][c]{%
+\begin{tikzpicture}[
+    x=1.7cm, y=0.48cm,
+    every node/.style={font=\small, text height=1.7ex, text depth=.4ex}
+]
+    \node at (0,0) {\rd{Low}};
+    \node at (1,0) {Medium};
+    \node at (2,0) {\bl{Strong}};
+    \draw (-0.35,-0.5) -- (2.35,-0.5);
+    \foreach \r in {0,1,2,3}
+        \node at (-0.65,-\r-1) {$c_{\r}$};
+    \node at (1,-1) {$\blacktriangle$};
+    \node at (0,-2) {\rd{$\blacktriangle$}};
+    \node at (0,-3) {\rd{$\blacktriangle$}};
+    \node at (0,-4) {\rd{$\blacktriangle$}};
+\end{tikzpicture}}
+\par
+\vspace{0.75em}
+\textbf{\small{Overall Confidence $c_{0}$}}\\\par
+\vspace{0.5em}
+\begin{minipage}{0.85\textwidth}
+\linespread{0.65}\selectfont
+{\tiny{1. For the review of the artifacts provided for this IIR assessment, there is insufficient evidence of defined task durations, or quantity-based data (QBD) to support the planning. This presents a risk to developing a credible and realistic IMS. This may be rectified by a systematic review of P6 data. 2. Key interfaces and cross-product dependencies appear to be identified at a high level through the WBS and RAM. However, detailed integration plans, dependency management logs, and documented schedule alignment across teams are not yet evident. 3. The contractor has established a defined Work Breakdown Structure (WBS) with a corresponding dictionary and Responsibility Assignment Matrix (RAM). This demonstrates a foundation for scope definition, ownership, and accountability.}}
+\end{minipage}
+\end{frame}
+%
+\begin{frame}{1.04.02.01.02.01.02 CS\_HW Launch Silo Integrated Assemblies}
+\begin{minipage}{0.90\textwidth}
+\raggedright
+\fontsize{8}{9.5}\selectfont
+\textbf{Scope and Deliverables Definition \(c_1\).}
+The scope is explicitly defined as work that does not fit elsewhere, which is the opposite of clear definition. There are no identified deliverables, boundaries, or completion criteria. This represents a critical gap in scope definition.\par\vspace{0.6em}
+\textbf{Schedule Planning and IMS-Loading Readiness \(c_2\).}
+There is a complete absence of planning detail. The description provides no basis for defining activities, estimating durations, identifying dependencies, or applying any form of quantity-based data. The readiness for IMS loading is non-existent.\par\vspace{0.6em}
+\textbf{Cross-Product/Cross-Function Integration \(c_3\).}
+By its nature as a collection of miscellaneous integrated assembly designs, this WBS element should be rich with cross-product interfaces. However, none are identified or documented, indicating a major deficiency in integration planning.\par\vspace{0.6em}
+\end{minipage}
+\end{frame}
+
+\endinput
