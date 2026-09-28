@@ -1,0 +1,46 @@
+
+=== BASIC PROVENANCE ===
+Timestamp: 2026-09-27 20:37:22
+User: dantopa
+Script location: /home/dantopa/repos-isomer/github/jop/python/bae/scores/writer-beamer-01.py
+Working directory: /home/dantopa/repos-isomer/github/jop/python/bae/scores
+
+=== SYSTEM ===
+OS: Linux 7.0.11-76070011-generic
+Machine: x86_64
+Processor: 
+
+=== PYTHON ===
+• Version: 3.14.4
+• Executable: /usr/bin/python3
+• Implementation: CPython
+
+=== SWEEP ===
+JSON files scanned: 50
+Readable accounts: 50
+Slides written: 31
+Forms used in deck: 30
+
+=== FAILED FILES (19) ===
+Command Systems_Launch Execution_ExHW Reviews_1.04.02.02.02.01.03.json: cannot extract title from control_account: 1.04.02.02.01.03- CS_HW Launch Center Integrated Assemblies
+Command Systems_Launch Execution_ExHW Reviews_1.04.02.04.02.01.01.json: cannot extract title from control_account: 1.04.02.04.02.01CS_HW KDC Integrated Assemblies
+Command Systems_Launch Execution_Launch Control Reviews_1.04.01.01.08 SUP-Collins Non-PMB Work Packages.json: cannot extract title from control_account: 1.04.01.01.08
+Command Systems_Launch Execution_Launch Control Reviews_1.04.01.05.02 CS PM General Procurement.json: cannot extract title from control_account: 1.04.01.05.02
+Command Systems_Launch Execution_Launch Control Reviews_1.16.08.03 SUP-Collins-Modeling Simulation & Analysis Tools SW .json: cannot extract title from control_account: 1.16.08.03
+Command Systems_Launch Execution_Launch Control Reviews_1.16.09.03 CS_SW Integration & Test SW.json: cannot extract title from control_account: 1.04.02.04.02.01
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.03.09.json: cannot extract title from control_account: 1.16.05.28
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.03.13.json: cannot extract title from control_account: 1.16.03.13
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.03.14.json: cannot extract title from control_account: 1.16.03.14
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.09.json: cannot extract title from control_account: 1.16.05.09
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.10.json: cannot extract title from control_account: 1.16.05.10
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.18.json: cannot extract title from control_account: 1.16.05.18
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.19.json: cannot extract title from control_account: 1.16.05.19
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.20.json: cannot extract title from control_account: 1.16.05.20
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.21.json: cannot extract title from control_account: 1.16.05.21
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.22.json: cannot extract title from control_account: 1.16.05.22
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.23.json: cannot extract title from control_account: 1.16.05.28
+Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.28.json: cannot extract title from control_account: 1.16.05.28
+Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.04.04.02.08.json: cannot extract title from control_account: 1.04.04.03.01.05 | SUP-GDMS2 - Launch Ex Hardware
+
+=== MISSING CURATED SLIDES (0) ===
+None
