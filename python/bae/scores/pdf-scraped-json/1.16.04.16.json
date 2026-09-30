@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Launch Control Reviews\\1.16.04.16 FS-GNC Full Launch Capability Software.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T03:40:25.274635",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 5,
+    "inference_time_sec": 1196.72
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.16.04.16 FS-GNC-Full Launch Capability Software",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah",
+        "role": "PM"
+      },
+      {
+        "name": "LT. Col. Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Dr. Troy Wynn",
+        "role": "LE"
+      }
+    ],
+    "ctr_personnel": [],
+    "leadership_messages": "1.This WBS element represents a direct and critical integration point between the Flight Systems (FS) and Command & Launch (CS) segments. Although it falls under the \"Software\" (1.16) WBS, it is managed by the Flight Systems GNC team, highlighting a significant organizational dependency that must be managed carefully.\n2.While the Responsibility Assignment Matrix (RAM) clearly assigns ownership to Brandon Aune (FS-GNC), the successful execution of this scope depends on seamless coordination with the broader CS-SW (Command & Launch Software) teams responsible for the overall software capability releases.\n3.The integration of Flight Systems GNC software into the larger Command & Launch software baseline is inherently complex and high-risk. The provided artifacts do not offer visibility into the specific processes, interface control documents, or coordination plans that will govern this critical cross-segment integration.",
+    "score_overall": 0,
+    "rationale": "The assignment of this software scope to the GNC experts is a logical strength. However, the inherent complexity and risk of integrating software across two major program segments (Flight Systems and Command & Launch) require a much more detailed and visible integration plan than is evident in the provided documents.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The scope is clearly defined in the RAM as \"Full Launch Capability Software\" under the FS-GNC organization. This specific assignment provides clear ownership and accountability."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The schedule for this software is highly dependent on the schedules of both the GNC hardware team and the CS-SW integration team. Without a clear, documented integration and test workflow, it is difficult to assess the true readiness for IMS loading."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "This WBS element is a prime example of a critical integration point, yet the provided artifacts lack any detail on how this cross-segment integration will be managed. Key interfaces, dependencies, and schedule alignment between FS-GNC and CS-SW are not documented, representing a significant gap in planning visibility."
+      }
+    ],
+    "products": "Sow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26",
+    "strengths": "Assigning the development of this specific \"Full Launch Capability\" software to the FS-GNC team ensures that the subject matter experts for Guidance, Navigation, and Control are directly responsible for the software that implements those functions. This aligns expertise with responsibility.",
+    "concerns": "The provided documentation does not define the technical interfaces or data exchange requirements between the software developed by FS-GNC (WBS 1.16.04.16) and the larger software baseline managed by CS-SW (e.g., WBS 1.16.04.01).",
+    "questions": "Request a demonstration of how the FS-GNC software development schedule is aligned and integrated with the main CS-SW Integrated Master Schedule (IMS), including key dependency milestones for delivery, integration, and testing.",
+    "integration": "The FS-GNC team acts as an organizational bridge, developing a software component that is part of the 1.16 Software WBS structure but is logically tied to the 1.02 Flight Systems segment where the GNC hardware and core algorithms are developed.\nThis is not just a technical integration of software modules; it is an organizational integration between two major program segments. It requires robust governance, clear communication channels, and tightly synchronized schedules to be successful. The current planning artifacts do not provide confidence that this level of integrated planning is mature."
+  }
+}

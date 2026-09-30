@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Mission Planning_Targeting Reviews\\IIR2 WORKSHEET_1.16.03.13.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T05:35:45.752215",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 6,
+    "inference_time_sec": 1549.15
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.03.13",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Perfect Structural WBS Alignment for Core Launch Sequence: Unlike downstream software releases, Control Account 1.16.03.13 (CS_SW IFC 3.0_Terminal Countdown) maps perfectly to WBS 1.16.3 (Core Launch Capability). This direct structural relationship allows for seamless cost and schedule traceability for the program's most critical core launch sequencing software.\n2. Safety-Critical Launch Execution Module: This control account represents the final, safety-critical terminal countdown execution logic. It is a high-integrity, critical-path software function for the program's first silo launch major program event (MPE).\n3. Consolidated Launch Domain Ownership Minimizes Technical Risk: The account is managed by CAM Rebecca Davenport, who consistently owns the final launch execution software domain (including Command AVE Startup .03, Preparatory Launch Command .11, and Terminal Countdown .13). This single-point accountability minimizes interface handoff risks within the core launch suite.",
+    "score_overall": 1,
+    "rationale": "The Government has assigned a Strong overall confidence rating. The planning foundation for this account is highly mature. There is perfect vertical traceability between the contractor's Responsibility Assignment Matrix (RAM) and the proposed CSDR WBS for the core launch sequencing branch. The functional scope is tightly bounded, the schedule sequence is ready for Integrated Master Schedule (IMS) loading, and the account is managed by a highly qualified, domain-specialized CAM.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The scope of the terminal countdown software module is exceptionally clear and traces vertically to WBS element 1.16.3 (Core Launch Capability). The deliverables are logically planned to support the technical baseline necessary to successfully exit the first silo launch test."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "The control account is fully ready for IMS loading. Because the WBS code 1.16.03.13 directly maps to parent WBS element 1.16.3, there are no coding conflicts. Automated scheduling and financial reporting systems can ingest this account and link it to hardware milestones without manual remapping."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Integration is rated Moderate. While this IFC 3.0 module integrates cleanly with other core launch execution functions (such as startup and prep launch commands), tracing its technical maturation into downstream releases is hindered. Because the contractor introduces an extra level-3 WBS element in the next release cycle (IFC 3.1 mapped under 1.16.04), tracing the migration of this terminal countdown logic to IFC 3.1 (1.16.04.12) and IFC 4.0 (1.16.05.xx) is structurally disrupted in the EVMS architecture."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix\nGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)\nProposed CSDR WBS Dictionary",
+    "strengths": "Strength 1 (Vertical Traceability Compliance): This control account serves as a baseline example of clean compliance with the government's proposed WBS, allowing for seamless automated cost accumulation and auditing.\nStrength 2 (Consolidated Domain CAM): CAM Rebecca Davenport manages the primary launch-execution sequence software block. This ensures that the technical dependencies between AVE startup, prep launch, and terminal countdown are coordinated by a single technical lead.",
+    "concerns": "Concern 1 (Downstream Logic Migration Tracking): While this core account is vertically aligned, the terminal countdown software logic must migrate and evolve in IFC 3.1 (under WBS 1.16.04.12) and IFC 4.0. Because of the downstream +1 index shift in those releases, the EVMS cannot automatically track logic maturity across the release cycles.\nConcern 2 (Hardware-Software Lab Scheduling Dependencies): As terminal countdown is the final execution step, its verification is highly dependent on early Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HWIL) lab availability.",
+    "questions": "Question 1: What fallback and hold-fire paths are implemented in this terminal countdown software if ground or missile hardware timing sensors report a fault?\nQuestion 2: How does the countdown software interface with the NC2 security software modules managed by Julie Richey within IFC 3.0?",
+    "integration": "Observation 1 (High Safety and Security Coupling): The terminal countdown software must directly couple with physical command center hardware safety relays. Since WBS 1.16.3 is structurally aligned, automated scheduling tools can cleanly link these inter-segment dependencies.\nObservation 2 (Hardware-to-Software Scheduling Synchronization): Execution of this countdown software relies on physical hardware availability under WBS 1.4.4 (C&L Hardware), specifically Launch Power and Distribution and launcher systems. Because this account is properly coded, EVMS tools can cleanly track software maturity against these physical hardware delivery schedules."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\NC3 Reviews\\IIR2 WORKSHEET_1.16.05.10.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T13:03:31.107103",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 5,
+    "inference_time_sec": 1396.07
+  },
+  "data": {
+    "date": "2026-07-31",
+    "control_account": "1.16.05.10 | CS_SW IFC 4.0_Process NC3 Execute Direction EAM",
+    "owner": "Launch Execution Branch - NIXX",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Capt David Noland",
+        "role": "PCAM - Sentinel NC3 Integration Lead"
+      },
+      {
+        "name": "Jill Phan",
+        "role": "PM"
+      },
+      {
+        "name": "Chi Ma",
+        "role": "Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Kenyon Orme",
+        "role": "Senior Principal Engineer"
+      },
+      {
+        "name": "Teresa Kendell",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Control Account Volume: The current quantity of Control Accounts (CAs) is unsustainably high, severely diluting management oversight. This administrative bloat actively places the program at risk of repeating past Earned Value (EV) reporting failures.\n2. Control Account Fragmentation (Micro-Management Risk): CAs managing IFC features are fragmented down to an excessively low level. This forces the program into tactical micro-management, risking schedule delays due to administrative overhead. IFC management should be consolidated into a single, high-level account per IFC.\n3. NC3 Integration Complexity: Core Nuclear Command, Control, and Communications (NC3) message flow and execution are unnecessarily fractured across four separate CAs.",
+    "score_overall": -1,
+    "rationale": "Unwieldy Planning Architecture: The contractor's chosen approach inserts unnecessary complexity into the management structure, resulting in an unwieldy and fragmented network of Control Accounts (CAs).",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Explicit Deliverable Definition: The Control Account (CA) clearly captures and explicitly defines the required deliverable, providing a transparent baseline for performance."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Milestone Traceability: The deliverables and activities defined within this Control Account (CA) are highly structured, enabling them to be directly and clearly tied to key program milestone activities.\nHigh IMS Readiness: This explicit logical alignment ensures a seamless transition into schedule planning, fully supporting immediate IMS-loading and accurate critical path modeling."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Siloed Management Structure: The excessive fragmentation of this Control Account (CA) and its associated accounts actively promote isolated, \"siloed\" management rather than facilitating cross-product or cross-functional integration."
+      }
+    ],
+    "products": "Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025\nWeapon Systems Specification (WSS), Rev K\nStatement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline)\nWBS, WBS Dictionary",
+    "strengths": "Comprehensive Scope Coverage: The contractor's planning architecture is highly thorough; the current structure ensures that no program scope is omitted. The exhaustive volume of Control Accounts (CAs) guarantees that all contract requirements, program management activities, and risk reduction efforts are captured.",
+    "concerns": "Concern (Excessive CA Fragmentation & Ambiguity): The contractor's planning architecture relies on an unsustainably high volume of Control Accounts (CAs) with poorly defined, ambiguous boundaries. This lacks the crisp operational separation required for clean management.\nRisk (Erosion of Program Control & Resource Misalignment): Left unaddressed, this highly complex matrix will lead to duplicated efforts, misaligned team activities, and critical gaps in program execution. Structurally, it directly threatens the government's ability to conduct accurate EV reporting, perform critical path analysis, and maintain effective program oversight.",
+    "questions": "N/A",
+    "integration": "Observation (Fragmented Integration Architecture): The assessed Control Account (CA) structure lacks an inherent focus on cross-product and cross-functional integration. The extreme fragmentation caused by the high volume of CAs prevents the clear identification and mapping of interdependencies."
+  }
+}
