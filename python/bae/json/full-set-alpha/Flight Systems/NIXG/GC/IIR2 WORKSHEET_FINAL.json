@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXG/GC/IIR2 WORKSHEET_FINAL.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:59:47.856619+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date"
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "Product Elemen\nt Owner Designation\n:\nChoose an item.",
+    "owner": "Choose an item.",
+    "gov_personnel": [
+      {
+        "name": "Contractor Participants:",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "1.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. Communication gaps were evident in the briefing. Of note, NGC’s GC team and scheduler seemed to not be aligned with the gov. and each other on the purpose of the IIR efforts. NGC’s scheduler in the meeting did not know who the SPO schedulers were and visa-versa, indicating limited cross talk between teams. In summary, the objectives of the IIR #2 were not achieved. 2. Scheduling P6 IMS file (ASOT) was not used to show current architecture and ties from IMP, work packages, SOW, successor/predecessor tables, giver/receiver relationships, and task outputs or planning data.",
+    "score_overall": -1,
+    "rationale": "Without seeing the ASOT IMS with a deep dive into the specified control accounts within the IMS, the government cannot determine that any planning has occurred or that the proper work is going to be captured in the IMS as it matures. This fact results in a low level of confidence based on what was presented on 29 July 2026.Additionally, the following was not presented as required for IIR #2:1) No artifacts were presented that NG’s planning approach is complete, traceable, or aligned with anything outside of physical GC component manufacturing. 2) The scope presented did not clearly show ownership and accountability (aside from mention of NG CAMs) 3) The scope presented did not clearly show that all future work scope is organized, allocated, planned, and prepared for IMS loading and PMB implementation.4) Work that does not fit the standard value stream was not identified5) Assumptions and unknowns were not clearly identified6) No QBD was able to be discussed or shown",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "NG can articulate the overall remaining GC scope, but they did not present any artifacts to substantiate their assertions. The CWBS dictionary was not presented, nothing related to OBS or RAM relationships was shown, value stream was not identified or shown, and no evidence was shown that NGC is working activities based off of the SOW."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "Albeit informal programmatic material was presented, the government cannot assess IMS readiness without seeing the ASOT IMS. Therefore, confidence is low."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "While NGC has a good understanding of supplier relationships, handoffs, Giver/Receiver relationships specific to their suppliers, for the reasons above, the government could not verify that these are properly accounted for in the ASOT IMS and other planning documentation. The artifacts presented regarding cross-product or cross function integration were lacking in addressing all aspects of integration across product elements, all required functions, suppliers, business units, or supporting organizations. The only workflows shown focused on physical GC flows, but nothing in relation to engineering integration was shown or discussed (such as test, nuclear surety, nuclear hardness, PMP, logistics, etc.)."
+      }
+    ],
+    "products": "1) GC_IIR2_2026 NG Brief_V1.pttx (PowerPoint), dated 30 July 2026. 2) A Microsoft Project GC schedule (source, date, version are all unknown)",
+    "strengths": "The strengths observed cannot be substantiated by the artifacts presented for the purpose IIR #2. The PowerPoint slides demonstrated a good understanding of the overall GC effort and technical aspects of the program, which is critical when developing a plan for what needs to be accomplished in developing an IMS and PMB.",
+    "concerns": "1. ASOT IMS was not used or reviewed for structure.2. Cross-functional, testing, and integration activities were not sufficiently covered.3. Government did not see evidence of integration efforts or technical documentation as required by the SOW.4. General communication issues seemed apparent—e.g., NGC & SPO schedulers were unfamiliar with each other. 5. NG IPT & schedulers are not aligned as to the IIR look ahead and objectives.",
+    "questions": "Where does the ASOT IMS live and how can we access it? A true deep dive of the NG IMS on the necessary control accounts is required so the purpose of the IIR #2 can be accomplished",
+    "integration": "Albeit the Hardware Utilization Matrix shown by NGC reflects some coordination of GC hardware externally, a robust and mature external-coordination effort must be evident in the ASOT IMS. There was nothing presented or discussed related to external GC interfaces or integration. Therefore, it can only be assumed the maturity of planning is low."
+  }
+}

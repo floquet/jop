@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_1.04.02.07.02.03.01- HW MMIII SLP Installation Site Adapated Configs.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:19:55.570640+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.02.07.02.03.01- CS_HW MMIII SLP_A Installation_Site Adapted Configs",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Christian Fascio - BAE",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "N/A",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "CAM owner and his team determined this CA and all WPs under it are no longer needed 2. It was determined all responsibility pertaining to install and/or site adapted configs is owned by Collins 3. It was created initially to possibly capture LOE effort for the Design Integration team.",
+    "score_overall": -1,
+    "rationale": "Given the deletion of this CA and WPs associated, there is no effort covered by Design Integration within CS-HW that I am aware of as an assessor. I presume installation of aircraft kits would be covered under this scope, however, that is no longer the case and may be covered under SUP Collins CA. Further investigation is required.Update 8/6: NG CAM owner said his leadership is now aligned with the need for NG oversight of MMIII SLP-A installation by Collins. A CA and LOE WP have been created to capture that scope.New CA: is 1.04.02.07.02.03.02- CS_HW MMIII SLP_Installation; WBS dictionary: This WBS element includes the Northrop Grumman oversight of supplier Collins during the installation of MMIII SLP-A.WP: CS_HW MMIII SLP_A Oversight of Collins Installation LOE_IFC 2.0",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "CA and associated WPs have been determined they are no longer needed"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "CA and associated WPs have been determined they are no longer needed. It will take some time for the deletion to reflect in the COBRA WBS per NG CAM"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "This element only applied to SLP"
+      }
+    ],
+    "products": "NG WBS_RAM_8042026.xlsx, New WBS IPT Mapping.xlsx, Draft_Sentinel EMD WBS Dictionary_73026.xlsx",
+    "strengths": "N\none\nat this time",
+    "concerns": "Given the deletion of this CA and WPs associated, there is no effort covered by Design Integration within CS-HW that I am aware of as an assessor. I presume installation of aircraft kits would be covered under this scope, however, that is no longer the case and may be covered under SUP Collins CA.",
+    "questions": "Further investigation is required if SUP Collins CA covers installation of SLP MMIII aircraft kits",
+    "integration": "N/A"
+  }
+}

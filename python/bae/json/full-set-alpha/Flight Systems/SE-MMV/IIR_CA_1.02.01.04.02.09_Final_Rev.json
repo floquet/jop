@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.02.01.04.02.09_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:08:46.198639+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted."
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "Information\nControl Account: 1.02.01.04.02.09\nTitle: LS-SPT Increment 1 AVE Support Equipment Systems Engineering\nExecutive Summary\nThe control account is well structured and demonstrates a logical systems engineering approach supporting Increment 1 AVE Support Equipment development.\nThe WBS\nis decomposed\nfrom\nrequirements through architecture, interfaces, integration, verification planning, and engineering support.\nLogistics requirements, including\nsupportability,\nmaintainability\n, provisioning, and training, should be explicitly traced and integrated.\nOverall Confidence: HIGH (90%)\nScope Assessment\nRequirements development precedes detailed design activities.\nArchitecture definition supports future design maturity.\nInterface management activities are identified.\nVerification planning is incorporated early.\nSystems engineering supports downstream procurement and manufacturing.\nPlanning packages should continue to be converted into executable work packages.\nEnsure logistics support analyses (LORA, MTA, provisioning) are planned and resourced.\nTechnical Assessment\nRequirements decomposition is appropriately sequenced.\nArchitecture development supports technical baseline maturation.\nEngineering analyses support downstream integration.\nConfiguration management should remain a program focus.\nOverall technical maturity is assessed as High.\nEvaluate whether logistics configuration management is robust and supports sustainment.\nAssess whether logistics requirements are decomposed and traced through the technical baseline.\nSchedule & Planning\nEngineering activities follow logical lifecycle sequencing.\nPlanning packages appear appropriate for future work.\nMonitor conversion of planning packages to discrete work packages.\nRequirements stability remains critical to schedule execution.\nValidate that logistics align with fielding and sustainment milestones.\nRisk Assessment\nRequirement changes could affect downstream engineering.\nInterface definition changes represent moderate technical risk.\nPlanning package conversion should be monitored.\nOverall program risk for this CA is Low to Moderate.\nICS or transition-to-organic support gaps could impact sustainment.\nConfiguration management lapses may cause provisioning or maintenance errors.\nStrengths\nWell-defined\nlogistics integration with\nsystems engineering lifecycle.\nStrong technical decomposition.\nExcellent requirements-driven planning.\nIntegration planning begins early.\nSupports downstream design and procurement.\nRecommended Actions\nMaintain strict requirements traceability.\nContinue configuration management discipline.\nConvert planning packages prior to execution.\nContinue interface reviews with development organizations.\nMaintain verification traceability through design maturation.\nConduct regular logistics risk reviews and update risk register.\nOverall Assessment\nOverall Health: GREEN\nConfidence: HIGH\nThis control account exhibits characteristics expected of a mature systems engineering control account supporting a major defense acquisition program. No significant structural deficiencies were identified.\nThe control account is mature and supports logistics and O&S objectives. Continued focus on logistics requirements traceability, configuration management, and timely planning package conversion will ensure full lifecycle sustainment and readiness.",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": 1,
+    "rationale": "Overall Confidence: HIGH (90%)",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Requirements development precedes detailed design activities. Architecture definition supports future design maturity. Interface management activities are identified. Verification planning is incorporated early. Systems engineering supports downstream procurement and manufacturing."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Engineering activities follow logical lifecycle sequencing. Planning packages appear appropriate for future work. Monitor conversion of planning packages to discrete work packages. Requirements stability remains critical to schedule execution. Validate that logistics align with fielding and sustainment milestones."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Well-defined logistics integration with systems engineering lifecycle. Strong technical decomposition. Excellent requirements-driven planning. Integration planning begins early. Supports downstream design and procurement."
+      }
+    ],
+    "products": "",
+    "strengths": "Well-defined logistics integration with systems engineering lifecycle. Strong technical decomposition. Excellent requirements-driven planning. Integration planning begins early. Supports downstream design and procurement.",
+    "concerns": "Requirement changes could affect downstream engineering. Interface definition changes represent moderate technical risk. Planning package conversion should be monitored. Overall program risk for this CA is Low to Moderate. ICS or transition-to-organic support gaps could impact sustainment. Configuration management lapses may cause provisioning or maintenance errors.",
+    "questions": "",
+    "integration": "Logistics requirements, including supportability, maintainability, provisioning, and training, should be explicitly traced and integrated."
+  }
+}

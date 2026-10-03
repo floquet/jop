@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Mission Planning_Targeting Reviews/IIR2 WORKSHEET_1.16.05.21.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:37:06.033670+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.21",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Control Account Scope Defined, But Structurally Misaligned: The control account 1.16.05.21 (CS_SW IFC 4.0_Update TCG Support Data) has a clear internal scope definition and an active Control Account Manager (CAM), but it is coded under a WBS branch (1.16.5) designated by the Government for IFC 5.0 (Increment 1 Capability) instead of 1.16.4 (IFC 4.0 / Full Launch Capability).2. Systemic WBS Index Shift Affects Program-Wide Software Cost Reporting: The contractor's RAM introduces an extra level-3 WBS element for IFC 3.1 as 1.16.04. This creates a systemic +1 index shift for all subsequent software releases in the RAM (IFC 4.0 is shifted to 1.16.05, IFC 5.0 is shifted to 1.16.06, etc.). This breaks direct cost-reporting alignment with the proposed CSDR WBS and dictionary, posing severe compliance and auditability risks.3. Ready for Re-alignment and Master Schedule Loading: While the functional software scope is sufficiently mature to support Integrated Master Schedule (IMS) loading, the contractor must correct this systemic WBS coding misalignment before the Performance Measurement Baseline (PMB) is finalized to prevent downstream EVMS reporting errors.",
+    "score_overall": 0,
+    "rationale": "The Government has Moderate confidence in the contractor's planning maturity for this control account. On a functional level, the planning is mature: the scope is linked to a specific software capability (Update TCG Support Data), a clear CAM is assigned under the Command Systems Software (CS-SW) OBS, and the work is mapped to the appropriate software release cycle (IFC 4.0). However, the planning architecture has a systemic WBS coding mismatch (assigning an IFC 4.0 task to the WBS element for IFC 5.0). This misalignment breaks direct traceability to the government's proposed WBS, preventing a \"Strong\" rating. Once the coding is structurally aligned, overall confidence will be Strong.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The functional scope of the work is well-defined as \"CS_SW IFC 4.0_Update TCG Support Data\" with a designated owner. However, because the WBS code assignment (1.16.05.21) is structurally misaligned with the parent WBS element 1.16.5 (which represents IFC 5.0 in the CSDR WBS Dictionary), the deliverables are not traceably mapped to the higher-level program structure. To achieve a Strong rating, the contractor must correct this structural mapping to align with WBS 1.16.4 (IFC 4.0 / Full Launch Capability)."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The task is logically structured under the IFC 4.0 release cycle to support detailed task decomposition and schedule loading. However, due to the +1 WBS index shift introduced in the contractor's RAM, importing these tasks into the IMS under the current coding will result in an immediate cost-schedule integration mismatch against the government’s proposed WBS. The contractor must re-align their internal WBS to the proposed CSDR WBS before loading the IMS."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The contractor’s cross-product and cross-functional integration planning for this element is rated as Low. The WBS index shift creates major program-wide desynchronization. Software costs and progress for IFC 4.0 will be reported under the WBS block meant for IFC 5.0, corrupting the government's ability to track actual capability releases against hardware site availability dates in other branches (e.g., matching software capability to hardware node activations under WBS 1.12.2.1 for OWSA at FE Warren AFB)."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix, Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx), Proposed CSDR WBS Dictionary, Sentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Clear Organizational Ownership): The control account has a clearly assigned Control Account Manager (Tyrone Jackson) under the established CS-SW OBS branch, ensuring strong, single-point accountability for the work.\nStrength 2 (Well-Defined Functional Scope): The control account title clearly links the scope of work to a specific, trackable software release (IFC 4.0) and a discrete functional capability (Update TCG Support Data), which supports detailed task decomposition.",
+    "concerns": "Concern 1 (Systemic WBS Coding Misalignment / Index Shift):The contractor has coded this IFC 4.0 control account under WBS 1.16.05.21. However, the proposed CSDR WBS and dictionary designate 1.16.5 for IFC 5.0 (Increment 1 Capability), whereas IFC 4.0 must map to 1.16.4. This is a program-wide index shift (+1) caused by the contractor's insertion of IFC 3.1 as WBS 1.16.04 in their RAM.Risk 1:This structural mismatch will corrupt program-wide cost reporting and EVMS metrics, leading to critical compliance failures in IPMDAR and CSDR submissions, and preventing the Government from accurately tracking the true actual costs of the IFC 4.0 and IFC 5.0 releases.Concern 2 (Cross-Functional Schedule Desynchronization):Because the software WBS branch is structurally desynchronized from the hardware and site activation WBS branches, matching software release dates with hardware node deployments (e.g., OWSA WCC/LS/LC at FE Warren, under WBS 1.12.2.1.x) will become a manual, error-prone process.Risk 2:This desynchronization could lead to schedule delays where hardware sites are activated but the required software (such as IFC 4.0 under this CA) is untraceable or misaligned, stalling integrated testing and deployment.",
+    "questions": "Question 1: What is the technical definition and scope of the \"TCG Support Data\" referenced in this account, and what specific configuration items (CIs) or computer software configuration items (CSCIs) does it update?Follow-Up 1: Contractor to provide a detailed walkthrough of the IFC 4.0 feature list (from the IFC Feature Plan/Product Roadmap under SOW 3.16.2.6) and show where \"Update TCG Support Data\" is mapped.Question 2: What was the programmatic driver for inserting IFC 3.1 as a level-3 WBS element (1.16.04) in the RAM, and can the contractor demonstrate how they plan to re-align their internal EVMS/RAM coding to match the proposed CSDR WBS?Follow-Up 2: Contractor to present a corrective action plan to re-align the entire 1.16 Software WBS branch in their RAM to match the proposed CSDR WBS (with IFC 4.0 mapped under 1.16.4).",
+    "integration": "Observation 1 (Software-to-Hardware Site Activation Integration): The software developed under this CA (part of IFC 4.0) is a critical enabler for the Full Launch Capability. This software must directly integrate with the hardware and physical infrastructure nodes under C&L Integrated Nodes (WBS 1.4.2) and the site activation activities for OWSA - FE Warren AFB (WBS 1.12.2.1).Observation 2 (Traceability and Verification Integration): Under SOW 3.16.2.6, the contractor is required to map features to CSCIs and show how they mature across IFCs. However, due to the +1 WBS index shift in the RAM, tracking the verification status of \"Update TCG Support Data\" through system test and evaluation (WBS 1.7) will be difficult to cross-reference with actual costs, as the testing files may reference WBS 1.16.4 while the finance system references 1.16.5."
+  }
+}

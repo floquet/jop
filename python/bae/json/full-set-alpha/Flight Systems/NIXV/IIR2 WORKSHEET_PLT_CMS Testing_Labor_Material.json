@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXV/IIR2 WORKSHEET_PLT_CMS Testing_Labor_Material.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:08:32.856932+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.02.10.01.01.09; 1.02.10.01.01.11; 1.02.10.01.01.12; 1.02.10.03.01.03;",
+    "owner": "Reentry Systems Branch - NIXV",
+    "gov_personnel": [
+      {
+        "name": "Nicholas Dragon",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Moroni Cummings (Mgr Test Engineering 2) Christine Dyer",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The risk level for Textron's Support and Oversight regarding FS PRS Countermeasures is high; however, this aligns with the program's broader risk acceptance required to achieve the 2033 Initial Operational Capability (IOC). The aggressive, success-driven schedule leaves zero margin for testing anomalies or redesigns, and concurrent development phases increase the likelihood of necessary rework. Additionally, Textron is slow to provide resources loaded schedule information to NG, which makes it difficult for the government to determine if they can meet milestones. Detailed task requirements and project scope have been correctly documented by Northrop Grumman (NG) in their work packages leading up to the Weapon System Preliminary Design Review (WS PDR), however the dates shown to the government on tasks do not align with recent Textron schedules, which is concerning.Broader program objectives and macro-level scope are accurately reflected in NG’s high-level planning packages through the WS PDR milestone.",
+    "score_overall": 0,
+    "rationale": "Duration numbers shown during IIR2 were notional and generic, indicating an immature planning architecture. Tasks are identified, but more work is required before the government will have confidence in NGs ability to meet Milestone B requirements.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "NIXV FS RFA – Majority of scope is captured in work packages and planning packages to support subsequent IIR activities. However, counter measures test set and countermeasures simulator are not clearly identified in WBS/work packages/control accounts. Requesting NG PLT to identify which control accounts/work packages support CM simulator/CM Test Set design, test, and deliverables."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "Givin the immature state of schedule planning and durations, the government is moderately confident that Schedule Planning and IMS-Loading Readiness is sufficiently captured in work packages and planning packages to support subsequent IIR activities."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Cross-product/Cross-function integration is sufficiently captured in work packages and planning packages to support subsequent IIR activities."
+      }
+    ],
+    "products": "We walked through detailed work packages to support PRS CDR, MBSE development, MS&A activities, and payloads testing.",
+    "strengths": "Scope is clearly and logically captured in\ngreat detail\n, but there is still a lot of work to be done before NG will be ready to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution\n.",
+    "concerns": "Accepted Program Risk: PLT CM remains high risk, aligning with the program's aggressive, success-oriented schedule to meet the 2033 Initial Operational Capability (IOC). Concurrent development leaves zero margin for test failures or redesigns.Expected Impact & Inaction: It is highly likely this risk will materialize and delay the schedule. However, because the schedule lacks any buffer to support mitigation activities, no corrective action is currently being taken.Documentation Gap: Northrop Grumman (NG) has not yet documented several risks that have already been identified and recorded at the subcontractor level.",
+    "questions": "Several key deliverables are listed in G&Rs, which means there is no alignment with IMS. The open question is whether NG is tracking these deliverables and where that will eventually link to the IMS.",
+    "integration": "I don’t know if this is applicable for PLT CM. Cross-product/cross-function integration occurs at L2."
+  }
+}

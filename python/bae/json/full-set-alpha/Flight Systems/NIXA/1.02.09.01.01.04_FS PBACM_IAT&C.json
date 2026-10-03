@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXA/1.02.09.01.01.04_FS PBACM_IAT&C.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:48:04.715539+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-06",
+    "control_account": "1.02.09.01.01.04_FS PBACM_IAT&C",
+    "owner": "Post-Boot Branch - NIXA",
+    "gov_personnel": [
+      {
+        "name": "Bailey Bradford, Sofia Fouquet, Shane Wright, Lt Boris Hutchinson",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Caleb Swartz",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Overall this is a well defined and tasked out control account. Has sounds logic with predecessors and successors all laid out. Only concern is with durations.",
+    "score_overall": 1,
+    "rationale": "Strong confidence",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "IMP Alignment and Vertical Traceability: Strong- P6 draft is detailed down past the level 3 which is what is required. Follows IMP logic Planning Structure and Task Definition Maturity: Strong- Tasks are well laid out .Workflow, Dependencies, and Handoffs Logic: Strong- P6 draft shows full Predecessor and Successor planning for all work. Planning Constructs: Strong- concurDuration and Assumption Basis: Mod- actual dates are not reflective of final schedule, which is expected for the review. Durations for each work item may or may not be accurate. Will be following up.Quantity-Based Data (QBD): N/A"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Me"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Interface Identification: Mod –Some supplier data missing and needing more inputs on. Noted that Supplier schedules will be delivered at a later IIR.Dependency Management:Strong- Full list of predecessors and successors are present and visible. Only a couple missing predecessors.Cross-Product/Cross-Function Schedule Alignment: Strong - Line items denote linkage where applicable to other functional areas.Roles, Responsibilities, and Coordination: Strong –Accounts and line items all have an associated name. Integration Risk and Follow-up: N/A"
+      }
+    ],
+    "products": "June 15 P6 WBS delivery WBS Dictionary 7-13-2026 Sentinel EMD WBS Dictionary.xlsx NG RAM NG RAM_7222026.xlsx NG WBS NG WBS_7222026.xlsx PBACM P6 Export_20260804.xlsx Flight Systems BU Tier II and PBACM Tier III.pptx (U)K03DD06389_IMP_Narratives_RevA_BLACKLINE_r02_(CUI) (1)",
+    "strengths": "Based on available artifacts as of 8/3/26 Prime seems to be aware of all recurring work needed to successfully execute the control account.\nWell laid out line items with predecessors and successors\nidentified. Each line item and account\nhas\nan owner.",
+    "concerns": "Needing to validate durations\non\na handful of\ntasks.\nOverall,\nno\noutstanding concerns.",
+    "questions": "No comment",
+    "integration": "Confident, they have a well-defined P6 draft already loaded. With line items denoting handoffs between functional areas where applicable."
+  }
+}

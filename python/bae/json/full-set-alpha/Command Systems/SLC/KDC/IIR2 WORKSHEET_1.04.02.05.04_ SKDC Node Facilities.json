@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/KDC/IIR2 WORKSHEET_1.04.02.05.04_ SKDC Node Facilities.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:13:12.736648+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Checkbox rating not determined for: Scope and Deliverables Definition",
+      "Checkbox rating not determined for: Schedule Planning and IMS-Loading Readiness",
+      "Checkbox rating not determined for: Cross-Product/Cross-Function Integration"
+    ]
+  },
+  "data": {
+    "date": "2026-08-04",
+    "control_account": "1.04.02.05.04 – “MMIII SKDC Node Facilities”",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Kimberly Covert",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Manrico Mirabelli",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. The IIR#2 Execution Review was conducted on 15 July 2026. On 16 July, the team identified a critical gap in the required task documentation. Although a continuous search and retrieval effort was maintained from 17 July through 3 August, ongoing document updates by external stakeholders made assessing these shifting requirements highly challenging.2. Control Account has no associated scope, waiting on prime to provide further detail.3. Unsure whether CA is a place holder for future work or a Planning Package.",
+    "score_overall": -1,
+    "rationale": "",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": null,
+        "text": "☐\n\n☐\n\n☐"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": null,
+        "text": "☐\n\n☐\n\n☐"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": null,
+        "text": ""
+      }
+    ],
+    "products": "“Draft Sentinel EMD WBS Dictionary_73026” (NG)\n“NG WBS_7222026” (NG)\n“NG WBS_7162026” (NG)\n“NG WBS_RAM_7302026” (NG)\n“New WBS IPT Mapping” (NIX) as of 7/31/26\n“PMB Development Progress_31JUL\n”\n(NIX)\n“IIR #2” Power Point brief” (NIX)\n“PCAM Working document” (NIX2)\n“KDC PWBS for the Gov IMS 7-16-26” (ICS)",
+    "strengths": "None\nat this time\n.",
+    "concerns": "Numerous data gaps; up-to-date artifact delivery cadence; adequate communication between prime & customer.",
+    "questions": "",
+    "integration": "Confidence Rating\n(Select One)\nStrong:\n☐\nModerate:\n☐\nLow:\n☐\n2\n. Products\n& Artifacts\nReviewed\nDocument the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.\nThe list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.\n“Draft Sentinel EMD WBS Dictionary_73026” (NG)\n“NG WBS_7222026” (NG)\n“NG WBS_7162026” (NG)\n“NG WBS_RAM_7302026” (NG)\n“New WBS IPT Mapping” (NIX) as of 7/31/26\n“\nPMB Development Progress_31JUL\n”\n(NIX)\n“IIR #2” Power Point brief” (NIX)\n“PCAM Working document” (NIX2)\n“KDC PWBS for the Gov IMS 7-16-26” (ICS)\n3. Strengths Observed\nDocument the most significant strengths identified during the\nassessment\nincrease confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.\nNone\nat this time\n.\n4. Concerns and Risks Observed\nDocument the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.\nConcerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.\nNot every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.\nDefinitions\nConcern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.\nRisk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.\nNumerous data gaps; up-to-date artifact delivery cadence; adequate communication between prime & customer\n.\n5. Open Questions and Follow-Up Items\nDocument\nquestions\nthat\nremain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.\nOpen Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.\n6. Cross-\nProduct\n/Cross-Function\nIntegration Observations\nDocument observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.\nCross-Product\n/Cross-Function\nIntegration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product\n/cross-function\ninterfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program."
+  }
+}

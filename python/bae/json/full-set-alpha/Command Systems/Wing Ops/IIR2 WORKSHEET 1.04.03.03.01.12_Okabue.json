@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Wing Ops/IIR2 WORKSHEET 1.04.03.03.01.12_Okabue.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:34:21.651249+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-03",
+    "control_account": "HW Comms NGMS, 1.04.03.03.01.12",
+    "owner": "Wing Operations Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "rike Brown",
+        "role": "Lead PM"
+      },
+      {
+        "name": "Lt. Eric Yaeger",
+        "role": "PM"
+      },
+      {
+        "name": "Rosa Nunez",
+        "role": "PM"
+      },
+      {
+        "name": "Rolan Desmarais",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Matt Okabue",
+        "role": "CAM"
+      }
+    ],
+    "leadership_messages": "The contractor has stated that updates for this subcontractor's scope will not even be available until October. This specific control account encompasses subcontractor operations; the volume of currently assessable data remains constrained.",
+    "score_overall": 0,
+    "rationale": "The confidence rating for this CA is moderate based on the planning schedule. A scheduling TEM is planned for 16 and 17 August 2026.\nThe contractor has stated that updates for this subcontractor's scope will not even be available until October\n.\nThis specific control account encompasses subcontractor operations; the volume of currently assessable data remains constrained.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "N/A Control account is for subcontractor."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "N/A Control account is for subcontractor."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "N/A Control account is for subcontractor."
+      }
+    ],
+    "products": "Sentinel EMD WBS Dictionary (Contained WBS error; did not reflect all subcontractor CAs). WBS_RAM (Did not reflect all subcontractor CAs). WP Rollup IIR2 (Contained no meaningful data for this CA).",
+    "strengths": "N/A Control account is for\nsubcontractor\n.",
+    "concerns": "N/A Control account is for subcontractor.",
+    "questions": "N/A Control account is for subcontractor.",
+    "integration": "N/A Control account is for subcontractor."
+  }
+}

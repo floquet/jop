@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/IIR2 WORKSHEET_SLC.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:06:42.739347+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.04.02.06.01",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Ryan Sandoval, Brian Long",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "N/A",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1.The WBS Dictionary as of 30 July 2026 provides no scope that can be reviewed. 2.While the WBS WP titles themselves could be reviewed to validate at least intent, and ROM, portions could be misconstrued as scope creep. 3. While an obvious error, the scope that is present appears to offload virtually all NG scope to USAF organic components, including development and production of SLP-A and SKDC hardware.",
+    "score_overall": -1,
+    "rationale": "No data has been provided on the NG collaboration portal as of 30 Jul that is currently reviewable for virtually all of SLC equities. While the WBS is structured correctly, and appears to have a sufficient number of WP’s and PP’s based on WP titles alone, without a WBS dictionary to validate the scope of the WBS WP’s, a review cant be reasonably completed.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "The scope validation is currently the highest risk for this review. For reference WBS 1.04.02.05.02 has 3 CA’s, 9 WPs and 1 PP. This appears at first glance to be a reasonable amount of packages. However, the work described could easily be duplicated and overlap with CA 1.04.02.05.03, as both describe HW engineering, but the WBS Dictionary assigns this works to the USAF 625th STOS. No deliveries or expected workload are described.The level of detail for CA’s is also insufficient. From the above, 1.04.02.05.02 is for integrated assemblies, which is also assumed to be integrated LRUs. 1.04.02.05.03 is for Cabling. Both CAs have WP’s related to the RSD. From this level of detail, the RSD itself should be a CA as well. But as described, without"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "As above. While the # of WPs and PPs for most of the Cost Accounts appear reasonable, without a description of scope and expected deliveries that would be further expanded on from a BOE, an estimation of IMS-loading cant be performed, making this a high risk"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "As no common HW/SW CAs are included and identified as cross functional, and due to the scope errors described, this can not be determined"
+      }
+    ],
+    "products": "WBS Dictionary 7-13-2026, WBS_7222026, as of 30 July 2026",
+    "strengths": "",
+    "concerns": "Risks are widespread and functionally identical across all SLP-A CAs to a greater or lesser extent:1. Technical scope was not provided. As of 31 July, the technical scope either is inapplicable to the workload described, or is “peanut butter smeared,” in that all CA’s describe every cost account as doing all work for the entire program.",
+    "questions": "Me",
+    "integration": "As described in detail above, lower level reviews are attempting to identify cross use equipment and efforts, but insufficient scope information is available to perform that review."
+  }
+}

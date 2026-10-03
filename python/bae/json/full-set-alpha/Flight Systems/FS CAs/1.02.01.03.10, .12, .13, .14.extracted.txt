@@ -1,0 +1,232 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+The team utilizes long-standing, well-documented processes for their complex analysis tasks. These processes have been successfully executed multiple times on the program, providing high confidence in the technical approach.
+The team leads possess deep institutional knowledge and technical expertise, ensuring strong oversight and direction for the highly specialized work in these control accounts.
+The products and outputs of these control accounts (e.g., mass properties reports, loads analyses, mission engineering studies) are clearly defined, well-understood, and directly support major program milestones.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Appendix C - IIR #2 Assessment Worksheet Example
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/27/2026
+Control Account
+:
+1.02.01.03.10 SEI_Systems Engineering Mechanical Design Integration and Mass Properties
+1
+.02.01.03.12 Systems Engineering Medeling Simulation and Analysis MS&A
+1.02.01.03.13 Systems Engineering MS&A Loads & Environments
+1.02.01.03.14 Systems Engineering MS&A Mission Engineering
+Product Elemen
+t Owner Designation
+:
+Flight Systems Segment
+Government Participants:
+Col Cameron FS Segment Chief
+Jesse Scott- FS ISC Lead
+Brad Wichtoski- FS ISC Chief Engineer
+Wayne Walker- FS ISC Deputy
+Jessica Schlawin- ISC PM Support
+Contractor Participants:
+Adam Hickman
+Blake Larsen
+Vivian Suarez
+Giuseppe Tonini
+Collin Wagner
+Lisa Russo
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+The scope is well-defined with mature internal processes. However, Government-driven "must-meet" dates are forcing the use of schedule constraints, creating a high-risk, brittle schedule that does not accurately reflect the work's logical flow.
+The success of these control accounts is critically dependent on timely and accurate data from both internal and external suppliers. These inputs are not yet available, creating
+significant uncertainty and risk to the analysis and modeling timelines.
+The combination of a constrained schedule, serial analysis processes, and dependency on missing supplier data creates a high risk of failing to provide complete and verified analysis products in time for the Preliminary Design Review (PDR).
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The "Strong" rating reflects the high confidence in the contractor's mature internal processes and their comprehensive definition of the scope and deliverables within these control accounts. The planning artifacts demonstrate a clear understanding of the work to be performed. However, this high confidence is tempered by significant external risks, primarily the dependency on supplier data. While the current plan is solid and ready for the next level of IMS loading, it is highly susceptible to schedule disruptions as external planning data is incorporated. Leadership should be aware that the plan's executability is contingent on factors outside the contractor's immediate control.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The "Strong" rating is warranted because the scope and deliverables for these analysis-heavy control accounts are mature, well-understood, and have been stable over a long period. The work is well-defined, and the work packages sufficiently capture the tasks required for mechanical design integration, mass properties, and various MS&A functions. This foundational stability provides a high degree of confidence in the contractor's understanding of "what" needs to be done.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The "Moderate" rating is driven by a conflict between excellent scope readiness and a flawed scheduling approach. While the team has accurately captured the required work scope and is prepared to resource-load the IMS, the schedule itself is not a realistic reflection of the workflow. Government-driven hard dates for milestones like the AVE PDR are forcing the use of schedule constraints rather than network logic. This practice masks the true critical path, removes organic float, and creates a brittle plan that is highly susceptible to breaking when faced with
+anticipated
+delays.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The "Moderate" rating is assigned because while the internal analysis processes are well-integrated, the plan's success is critically dependent on under-defined handoffs from external suppliers. The serial nature of the analysis work means that any delay in receiving inputs from one source can cause a cascading delay across the entire workflow. The current planning relies heavily on assumptions about these external deliveries, and a robust, documented plan for managing these cross-product integrations and mitigating potential delays is not yet evident.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+WBS Dictionary
+(28 July 26)
+Work Packages (28 July 26)
+Planning Package Descriptions
+(28 July 26)
+3. Strengths Observed
+Document the most significant strengths identified during the
+assessment that
+increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+The team utilizes long-standing, well-documented processes for their complex analysis tasks. These processes have been successfully executed multiple times on the program, providing high confidence in the technical approach.
+The team
+leads
+possess deep institutional knowledge and technical expertise, ensuring strong oversight and direction for the highly specialized work in these control accounts.
+The products and outputs of these control accounts (e.g., mass properties reports, loads analyses, mission engineering studies) are clearly defined, well-understood, and directly support major program milestones.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+The execution of the analysis scope is dependent on the availability of HPC resources, which are currently a known bottleneck. Insufficient HPC capacity could create a queuing-effect for analysis jobs, delaying the generation of critical data and potentially impacting the schedule for major reviews like PDR.
+The analysis processes are highly sequential, where one task must complete before the next can begin. The schedule contains minimal float to absorb delays. Any delay, whether from a staffing issue, a technical problem, or a late input—is difficult to overcome and will likely result in a direct, day-for-day slip to the final deliverable, jeopardizing milestone dates.
+Recent requirement changes in the Weapon System Specification (WSS) Rev K will necessitate new software development to support analysis. This work was not originally planned. This emergent software development effort represents un-planned work that could divert resources from primary analysis tasks or delay the availability of tools needed to complete the planned scope on time.
+5. Open Questions and Follow-Up Items
+Document
+questions that
+remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+What is the contractor's formal plan and timeline for enhancing the high-performance computing (HPC) capability to meet the projected analysis demand for PDR and beyond?
+What is the plan to track and resource the emergent software development burden resulting from the WSS Rev K changes, and how will its impact on the existing schedule
+be managed?
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Same
+as
+many other F
+light Systems Segment
+control accounts
+, s
+ubcontractor management for the availability of the required
+modeling, simulation, and analysis
+inputs is critical to the success of these tasks
+.
+Appendix C - IIR #2 Assessment Worksheet
+Example
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/27/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.02.01.03.10 SEI_Systems Engineering Mechanical Design Integration and Mass Properties1.02.01.03.12 Systems Engineering Medeling Simulation and Analysis MS&A 1.02.01.03.13 Systems Engineering MS&A Loads & Environments1.02.01.03.14 Systems Engineering MS&A Mission Engineering'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Flight Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Col Cameron FS Segment ChiefJesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Adam HickmanBlake LarsenVivian SuarezGiuseppe ToniniCollin WagnerLisa Russo'
+[05] PLAIN_TEXT checked=None alias='' tag='' text='The scope is well-defined with mature internal processes. However, Government-driven "must-meet" dates are forcing the use of schedule constraints, creating a high-risk, brittle schedule that does not accurately reflect the work\'s logical flow.The success of these control accounts is critically dependent on timely and accurate data from both internal and external suppliers. These inputs are not yet available, creating significant uncertainty and risk to the analysis and modeling timelines.The combination of a constrained schedule, serial analysis processes, and dependency on missing supplier data creates a high risk of failing to provide complete and verified analysis products in time for the Preliminary Design Review (PDR).'
+[06] CHECKBOX checked=True alias='' tag='' text='☒'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='The "Strong" rating reflects the high confidence in the contractor\'s mature internal processes and their comprehensive definition of the scope and deliverables within these control accounts. The planning artifacts demonstrate a clear understanding of the work to be performed. However, this high confidence is tempered by significant external risks, primarily the dependency on supplier data. While the current plan is solid and ready for the next level of IMS loading, it is highly susceptible to schedule disruptions as external planning data is incorporated. Leadership should be aware that the plan\'s executability is contingent on factors outside the contractor\'s immediate control.'
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The "Strong" rating is warranted because the scope and deliverables for these analysis-heavy control accounts are mature, well-understood, and have been stable over a long period. The work is well-defined, and the work packages sufficiently capture the tasks required for mechanical design integration, mass properties, and various MS&A functions. This foundational stability provides a high degree of confidence in the contractor\'s understanding of "what" needs to be done.'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=True alias='' tag='' text='☒'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='The "Moderate" rating is driven by a conflict between excellent scope readiness and a flawed scheduling approach. While the team has accurately captured the required work scope and is prepared to resource-load the IMS, the schedule itself is not a realistic reflection of the workflow. Government-driven hard dates for milestones like the AVE PDR are forcing the use of schedule constraints rather than network logic. This practice masks the true critical path, removes organic float, and creates a brittle plan that is highly susceptible to breaking when faced with anticipated delays.'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=True alias='' tag='' text='☒'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='The "Moderate" rating is assigned because while the internal analysis processes are well-integrated, the plan\'s success is critically dependent on under-defined handoffs from external suppliers. The serial nature of the analysis work means that any delay in receiving inputs from one source can cause a cascading delay across the entire workflow. The current planning relies heavily on assumptions about these external deliveries, and a robust, documented plan for managing these cross-product integrations and mitigating potential delays is not yet evident.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='WBS Dictionary (28 July 26)Work Packages (28 July 26)Planning Package Descriptions (28 July 26)'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='The execution of the analysis scope is dependent on the availability of HPC resources, which are currently a known bottleneck. Insufficient HPC capacity could create a queuing-effect for analysis jobs, delaying the generation of critical data and potentially impacting the schedule for major reviews like PDR.The analysis processes are highly sequential, where one task must complete before the next can begin. The schedule contains minimal float to absorb delays. Any delay, whether from a staffing issue, a technical problem, or a late input—is difficult to overcome and will likely result in a direct, day-for-day slip to the final deliverable, jeopardizing milestone dates.Recent requirement changes in the Weapon System Specification (WSS) Rev K will necessitate new software development to support analysis. This work was not originally planned. This emergent software development effort represents un-planned work that could divert resources from primary analysis tasks or delay the availability of tools needed to complete the planned scope on time.'
+[24] PLAIN_TEXT checked=None alias='' tag='' text="What is the contractor's formal plan and timeline for enhancing the high-performance computing (HPC) capability to meet the projected analysis demand for PDR and beyond?What is the plan to track and resource the emergent software development burden resulting from the WSS Rev K changes, and how will its impact on the existing schedule be managed?"
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Same as many other Flight Systems Segment control accounts, subcontractor management for the availability of the required modeling, simulation, and analysis inputs is critical to the success of these tasks.'

@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.10.01.03.06_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:09:33.924784+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted.",
+      "Checkbox rating not determined for: Schedule Planning and IMS-Loading Readiness"
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "1.10.01.03.06\nLS-SPT Prototypes – PSE – Support Equipment Systems Engineering\nExecutive Summary\nThis Control Account manages the systems engineering activities supporting Prototype Support Equipment (PSE). It provides the technical foundation for prototype design, integration, verification, and transition to subsequent development phases. The WBS indicates a focused but well-structured systems engineering effort that supports prototype maturation while reducing technical and integration risk.\nFrom a logistics and O&S perspective, the account provides a solid foundation for sustainment, but continued focus on logistics integration, maintainability, and lessons learned will be essential for successful transition to production and long-term support\n.\nOverall Health:\nGREEN\nOverall Confidence: HIGH (90%)\nControl Account Purpose\nDevelop and maintain prototype technical requirements.\nEstablish and manage the prototype technical baseline.\nSupport architecture and interface definition.\nPlan verification and validation activities.\nProvide\nd\nlogistic &\nengineering support during prototype integration and testing.\nMaintain configuration control throughout prototype development.\nScope Assessment\nSystems engineering scope is appropriately aligned with prototype objectives.\nEngineering activities are distinct from hardware development.\nWork packages are logically organized and measurable.\nPlanning packages are limited and appropriate for future effort.\nScope supports downstream design, procurement, and testing.\nTechnical Baseline Assessment\nRequirements traceability supports prototype maturity.\nArchitecture products provide a stable design framework.\nInterface definition reduces integration risk.\nTechnical reviews should continue throughout prototype development.\nConfiguration management supports baseline stability.\nInclude\nd\nlogistics and supportability criteria in technical reviews to influence prototype design.\nVerification & Validation\nVerification planning begins early in the prototype lifecycle.\nRequirements verification\nis\naligned with planned test activities.\nPrototype testing will provide valuable design feedback.\nMaintain traceability between requirements, verification methods, and results.\nMaintain close coordination with logistics, procurement, and sustainment teams to ensure prototype outputs are supportable and ready for transition.\nIntegration Assessment\nEngineering supports prototype integration readiness.\nClose coordination with Design & Procurement organizations is evident.\nInterface management reduces integration issues.\nEngineering\n& Logistic\nparticipation during integration testing is recommended.\nRisk Assessment\nPrototype requirement changes remain the primary technical risk.\nInterface modifications could affect test readiness.\nConfiguration drift should be minimized through disciplined change control.\nOverall execution risk is assessed as LOW–MODERATE.\nIdentif\nied\nand track\ned\nsupply chain risk in the risk register\nEVMS / IBR Assessment\nClearly defined engineering scope.\nLogical work package structure.\nAppropriate planning package usage.\nTechnical activities support measurable progress.\nNo significant structural deficiencies identified.\nReport logistics readiness metrics as part of EVMS/IBR reviews.\nRecommended Actions\nMaintain rigorous requirements traceability.\nConduct recurring technical baseline reviews.\nCoordinate closely with prototype integration and test teams.\nConvert planning packages before execution.\nCapture lessons learned to support future production engineering.\nEngage logistics SMEs early to ensure prototype scope addresses maintainability, provisioning, and training needs.\nOverall Reviewer Conclusion\nThis Control Account reflects a disciplined prototype systems engineering approach consistent with expectations for a major Department of Defense acquisition program. The engineering scope provides a solid technical foundation for prototype development, verification, and integration.\nRisks\nidentified are typical of prototype engineering and are manageable through effective configuration management, interface control, and technical oversight. Overall assessment: IIR Ready with HIGH confidence.\nEarly logistics SME engagement, sustainment data capture, and transition planning\nare critical\n. These additions will ensure logistics is not just\nconsidered but\nactively drives design for supportability and readiness for production.",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": 1,
+    "rationale": "Overall assessment: IIR Ready with HIGH confidence.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Systems engineering scope is appropriately aligned with prototype objectives."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": null,
+        "text": ""
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Engineering supports prototype integration readiness."
+      }
+    ],
+    "products": "",
+    "strengths": "",
+    "concerns": "",
+    "questions": "",
+    "integration": ""
+  }
+}

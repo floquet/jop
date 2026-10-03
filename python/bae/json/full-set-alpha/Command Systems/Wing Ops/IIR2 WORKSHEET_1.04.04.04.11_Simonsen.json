@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Wing Ops/IIR2 WORKSHEET_1.04.04.04.11_Simonsen.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:41:59.922083+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "Wing Operations Branch - NIXC",
+    "owner": "Wing Operations Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Landon Simonsen",
+        "role": "CAM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "TAN Wing Ops Scope as currently captured by the Prime in the provided work packages and planning packages cannot be adequately confirmed without clear WBS/task level scope definitions. NG has also made clear their intention to further develop their plan as needed for various milestones. However, the constant shuffling of control accounts between CAMs and even different IPTs establishes a sense of uncertainty for future planning. In order to validate progress on NG’s IMS and subsequent IIR activities, the SPO will need to conduct detailed investigative work of NG’s Jira projects. In addition, NG provided a decoder to decipher products within Control Accounts. However, ambiguous/incomplete definitions within the decoder are insufficient to help identify specific products. We are concerned that the government going forward will not be able to track TAN Wing Ops scope from the product perspective.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Artifacts do not provide enough information to understand the scope of work contained within the WBS Control Accounts. While near-term scope is detailed inside Jira, program leadership must have high-level scope clarity directly within the baseline planning artifacts rather than being forced to search through execution-level tools. The movement of work packages between control accounts opens the door for deliverables to become misplaced and scope boundaries to become vague.",
+    "score_overall": -1,
+    "rationale": "The contractor has established a conceptually sound planning hierarchy and logical workflows; the framework remains largely unpopulated. The ambiguity in Control Account scope prevents the government from digesting theoretical planning into an executable, resource-loaded Integrated Master Schedule (IMS) that tracks earned value.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "Cross integration is immature and was not presented in any discernable way at this point in time. Further meetings are necessary to understand the contractor’s theoretical process for incorporating integration and testing tasks into the WBS architecture."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "WP Rollup IIR2, Sentinel EMD WBS Dictionary, and WBS_RAM (all pulled from NG Extranet 08/05/2026)"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "S-1 (Task Decomposition): The contractor has successfully decomposed the high-level scope into a list of WPs/PPs within the RAM, providing a logical foundation for future planning if and when evidence is provided."
+      }
+    ],
+    "products": "WP Rollup IIR2, Sentinel EMD WBS Dictionary, and WBS_RAM (all pulled from NG Extranet 08/05/2026)",
+    "strengths": "S-1 (Task Decomposition): The contractor has successfully decomposed the high-level scope into a list of WPs/PPs within the RAM, providing a logical foundation for future planning\nif and when\nevidence is provided.",
+    "concerns": "Concern 1 (S-4: Organizational Ownership): There is no stable ownership for this control account, with responsibilities constantly shifting between CAMs and IPTs. Risk: This churn guarantees that scope will be dropped, deliverables will be lost, and accountability will be impossible to enforce, severely jeopardizing the success of integration and test activities. Concern 2 (General): The review was characterized by a lack of configuration control over planning artifacts (RAM, WBS), with multiple conflicting versions in circulation. Risk: This demonstrates a systemic failure in process discipline. It forces the Government to make assessments on unstable, unreliable data and prevents the establishment of a firm performance measurement baseline. Concern 3 (Planning Structure and Task Definition Maturity): The proposed execution model is excessively broad in scope, spanning across multiple Integrated Product Teams (IPTs) rather than being bounded by logical organizational lines. Due to this oversized design, progress and performance will be difficult to accurately measure or track at the Control Account level. To assess true program status, the Government will likely need to track completion and earned value at the lower Work Package/Task level. Risk: Without defined Work Packages or distinct Control Account boundaries, the Government has no mechanism to measure actual progress or evaluate schedule health. This structure will likely mask development bottlenecks, drive severe tracking difficulties, and render early Earned Value Management (EVM) and IMS-loading efforts highly inaccurate.",
+    "questions": "Follow Up 1: P – 2 (Planning Structure and Task Definition Maturity) Information Gap: The organizational boundaries and tracking mechanisms for cross-IPT Control Accounts are undefined. Action Needed: Request the contractor deliver a Control Account / IPT Mapping Matrix and a process demonstration showing how they intend to isolate, track, and report progress for work within a single Control Account that is actively being executed by multiple distinct engineering teams. Follow Up 2: P – 2 (Planning Structure and Task Definition Maturity) The contractor asserts that detailed plans exist within the P6 scheduling tool, but no evidence has been provided to the Government for review. The Government requires read-only access to, or regularly scheduled demonstrations of, the current P6 schedule for this control account. This is necessary to substantiate planning maturity and to enable evidence-based, rather than trust-based, oversight.",
+    "integration": "Cross integration is currently immature. Internal maturity must be achieved in order to put effort towards cross integration."
+  }
+}

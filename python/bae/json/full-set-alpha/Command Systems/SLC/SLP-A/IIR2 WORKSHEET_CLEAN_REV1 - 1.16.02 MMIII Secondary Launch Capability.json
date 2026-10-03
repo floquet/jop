@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_CLEAN_REV1 - 1.16.02 MMIII Secondary Launch Capability.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:33:13.883187+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-04",
+    "control_account": "1.16.02 MMIII Secondary Launch Capability",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Matthew Matysik",
+        "role": "Program Manager"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "David Cloward",
+        "role": "Program Manager"
+      }
+    ],
+    "leadership_messages": "1.The WBS Dictionary as of 4 August 2026 has new WBS Definition and Description. 2. Verify Derfinition and Description are correct. 3. Verify info. for accuracy.",
+    "score_overall": -1,
+    "rationale": "Verify data provided on the NG collaboration portal as of 4 August 26 that is currently reviewable, new Description and Definition assigned.​",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "Verify the correct scope? Is definition correct for account?Child Accounts for 1.16.02.02, .02.09, & .02.10 will need description/definition verification as well!"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "​Without a correct definition of scope and expected workload for account this item needs to be verified for correct info. Child Accounts for 1.16.02.02, .02.09, & .02.10 will need description/definition verification as well!"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "If info is correct workload can be integrated for future workload.Child Accounts for 1.16.02.02, .02.09, & .02.10 will need description/definition verification as well!"
+      }
+    ],
+    "products": "\"Draft Sentinel EMD WBS Dictionary_73026\" (NG) \"NG WBS_7222026\" (NG) \"NG WBS_7162026\" (NG) \"NG WBS_RAM_7302026\" (NG) \"New WBS IPT Mapping\" (NIX) as of 4 August 26 \"PMB Development Progress_31JUL\" (NIX) \"IIR #2\" Power Point brief\" (NIX) \"PCAM Working document\" (NIX2) \"KDC PWBS for the Gov IMS 7-16-26\" (ICS)",
+    "strengths": "​​ This cannot be determined​.",
+    "concerns": "​Risks are widespread and functionally identical across all SLP-A CAs to a greater or lesser extent: 1. Verify information for Account, Child accounts, Technical Scope, Description and Dictionary are correct.​",
+    "questions": "New scope and information are provided for this review. verify",
+    "integration": "​ As described in detail above, lower level reviews are attempting to identify cross use equipment and efforts, but incorrect scope/description/dictionary information is new and will need verification review."
+  }
+}

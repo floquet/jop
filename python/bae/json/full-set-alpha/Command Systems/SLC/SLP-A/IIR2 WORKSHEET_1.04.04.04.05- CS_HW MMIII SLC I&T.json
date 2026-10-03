@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_1.04.04.04.05- CS_HW MMIII SLC I&T.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:21:26.126210+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-04",
+    "control_account": "1.04.04.04.05- CS_HW MMIII SLC I&T",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Christian Fascio - BAE",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "N/A",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Scope includes Product level testing at the LRU to ensure requirement and design is met. 2. Element covers all SLC MMIII HW Products owned by NG 3. CA does not contain scope for PAX SIL or aircraft install or test. It covers C2SIL test, Azusa (EMI/ENV) test, INSCD-D and -C developmental test, STE test/cert and design, and requirement verification activities and reporting.",
+    "score_overall": 1,
+    "rationale": "There is strong confidence that the prime contractor has established mature planning of work packages supporting MMIII SLC I&T. I reached out to the NG CAM owner and he provided additional details, but most of the information is captured in the WBS dictionary for the CA and/or clearly defined in the WBS title for each work package.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Some work packages lack details or specific verbiage that captures the intended scope the work packages are covering."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "Scope is sufficiently captured in work and planning packages to support IIR #2, however, P6 will be required for subsequent review in order to make a complete and full assessment."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Element covers SLP and SKDC MMIII HW LRUs"
+      }
+    ],
+    "products": "NG WBS_RAM_8042026.xlsx, New WBS IPT Mapping.xlsx, Draft_Sentinel EMD WBS Dictionary_73026 .xslx",
+    "strengths": "Majority of\nwork packages have been identified and organized in a logical and planning structure.\nThis provides confidence that future planning is based on a complete understanding of the remaining work.\nIn addition, NG CAM addressed\nreviewers questions by providing objective evidence\nto support planning of remaining contract scope.",
+    "concerns": "Majority of work packages have been identified and organized in a logical and planning structure. This provides confidence that future planning is based on a complete understanding of the remaining work. In addition, NG CAM addressed reviewers questions by providing objective evidence to support planning of remaining contract scope.",
+    "questions": "WBS Parent has WBS dictionary, but the child WBS (work packages) do not have an associated WBS dictionary, making it difficult to assess the work scope for each WP. For example, the NG CAM owner stated the element covers C2SIL testing but does not cover any CSIL testing at the RIC. I could not find keywords “CSIL” nor “C2SIL” in the spreadsheet I was reviewing, “NG WBS_RAM_8042026”. Due to lack of information, I cannot thoroughly complete an assessment and the scope of work for each WP.",
+    "integration": "If RSD is owned by Collins, wouldn’t they generate their own test planning associate to this LRU (ref. WBS 1.04.04.04.05.131- CS HW MMIII SLC Test_Test Planning_IFC 2.0_RSD). I want to confirm NG or Colins are not double dipping the same scope. What is the work scope for 1.04.04.04.05.100- CS HW MMIII SLC Test_LOE I&T_IFC2.0_Collins? The description states Collins, so I’m curious what effort is included in this element and if there is some sort of integration testing of hardware and software between prime and sub contractor."
+  }
+}

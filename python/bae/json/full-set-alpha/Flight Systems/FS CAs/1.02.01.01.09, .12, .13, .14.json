@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/FS CAs/1.02.01.01.09, .12, .13, .14.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:43:26.574290+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-23",
+    "control_account": "1.02.01.01.9 IATC_AVE HWIL & Segment Integrated Test Planning1.02.01.01.12 IATC_ Segment Integration and Test1.02.01.01.13 IATC_ Segment and Test Electronic Ground Support Equipment 1.02.01.01.14 LV1004_IPMDAR LV IWO_IAT&C",
+    "owner": "Flight Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Richard Fawcett FS Segment Chief EngineerJesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Michael Cohen",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The \"Low\" rating is driven by several integration failures. The use of a shared, resource-constrained test line creates a process bottleneck, forcing sequential work where parallel efforts are needed. Interface Control Documents are not defined at the right level, forcing the team to guess at requirements, which will inevitably cause rework. There are significant concerns about the pedigree and quality of supplier data (e.g., CONOPS, user manuals), and the contractor lacks an established process for critical tasks like equipment sanitization and calibration, causing day-for-day slips.",
+    "score_overall": -1,
+    "rationale": "WBS Dictionary (23July 26) Work Packages (23 July 26) Planning Package Descriptions (23 July 26)",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The team has a logic-driven, baselined schedule for managing the usage of the bottlenecked test line. This demonstrates an awareness of the primary constraint and a proactive approach to deconflicting a shared resource.The team is cognizant of the extreme supplier risks and has identified mitigation strategies, such as implementing shift work, to attempt to claw back schedule in the event of hardware delivery slips.The contractor team is not blind to these issues; they are very cognizant of the risks and concerns impacting their work and have communicated them clearly."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "Shared resource line, Limited to a sequential process with very little opportunity for parallel efforts.IFC not defined at right level, causing guess work for requirements which risks rework.Concerns about supplier data pedigree (CONOPS, operating instruction, user manuals, etc.)Quality concerns from suppliers and drawing release timelines."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The \"Low\" rating is driven by several integration failures. The use of a shared, resource-constrained test line creates a process bottleneck, forcing sequential work where parallel efforts are needed. Interface Control Documents are not defined at the right level, forcing the team to guess at requirements, which will inevitably cause rework. There are significant concerns about the pedigree and quality of supplier data (e.g., CONOPS, user manuals), and the contractor lacks an established process for critical tasks like equipment sanitization and calibration, causing day-for-day slips."
+      }
+    ],
+    "products": "WBS Dictionary (23July 26) Work Packages (23 July 26) Planning Package Descriptions (23 July 26)",
+    "strengths": "The team has a logic-driven, baselined schedule for managing the usage of the bottlenecked test line. This demonstrates an awareness of the primary constraint and a proactive approach to deconflicting a shared resource.\nThe team is cognizant of the extreme supplier risks and has identified mitigation strategies, such as implementing shift work, to attempt to claw back schedule in the event of hardware delivery slips.\nThe contractor team is not blind to these issues; they are very cognizant of the risks and concerns impacting their work and have communicated them clearly.",
+    "concerns": "WBS Dictionary (23July 26) Work Packages (23 July 26) Planning Package Descriptions (23 July 26)",
+    "questions": "The team has a logic-driven, baselined schedule for managing the usage of the bottlenecked test line. This demonstrates an awareness of the primary constraint and a proactive approach to deconflicting a shared resource.The team is cognizant of the extreme supplier risks and has identified mitigation strategies, such as implementing shift work, to attempt to claw back schedule in the event of hardware delivery slips.The contractor team is not blind to these issues; they are very cognizant of the risks and concerns impacting their work and have communicated them clearly.",
+    "integration": "Shared resource line, Limited to a sequential process with very little opportunity for parallel efforts.IFC not defined at right level, causing guess work for requirements which risks rework.Concerns about supplier data pedigree (CONOPS, operating instruction, user manuals, etc.)Quality concerns from suppliers and drawing release timelines."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Launch Systems/Deployment/IIR2 WORKSHEET_1.12.02.01.01.02.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:11:02.310033+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-11",
+    "control_account": "1.12.02.01.01.02",
+    "owner": "Deployment Branch - NIXK",
+    "gov_personnel": [
+      {
+        "name": "Tim Barlow GCAM",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Justin Humble, Tom Bourque, Joshua Coats, Mike Pinsoneault",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Road and bridge assessment for F.E. Warren AFB2. Identify the condition of roads and bridges within the missile complex to support Sentinel construction activities in accordance with CDRL A406 3. Provide the Government with a report that documents road and bridge condition and highlights deficient infrastructure that will impact Sentinel construction.",
+    "score_overall": 1,
+    "rationale": "Overall confidence is strong in the report and support currently being provided to the Government.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Assessment is Strong, the contractor has delivered assessments in a timely manner and the composition is thorough. Contractor has provided significant support and products that assist the Government with planning and programming."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Assessment is strong based on the current contract deliverable requirement. The contractor has met schedule requirements based on current contract scope within schedule timelines."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Assessment is strong, the contractor takes initiative to collaborate and integrate other segments that will have an impact or be impacted by roads and bridges."
+      }
+    ],
+    "products": "CDRL A406 – FEW delivered, CDRL A406 – Malmstrom delivered, Memo of Understanding for stakeholders, Road and bridge management plan, Primary/Secondary route decision tree",
+    "strengths": "Contractor has taken a\nforward-thinking\napproach and regularly provides\nfeedback to assist the Government with future planning and programming.",
+    "concerns": "No concerns noted at this time based on current contract scope.",
+    "questions": "No questions or follow up items pending at this time.",
+    "integration": "Contractor has been sharing road and bridge information with missile maintenance vehicle team, workforce hub study team to identify impacts and requirements."
+  }
+}

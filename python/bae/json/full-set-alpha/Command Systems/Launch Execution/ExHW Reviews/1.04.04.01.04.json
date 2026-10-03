@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/ExHW Reviews/1.04.04.01.04.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:19:34.868174+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.04.01.04 SUP GDMS2 Program Management",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "LtCol Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "For the review of the artifacts provided for this IIR assessment, there is insufficient evidence of defined task durations, or quantity-based data (QBD) to support the planning. This presents a risk to developing a credible and realistic IMS. This may be rectified by a systematic review of P6 data. 2. Key interfaces and cross-product dependencies appear to be identified at a high level through the WBS and RAM. However, detailed integration plans, dependency management logs, and documented schedule alignment across teams are not yet evident.3. The contractor has established a defined Work Breakdown Structure (WBS) with a corresponding dictionary and Responsibility Assignment Matrix (RAM). This demonstrates a foundation for scope definition, ownership, and accountability.",
+    "score_overall": 0,
+    "rationale": "The contractor has a strong grasp of the program's scope, which is a critical prerequisite for IMS development. However, the lack of mature schedule planning artifacts and detailed integration evidence reduces overall confidence. While the foundation is reasonable, significant refinement is required in key areas before proceeding to a full IMS load to mitigate the risk of schedule delays and integration issues.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "The scope is defined as \"Program Management\" with no further detail. There are no defined boundaries, specific activities, or measurable deliverables listed, representing a significant scope definition gap."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "The description provides no basis for schedule planning. It is not possible to derive discrete activities, estimate durations, or establish logical dependencies from the information provided."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Program Management is an inherently integrative function. However, this WBS element fails to identify any of the key interfaces, coordination responsibilities, or dependencies with other teams that are essential to its execution."
+      }
+    ],
+    "products": "SOW Rev 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31 July 2026, WBS Dictionary 5 August 2026, IMP Rev B, NG RAM 5 August 2026",
+    "strengths": "",
+    "concerns": "The program should ensure that detailed planning and dependency mapping are completed before committing this scope to the IMS to prevent potential integration conflicts and schedule slips.",
+    "questions": "As NG continues to load P6, the government may be able to make a higher confidence rating as it will show durations, task breakdowns within work packages, analyze handoffs, predecessors/successors, etc.",
+    "integration": "There still remains a significant gap in organizational structure and alignment between the contractor and the government. Clear ownership and direct counterparts for oversight for end to end product completion within the “V model” and how cross integration will occur between the contractor and the government remains a challenge at this stage."
+  }
+}

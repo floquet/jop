@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.10.01.02.06_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:09:26.323713+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted."
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "1.10.01.02.06\nLS-SPT Support Equipment Risk Management\nExecutive Summary\nThis Control Account manages the identification, assessment, mitigation, and monitoring of risks associated with the LS-SPT Support Equipment program. The WBS demonstrates a proactive approach to technical and programmatic risk management, integrating risk activities throughout the program lifecycle. The control account is appropriately structured to support informed decision-making and reduce execution uncertainty.\nOverall Health:\nGREEN\nOverall Confidence: HIGH (92%)\nControl Account Purpose\nIdentify technical, cost, schedule, and programmatic risks.\nDevelop and maintain the program risk register.\nDefine mitigation and contingency strategies.\nTrack risk burn-down and mitigation effectiveness.\nIntegrate risk management with program planning and execution.\nSupport leadership decision-making through recurring risk reviews.\nScope Assessment\nRisk management activities are clearly defined.\nWork packages support continuous risk identification and monitoring.\nScope includes both mitigation planning and execution.\nPlanning packages appropriately support future risk management activities.\nControl Account aligns with program governance objectives.\nRisk Management Process Assessment\nStructured risk identification process appears established.\nMitigation planning is incorporated into program execution.\nRisk ownership should remain clearly assigned.\nOpportunities should be tracked alongside risks.\nRegular risk review cadence is recommended.\nIntegration with EVMS and IMS\nRisk management supports Integrated Master Schedule health.\nRisk mitigation activities should be reflected in EVMS planning.\nHigh-priority risks should have measurable mitigation tasks.\nSchedule and cost impacts should be quantified where possible.\nTechnical & Programmatic Risk Assessment\nTechnical risks\nimpacting\nlogistics\nshould remain linked to engineering milestones.\nSupplier and procurement risks require ongoing monitoring.\nConfiguration management supports risk reduction.\nProgrammatic risks should be reviewed with CAMs monthly.\nGovernance Assessment\nRisk Review Boards should occur regularly.\nDecision authority and ownership should remain documented.\nRisk acceptance criteria should be clearly defined.\nEscalation paths should remain current.\nEVMS / IBR Assessment\nRisk management activities are appropriately represented.\nSupports proactive program execution.\nPlanning supports measurable mitigation activities.\nNo significant structural deficiencies identified.\nRecommended Actions\nContinue monthly Risk Review Boards.\nMaintain active mitigation tracking.\nQuantify schedule and cost exposure for high risks.\nEnsure opportunity management receives equal attention.\nContinue integrating risk mitigation into IMS and EVMS.\nEnsure logistics\noversight\nreceives equal attention to risk mitigation.\nIntegrate logistics risk mitigation into IMS and EVMS for full lifecycle visibility.\nOverall Reviewer Conclusion\nThis Control Account demonstrates a mature and disciplined approach to program risk management. Risk activities appear integrated with program planning and support informed decision-making across engineering, procurement, and execution organizations. The overall structure reflects best practices expected for a major Department of Defense acquisition program. Overall assessment: IIR Ready with HIGH confidence.\nF\nocus on proactive logistics risk identification, mitigation, and opportunity management will ensure long-term O&S success.",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": 1,
+    "rationale": "This Control Account demonstrates a mature and disciplined approach to program risk management. Risk activities appear integrated with program planning and support informed decision-making across engineering, procurement, and execution organizations. The overall structure reflects best practices expected for a major Department of Defense acquisition program. Overall assessment: IIR Ready with HIGH confidence.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Risk management activities are clearly defined. Work packages support continuous risk identification and monitoring. Scope includes both mitigation planning and execution. Planning packages appropriately support future risk management activities. Control Account aligns with program governance objectives."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Risk management supports Integrated Master Schedule health. Risk mitigation activities should be reflected in EVMS planning. High-priority risks should have measurable mitigation tasks. Schedule and cost impacts should be quantified where possible."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Risk activities appear integrated with program planning and support informed decision-making across engineering, procurement, and execution organizations."
+      }
+    ],
+    "products": "",
+    "strengths": "",
+    "concerns": "",
+    "questions": "",
+    "integration": ""
+  }
+}

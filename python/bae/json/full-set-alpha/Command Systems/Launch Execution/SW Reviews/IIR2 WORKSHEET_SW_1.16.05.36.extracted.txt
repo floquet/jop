@@ -1,0 +1,284 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+1.16.05.36 - CS_SW IFC 4.0_Non_Wing Security Functionality 1
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1. The contractor has built a theoretically sound planning structure and agile workflow for software, but the WBS and supporting documents currently do not contain sufficient information to understand scope of Control Accounts/System Features 2. The proposed software Control Accounts are excessively broad and span across multiple Integrated Product Teams (IPTs). Furthermore, the underlying Work Packages won't be defined until immediately before execution due to rolling-wave planning. This structure complicates standard progress tracking and Earned Value Management (EVM) 3. There is an active disconnect between the Hardware and Software. In Hardware and Node breakout sessions, software discussions were avoided due to the different methodology being used in the Software WBS
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/6/2026
+Control Account
+:
+1.16.0
+5.
+36
+- CS_SW IFC 4.0_Non_Wing Security Functionality 1
+Product Elemen
+t Owner Designation
+:
+Launch Silos Branch - NIXX
+Government Participants:
+Zach Barber, Dennis Higgs, Derek Hostetler
+Contractor Participants:
+Kevin Walls, Matthew Chambers
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1.
+The contractor has built a theoretically sound planning structure and agile workflow
+for software
+, but
+the WBS and supporting documents currently do
+not
+contain sufficient information to
+understand scope of Control Accounts/System Features
+2.
+The proposed
+software
+Control Accounts
+are excessively broad and span across multiple Integrated Product Teams (IPTs
+).
+Furthermore, the underlying Work Packages won't be defined until immediately before execution due to rolling-wave planning.
+This structure
+complicates
+standard progress tracking and Earned Value Management (EVM)
+3.
+There is a
+n
+active disconnect between the Hardware and Software. In
+Hardware and Node
+breakout sessions, software
+discussions were avoided due to the different methodology being used
+in the Software WBS
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+WBS Descriptions do not provide enough information to understand the scope of work contained within SW WBS Control Accounts. With the switch to Feature Based accounts, we need to be provided artifacts
+containing
+descriptions of what software capability is captured in the
+System Features/C
+ontrol
+A
+ccounts. A description
+stating
+“
+This element covers Command Systems Software Non-Execution Security Functionality 1, using a framework of Incremental Features
+”
+does to not
+adequately explain the scope of software work. Understanding that th
+is
+Control Account
+means software initializing for Wing Ops and Launch Execution subsystems
+requires either the list of associated Incremental Features and/or
+investigation of NG’s Jira projects. Neither of those have been provided.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+Artifacts do not provide enough information to understand the scope of work contained within Software WBS Control Accounts. The transition to Feature-Based Control Accounts has created a critical information gap: current WBS descriptions are insufficiently detailed, and the contractor's reliance on rolling-wave planning means that future Incremental Features (Work Packages) are not defined upfront to establish a
+baseline. While near-term scope is detailed inside Jira, program leadership must have high-level scope clarity directly within the baseline planning artifacts rather than being forced to search through execution-level software tools.
+While a product-oriented, feature-based structure is conceptually appropriate for agile software, the decomposition stops at too high a level for the baseline.
+To establish confidence in the PMB, the contractor must provide artifacts containing detailed descriptions of the specific software capabilities captured within each System Feature and Control Account. This level of understanding requires either:
+1. A predefined list of associated Incremental Features / Work Packages, or
+2. Significantly enhanced, highly detailed descriptions of the Control Accounts within the CWBS Dictionary.
+The contractor’s proposed rolling-wave planning approach dictates that they “will decompose the Incremental Features from the Planning Packages prior to the start of the next PI and after Incremental Feature lockdown agreement across Command Systems.” While rolling-wave planning is standard practice in Agile development, performing decomposition of Incremental Features until right before execution prevents the Government from establishing an upfront baseline. The Government cannot verify, measure, or have confidence in the scope of a Control Account when the underlying Work Packages are entirely undefined.
+For the current and immediately upcoming Program Increments (PIs), the contractor does provide detailed decomposition; however, this data exists solely within their internal Jira instance.
+While Jira is the correct tool for day-to-day engineering execution, it is not a substitute for formal program management artifacts. Government Program Managers and Analysts should not be required to dig through active developer backlogs and software management tools to piece together a basic understanding of a Control Account’s contractual scope. This information must be maintained and easily accessible within the contract baseline documentation.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+While the contractor has established a conceptually sound planning hierarchy and logical workflows, this framework remains largely unpopulated. The foundational ambiguity regarding Control Account scope (identified in Assessment Area 1) fundamentally prevents the contractor from translating their theoretical planning structure into an executable, resource-loaded Integrated Master Schedule (IMS).
+The contractor has successfully demonstrated a mature theoretical approach to schedule planning. The designated workflow effectively maps how software capabilities will transition through the engineering lifecycle, moving systematically from Feature Definition into Systems Engineering, through Software Development, and culminating in Integration & Test. Furthermore, the methodology for breaking these phases down into Incremental Features and Work Packages within their Jira and QBD constructs is logical and repeatable.
+Despite possessing a viable planning architecture, the contractor lacks the foundational data required to execute it. Schedule development cannot occur in a vacuum; it is fundamentally dependent on a clear understanding of the scope. Because the contractor cannot currently articulate the specific scope boundaries of each Control Account, they are subsequently unable to populate their planning hierarchy with actual tasks, durations, or resource requirements.
+In its current state, the contractor has built a robust schedule planning engine but has not provided the fuel (scope and task data) required to run it. Until the underlying scope is clearly defined and the associated data is entered into the planning constructs, the contractor is not ready for credible IMS loading or Performance Measurement Baseline (PMB) implementation.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The contractor has demonstrated a baseline understanding of software integration requirements at a conceptual level. The proposed planning packages do include structural placeholders for integration and testing tasks. This indicates that their core planning methodology recognizes the need for these activities, establishing a theoretical foundation for future cross-product coordination.
+While the contractor’s theoretical process for incorporating integration and testing tasks into planning packages is conceptually sound, the actual data is absent from the Work Breakdown Structure (WBS). Similar to findings in Assessment Areas 1 and 2, the theoretical framework has not been populated with actual data. Because the specific integration and testing tasks are not yet defined or present within the WBS architecture, the Government cannot evaluate the realism of the integration approach
+.
+Furthermore, observed breakout sessions reveal some organizational siloing between the Hardware and Software teams. The current inability or unwillingness of cross-
+functional teams to discuss Hardware/Software (HW/SW) integration due to differing methodologies presents a risk to overall program execution and IMS maturity
+.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+“New WBS IPT Mapping” (8-04-26 sheet, pulled from Sentinel SharePoint)
+“NG WBS_RAM” and “7-13-2026 Sentinel EMD WBS Dictionary” (Pulled from NG Extranet 8/5/2026)
+CJ1 Jira (8/52026)
+“1.16 Software WBS Overview
+” Brief provided by NG 8/3/2026
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Strength 1: P – 4 The contractor has established a logical and repeatable theoretical planning hierarchy to manage software development. The defined workflow progression (moving systematically from Feature Definition
+to
+Systems Engineering
+to
+Software Development
+to
+Integration & Test) within their Jira and QBD constructs demonstrates a mature understanding of agile execution. This framework provides confidence that, once underlying scope data is populated, the fundamental execution logic and sequencing will be sound.
+Strength 2: S – 5 The contractor’s utilization of Jira to manage active Program Increment (PI) workflows demonstrates a strong alignment with agile value streams at the execution level. While not currently integrated into the formal baseline artifacts, the existing Jira configuration provides a practical and effective mechanism for tracking near-term, day-to-day software development tasks and handoffs within the current PI.
+Strength 3: I – 1 The contractor’s proposed planning packages include structural placeholders for integration and testing tasks. This demonstrates an upfront acknowledgment that integration activities must eventually be accounted for in the planning architecture, establishing a necessary structural foundation for future cross-product scheduling.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern 1: S – 3 CWBS Dictionary descriptions for Software Control Accounts are insufficiently detailed, providing only nominal information about the capabilities captured within System Features. Because the contractor relies on rolling-wave planning to decompose Incremental Features just prior to a PI, the baseline artifacts lack immediate scope definition. Risk: The Government cannot verify if all contractual requirements are assigned or understand Control Account boundaries, creating a high risk of deferred scope, overlapping efforts, and an inability to establish a credible Performance Measurement Baseline (PMB).
+Concern 2: P – 2 (Planning Structure and Task Definition Maturity)
+The
+proposed Feature-Based Control Account
+is
+excessively broad in scope, spanning across multiple Integrated Product Teams (IPTs) rather than being bounded by logical organizational lines. Due to this oversized design, progress and performance
+will be difficult to
+accurately measure
+or track at the Control Account level.
+To assess true program status, the Government will
+likely need
+to track completion and earned value at
+the lower Work Package/Incremental Feature level. However, because the contractor's rolling-wave planning process defers the decomposition of these Work Packages until immediately prior to each Program Increment (PI), this critical execution-level data does not yet exist.
+Risk:
+Without defined Work Packages or distinct Control Account boundaries, the Government has no mechanism to measure actual progress or evaluate schedule health. This structure will likely mask development bottlenecks, driv
+e
+severe tracking difficulties, and render early Earned Value Management (EVM) and IMS-loading efforts highly inaccurate.
+Concern 3: I – 4 Breakout sessions reveal organizational siloing and a lack of cross-functional coordination between Hardware and Software teams. Hardware teams actively avoid discussing software dependencies, leaving HW/SW interfaces undefined. Risk: Without joint planning and a shared understanding of inter-product handoffs, there is a high probability of interface failures, integration bottlenecks, and
+schedule delays during physical system integration
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Follow-up 1: S – 1 Information Gap: The Government lacks visibility into the total planned software scope prior to PI execution. Action Needed: Request the contractor provide a preliminary software roadmap, capability matrix, or enhanced CWBS Dictionary that explicitly maps specific software functionalities to the proposed Feature-Based Control Accounts to establish a baseline understanding of scope prior to detailed PI decomposition.
+Follow-up 2: I – 1 Unresolved Assumption: It is unclear how agile software delivery will synchronize with hardware schedules. Action Needed: Require the contractor to present a HW/SW Integration Strategy. The contractor must demonstrate exactly how agile software milestones will map to, constrain, or enable traditional hardware integration events.
+Follow-up 3: P – 2 (Planning Structure and Task Definition Maturity)
+Information Gap: The organizational boundaries and tracking mechanisms for cross-IPT Control Accounts are undefined.
+Action Needed: Request the contractor deliver a Control Account / IPT Mapping Matrix and a process demonstration showing how they intend to isolate, track, and report progress for work within a single Control Account that is actively being executed by multiple distinct engineering teams.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Observation 1: Hardware/Software Integration & PI Alignment
+There is a critical scheduling and data dependency between the Agile software development cadence and traditional hardware integration milestones. Software releases are planned via Program Increments (PIs), but Hardware nodes require specific software baselines at fixed dates to conduct physical integration and checkout. Not clear where the mapped alignment between the exists.
+Observation 2: Shared Test Environments (System Integration Lab - SIL)
+The software development teams are dependent on physical or virtual test environments (e.g., SILs or digital twins) provided by the Hardware and Infrastructure teams. Software cannot complete its defined Integration & Test phase without access to these shared resources. Coordination is required to ensure that the hardware team prioritizes the build-out and availability of the SIL environments to match the software team's PI testing schedule.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/6/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.16.05.36'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Launch Silos Branch - NIXX'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Zach Barber, Dennis Higgs, Derek Hostetler'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Kevin Walls, Matthew Chambers'
+[05] PLAIN_TEXT checked=None alias='' tag='' text='1. The contractor has built a theoretically sound planning structure and agile workflow for software, but the WBS and supporting documents currently do not contain sufficient information to understand scope of Control Accounts/System Features'
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=True alias='' tag='' text='☒'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='WBS Descriptions do not provide enough information to understand the scope of work contained within SW WBS Control Accounts. With the switch to Feature Based accounts, we need to be provided artifacts containing descriptions of what software capability is captured in the System Features/Control Accounts. A description stating “This element covers Command Systems Software Non-Execution Security Functionality 1, using a framework of Incremental Features” does to not adequately explain the scope of software work. Understanding that this Control Account means software initializing for Wing Ops and Launch Execution subsystems requires either the list of associated Incremental Features and/or investigation of NG’s Jira projects. Neither of those have been provided.'
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=True alias='' tag='' text='☒'
+[13] PLAIN_TEXT checked=None alias='' tag='' text="Artifacts do not provide enough information to understand the scope of work contained within Software WBS Control Accounts. The transition to Feature-Based Control Accounts has created a critical information gap: current WBS descriptions are insufficiently detailed, and the contractor's reliance on rolling-wave planning means that future Incremental Features (Work Packages) are not defined upfront to establish a baseline. While near-term scope is detailed inside Jira, program leadership must have high-level scope clarity directly within the baseline planning artifacts rather than being forced to search through execution-level software tools.While a product-oriented, feature-based structure is conceptually appropriate for agile software, the decomposition stops at too high a level for the baseline.To establish confidence in the PMB, the contractor must provide artifacts containing detailed descriptions of the specific software capabilities captured within each System Feature and Control Account. This level of understanding requires either:1. A predefined list of associated Incremental Features / Work Packages, or2. Significantly enhanced, highly detailed descriptions of the Control Accounts within the CWBS Dictionary.The contractor’s proposed rolling-wave planning approach dictates that they “will decompose the Incremental Features from the Planning Packages prior to the start of the next PI and after Incremental Feature lockdown agreement across Command Systems.” While rolling-wave planning is standard practice in Agile development, performing decomposition of Incremental Features until right before execution prevents the Government from establishing an upfront baseline. The Government cannot verify, measure, or have confidence in the scope of a Control Account when the underlying Work Packages are entirely undefined.For the current and immediately upcoming Program Increments (PIs), the contractor does provide detailed decomposition; however, this data exists solely within their internal Jira instance.While Jira is the correct tool for day-to-day engineering execution, it is not a substitute for formal program management artifacts. Government Program Managers and Analysts should not be required to dig through active developer backlogs and software management tools to piece together a basic understanding of a Control Account’s contractual scope. This information must be maintained and easily accessible within the contract baseline documentation."
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=True alias='' tag='' text='☒'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='While the contractor has established a conceptually sound planning hierarchy and logical workflows, this framework remains largely unpopulated. The foundational ambiguity regarding Control Account scope (identified in Assessment Area 1) fundamentally prevents the contractor from translating their theoretical planning structure into an executable, resource-loaded Integrated Master Schedule (IMS).The contractor has successfully demonstrated a mature theoretical approach to schedule planning. The designated workflow effectively maps how software capabilities will transition through the engineering lifecycle, moving systematically from Feature Definition into Systems Engineering, through Software Development, and culminating in Integration & Test. Furthermore, the methodology for breaking these phases down into Incremental Features and Work Packages within their Jira and QBD constructs is logical and repeatable.Despite possessing a viable planning architecture, the contractor lacks the foundational data required to execute it. Schedule development cannot occur in a vacuum; it is fundamentally dependent on a clear understanding of the scope. Because the contractor cannot currently articulate the specific scope boundaries of each Control Account, they are subsequently unable to populate their planning hierarchy with actual tasks, durations, or resource requirements.In its current state, the contractor has built a robust schedule planning engine but has not provided the fuel (scope and task data) required to run it. Until the underlying scope is clearly defined and the associated data is entered into the planning constructs, the contractor is not ready for credible IMS loading or Performance Measurement Baseline (PMB) implementation.'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=False alias='' tag='' text='☐'
+[20] CHECKBOX checked=True alias='' tag='' text='☒'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='The contractor has demonstrated a baseline understanding of software integration requirements at a conceptual level. The proposed planning packages do include structural placeholders for integration and testing tasks. This indicates that their core planning methodology recognizes the need for these activities, establishing a theoretical foundation for future cross-product coordination. While the contractor’s theoretical process for incorporating integration and testing tasks into planning packages is conceptually sound, the actual data is absent from the Work Breakdown Structure (WBS). Similar to findings in Assessment Areas 1 and 2, the theoretical framework has not been populated with actual data. Because the specific integration and testing tasks are not yet defined or present within the WBS architecture, the Government cannot evaluate the realism of the integration approach.Furthermore, observed breakout sessions reveal some organizational siloing between the Hardware and Software teams. The current inability or unwillingness of cross-functional teams to discuss Hardware/Software (HW/SW) integration due to differing methodologies presents a risk to overall program execution and IMS maturity.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='“New WBS IPT Mapping” (8-04-26 sheet, pulled from Sentinel SharePoint)“NG WBS_RAM” and “7-13-2026 Sentinel EMD WBS Dictionary” (Pulled from NG Extranet 8/5/2026)CJ1 Jira (8/52026)“1.16 Software WBS Overview” Brief provided by NG 8/3/2026'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='Strength 1: P – 4 The contractor has established a logical and repeatable theoretical planning hierarchy to manage software development. The defined workflow progression (moving systematically from Feature Definition to Systems Engineering to Software Development to Integration & Test) within their Jira and QBD constructs demonstrates a mature understanding of agile execution. This framework provides confidence that, once underlying scope data is populated, the fundamental execution logic and sequencing will be sound.Strength 2: S – 5 The contractor’s utilization of Jira to manage active Program Increment (PI) workflows demonstrates a strong alignment with agile value streams at the execution level. While not currently integrated into the formal baseline artifacts, the existing Jira configuration provides a practical and effective mechanism for tracking near-term, day-to-day software development tasks and handoffs within the current PI.Strength 3: I – 1 The contractor’s proposed planning packages include structural placeholders for integration and testing tasks. This demonstrates an upfront acknowledgment that integration activities must eventually be accounted for in the planning architecture, establishing a necessary structural foundation for future cross-product scheduling.'
+[24] PLAIN_TEXT checked=None alias='' tag='' text="Concern 1: S – 3 CWBS Dictionary descriptions for Software Control Accounts are insufficiently detailed, providing only nominal information about the capabilities captured within System Features. Because the contractor relies on rolling-wave planning to decompose Incremental Features just prior to a PI, the baseline artifacts lack immediate scope definition. Risk: The Government cannot verify if all contractual requirements are assigned or understand Control Account boundaries, creating a high risk of deferred scope, overlapping efforts, and an inability to establish a credible Performance Measurement Baseline (PMB).Concern 2: P – 2 (Planning Structure and Task Definition Maturity)The proposed Feature-Based Control Account is excessively broad in scope, spanning across multiple Integrated Product Teams (IPTs) rather than being bounded by logical organizational lines. Due to this oversized design, progress and performance will be difficult to accurately measure or track at the Control Account level. To assess true program status, the Government will likely need to track completion and earned value at the lower Work Package/Incremental Feature level. However, because the contractor's rolling-wave planning process defers the decomposition of these Work Packages until immediately prior to each Program Increment (PI), this critical execution-level data does not yet exist. Risk: Without defined Work Packages or distinct Control Account boundaries, the Government has no mechanism to measure actual progress or evaluate schedule health. This structure will likely mask development bottlenecks, drive severe tracking difficulties, and render early Earned Value Management (EVM) and IMS-loading efforts highly inaccurate.Concern 3: I – 4 Breakout sessions reveal organizational siloing and a lack of cross-functional coordination between Hardware and Software teams. Hardware teams actively avoid discussing software dependencies, leaving HW/SW interfaces undefined. Risk: Without joint planning and a shared understanding of inter-product handoffs, there is a high probability of interface failures, integration bottlenecks, and schedule delays during physical system integration"
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Follow-up 1: S – 1 Information Gap: The Government lacks visibility into the total planned software scope prior to PI execution. Action Needed: Request the contractor provide a preliminary software roadmap, capability matrix, or enhanced CWBS Dictionary that explicitly maps specific software functionalities to the proposed Feature-Based Control Accounts to establish a baseline understanding of scope prior to detailed PI decomposition.Follow-up 2: I – 1 Unresolved Assumption: It is unclear how agile software delivery will synchronize with hardware schedules. Action Needed: Require the contractor to present a HW/SW Integration Strategy. The contractor must demonstrate exactly how agile software milestones will map to, constrain, or enable traditional hardware integration events.Follow-up 3: P – 2 (Planning Structure and Task Definition Maturity)Information Gap: The organizational boundaries and tracking mechanisms for cross-IPT Control Accounts are undefined.Action Needed: Request the contractor deliver a Control Account / IPT Mapping Matrix and a process demonstration showing how they intend to isolate, track, and report progress for work within a single Control Account that is actively being executed by multiple distinct engineering teams.'
+[26] PLAIN_TEXT checked=None alias='' tag='' text="Observation 1: Hardware/Software Integration & PI AlignmentThere is a critical scheduling and data dependency between the Agile software development cadence and traditional hardware integration milestones. Software releases are planned via Program Increments (PIs), but Hardware nodes require specific software baselines at fixed dates to conduct physical integration and checkout. Not clear where the mapped alignment between the exists.Observation 2: Shared Test Environments (System Integration Lab - SIL)The software development teams are dependent on physical or virtual test environments (e.g., SILs or digital twins) provided by the Hardware and Infrastructure teams. Software cannot complete its defined Integration & Test phase without access to these shared resources. Coordination is required to ensure that the hardware team prioritizes the build-out and availability of the SIL environments to match the software team's PI testing schedule."

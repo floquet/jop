@@ -1,0 +1,234 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+CS_HW Wing Ops Subsystem Production Manufacturing, 1.04.03.02.04.02
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1. The contractor has built a theoretically sound planning structure and workflow, but the WBS definition and supporting documents currently do not contain sufficient clarity and information to understand the scope of Control Accounts.
+2. The proposed Control Accounts are broad and span across multiple Integrated Product Teams (IPTs). Wing Operations Tactical Admin Network (TAN) products are broken down across a variety of Control Accounts. This structure complicates standard progress tracking, Earned Value Management (EVM), and the ability to track integration between products and workflow (example SW vs HW integration).
+3. Conflicting Documentation and Artifacts: Documents continue to change throughout this review process (Documents note that they will continue to be updated until mid to late Sep 2026). New versions of the RAM and WBS dictionary continue to be uploaded throughout the week and have contradictions between different versions. This churn makes review difficult and potentially a waste of effort if the documents are different a month from now.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Appendix C - IIR #2 Assessment Worksheet Example
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/5/2026
+Control Account
+:
+CS_HW Wing Ops Subsystem Production Manufacturing, 1.04.03.02.04.02
+Product Elemen
+t Owner Designation
+:
+Wing Operations Branch - NIXC
+Government Participants:
+Greg Stubbs (Lead PM)
+Ashlee Hyden (Lead PM)
+Kevin Otte (PM)
+Emmitt Vasquez (EN)
+Zane Winkler (EN)
+Contractor Participants:
+Landon Simonsen (CAM)
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1. The
+contractor has built a theoretically sound planning structure and workflow, but the WBS definition and supporting documents currently do not contain sufficient clarity and information to understand the scope of Control Accounts.
+2. The proposed Control Accounts are broad and span across multiple Integrated Product Teams (IPTs). Wing Operations Tactical Admin Network (TAN) products are broken down across a variety of Control Accounts. This structure complicates standard progress tracking, Earned Value Management (EVM), and the ability to track integration between products and workflow (example SW vs HW integration).
+3. Conflicting Documentation and Artifacts: Documents continue to change throughout this review process (Documents note that they will continue to be updated until mid to late Sep 2026). New versions of the RAM and WBS dictionary continue to be uploaded throughout the week and have contradictions between different versions. This churn makes review difficult and potentially a waste of effort if the documents are different a month from now.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+TAN Wing Ops Scope as currently captured by the Prime in the provided work packages and planning packages cannot be adequately confirmed without clear WBS/task level scope definitions. NG has also made clear their intention to further develop their plan as needed for various milestones. However, the constant shuffling of control accounts between CAMs and even different IPTs establishes a sense of uncertainty for future planning.
+In order to
+validate
+progress on NG’s IMS and
+subsequent
+IIR activities, the SPO will need to conduct detailed investigative work of NG’s Jira projects. In addition, NG provided a decoder to decipher products within Control Accounts. However, ambiguous/incomplete definitions within the decoder are insufficient to help
+identify
+specific products. We are concerned that the government going forward will not be able to track TAN Wing Ops scope from the product perspective.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+Artifacts do not provide enough information to understand the scope of work contained within the WBS Control Accounts. While near-term scope is detailed inside Jira, program leadership must have high-level scope clarity directly within the baseline planning artifacts rather than being forced to search through execution-level tools. The movement of work packages between control accounts opens the door for deliverables to become misplaced and scope boundaries to become vague.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The contractor has
+established
+a conceptually sound planning hierarchy and logical workflows; the framework
+remains
+largely unpopulated
+. The ambiguity in Control Account scope prevents the government from digesting theoretical planning into an executable, resource-loaded Integrated Master Schedule (IMS) that tracks earned value.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+Cross integration is immature and was not presented in any discernable way
+at this point in time
+. Further meetings are necessary to understand the contractor’s theoretical process for incorporating integration and testing tasks into the WBS architecture.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+WP Rollup IIR2, Sentinel EMD WBS Dictionary, and WBS_RAM (all pulled from NG Extranet 08/05/2026)
+3. Strengths Observed
+Document the most significant strengths identified during the
+assessment that
+increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+S-1 (Task Decomposition): The contractor has successfully decomposed the high-level scope into a list of WPs/PPs within the RAM, providing a logical foundation for future planning if and when evidence is provided.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern 1 (S-4: Organizational Ownership): There is no stable ownership for this control account, with responsibilities constantly shifting between CAMs and IPTs. Risk: This churn guarantees that scope will be dropped, deliverables will be lost, and accountability will be impossible to enforce, severely jeopardizing the success of integration and test activities.
+Concern 2 (General): The review was characterized by a lack of configuration control over planning artifacts (RAM, WBS), with multiple conflicting versions in circulation. Risk: This
+demonstrates
+a systemic failure in process discipline. It forces the Government to make assessments on unstable, unreliable data and prevents the establishment of a firm performance measurement baseline.
+Concern 3 (Planning Structure and Task Definition Maturity): The proposed execution model is excessively broad in scope, spanning across multiple Integrated Product Teams (IPTs) rather than being bounded by logical organizational lines. Due to this oversized design, progress and performance will be difficult to accurately measure or track at the Control Account level. To assess true program status, the Government will
+likely need
+to track completion and earned value at the lower Work Package/Task level.
+Risk: Without defined Work Packages or distinct Control Account boundaries, the Government has no mechanism to measure actual progress or evaluate schedule health. This structure will
+likely mask
+development bottlenecks, drive severe tracking difficulties, and
+render
+early Earned Value Management (EVM) and IMS-loading efforts highly inaccurate.
+5. Open Questions and Follow-Up Items
+Document
+questions that
+remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Follow Up 1: P – 2 (Planning Structure and Task Definition Maturity)
+Information Gap: The organizational boundaries and tracking mechanisms for cross-IPT Control Accounts are undefined.
+Action Needed: Request the contractor deliver a Control Account / IPT Mapping Matrix and a process demonstration showing how they intend to isolate, track, and report progress for work within a single Control Account that is actively being executed by multiple distinct engineering teams.
+Follow Up 2: P – 2 (Planning Structure and Task Definition Maturity)
+The contractor asserts that detailed plans exist within the P6 scheduling tool, but no evidence has been provided to the Government for review. The Government
+requires
+read-only access to, or regularly scheduled demonstrations of, the current P6 schedule for this control account. This is necessary to substantiate planning maturity and to enable evidence-based, rather than trust-based, oversight.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Cross integration is currently immature. Internal maturity must be achieved in
+order to
+p
+ut effort towards cross integration.
+Appendix C - IIR #2 Assessment Worksheet
+Example
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/5/2026'
+[01] DROPDOWN checked=None alias='Product' tag='Product' text='Wing Operations Branch - NIXC'
+[02] PLAIN_TEXT checked=None alias='' tag='' text='Greg Stubbs (Lead PM) Ashlee Hyden (Lead PM) Kevin Otte (PM) Emmitt Vasquez (EN) Zane Winkler (EN)'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Landon Simonsen (CAM)'
+[04] CHECKBOX checked=False alias='' tag='' text='☐'
+[05] CHECKBOX checked=False alias='' tag='' text='☐'
+[06] CHECKBOX checked=True alias='' tag='' text='☒'
+[07] PLAIN_TEXT checked=None alias='' tag='' text='TAN Wing Ops Scope as currently captured by the Prime in the provided work packages and planning packages cannot be adequately confirmed without clear WBS/task level scope definitions. NG has also made clear their intention to further develop their plan as needed for various milestones. However, the constant shuffling of control accounts between CAMs and even different IPTs establishes a sense of uncertainty for future planning. In order to validate progress on NG’s IMS and subsequent IIR activities, the SPO will need to conduct detailed investigative work of NG’s Jira projects. In addition, NG provided a decoder to decipher products within Control Accounts. However, ambiguous/incomplete definitions within the decoder are insufficient to help identify specific products. We are concerned that the government going forward will not be able to track TAN Wing Ops scope from the product perspective.'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] CHECKBOX checked=False alias='' tag='' text='☐'
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] PLAIN_TEXT checked=None alias='' tag='' text='Artifacts do not provide enough information to understand the scope of work contained within the WBS Control Accounts. While near-term scope is detailed inside Jira, program leadership must have high-level scope clarity directly within the baseline planning artifacts rather than being forced to search through execution-level tools. The movement of work packages between control accounts opens the door for deliverables to become misplaced and scope boundaries to become vague.'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] CHECKBOX checked=False alias='' tag='' text='☐'
+[14] CHECKBOX checked=True alias='' tag='' text='☒'
+[15] PLAIN_TEXT checked=None alias='' tag='' text='The contractor has established a conceptually sound planning hierarchy and logical workflows; the framework remains largely unpopulated. The ambiguity in Control Account scope prevents the government from digesting theoretical planning into an executable, resource-loaded Integrated Master Schedule (IMS) that tracks earned value.'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] CHECKBOX checked=False alias='' tag='' text='☐'
+[18] CHECKBOX checked=True alias='' tag='' text='☒'
+[19] PLAIN_TEXT checked=None alias='' tag='' text='Cross integration is immature and was not presented in any discernable way at this point in time. Further meetings are necessary to understand the contractor’s theoretical process for incorporating integration and testing tasks into the WBS architecture.'
+[20] PLAIN_TEXT checked=None alias='' tag='' text='WP Rollup IIR2, Sentinel EMD WBS Dictionary, and WBS_RAM (all pulled from NG Extranet 08/05/2026)'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='S-1 (Task Decomposition): The contractor has successfully decomposed the high-level scope into a list of WPs/PPs within the RAM, providing a logical foundation for future planning if and when evidence is provided.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Concern 1 (S-4: Organizational Ownership): There is no stable ownership for this control account, with responsibilities constantly shifting between CAMs and IPTs. Risk: This churn guarantees that scope will be dropped, deliverables will be lost, and accountability will be impossible to enforce, severely jeopardizing the success of integration and test activities. Concern 2 (General): The review was characterized by a lack of configuration control over planning artifacts (RAM, WBS), with multiple conflicting versions in circulation. Risk: This demonstrates a systemic failure in process discipline. It forces the Government to make assessments on unstable, unreliable data and prevents the establishment of a firm performance measurement baseline. Concern 3 (Planning Structure and Task Definition Maturity): The proposed execution model is excessively broad in scope, spanning across multiple Integrated Product Teams (IPTs) rather than being bounded by logical organizational lines. Due to this oversized design, progress and performance will be difficult to accurately measure or track at the Control Account level. To assess true program status, the Government will likely need to track completion and earned value at the lower Work Package/Task level. Risk: Without defined Work Packages or distinct Control Account boundaries, the Government has no mechanism to measure actual progress or evaluate schedule health. This structure will likely mask development bottlenecks, drive severe tracking difficulties, and render early Earned Value Management (EVM) and IMS-loading efforts highly inaccurate.'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='Follow Up 1: P – 2 (Planning Structure and Task Definition Maturity) Information Gap: The organizational boundaries and tracking mechanisms for cross-IPT Control Accounts are undefined. Action Needed: Request the contractor deliver a Control Account / IPT Mapping Matrix and a process demonstration showing how they intend to isolate, track, and report progress for work within a single Control Account that is actively being executed by multiple distinct engineering teams. Follow Up 2: P – 2 (Planning Structure and Task Definition Maturity) The contractor asserts that detailed plans exist within the P6 scheduling tool, but no evidence has been provided to the Government for review. The Government requires read-only access to, or regularly scheduled demonstrations of, the current P6 schedule for this control account. This is necessary to substantiate planning maturity and to enable evidence-based, rather than trust-based, oversight.'
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Cross integration is currently immature. Internal maturity must be achieved in order to put effort towards cross integration.'

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Launch Control Reviews/1.16.08.03 SUP-Collins-Modeling Simulation & Analysis Tools SW .docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:28:13.718412+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.16.08.03",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah-PMLt. Col. Ralston-MLDr. Troy Wynn-LE",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "1.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1.This WBS element, \"Integration & Test SW,\" is a critical enabling function for the entire Command & Launch software program. The tools and software developed here are necessary to verify and validate all other software capabilities before release.",
+    "score_overall": 0,
+    "rationale": "The establishment of a dedicated WBS for Integration & Test software is a strength that shows planning maturity. However, the extreme level of dependency and the lack of visibility into the detailed integration plan in the provided artifacts introduce a degree of uncertainty. Stronger confidence requires evidence of a robust, proactive coordination plan with all other software teams.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The scope is clearly defined in the Responsibility Assignment Matrix (RAM) as \"CS_SW Integration & Test SW,\" and ownership is unambiguously assigned to Rene Manley within the CS-SW organization."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The schedule for this enabling function is a critical predecessor to all formal software testing. The provided documents do not detail the \"need-by\" dates for software drops from other teams or the lead time required to develop test scripts and environments. This lack of detailed dependency mapping makes it difficult to assess true IMS-loading readiness."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "This WBS element is the ultimate cross-functional integrator for the software program, yet the provided documents offer no insight into the processes for managing these integrations. The plan for coordinating with dozens of other software WBS elements (e.g., from Flight Systems GNC, GDMS2, Collins) is not evident, representing a significant gap in the documented integration strategy."
+      }
+    ],
+    "products": "Sow Rev. 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31JUL26, WBS Dictionary 24JUL26, IMP Rev. B, NG RAM 05AUG26",
+    "strengths": "This WBS is logically aligned with a standard software development value stream, where integration and testing are critical gates for quality assurance and product release.",
+    "concerns": "The provided artifacts do not describe the process for how the I&T team will receive software builds, test requirements, and interface data from the dozens of other software teams across the program. Risk: Without a formal, documented process for these handoffs, there is a high risk of miscommunication, incomplete testing, and integration failures that will not be discovered until late in the development cycle.",
+    "questions": "Request a review of the software integration plan or equivalent document that defines the cadence for software drops, the \"giver/receiver\" responsibilities between the development teams and the I&T team, and the overall governance process for software integration.",
+    "integration": "This WBS element must integrate software from all contributing organizations, including internal CS-SW teams, other Northrop Grumman segments like FS-GNC (e.g., WBS 1.16.04.16), and external suppliers like GDMS2 (e.g., WBS 1.16.03.18) and Collins (e.g., WBS 1.16.02.10)."
+  }
+}

@@ -1,0 +1,210 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/5/2026
+Control Account
+:
+1.16.05.2
+4
+Product Elemen
+t Owner Designation
+:
+Command Systems Segment
+Government Participants:
+Lt Col Kelly Ralston (ML)
+Troy Wynn (Lead Engineer)
+Kevin Sessions (PM)
+Contractor Participants:
+Pete Richard (PM)
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1.
+Control Node Catalog Scope is Well-Bounded but Miscoded: The control account 1.16.05.24 (CS_SW IFC 4.0_Fixed Control Node Target Catalog) has a clear functional boundary for managing the intermediate-level target catalogs at the Control Node. However, it is structurally misaligned within the WBS hierarchy.
+2.
+Systemic Coding Index Shift Persists Across All Database Modules: This account confirms that the +1 WBS index shift is systematically applied across all target-related databases (including Silo Target Catalog .23 and Wing-Wide Target Catalog .25). It resides under 1.16.05 (reserved for IFC 5.0 in the proposed CSDR WBS) rather than 1.16.4 (IFC 4.0 / Full Launch Capability).
+3.
+Critical Middle-Tier Database Dependencies: The Control Node Target Catalog is the vital intermediate data layer distributing targets to individual launch silos. Because of the
+coding misalignment, automated tools cannot correctly verify configuration dependencies between this middle-tier database and the end-point silos.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The Government has Moderate confidence in the contractor's planning maturity for this control account. The functional planning is sound: a clear, trackable, and bounded software database product has been defined with a logical owner (CAM Tyrone Jackson). However, the systemic WBS index shift is present here as well, meaning the account structurally resides under the wrong parent capability branch. This misalignment prevents a "Strong" confidence rating because it breaks automated EVMS, CSDR, and program-level tracking.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+While the technical scope of the Control Node Target Catalog is well-defined, its WBS code placement in the RAM (1.16.05.24) places it outside the government’s defined Full Launch Capability (IFC 4.0) scope (1.16.4). The contractor must map this and all associated target database accounts back to the correct parent hierarchy before the baseline is finalized.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The control account schedule sequences are internally logical and ready for loading. However, loading them under WBS 1.16.05 instead of 1.16.04 will generate direct conflicts with the proposed WBS, hindering future schedule health checks and automated schedule status reporting.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+Cross-product integration is rated Low. The Control Node Target Catalog is technically sandwiched between the ground systems generating target files and the launch silos consuming them. The WBS coding shift breaks the automated cost-schedule links that map database design maturation against physical hardware activations across the launch nodes.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Northrop Grumman Responsibility Assignment Matrix
+Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026
+)
+Proposed CSDR WBS Dictionary
+Sentinel Statement of Work Revision 9.0
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Strength 1 (Consolidated Target/Catalog Domain CAM): Consolidating this account under Tyrone Jackson—who also owns the Silo Target Catalog (1.16.05.23) and Wing-Wide Target Catalog (1.16.05.25)—minimizes the risk of communication gaps and ensures a unified technical approach to database schema development.
+Strength 2 (Logical Functional Boundaries): Separating the control node database from the silo database represents a clean, modular software design that aligns with open-system design principles.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern 1 (WBS Index Shift - 1.16.05 vs. 1.16.04):
+The contractor has coded this IFC 4.0 database account under WBS 1.16.05.24. The proposed CSDR WBS Dictionary reserves 1.16.5 for IFC 5.0. All IFC 4.0 software tasks must map to WBS 1.16.4 (Full Launch Capability).
+Risk 1:
+This structural coding mismatch breaks direct program-level cost collection, which will cause compliance and audit failures in CSDR and IPMDAR reporting by blending IFC 4.0 and IFC 5.0 database actuals.
+Concern 2 (Database Synchronization Failure Risks):
+The Control Node database must dynamically sync data downward to launch silos and upward to wing-wide controllers.
+Risk 2:
+If the database WBS lines are structurally desynchronized, delays in design updates for one database tier cannot be automatically analyzed for impact on another tier, increasing the risk of database version mismatches during HWIL test campaigns.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Question 1: What is the technical mechanism for target data distribution between the Control Node database (.24) and individual Silo databases (.23)? Is it automated or operator-driven?
+Follow-Up 1: Contractor to provide the system/subsystem design description (SSDD) detailing the control node-to-silo data transaction protocols.
+Question 2: Will the contractor present a unified correction plan to shift the target catalog control accounts from the 1.16.05 prefix back to 1.16.04 (to map to 1.16.4)?
+Follow-Up 2: Contractor to provide a redlined RAM showing the corrected software mappings before baseline locking.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Observation 1 (Middle-Tier Synchronization): The Control Node catalog sits technically between the Wing-Wide Target Catalogs (1.16.05.25) and the Fixed Launch Silo Target Catalogs (1.16.05.23). Tracing these cross-functional database schema dependencies is a major risk when the physical hardware node installations (such as Launch Center Node Integration under WBS 1.4.2.2.3) are mapped separately from the software branch.
+Observation 2 (Lack of Automated EVMS Linkage): The physical installation and verification of the control node processing equipment occurs under WBS 1.4.2.2.2.1 (Launch Center Integrated Assemblies). Due to the WBS indexing misalignment, automated systems cannot automatically link schedule delays in hardware to the development of this intermediate database.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/5/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.16.05.24'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Command Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)'
+[05] PLAIN_TEXT checked=None alias='' tag='' text='Pete Richard (PM)'
+[06] PLAIN_TEXT checked=None alias='' tag='' text='1. Control Node Catalog Scope is Well-Bounded but Miscoded: The control account 1.16.05.24 (CS_SW IFC 4.0_Fixed Control Node Target Catalog) has a clear functional boundary for managing the intermediate-level target catalogs at the Control Node. However, it is structurally misaligned within the WBS hierarchy.2. Systemic Coding Index Shift Persists Across All Database Modules: This account confirms that the +1 WBS index shift is systematically applied across all target-related databases (including Silo Target Catalog .23 and Wing-Wide Target Catalog .25). It resides under 1.16.05 (reserved for IFC 5.0 in the proposed CSDR WBS) rather than 1.16.4 (IFC 4.0 / Full Launch Capability).3. Critical Middle-Tier Database Dependencies: The Control Node Target Catalog is the vital intermediate data layer distributing targets to individual launch silos. Because of the coding misalignment, automated tools cannot correctly verify configuration dependencies between this middle-tier database and the end-point silos.'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=True alias='' tag='' text='☒'
+[09] CHECKBOX checked=False alias='' tag='' text='☐'
+[10] PLAIN_TEXT checked=None alias='' tag='' text='The Government has Moderate confidence in the contractor\'s planning maturity for this control account. The functional planning is sound: a clear, trackable, and bounded software database product has been defined with a logical owner (CAM Tyrone Jackson). However, the systemic WBS index shift is present here as well, meaning the account structurally resides under the wrong parent capability branch. This misalignment prevents a "Strong" confidence rating because it breaks automated EVMS, CSDR, and program-level tracking.'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=True alias='' tag='' text='☒'
+[13] CHECKBOX checked=False alias='' tag='' text='☐'
+[14] PLAIN_TEXT checked=None alias='' tag='' text='While the technical scope of the Control Node Target Catalog is well-defined, its WBS code placement in the RAM (1.16.05.24) places it outside the government’s defined Full Launch Capability (IFC 4.0) scope (1.16.4). The contractor must map this and all associated target database accounts back to the correct parent hierarchy before the baseline is finalized.'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=True alias='' tag='' text='☒'
+[17] CHECKBOX checked=False alias='' tag='' text='☐'
+[18] PLAIN_TEXT checked=None alias='' tag='' text='The control account schedule sequences are internally logical and ready for loading. However, loading them under WBS 1.16.05 instead of 1.16.04 will generate direct conflicts with the proposed WBS, hindering future schedule health checks and automated schedule status reporting.'
+[19] CHECKBOX checked=False alias='' tag='' text='☐'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] CHECKBOX checked=True alias='' tag='' text='☒'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Cross-product integration is rated Low. The Control Node Target Catalog is technically sandwiched between the ground systems generating target files and the launch silos consuming them. The WBS coding shift breaks the automated cost-schedule links that map database design maturation against physical hardware activations across the launch nodes.'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='Northrop Grumman Responsibility Assignment Matrix Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026) Proposed CSDR WBS Dictionary Sentinel Statement of Work Revision 9.0'
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Strength 1 (Consolidated Target/Catalog Domain CAM): Consolidating this account under Tyrone Jackson—who also owns the Silo Target Catalog (1.16.05.23) and Wing-Wide Target Catalog (1.16.05.25)—minimizes the risk of communication gaps and ensures a unified technical approach to database schema development.Strength 2 (Logical Functional Boundaries): Separating the control node database from the silo database represents a clean, modular software design that aligns with open-system design principles.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Concern 1 (WBS Index Shift - 1.16.05 vs. 1.16.04):The contractor has coded this IFC 4.0 database account under WBS 1.16.05.24. The proposed CSDR WBS Dictionary reserves 1.16.5 for IFC 5.0. All IFC 4.0 software tasks must map to WBS 1.16.4 (Full Launch Capability).Risk 1:This structural coding mismatch breaks direct program-level cost collection, which will cause compliance and audit failures in CSDR and IPMDAR reporting by blending IFC 4.0 and IFC 5.0 database actuals.Concern 2 (Database Synchronization Failure Risks):The Control Node database must dynamically sync data downward to launch silos and upward to wing-wide controllers.Risk 2:If the database WBS lines are structurally desynchronized, delays in design updates for one database tier cannot be automatically analyzed for impact on another tier, increasing the risk of database version mismatches during HWIL test campaigns.'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='Question 1: What is the technical mechanism for target data distribution between the Control Node database (.24) and individual Silo databases (.23)? Is it automated or operator-driven?Follow-Up 1: Contractor to provide the system/subsystem design description (SSDD) detailing the control node-to-silo data transaction protocols.Question 2: Will the contractor present a unified correction plan to shift the target catalog control accounts from the 1.16.05 prefix back to 1.16.04 (to map to 1.16.4)?Follow-Up 2: Contractor to provide a redlined RAM showing the corrected software mappings before baseline locking.'
+[27] PLAIN_TEXT checked=None alias='' tag='' text='Observation 1 (Middle-Tier Synchronization): The Control Node catalog sits technically between the Wing-Wide Target Catalogs (1.16.05.25) and the Fixed Launch Silo Target Catalogs (1.16.05.23). Tracing these cross-functional database schema dependencies is a major risk when the physical hardware node installations (such as Launch Center Node Integration under WBS 1.4.2.2.3) are mapped separately from the software branch.Observation 2 (Lack of Automated EVMS Linkage): The physical installation and verification of the control node processing equipment occurs under WBS 1.4.2.2.2.1 (Launch Center Integrated Assemblies). Due to the WBS indexing misalignment, automated systems cannot automatically link schedule delays in hardware to the development of this intermediate database.'

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Mission Planning_Targeting Reviews/IIR2 WORKSHEET_1.16.05.26.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:41:18.388072+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.26",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "Pete Richard (PM)",
+    "score_overall": 0,
+    "rationale": "1. Critical Compiler/Generator Scope Bounded but structurally Mismapped: Control Account 1.16.05.26 (CS_SW IFC 4.0_Generate Wing_Wide Target Catalogs) represents the compilation and catalog generation software module for top-tier database structures under the IFC 4.0 release. Though functionally defined, its WBS code places it under the wrong parent capability branch.2. Follows the Systemic WBS Coding Shift Pattern (+1): This control account exhibits the exact same systemic +1 WBS coding shift identified throughout the database and targeting sub-suites (such as Target Catalogs .23, .24, and .25). It resides under WBS 1.16.05 (reserved in the proposed WBS for Increment 1 Capability / IFC 5.0) rather than mapping to 1.16.4 (IFC 4.0 / Full Launch Capability).3. Critical Path Dependency for Wing-Wide Mission Planning: This catalog generation software is the bridge between raw target parameters and the active databases used by the Wing Command Centers (WCC). Because of the WBS misalignment, automated EVMS and scheduling tools cannot accurately track critical-path dependencies between this generator's coding progress and physical command center hardware integrations.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The Government has Moderate confidence in the contractor's planning maturity for this control account. The functional software planning is sound: the database compiler scope is well-bounded, and ownership is held by a specialized targeting CAM (Tyrone Jackson). However, the systemic WBS index shift remains unresolved. Placing a critical wing-wide target catalog generator for IFC 4.0 under the IFC 5.0 WBS branch breaks EVMS cost-schedule automated alignment, posing a significant risk to the integrity of future CSDR and IPMDAR compliance reports."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The internal software scope for compilation and catalog generation is well-defined. However, because it is coded under WBS 1.16.05, it cannot be traceably mapped to the government's defined parent WBS element 1.16.4 (Full Launch Capability). The contractor must correct this structural mapping before the baseline is established."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The software work packages are technically sequence-ready. However, loading this control account into the IMS with the current code 1.16.05.26 will create immediate conflicts with the proposed WBS structure, necessitating manual, error-prone adjustments during automated schedule status updates."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix, Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026), Proposed CSDR WBS Dictionary, Sentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consolidated Target Domain CAM): Tyrone Jackson owns the complete target database and generator chain (Silo Target .23, Control Node Target .24, Wing-Wide Target .25, and Wing-Wide Generator .26). This single-point accountability minimizes communication friction and ensures technical consistency across all database compile schemas.\nStrength 2 (Hierarchical Database Compiler Architecture): The software design establishes a clear, top-to-bottom compilation hierarchy from the Wing Command Center down to individual silos, facilitating cleaner target data routing and verification.",
+    "concerns": "Concern 1 (Systemic WBS Coding Shift):The contractor has coded this IFC 4.0 compiler account under WBS 1.16.05.26. The proposed CSDR WBS reserves 1.16.5 for IFC 5.0. All IFC 4.0 tasks must reside under WBS 1.16.4 (Full Launch Capability).Risk 1:This structural coding mismatch breaks program-level cost collection, resulting in the incorrect consolidation of IFC 4.0 wing-wide compiler development costs under the IFC 5.0 budget.Concern 2 (Target Distribution Synchronization Risks):The Wing-Wide Target Catalog Generator is functionally dependent on data streams from ground mission planning systems.Risk 2:If the software WBS is structurally desynchronized, delays in the ground-based targeting generators (WBS 1.16.05.18/.19) cannot be automatically analyzed for impact on this compilation software, increasing the risk of database version mismatches during HWIL testing.",
+    "questions": "Question 1: How does \"Generate Wing_Wide Target Catalogs\" (.26) differ functionally from \"Generate Target_Wing\" (1.16.05.19)? Is there an additional database-formatting or schema-compilation step?Follow-Up 1: Contractor to provide the software design descriptions (SDDs) detailing the input/output boundaries and compilation steps for the wing-wide catalog generator.Question 2: Will the contractor present a unified correction plan to shift the entire 1.16.05.xx IFC 4.0 series back to 1.16.04 (to map to 1.16.4)?Follow-Up 2: Contractor to submit a corrected RAM showing government-aligned software mappings before PMB baseline locking.",
+    "integration": "Observation 1 (Target Generation to Wing-Wide Catalog Integration): This compiler must output its formatted catalogs directly into the Fixed Wing Wide Target Catalogs database (1.16.05.25). While the technical relationships between these software modules are planned internally, the WBS index shift prevents automated EVMS scheduling from flagging a delay in the generator compiler as a critical-path impact on the catalog database itself.Observation 2 (Broken Automated Cost-Schedule Linking): The physical installation and verification of the wing command center processing equipment occurs under WBS 1.4.2.3.2.1 (Wing Command Center Integrated Assemblies). Due to the coding misalignment, automated EVMS tools cannot automatically link and track the software compiler's maturity against physical hardware availability at the command centers."
+  }
+}

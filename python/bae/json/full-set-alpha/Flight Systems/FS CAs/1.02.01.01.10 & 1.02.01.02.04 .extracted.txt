@@ -1,0 +1,204 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Appendix C - IIR #2 Assessment Worksheet Example
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/28/2026
+Control Account
+:
+1.02.01.02.04 Production Operations Support
+1.02.01.01.10 Segment Integration Production and Manufacturing
+Product Elemen
+t Owner Designation
+:
+Flight Systems Segment
+Government Participants:
+Jesse Scott- FS ISC Lead
+Brad Wichtoski- FS ISC Chief Engineer
+Wayne Walker- FS ISC Deputy
+Jessica Schlawin- ISC PM Support
+Contractor Participants:
+Blake Larsen
+Steve Simpson
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+The contractor has a mature and well-defined understanding of the scope for production and manufacturing support. Internal planning, including staffing and a ramp-up plan for the Flight Test campaign, is a significant strength.
+Despite strong internal planning, the entire plan is critically dependent on the timely delivery of hardware from other organizations. The plan is brittle; any delay in receiving hardware will cause a direct and significant slip to the production support schedule.
+The Level of Effort (LOE) portion of this work is well-defined for a stable schedule. However, it will be extremely difficult to manage this "standing army" effectively and affordably if the schedule is disrupted by hardware delays, leading to potential cost inefficiencies
+.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The "Strong" rating is based on the contractor's excellent definition of their internal scope, deliverables, and staffing plan. The planning artifacts show a mature understanding of the work required. However, this rating must be caveated with a significant external risk. The plan's executability is entirely dependent on the timely receipt of hardware from other suppliers. While the contractor's internal plan is solid, a high risk of schedule slip exists due to these external dependencies. Additionally, full traceability to SOW Revision 9 has not yet been completed, which remains a required action.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The "Strong" rating is warranted because the team has demonstrated a mature understanding of their scope, with detailed definitions for their deliverables and a clear "definition of done" for their tasks. This provides a high degree of confidence that the contractor knows exactly what work they are responsible for producing.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The "Moderate" rating reflects external risk that undermines an otherwise strong staffing and scheduling plan. The team is sufficiently staffed and has a credible plan to ramp up resources for the Flight Test campaign. However, the schedule's viability is wholly dependent on hardware delivery dates that are outside their control. This makes the schedule fragile and introduces a moderate level of risk to the overall IMS readiness, as the current plan may not be executable as laid out.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The "Moderate" rating is assigned due to the high-risk nature of the primary integration point. While the contractor clearly understands the key hardware and data artifacts they need to receive (e.g., OBTE hardware), their ability to execute is completely dependent on the quality and timeliness of those deliverables. Given that the quality and accuracy of those upstream deliverables are currently a concern across the program, this dependency introduces a significant integration risk that
+reduces
+confidence.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+WBS Dictionary (28 July 26)
+Work Packages (28 July 26)
+Planning Package Descriptions (28 July 26)
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+The work is well-defined with clear deliverables, and the team has already successfully traced this scope to the forthcoming SOW Revision 9, demonstrating proactive compliance.
+The team is staffed appropriately for the current workload and has a credible, well-documented plan to ramp up personnel as needed to support the future Flight Test campaign, demonstrating strong resource management.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+The execution of the entire production support plan is critically dependent on the on-time delivery of hardware from other suppliers. As long as hardware is delivered on time, there is little concern. However, any delay in receiving hardware will result in a direct, day-for-day slip to the production and manufacturing schedule, leading to significant inefficiencies and jeopardizing downstream milestones.
+The Level of Effort (LOE) portion of this work is planned against a stable schedule. It will be difficult to manage this workforce efficiently if the schedule slips due to external delays. If hardware is late, the LOE team will be funded but unable to perform their primary work, leading to cost overruns (cost without progress) or the inefficient redirection of skilled personnel to lower-priority tasks.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+The assessment
+discovered
+that 60% of incoming supplier artifacts currently have errors. How is this staggering error rate being factored into the production planning, and what are the schedule and resource implications of the inevitable rework? Request the contractor provide a Basis of Estimate (BOE) for the level of rework anticipated due to poor supplier quality and to demonstrate how this is accounted for in the IMS.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and
+the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Key OBTE hardware and deliverables, both hardware and data artifacts, were discussed with contractor counterparts and appear to be understood. However, their ability to execute the plan is heavily dependent on deliverables from other organizations and currently the quality and accuracy of those deliverables is a concern.
+Appendix C - IIR #2 Assessment Worksheet
+Example
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/28/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.02.01.02.04 Production Operations Support1.02.01.01.10 Segment Integration Production and Manufacturing'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Flight Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Jesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Blake LarsenSteve Simpson'
+[05] PLAIN_TEXT checked=None alias='' tag='' text='The contractor has a mature and well-defined understanding of the scope for production and manufacturing support. Internal planning, including staffing and a ramp-up plan for the Flight Test campaign, is a significant strength.Despite strong internal planning, the entire plan is critically dependent on the timely delivery of hardware from other organizations. The plan is brittle; any delay in receiving hardware will cause a direct and significant slip to the production support schedule.The Level of Effort (LOE) portion of this work is well-defined for a stable schedule. However, it will be extremely difficult to manage this "standing army" effectively and affordably if the schedule is disrupted by hardware delays, leading to potential cost inefficiencies.'
+[06] CHECKBOX checked=True alias='' tag='' text='☒'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='The "Strong" rating is based on the contractor\'s excellent definition of their internal scope, deliverables, and staffing plan. The planning artifacts show a mature understanding of the work required. However, this rating must be caveated with a significant external risk. The plan\'s executability is entirely dependent on the timely receipt of hardware from other suppliers. While the contractor\'s internal plan is solid, a high risk of schedule slip exists due to these external dependencies. Additionally, full traceability to SOW Revision 9 has not yet been completed, which remains a required action.'
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The "Strong" rating is warranted because the team has demonstrated a mature understanding of their scope, with detailed definitions for their deliverables and a clear "definition of done" for their tasks. This provides a high degree of confidence that the contractor knows exactly what work they are responsible for producing.'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=True alias='' tag='' text='☒'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='The "Moderate" rating reflects external risk that undermines an otherwise strong staffing and scheduling plan. The team is sufficiently staffed and has a credible plan to ramp up resources for the Flight Test campaign. However, the schedule\'s viability is wholly dependent on hardware delivery dates that are outside their control. This makes the schedule fragile and introduces a moderate level of risk to the overall IMS readiness, as the current plan may not be executable as laid out.'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=True alias='' tag='' text='☒'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='The "Moderate" rating is assigned due to the high-risk nature of the primary integration point. While the contractor clearly understands the key hardware and data artifacts they need to receive (e.g., OBTE hardware), their ability to execute is completely dependent on the quality and timeliness of those deliverables. Given that the quality and accuracy of those upstream deliverables are currently a concern across the program, this dependency introduces a significant integration risk that reduces confidence.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='WBS Dictionary (28 July 26)Work Packages (28 July 26)Planning Package Descriptions (28 July 26)'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='The work is well-defined with clear deliverables, and the team has already successfully traced this scope to the forthcoming SOW Revision 9, demonstrating proactive compliance.The team is staffed appropriately for the current workload and has a credible, well-documented plan to ramp up personnel as needed to support the future Flight Test campaign, demonstrating strong resource management.'
+[24] PLAIN_TEXT checked=None alias='' tag='' text='The execution of the entire production support plan is critically dependent on the on-time delivery of hardware from other suppliers. As long as hardware is delivered on time, there is little concern. However, any delay in receiving hardware will result in a direct, day-for-day slip to the production and manufacturing schedule, leading to significant inefficiencies and jeopardizing downstream milestones. The Level of Effort (LOE) portion of this work is planned against a stable schedule. It will be difficult to manage this workforce efficiently if the schedule slips due to external delays. If hardware is late, the LOE team will be funded but unable to perform their primary work, leading to cost overruns (cost without progress) or the inefficient redirection of skilled personnel to lower-priority tasks.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='The assessment discovered that 60% of incoming supplier artifacts currently have errors. How is this staggering error rate being factored into the production planning, and what are the schedule and resource implications of the inevitable rework? Request the contractor provide a Basis of Estimate (BOE) for the level of rework anticipated due to poor supplier quality and to demonstrate how this is accounted for in the IMS.'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='Key OBTE hardware and deliverables, both hardware and data artifacts, were discussed with contractor counterparts and appear to be understood. However, their ability to execute the plan is heavily dependent on deliverables from other organizations and currently the quality and accuracy of those deliverables is a concern.'

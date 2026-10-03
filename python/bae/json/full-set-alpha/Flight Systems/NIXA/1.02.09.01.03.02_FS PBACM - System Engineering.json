@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXA/1.02.09.01.03.02_FS PBACM - System Engineering.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:48:49.405236+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.02.09.01.03.02_FS PBACM - System Engineering",
+    "owner": "Post-Boot Branch - NIXA",
+    "gov_personnel": [
+      {
+        "name": "Sofia Fouquet, Shane Wright, Bailey Bradford, Lt Boris Hutchinson",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Caleb Swartz, Maxwell Murphy",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Overall this control account appears to be well laid out with sound logic and dependencies where necessary. Durations will be checked based upon lower comments.",
+    "score_overall": 1,
+    "rationale": "",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "IMP Alignment and Vertical Traceability: Assess whether the Integrated Master Plan (IMP) establishes a logical planning framework for organizing program accomplishments, planning objectives, and future IMS development.Strong- IMP is detailed to Schedule level 3, however, more detail will soon be necessary for detailed Acceptance CriteriaPlanning Structure and Task Definition Maturity: Assess whether the contractor has established a logical planning hierarchy and sufficiently defined planning tasks to support detailed IMS development.Strong- concurWorkflow, Dependencies, and Handoffs Logic: Assess whether the contractor has established a logical execution strategy that defines workflow, identifies dependencies, and clearly describes organizational interfaces.Strong- P6 draft shows full Predecessor and Successor planning for all work. Planning Constructs: Assess whether planning constructs provide a practical and repeatable framework for organizing work and supporting future IMS development.Strong- concurDuration and Assumption Basis: Assess whether planned durations are supported by reasonable assumptions and documented planning rationale.Mod- actual dates are not reflective of final schedule, which is expected at this time. It seems the durations for each work item is approx. 6 weeks which may or may not be accurate.Quantity-Based Data (QBD): Assess whether objective quantities and production rates support the planned durations.N/A"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Interface Identification: Assess whether key technical, schedule, organizational, and supplier interfaces have been identified and documented.Strong – Integration efforts are called out within the line items and logic is present.Dependency Management: Assess whether execution dependencies between product elements are identified, understood, and incorporated into planning.Strong- Full list of predecessors and successors are present and visible.Cross-Product/Cross-Function Schedule Alignment: Assess whether cross-product/cross-function schedules are logically aligned to support integrated program execution.Strong - Line items denote linkage where applicable to other functional areas.Roles, Responsibilities, and Coordination: Assess whether responsibilities for managing cross-product/cross-function integration are clearly assigned and consistently executed.Strong – Connections and responsibilities are known to CAM and have been discussed. Integration Risk and Follow-up: Assess whether unresolved integration issues are evaluated, prioritized, and managed to support continued planning maturity.N/A"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "June 15 P6 WBS deliveryWBS Dictionary 7-13-2026 Sentinel EMD WBS Dictionary.xlsxNG RAM NG RAM_7222026.xlsxNG WBS NG WBS_7222026.xlsxPBACM P6 Export_20260804.xlsxFlight Systems BU Tier II and PBACM Tier III.pptx(U)K03DD06389_IMP_Narratives_RevA_BLACKLINE_r02_(CUI) (1)"
+      }
+    ],
+    "products": "June 15 P6 WBS delivery WBS Dictionary 7-13-2026 Sentinel EMD WBS Dictionary.xlsx NG RAM NG RAM_7222026.xlsx NG WBS NG WBS_7222026.xlsx PBACM P6 Export_20260804.xlsx Flight Systems BU Tier II and PBACM Tier III.pptx (U)K03DD06389_IMP_Narratives_RevA_BLACKLINE_r02_(CUI) (1)",
+    "strengths": "Draft P6 shows a breakdown of work packages beyond the Tier 3 schedule, which is the baseline for this exercise.\nAll required info for IIR 2 is present and resembles a finished product.",
+    "concerns": "Check durations of items close to 44 days and ensure the timelines make logical sense.",
+    "questions": "-How did NGC come up with work package durations (understood we are not looking for actual dates at this time)",
+    "integration": "No comment"
+  }
+}

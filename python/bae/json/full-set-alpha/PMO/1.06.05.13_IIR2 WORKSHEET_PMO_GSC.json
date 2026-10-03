@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "PMO/1.06.05.13_IIR2 WORKSHEET_PMO_GSC.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:37:05.920817+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.06.05.13 – PMO – GSC – GSC Core Program Management",
+    "owner": "Acquisition Integration Branch - NIXQ",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Chris Willey, Barry Niemann",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Overall confidence is strong, no identified issues with GSC.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Assessment is strong.",
+    "score_overall": 1,
+    "rationale": "Assessment is strong, effort is entirely captured as LOE. .",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Assessment is strong, based on above information. PMO-GSC is a cross-cutting LOE CA so it will inherently touch other segments and provides support to the broader program."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Presentation was entirely PPT delivered, work packages descriptions, LOE discussions; reviewed WBS dictionary separately as it was not presented in the review."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "No strengths observed at this time."
+      }
+    ],
+    "products": "Presentation was entirely PPT delivered, work packages descriptions, LOE discussions; reviewed WBS dictionary separately as it was not presented in the review.",
+    "strengths": "No strengths observed at this time.",
+    "concerns": "No risks identified. One comment was made about the “General Procurement” work package, as that term has caused confusion in the past, however the description is clear enough to move forward.",
+    "questions": "None identified.",
+    "integration": "N/A"
+  }
+}

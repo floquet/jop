@@ -1,0 +1,209 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+The confidence rating is Low because while the WBS element is structurally defined and assigned, it completely lacks the two elements most critical for its success: a detailed, resource-loaded schedule and a map of its numerous physical and logical integration points. For a component like cabling, which is pure integration, the absence of this information makes it impossible to have confidence in its readiness for IMS loading.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/5/2026
+Control Account
+:
+1.04.02.04.02.01
+Product Elemen
+t Owner Designation
+:
+Command Systems Segment
+Government Participants:
+Lt Col Ralston (ML)
+Troy Wynn (Lead Engineer)
+Jason Noah
+(PM)
+Contractor Participants:
+Krystal Joscher (ISC BAE)
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+While the contractor has clearly assigned ownership for "KDC Cabling," this critical hardware element suffers from the same systemic planning deficiencies seen across the program: a complete lack of detailed schedule planning and documented cross-functional integration. Confidence to proceed with IMS loading for this specific element is Low, as the plan to design, procure, and install this cabling is entirely undefined.
+Ownership is Clear, but the Plan is a "Black Box". The WBS for "KDC Cabling" (1.04.02.04.02.01) is correctly assigned to CAM Anthony Lukacsffi. This provides accountability, but we have zero visibility into the underlying tasks, procurement lead times, installation durations, or the Basis of Estimates (BOEs). The "what" is defined, but the "how" and "when" are completely missing.
+Cabling Integration Risk is High and Undocumented. Cabling is a critical integration component that physically connects numerous subsystems. The success of this WBS element depends on precise alignment with facility construction, rack hardware delivery, and system power-on sequences. None of these critical dependencies are documented
+in the provided planning artifacts.
+Pattern of Incomplete Planning is Confirmed. The lack of detailed planning for this hardware element is not an isolated incident. It confirms a systemic pattern where the contractor has established a structural WBS but has failed to mature the detailed, integrated plans necessary for a credible IMS. Loading this element into the schedule without this detail will create an
+unexecutable
+plan.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The confidence rating is Low because while the WBS element is structurally defined and assigned, it completely lacks the two elements most critical for its success: a detailed, resource-loaded schedule and a map of its numerous physical and logical integration points. For a component like cabling, which is pure integration, the absence of this information makes it impossible to have confidence in its readiness for IMS loading.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+Strength: The WBS element is properly defined in both the WBS Dictionary and the RAM. It has a clear owner (CAM Anthony Lukacsffi) and is assigned to the "CS-HW" (Command & Control Systems - Hardware) organization.
+Concern: The dictionary entry lacks a detailed scope narrative, specific deliverables (e.g., cable
+types, quantities, installation drawings), or objective completion criteria beyond the title "CS_HW KDC Cabling."
+rength
+: The WBS element is properly defined in both the WBS Dictionary and the RAM. It has a clear owner (CAM Rene Manley) and is assigned to the "CS-SW" (Command & Control Systems - Software) organization.
+Concern: The dictionary entry lacks a detailed scope narrative, explicit deliverables, or objective completion criteria beyond the title "CS_SW Integration & Test SW."
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+Concern: There is no evidence of detailed schedule planning. The artifacts do not define the design, procurement, installation, and testing tasks, nor their durations or Basis of Estimates (BOEs).
+Risk: Loading an undefined cabling plan into the IMS will result in a schedule that does not reflect real-world lead times and installation constraints, leading to inevitable delays.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+Concern: This is a major concern. The very purpose of cabling is to integrate different hardware components. However, there is no documentation of the critical interfaces with facility construction schedules, hardware rack layouts, power systems, or network equipment.
+Risk: Failure to logic-tie the cabling installation to the availability of facilities and hardware will cause significant rework and delays during the system build-out and commissioning phases.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Sentinel EMD SOW Rev 9
+Responsibility Assignment Matrix (RAM)
+EMD WBS Dictionary
+Government IPT Assessment Guide
+3. Strengths Observed
+Document the most significant strengths identified during the
+assessment that
+increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Clean Structural Alignment and Code Integrity
+Observed Strength: The contractor has maintained rigorous configuration control over the structure and nomenclature of the software accounts.
+Objective Evidence: The WBS element code and title "CS_SW Integration & Test SW" are perfectly synchronized between the WBS Dictionary (dated July 13, 2026) and the RAM (dated August 5, 2026).
+Impact on Readiness: This flawless structural alignment provides a clean database that is a prerequisite for launching the IMS. It ensures that cost data and schedule progression will roll up automatically and accurately through the PMB without causing mapping errors in the program's automated Earned Value Management System (EVMS).
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Critical Omission of Cross-Product Integration Interfaces
+Concern: For a Control Account whose primary purpose is "Integration & Test," there is a glaring absence of documented interfaces, dependencies, and handoffs with the other hardware and software systems it is meant to integrate with.
+Objective Evidence: The planning artifacts (WBS Dictionary and RAM) assign the account, but do not identify any technical, planning, or schedule interfaces with critical downstream or upstream elements, such as Aerospace Vehicle Equipment (AVE), Command & Launch execution hardware (e.g., WBS 1.04.04.03.01.05), or cryptographic systems. There are no joint milestones or Interface Control Document (ICD) dependencies mapped.
+Associated Risk: If the integration test software is developed in a vacuum without explicit logic-ties to the hardware it must validate, there is a high probability that the software will be delivered out of sequence or be incompatible with the physical hardware. This will cause cascading, costly bottlenecks during the System Test and Evaluation phase as hardware sits idle waiting for functioning test software.
+5. Open Questions and Follow-Up Items
+Document
+questions
+remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Software-to-Hardware Interface Mapping
+Open Question: How is the contractor mapping and logic-tying the critical interfaces between this test software and the physical hardware components (e.g., Launch Execution Hardware, Cryptographic Devices) it is designed to validate?
+Evidence/Action Needed: Request a demonstration or an integration dependency map showing how hardware delivery milestones are linked to software test readiness dates within the draft IMS network. The Government needs to verify that the test software will be fully mature and compatible before the physical hardware is ready for integration testing.
+Open Question: How does this Command & Control Systems Software (CS-SW) test element integrate and align with the broader program-level test strategies managed under WBS 1.07 (System Test & Evaluation)?
+Action Needed: Request a brief mapping or explanation from the contractor demonstrating how the development timeline for this test software supports the high-level testing milestones outlined in SOW Section 3.7 (System Test & Evaluation) and the Integrated Test Strategy (ITS).
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+There is no documented visibility into how the software build and release cycles are being coordinated with the delivery of physical hardware to the test facilities. Sentinel EMD Statement of Work (SOW) Section 3.2 (System Integration) and Section 3.7 (System Test & Evaluation) mandate rigorous, coordinated testing procedures. Yet, the provided planning artifacts contain no evidence of how the software
+releases managed
+by Rene Manley will be logically logic-tied to the hardware delivery milestones managed by other CAMs (such as John Fiorante). The horizontal schedule logic connecting software readiness to hardware availability is effectively invisible at this stage of planning.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/5/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.04.02.04.02.01'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Command Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Lt Col Ralston (ML)Troy Wynn (Lead Engineer)Jason Noah (PM)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Krystal Joscher (ISC BAE)'
+[05] PLAIN_TEXT checked=None alias='' tag='' text='While the contractor has clearly assigned ownership for "KDC Cabling," this critical hardware element suffers from the same systemic planning deficiencies seen across the program: a complete lack of detailed schedule planning and documented cross-functional integration. Confidence to proceed with IMS loading for this specific element is Low, as the plan to design, procure, and install this cabling is entirely undefined.Ownership is Clear, but the Plan is a "Black Box". The WBS for "KDC Cabling" (1.04.02.04.02.01) is correctly assigned to CAM Anthony Lukacsffi. This provides accountability, but we have zero visibility into the underlying tasks, procurement lead times, installation durations, or the Basis of Estimates (BOEs). The "what" is defined, but the "how" and "when" are completely missing.Cabling Integration Risk is High and Undocumented. Cabling is a critical integration component that physically connects numerous subsystems. The success of this WBS element depends on precise alignment with facility construction, rack hardware delivery, and system power-on sequences. None of these critical dependencies are documented in the provided planning artifacts.Pattern of Incomplete Planning is Confirmed. The lack of detailed planning for this hardware element is not an isolated incident. It confirms a systemic pattern where the contractor has established a structural WBS but has failed to mature the detailed, integrated plans necessary for a credible IMS. Loading this element into the schedule without this detail will create an unexecutable plan.'
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=True alias='' tag='' text='☒'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='The confidence rating is Low because while the WBS element is structurally defined and assigned, it completely lacks the two elements most critical for its success: a detailed, resource-loaded schedule and a map of its numerous physical and logical integration points. For a component like cabling, which is pure integration, the absence of this information makes it impossible to have confidence in its readiness for IMS loading.'
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=True alias='' tag='' text='☒'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='Strength: The WBS element is properly defined in both the WBS Dictionary and the RAM. It has a clear owner (CAM Anthony Lukacsffi) and is assigned to the "CS-HW" (Command & Control Systems - Hardware) organization.Concern: The dictionary entry lacks a detailed scope narrative, specific deliverables (e.g., cable types, quantities, installation drawings), or objective completion criteria beyond the title "CS_HW KDC Cabling." rength: The WBS element is properly defined in both the WBS Dictionary and the RAM. It has a clear owner (CAM Rene Manley) and is assigned to the "CS-SW" (Command & Control Systems - Software) organization.Concern: The dictionary entry lacks a detailed scope narrative, explicit deliverables, or objective completion criteria beyond the title "CS_SW Integration & Test SW."'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=True alias='' tag='' text='☒'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='Concern: There is no evidence of detailed schedule planning. The artifacts do not define the design, procurement, installation, and testing tasks, nor their durations or Basis of Estimates (BOEs).Risk: Loading an undefined cabling plan into the IMS will result in a schedule that does not reflect real-world lead times and installation constraints, leading to inevitable delays.'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=False alias='' tag='' text='☐'
+[20] CHECKBOX checked=True alias='' tag='' text='☒'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='Concern: This is a major concern. The very purpose of cabling is to integrate different hardware components. However, there is no documentation of the critical interfaces with facility construction schedules, hardware rack layouts, power systems, or network equipment.Risk: Failure to logic-tie the cabling installation to the availability of facilities and hardware will cause significant rework and delays during the system build-out and commissioning phases.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Sentinel EMD SOW Rev 9Responsibility Assignment Matrix (RAM)EMD WBS DictionaryGovernment IPT Assessment Guide'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='Clean Structural Alignment and Code IntegrityObserved Strength: The contractor has maintained rigorous configuration control over the structure and nomenclature of the software accounts.Objective Evidence: The WBS element code and title "CS_SW Integration & Test SW" are perfectly synchronized between the WBS Dictionary (dated July 13, 2026) and the RAM (dated August 5, 2026).Impact on Readiness: This flawless structural alignment provides a clean database that is a prerequisite for launching the IMS. It ensures that cost data and schedule progression will roll up automatically and accurately through the PMB without causing mapping errors in the program\'s automated Earned Value Management System (EVMS).'
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Critical Omission of Cross-Product Integration InterfacesConcern: For a Control Account whose primary purpose is "Integration & Test," there is a glaring absence of documented interfaces, dependencies, and handoffs with the other hardware and software systems it is meant to integrate with.Objective Evidence: The planning artifacts (WBS Dictionary and RAM) assign the account, but do not identify any technical, planning, or schedule interfaces with critical downstream or upstream elements, such as Aerospace Vehicle Equipment (AVE), Command & Launch execution hardware (e.g., WBS 1.04.04.03.01.05), or cryptographic systems. There are no joint milestones or Interface Control Document (ICD) dependencies mapped.Associated Risk: If the integration test software is developed in a vacuum without explicit logic-ties to the hardware it must validate, there is a high probability that the software will be delivered out of sequence or be incompatible with the physical hardware. This will cause cascading, costly bottlenecks during the System Test and Evaluation phase as hardware sits idle waiting for functioning test software.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Software-to-Hardware Interface MappingOpen Question: How is the contractor mapping and logic-tying the critical interfaces between this test software and the physical hardware components (e.g., Launch Execution Hardware, Cryptographic Devices) it is designed to validate?Evidence/Action Needed: Request a demonstration or an integration dependency map showing how hardware delivery milestones are linked to software test readiness dates within the draft IMS network. The Government needs to verify that the test software will be fully mature and compatible before the physical hardware is ready for integration testing. Open Question: How does this Command & Control Systems Software (CS-SW) test element integrate and align with the broader program-level test strategies managed under WBS 1.07 (System Test & Evaluation)?Action Needed: Request a brief mapping or explanation from the contractor demonstrating how the development timeline for this test software supports the high-level testing milestones outlined in SOW Section 3.7 (System Test & Evaluation) and the Integrated Test Strategy (ITS).'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='There is no documented visibility into how the software build and release cycles are being coordinated with the delivery of physical hardware to the test facilities. Sentinel EMD Statement of Work (SOW) Section 3.2 (System Integration) and Section 3.7 (System Test & Evaluation) mandate rigorous, coordinated testing procedures. Yet, the provided planning artifacts contain no evidence of how the software releases managed by Rene Manley will be logically logic-tied to the hardware delivery milestones managed by other CAMs (such as John Fiorante). The horizontal schedule logic connecting software readiness to hardware availability is effectively invisible at this stage of planning.'

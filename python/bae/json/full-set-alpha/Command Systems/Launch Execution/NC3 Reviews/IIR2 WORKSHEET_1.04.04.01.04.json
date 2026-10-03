@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/NC3 Reviews/IIR2 WORKSHEET_1.04.04.01.04.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:43:35.079376+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-29",
+    "control_account": "1.04.04.01.04 |SUP-GDMS2 - Program Management",
+    "owner": "Kenyon Orme (Senior Principal Engineer)Teresa Kendell (PM)",
+    "gov_personnel": [
+      {
+        "name": "1. Control Account Volume: The current number of Control Accounts (CAs) is unsustainably high, severely diluting our ability to manage effectively. Likely putting us at risk of the same problems w/ EV reporting as before2. Government Reporting Boundary: This specific CA represents internal Northrop Grumman (NGC) subcontractor management and should not be flowed down to the government. This pushes too much subcontract management risk to government3. GDMS Account Consolidation: If sub-contract focused CAs are maintained as is, all General Dynamics Mission Systems (GDMS) CAs can be rolled up into a smaller, highly focused set of accounts.",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Excessive and Vague Complexity: The current volume of Control Accounts (CAs), combined with poorly defined boundaries, creates a highly complex management matrix. This excessive complexity severely degrades our ability to maintain effective program oversight and puts overall management success at risk.Inappropriate Risk Transfer: The current CA structure for subcontractors inappropriately shifts internal subcontract management responsibility to the government. This forces the government to absorb substantial programmatic risk without the corresponding contractual authority to manage or mitigate it.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Defined Scope Foundation: The scope of this specific Control Account (CA) is clearly established, successfully outlining the program management and risk reduction activities for GDMS.Lack of Measurable Deliverables: Confidence is capped at Moderate because there are no clearly defined or measurable deliverables associated with this scope. Without defined outputs, the government cannot effectively verify progress or measure performance.",
+    "score_overall": -1,
+    "rationale": "The current Control Account (CA) lacks the necessary detail, milestones, or logical relationships required to map its scope to a specific schedule or Integrated Master Schedule (IMS) activity",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Comprehensive Product Scope: The scope successfully covers all GDMS products, ensuring the baseline work is captured at a high level.Missing Integration Framework: Confidence is capped at Moderate because the planning does not specifically address cross-product or cross-functional integration. While the individual products are covered, the structural interfaces and dependencies between them remain undefined."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025 Weapon Systems Specification (WSS), Rev K Statement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline) WBS, WBS Dictionary"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Comprehensive Scope Coverage: The contractor's planning architecture is highly thorough; the current structure ensures that no program scope is omitted. The exhaustive volume of Control Accounts (CAs) guarantees that all contract requirements, program management activities, and risk reduction efforts are captured."
+      }
+    ],
+    "products": "Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025, Weapon Systems Specification (WSS), Rev K, Statement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline), WBS, WBS Dictionary",
+    "strengths": "Comprehensive Scope Coverage: The contractor's planning architecture is highly thorough; the current structure ensures that no program scope is omitted. The exhaustive volume of Control Accounts (CAs) guarantees that all contract requirements, program man\na\ngement activities, and risk reduction efforts are capture\nd.",
+    "concerns": "Concern (Excessive CA Fragmentation & Ambiguity): The contractor's planning architecture relies on an unsustainably high volume of Control Accounts (CAs) with poorly defined, ambiguous boundaries. This lacks the crisp operational separation required for clean management.Risk (Erosion of Program Control & Resource Misalignment): Left unaddressed, this highly complex matrix will lead to duplicated efforts, misaligned team activities, and critical gaps in program execution. Structurally, it directly threatens the government’s ability to conduct accurate EV reporting, perform critical path analysis, and maintain effective program oversight.",
+    "questions": "N/A",
+    "integration": "Observation (Fragmented Integration Architecture): The assessed Control Account (CA) structure lacks an inherent focus on cross-product and cross-functional integration. The extreme fragmentation caused by the high volume of CAs prevents the clear identification and mapping of interdependencies."
+  }
+}

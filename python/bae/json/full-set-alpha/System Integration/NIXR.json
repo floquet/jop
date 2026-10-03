@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "System Integration/NIXR.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:41:04.457549+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-31",
+    "control_account": "Product Support, Global Supply Chain, and Parts, Materials and Process accounts",
+    "owner": "Product Support Branch - NIXR",
+    "gov_personnel": [
+      {
+        "name": "Penny Johnson, Anthony Purkey, Amber Vaughn",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Nathaniel Butler, Andrew Blomquist",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "CAs are not properly aligned to restructure for Product Support activities (PS) or even some of the Integration. I have elements aligned to me that are not in my AOR. a. Activities Technical Orders, Supply Support, PHS&T should be broken out per AOR. b. The Product PSIs should be the oversight manager of PS activities or his/her Product. The Integration PS person should be only enabling the efforts to happen and take the product upon CDR completion to build the PS package.",
+    "score_overall": 0,
+    "rationale": "Scope is captured in work packages and planning packages to support subsequent IIR activities.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities. But durations are extremely long due to not being aligned correctly to the restructuring of the government."
+      }
+    ],
+    "products": "We walked through detailed work packages to support PRS CDR, MBSE development, MS&A activities. I am confident at a large scope NG understands how the logic should be and will capture activities. However, this still needs to be managed at the Product IPT level to ensure his/her scope, cost, schedule and performance is correctly aligned to the Products Budget and schedule.",
+    "strengths": "Scope is clearly\nand logically captured\nagain at a very high\nlevel;\nI am confident\nthat if aligned correctly\nto the Product IPTs PSIs\nthe\ncontractor\nwill be able to implement a\nthorough\nIMS\nthat can be baselined.",
+    "concerns": "Scope is clearly and logically captured again at a very high level; I am confident that if aligned correctly to the Product IPTs PSIs the contractor will be able to implement a thorough IMS that can be baselined.",
+    "questions": "Supportability is high risk, but the risk posture is consistent with the rest of the program to meet IOC in 2033 (e.g. schedule is success oriented – no margin for test failure or redesign work, concurrent development may drive design changes or rework, etc.). Without accurate data and design going fast approach could cause significate throughput for parts procurement in the future. A lot of moving parts with the agile approach on a program of this size. As long as backwards capability in design exists, we should be able to handle the modular upgrades to items such as software and obsolete hardware.",
+    "integration": "Unable to define and track the G/R handoffs, I do not believe we have all the correct personnel engaged for this activity since none of the Product IPT PSIs have been involved in the IRRs."
+  }
+}

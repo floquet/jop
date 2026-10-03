@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_CLEAN_REV1 - 1.04.02.06.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:28:45.362333+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.04.02.06.01 SLP-A Systems Engineering",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Matthew Matysik",
+        "role": "Program Manager"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "David Cloward",
+        "role": "Program Manager"
+      }
+    ],
+    "leadership_messages": "1.The WBS Dictionary as of 3 August 2026 has a different WBS Description from original CA #. 2.The WBS Description refers to Engineering, the WBS dictionary refers to production integration for SLP-A HW. Need to verify scope and info. 3. Original CA has changed. Verify info.",
+    "score_overall": -1,
+    "rationale": "​​ In correct data has been provided on the NG collaboration portal as of 30 Jul that is currently reviewable, needs clarification.​",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "What is the correct scope? LS Cabling or Fees?"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "​​ Without a correct description of scope and expected workload for account this item needs to be verified for correct info. making this a high risk​.Verify Child info. for 1.04.02.06.01.01"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "This cannot be determined​. WBS Description and WBS Dictionary do not correlate.Verify Child info. for 1.04.02.06.01.01"
+      }
+    ],
+    "products": "“Draft Sentinel EMD WBS Dictionary_73026” (NG) “NG WBS_7222026” (NG) “NG WBS_7162026” (NG) “NG WBS_RAM_7302026” (NG) “New WBS IPT Mapping” (NIX) as of 3 August 26 “PMB Development Progress_31JUL” (NIX) “IIR #2” Power Point brief” (NIX) “PCAM Working document” (NIX2) “KDC PWBS for the Gov IMS 7-16-26” (ICS)",
+    "strengths": "​​ This cannot be determined​.",
+    "concerns": "​​ Risks are widespread and functionally identical across all SLP-A CAs to a greater or lesser extent: 1. Incorrect information for Account, Technical Scope for Description and Dictionary.​",
+    "questions": "Incorrect scope and information are provided for this review. Verify Child info. for 1.04.02.06.01.01",
+    "integration": "​ As described in detail above, lower level reviews are attempting to identify cross use equipment and efforts, but incorrect scope/description/dictionary information is not available to perform that review."
+  }
+}

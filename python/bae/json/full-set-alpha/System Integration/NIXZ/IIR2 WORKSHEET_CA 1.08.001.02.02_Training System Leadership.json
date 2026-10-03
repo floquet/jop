@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "source_file": "System Integration/NIXZ/IIR2 WORKSHEET_CA 1.08.001.02.02_Training System Leadership.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:41:38.624642+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Checkbox rating not determined for: Schedule Planning and IMS-Loading Readiness"
+    ]
+  },
+  "data": {
+    "date": "2026-07-27",
+    "control_account": "1.08.01.02.02",
+    "owner": "Training Systems Branch - NIXZ",
+    "gov_personnel": [
+      {
+        "name": "Sasha TormanKaty SchuffTrevor CookTimothy Strader",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Proactive Partnership has benefited schedule developmentWe consistently collaborate with our NG counterparts as they build BOEs, schedules, and other artifacts, allowing us to ensure a common understanding of portfolio scope and discuss concerns early on. 2. Artifacts are still in early development stagesWhile we are evaluating what we can for BOEs and schedules, these are still in development and missing logic, durations, etc. We anticipate some rework as we evaluate early products that are still being updated. 3. Schedule pressures There is pressure to create an aggressive schedule to meet IOC dates, and our concern is that logic or durations may be optimistic rather than realistic in order to show an ability to meet key milestones.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "We have moderate confidence in the planning foundation for development of schedule artifacts. Open communication and a solid relationship will enable collaborative discussions, but schedules in previous years that were missing key logic or scope leave us with some definite concerns that we will be looking for in future evaluations.",
+    "score_overall": 0,
+    "rationale": "This control account would not have any IMS loading associated with it.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The government has moderate confidence in the cross-function integration at this time. Because the training system is heavily dependent on the Weapon System, it is going to be critical to continue the integration within other segments. We are encouraging NG to reach out to the other segments while designing/developing the training system. NG has demonstrated their approach by creating internal planning documents that are being socialized to other NG entities. We would expect to see a similar approach across all divisions in the future."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": null,
+        "text": "BOE draft: Have had multiple meetings with NG. Schedule draft: N/A for this account VSM: We met with NG and reviewed the value streams with no concerns. CA: We have reviewed the control accounts listed.SOW/STS-TRD: We have worked through these documents with NG and agree on the scope and content of these artifacts."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Our teams proactively partner, which allows us to discuss concerns and understand progress on these artifacts as they are being developed. We also have confidence that our NG counterparts deeply understand the scope as we collaboratively worked through the STS-TRD over time."
+      }
+    ],
+    "products": "BOE draft: Have had multiple meetings with NG. Schedule draft: N/A for this account. VSM: We met with NG and reviewed the value streams with no concerns. CA: We have reviewed the control accounts listed. SOW/STS-TRD: We have worked through these documents with NG and agree on the scope and content of these artifacts.",
+    "strengths": "Our teams\nproactively\npartner\n, which allows us to discuss concerns and understand progress on these artifacts as they are being developed. We also have confidence that our NG counterparts deeply understand the scope as we collaboratively worked through the STS-TRD over time.",
+    "concerns": "Our teams proactively partner, which allows us to discuss concerns and understand progress on these artifacts as they are being developed. We also have confidence that our NG counterparts deeply understand the scope as we collaboratively worked through the STS-TRD over time.",
+    "questions": "N/A",
+    "integration": "In future meetings, we will be working with NG to understand how WS data dependencies are being captured and communicated across all functionals."
+  }
+}

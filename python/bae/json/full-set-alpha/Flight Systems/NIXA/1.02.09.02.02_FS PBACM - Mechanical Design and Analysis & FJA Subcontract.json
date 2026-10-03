@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXA/1.02.09.02.02_FS PBACM - Mechanical Design and Analysis & FJA Subcontract.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:49:10.122005+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-06",
+    "control_account": "1.02.09.02.02 Mechanical Design and Analysis & FJA Subcontract",
+    "owner": "Post-Boot Branch - NIXA",
+    "gov_personnel": [
+      {
+        "name": "Sofia Fouquet, Shane Wright, Bailey Bradford, Lt Boris Hutchinson",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Caleb Swartz, Hayden Wiley, Jordan Linford, Bryan Butler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "CA is logical and follows SOW, IMP structures and CWBS is defined properly.",
+    "score_overall": 1,
+    "rationale": "Strong-See below",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "IMP Alignment and Vertical Traceability: Assess whether the Integrated Master Plan (IMP) establishes a logical planning framework for organizing program accomplishments, planning objectives, and future IMS development.P6 draft follows IMP logic and traceability reqs.Planning Structure and Task Definition Maturity: Assess whether the contractor has established a logical planning hierarchy and sufficiently defined planning tasks to support detailed IMS development.N/A CA is primarily Planning Data Packages (PDP)Workflow, Dependencies, and Handoffs Logic: Assess whether the contractor has established a logical execution strategy that defines workflow, identifies dependencies, and clearly describes organizational interfaces.All applicable predecessors and successors are present. Planning Constructs: Assess whether planning constructs provide a practical and repeatable framework for organizing work and supporting future IMS development.N/ADuration and Assumption Basis: Assess whether planned durations are supported by reasonable assumptions and documented planning rationale.All PDPs have the same durationQuantity-Based Data (QBD): Assess whether objective quantities and production rates support the planned durations.N/A"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Interface Identification: Assess whether key technical, schedule, organizational, and supplier interfaces have been identified and documented.Planning packages present for supplier, dates too far in future to need further fidelity at this time.Dependency Management: Assess whether execution dependencies between product elements are identified, understood, and incorporated into planning.Logic flow is present for the CACross-Product/Cross-Function Schedule Alignment: Assess whether cross-product/cross-function schedules are logically aligned to support integrated program execution.N/ARoles, Responsibilities, and Coordination: Assess whether responsibilities for managing cross-product/cross-function integration are clearly assigned and consistently executed.Has one ownerIntegration Risk and Follow-up: Assess whether unresolved integration issues are evaluated, prioritized, and managed to support continued planning maturity.N/A"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Me"
+      }
+    ],
+    "products": "Me June 15 P6 WBS delivery WBS Dictionary 7-13-2026 Sentinel EMD WBS Dictionary.xlsx NG RAM NG RAM_7222026.xlsx NG WBS NG WBS_7222026.xlsx PBACM P6 Export_20260804.xlsx Flight Systems BU Tier II and PBACM Tier III.pptx (U)K03DD06389_IMP_Narratives_RevA_BLACKLINE_r02_(CUI) (1)",
+    "strengths": "Durations seem reasonable for the scope of the CA.\nScope planned out through FT-14.",
+    "concerns": "N/A",
+    "questions": "N/A",
+    "integration": "N/A"
+  }
+}

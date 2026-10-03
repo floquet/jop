@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXG/OBTE/IIR2 WORKSHEET_OBTE_1.02.12.05_ETS.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:05:19.126311+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "FS OBTE Environmental Telemetry System 1.02.12.05ETS Mechanical Design 1.02.12.05.07ETS Electrical Design 1.02.12.05.08ETS Comp Testing_Qual 1.02.12.05.09",
+    "owner": "Guidance & Navigation Branch - NIXG",
+    "gov_personnel": [
+      {
+        "name": "Sherida Malan OBTE PMCannon Buechley BAE EngineerHayden Wiley AVE Scheduler",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Mike Grygla OBTE DirectorJeff Ree OBTE DeputyPaul Strickland Engineer",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. The contractor has established a clear integrated planning architecture with a well-defined scope, creating a strong foundation for the continued development of the IMS2. Tasks are actionable and organized. WP are clearly defined to capture scope for production and manufacturing. 3. The cross-function dependencies are well mapped with detailed giver/receivers. Formal IMS incorporation will be completed during IIR 3 & 4.",
+    "score_overall": 1,
+    "rationale": "There is strong confidence that the contractor has matured their planning architecture during the IIR #2 review. The WBS is mature, the contractor is making good headway on the scope, deliverables, scheduling planning and IMS loading. While the groundwork is mature, the next step is aligning detailed tasks within the WP to meet major program milestones. Overall, the contractor is ready to continue planning and integration toward IIR 3.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "CWBS Dictionary is well defined for ETS mechanical and electrical design, analysis and testing. WPs are sufficiently defined with clear task completion criteria, many of the WP are generic and tied to CDR. However, the detailed planning contains detailed exceptionable actions. The integration of the OBS and RAM establishes solid accountability and work responsibility."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "The contractor has made positive progress to establish a solid alignment with the IMP and the high-level planning structure/task definitions are steadily maturing. The contractor demonstrated a logical planning hierarchy with WPs and planning products that were clearly defined and organized. This resulted in executable tasks being developed into detailed planning. Workflow, dependencies, handoff logic, planning constructs, duration and assumption basis and QBDs had not been implemented at this phase of IIR#2. This was not a factor in the confidence rating. However, they will be ready for review and assessed in IIR#3."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "The contractor has provided a highly detailed planning approach and a robust element-to-element giver/receiver list that clearly defines execution dependencies. While the physical incorporation of these dependencies into the formal planning structure—alongside supplier relationships, handoffs, and cross-product organizational transitions—is currently ongoing, the underlying logic and definition are mature. The contractor has a clear, actionable roadmap to fully integrate these elements in IIR #3 and #4"
+      }
+    ],
+    "products": "CWBS Dictionary Rev 4, SOW Rev 9.0, NG RAM 7162026, 7-13-26 Sentinel EMD WBS Dictionary",
+    "strengths": "The contractor scope is identified and organized with a logical and product-oriented structure.\n2. The contractor\nreview of the\nIMS and PMB implementation were well supported\nwith the government\nand organized with the appropriate supporting evidence. The contractor was transparent and open to constructive feedback.",
+    "concerns": "The EDI WP were not as defined as MDI. Contractor provided detailed task planning for EDI. However, concern that future planning, cost and program execution could potentially be missed.",
+    "questions": "",
+    "integration": "This element is responsible for highly complex and critical interfaces spanning the AVE missile, STT, and ground systems. During this phase, the assessment was strictly limited to evaluating the preliminary Giver/Receiver (G/R) list. While the existence of this preliminary list demonstrates initial progress, the formal execution elements, such as detailed interface identification, schedule alignment, roles and responsibilities/coordination, and integration risk analysis, were not evaluated and are deferred to IIR #3 and #4"
+  }
+}

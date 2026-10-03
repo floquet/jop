@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Launch Systems/Launch Centers/Standard LC/IIR2 WORKSHEET_Launch Center_VLC - LS-INF - Launch Center Above - Design - General - 1.04.02.02.02.03.01.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:12:23.811303+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-07",
+    "control_account": "1.04.02",
+    "owner": "Launch Centers Branch - NIXD",
+    "gov_personnel": [
+      {
+        "name": "Melissa Neitzel GCAM, Joe Palmer LC Lead PE, John Ecklund LC Lead PM",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Bryce Caye CAM, Colby Richins VLC Product Lead, William Vildrine SSE Director",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Planning foundation appears to be mature and NG SSE Team is working through the program re-baseline however many tasks are interdependent on other NG teams within the program.2.Working detailed planning as previously NG SSE consolidated independent tasks into a single overarching task which obscured handoff visibility.3.NG SSE is working to correct the consolidation and visibility.",
+    "score_overall": 0,
+    "rationale": "Overall confidence is moderate due to the interdependency of other NG teams.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Assessment is moderate, requested follow up information on tasks (Givers/receivers) that I believe may not be addressed."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "Assessment is moderate, currently P6 input information has not fully incorporated the full breakout of consolidated items for visibility."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Assessment is moderate based on above information."
+      }
+    ],
+    "products": "P6 Draft Inputs, Work packages, mermaid charts and value streams.",
+    "strengths": "No strengths observed at this time.",
+    "concerns": "Concerns are annotated in the assessments.",
+    "questions": "Requested follow up information on tasks (Givers/receivers) that I believe may not be addressed.",
+    "integration": "Was unable to fully confirm all interdependency of other NG teams or Government tasks are fully addressed and implemented in the P6 input information to fully breakout of consolidated items for visibility."
+  }
+}

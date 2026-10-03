@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Mission Planning_Targeting Reviews/IIR2 WORKSHEET_1.16.03.14.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:31:33.019100+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.03.14",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Perfect Structural WBS Alignment for Core Safety/Security Logic: Control Account 1.16.03.14 (CS_SW IFC 3.0_Revoke Unauthorized Command) maps perfectly under WBS 1.16.3 (Core Launch Capability). This vertical alignment ensures seamless, automated cost and schedule tracking for the program's primary security-veto software.2. Critical Security Veto Pathway for Core Launch: This account represents the software mechanism responsible for revoking unauthorized, accidental, or corrupted launch command packets before final terminal countdown. It is a critical path safety and Nuclear Command and Control (NC2) item for the IFC 3.0 release.3. Consolidated Execution CAM Domain Minimizes Systemic Risk: The account is managed by CAM Rebecca Davenport, who consistently owns both the final launch-execution steps (Terminal Countdown .13) and safety-veto steps (Revoke Unauthorized Command .14). This single-point accountability minimizes interface and integration design risks between the countdown and revocation modules.",
+    "score_overall": 1,
+    "rationale": "The Government has assigned a Strong overall confidence rating. The planning foundation for this account is highly mature. There is perfect vertical traceability between the contractor's Responsibility Assignment Matrix (RAM) and the proposed CSDR WBS for the core launch capability branch. The functional scope is tightly bounded, the schedule sequence is ready for Integrated Master Schedule (IMS) loading, and the safety-critical software is managed by an experienced execution-domain CAM.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The scope of the target revocation software module is exceptionally clear and traces vertically to WBS element 1.16.3 (Core Launch Capability). The deliverables are logically planned to support the technical baseline necessary to verify safety and security veto pathways during the first silo launch."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "The control account is fully ready for IMS loading. Because the WBS code 1.16.03.14 directly maps to parent WBS element 1.16.3, there are no coding conflicts. Automated scheduling and financial reporting systems can ingest this account and link it to hardware milestones without manual remapping."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Integration is rated Moderate. While this IFC 3.0 module integrates cleanly with other core launch execution functions (such as countdown), tracing its technical maturation into downstream releases is hindered. Because the contractor introduces an extra level-3 WBS element in the next release cycle (IFC 3.1 mapped under 1.16.04), tracing the migration of this critical revocation logic to IFC 3.1 (1.16.04.10) and IFC 4.0 (1.16.05.27) is structurally disrupted in the EVMS architecture."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix, Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx), Proposed CSDR WBS Dictionary, Sentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Vertical Traceability Compliance): This control account serves as a baseline example of clean compliance with the government's proposed WBS, allowing for seamless automated cost accumulation and auditing.\nStrength 2 (Consolidated Domain CAM): CAM Rebecca Davenport manages the primary launch-execution and safety-veto software blocks. This ensures that the technical dependencies between active countdown execution and command revocation are coordinated by a single technical lead.",
+    "concerns": "Concern 1 (Downstream Logic Migration Tracking):While this core account is vertically aligned, the command revocation software logic must migrate and evolve in IFC 3.1 (under WBS 1.16.04.10) and IFC 4.0 (under WBS 1.16.05.27). Because of the downstream +1 index shift in those releases, the EVMS cannot automatically track logic maturity across the release cycles.Risk 1:Design changes or issues identified in this core revocation module under IFC 3.0 may not automatically flag critical-path impacts on the secondary launch platforms (SLP-A) or wing-wide revocation functions in the IMS.Concern 2 (Hardware-Software Lab Scheduling Dependencies):As command revocation is a safety-critical function, its verification is highly dependent on early Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HWIL) lab availability.Risk 2:Any delay in the availability of the Launch Silo node testing environments (WBS 1.4.2.1.3) will directly stall the qualification of this core safety software, risking a slip in the first silo launch MPE date.",
+    "questions": "Question 1: What specific safety and authentication keys are processed by this module to authorize and execute command revocation?Follow-Up 1: Contractor to provide the software requirements specification (SRS) and software design description (SDD) for the command revocation logic to verify boundary interfaces.Question 2: How does the countdown revocation software interface with the NC2 security software modules managed by Julie Richey within IFC 3.0?Follow-Up 2: Contractor to provide a technical interface diagram showing the data boundaries between the command revocation execution module and NC2 Security Functionality (1.16.03.05).",
+    "integration": "Observation 1 (High Safety and Security Coupling): The command revocation software must directly couple with physical command center hardware safety relays and cryptographic modules. Since WBS 1.16.3 is structurally aligned, automated scheduling tools can cleanly link these inter-segment dependencies.Observation 2 (Hardware-to-Software Scheduling Synchronization): Execution of this software relies on physical hardware availability under WBS 1.4.4 (C&L Hardware). Because this account is properly coded, EVMS tools can cleanly track software maturity against these physical hardware delivery schedules."
+  }
+}

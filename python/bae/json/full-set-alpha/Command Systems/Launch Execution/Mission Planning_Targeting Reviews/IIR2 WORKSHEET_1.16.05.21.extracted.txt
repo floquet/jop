@@ -1,0 +1,210 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/5/2026
+Control Account
+:
+1.16.05.21
+Product Elemen
+t Owner Designation
+:
+Command Systems Segment
+Government Participants:
+Lt Col Kelly Ralston (ML)
+Troy Wynn (Lead Engineer)
+Kevin Sessions (PM)
+Contractor Participants:
+Pete Richard (PM)
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1.
+Control Account Scope Defined, But Structurally Misaligned: The control account 1.16.05.21 (CS_SW IFC 4.0_Update TCG Support Data) has a clear internal scope definition and an active Control Account Manager (CAM), but it is coded under a WBS branch (1.16.5) designated by the Government for IFC 5.0 (Increment 1 Capability) instead of 1.16.4 (IFC 4.0 / Full Launch Capability).
+2.
+Systemic WBS Index Shift Affects Program-Wide Software Cost Reporting: The contractor's RAM introduces an extra level-3 WBS element for IFC 3.1 as 1.16.04. This creates a systemic +1 index shift for all subsequent software releases in the RAM (IFC 4.0 is shifted to 1.16.05, IFC 5.0 is shifted to 1.16.06, etc.). This breaks direct cost-reporting alignment with the proposed CSDR WBS and dictionary, posing severe compliance and auditability risks.
+3.
+Ready for Re-alignment and Master Schedule Loading: While the functional software scope is sufficiently mature to support Integrated Master Schedule (IMS) loading, the
+contractor must correct this systemic WBS coding misalignment before the Performance Measurement Baseline (PMB) is finalized to prevent downstream EVMS reporting errors.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The Government has Moderate confidence in the contractor's planning maturity for this control account. On a functional level, the planning is mature: the scope is linked to a specific software capability (Update TCG Support Data), a clear CAM is assigned under the Command Systems Software (CS-SW) OBS, and the work is mapped to the appropriate software release cycle (IFC 4.0). However, the planning architecture has a systemic WBS coding mismatch (assigning an IFC 4.0 task to the WBS element for IFC 5.0). This misalignment breaks direct traceability to the government's proposed WBS, preventing a "Strong" rating. Once the coding is structurally aligned, overall confidence will be Strong.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The functional scope of the work is well-defined as "CS_SW IFC 4.0_Update TCG Support Data" with a designated owner. However, because the WBS code assignment (1.16.05.21) is structurally misaligned with the parent WBS element 1.16.5 (which represents IFC 5.0 in the CSDR WBS Dictionary), the deliverables are not traceably mapped to the higher-level program structure. To achieve a Strong rating, the contractor must correct this structural mapping to align with WBS 1.16.4 (IFC 4.0 / Full Launch Capability).
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The task is logically structured under the IFC 4.0 release cycle to support detailed task decomposition and schedule loading. However, due to the +1 WBS index shift introduced in the contractor's RAM, importing these tasks into the IMS under the current coding will result in an immediate cost-schedule integration mismatch against the government’s proposed WBS. The contractor must re-align their internal WBS to the proposed CSDR WBS before loading the IMS.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The contractor’s cross-product and cross-functional integration planning for this element is rated as Low. The WBS index shift creates major program-wide desynchronization. Software costs and progress for IFC 4.0 will be reported under the WBS block meant for IFC 5.0, corrupting the government's ability to track actual capability releases against hardware site availability dates in other branches (e.g., matching software capability to hardware node activations under WBS 1.12.2.1 for OWSA at FE Warren AFB).
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Northrop Grumman Responsibility Assignment Matrix
+Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)
+Proposed CSDR WBS Dictionary
+Sentinel Statement of Work Revision 9.0
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Strength 1 (Clear Organizational Ownership): The control account has a clearly assigned Control Account Manager (Tyrone Jackson) under the established CS-SW OBS branch, ensuring strong, single-point accountability for the work.
+Strength 2 (Well-Defined Functional Scope): The control account title clearly links the scope of work to a specific, trackable software release (IFC 4.0) and a discrete functional capability (Update TCG Support Data), which supports detailed task decomposition.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently
+affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern 1 (Systemic WBS Coding Misalignment / Index Shift):
+The contractor has coded this IFC 4.0 control account under WBS 1.16.05.21. However, the proposed CSDR WBS and dictionary designate 1.16.5 for IFC 5.0 (Increment 1 Capability), whereas IFC 4.0 must map to 1.16.4. This is a program-wide index shift (+1) caused by the contractor's insertion of IFC 3.1 as WBS 1.16.04 in their RAM.
+Risk 1:
+This structural mismatch will corrupt program-wide cost reporting and EVMS metrics, leading to critical compliance failures in IPMDAR and CSDR submissions, and preventing the Government from accurately tracking the true actual costs of the IFC 4.0 and IFC 5.0 releases.
+Concern 2 (Cross-Functional Schedule Desynchronization):
+Because the software WBS branch is structurally desynchronized from the hardware and site activation WBS branches, matching software release dates with hardware node deployments (e.g., OWSA WCC/LS/LC at FE Warren, under WBS 1.12.2.1.x) will become a manual, error-prone process.
+Risk 2:
+This desynchronization could lead to schedule delays where hardware sites are activated but the required software (such as IFC 4.0 under this CA) is untraceable or misaligned, stalling integrated testing and deployment.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Question 1: What is the technical definition and scope of the "TCG Support Data" referenced in this account, and what specific configuration items (CIs) or computer software configuration items (CSCIs) does it update?
+Follow-Up 1: Contractor to provide a detailed walkthrough of the IFC 4.0 feature list (from the IFC Feature Plan/Product Roadmap under SOW 3.16.2.6) and show where "Update TCG Support Data" is mapped.
+Question 2: What was the programmatic driver for inserting IFC 3.1 as a level-3 WBS element (1.16.04) in the RAM, and can the contractor demonstrate how they plan to re-align their internal EVMS/RAM coding to match the proposed CSDR WBS?
+Follow-Up 2: Contractor to present a corrective action plan to re-align the entire 1.16 Software WBS branch in their RAM to match the proposed CSDR WBS (with IFC 4.0 mapped under 1.16.4).
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Observation 1 (Software-to-Hardware Site Activation Integration): The software developed under this CA (part of IFC 4.0) is a critical enabler for the Full Launch Capability. This software must directly integrate with the hardware and physical infrastructure nodes under C&L Integrated Nodes (WBS 1.4.2) and the site activation activities for OWSA - FE Warren AFB (WBS 1.12.2.1).
+Observation 2 (Traceability and Verification Integration): Under SOW 3.16.2.6, the
+contractor is required to map features to CSCIs and show how they mature across IFCs. However, due to the +1 WBS index shift in the RAM, tracking the verification status of "Update TCG Support Data" through system test and evaluation (WBS 1.7) will be difficult to cross-reference with actual costs, as the testing files may reference WBS 1.16.4 while the finance system references 1.16.5.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/5/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.16.05.21'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Command Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Pete Richard (PM)'
+[05] PLAIN_TEXT checked=None alias='' tag='' text="1. Control Account Scope Defined, But Structurally Misaligned: The control account 1.16.05.21 (CS_SW IFC 4.0_Update TCG Support Data) has a clear internal scope definition and an active Control Account Manager (CAM), but it is coded under a WBS branch (1.16.5) designated by the Government for IFC 5.0 (Increment 1 Capability) instead of 1.16.4 (IFC 4.0 / Full Launch Capability).2. Systemic WBS Index Shift Affects Program-Wide Software Cost Reporting: The contractor's RAM introduces an extra level-3 WBS element for IFC 3.1 as 1.16.04. This creates a systemic +1 index shift for all subsequent software releases in the RAM (IFC 4.0 is shifted to 1.16.05, IFC 5.0 is shifted to 1.16.06, etc.). This breaks direct cost-reporting alignment with the proposed CSDR WBS and dictionary, posing severe compliance and auditability risks.3. Ready for Re-alignment and Master Schedule Loading: While the functional software scope is sufficiently mature to support Integrated Master Schedule (IMS) loading, the contractor must correct this systemic WBS coding misalignment before the Performance Measurement Baseline (PMB) is finalized to prevent downstream EVMS reporting errors."
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=True alias='' tag='' text='☒'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='The Government has Moderate confidence in the contractor\'s planning maturity for this control account. On a functional level, the planning is mature: the scope is linked to a specific software capability (Update TCG Support Data), a clear CAM is assigned under the Command Systems Software (CS-SW) OBS, and the work is mapped to the appropriate software release cycle (IFC 4.0). However, the planning architecture has a systemic WBS coding mismatch (assigning an IFC 4.0 task to the WBS element for IFC 5.0). This misalignment breaks direct traceability to the government\'s proposed WBS, preventing a "Strong" rating. Once the coding is structurally aligned, overall confidence will be Strong.'
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=True alias='' tag='' text='☒'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The functional scope of the work is well-defined as "CS_SW IFC 4.0_Update TCG Support Data" with a designated owner. However, because the WBS code assignment (1.16.05.21) is structurally misaligned with the parent WBS element 1.16.5 (which represents IFC 5.0 in the CSDR WBS Dictionary), the deliverables are not traceably mapped to the higher-level program structure. To achieve a Strong rating, the contractor must correct this structural mapping to align with WBS 1.16.4 (IFC 4.0 / Full Launch Capability).'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=True alias='' tag='' text='☒'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] PLAIN_TEXT checked=None alias='' tag='' text="The task is logically structured under the IFC 4.0 release cycle to support detailed task decomposition and schedule loading. However, due to the +1 WBS index shift introduced in the contractor's RAM, importing these tasks into the IMS under the current coding will result in an immediate cost-schedule integration mismatch against the government’s proposed WBS. The contractor must re-align their internal WBS to the proposed CSDR WBS before loading the IMS."
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=False alias='' tag='' text='☐'
+[20] CHECKBOX checked=True alias='' tag='' text='☒'
+[21] PLAIN_TEXT checked=None alias='' tag='' text="The contractor’s cross-product and cross-functional integration planning for this element is rated as Low. The WBS index shift creates major program-wide desynchronization. Software costs and progress for IFC 4.0 will be reported under the WBS block meant for IFC 5.0, corrupting the government's ability to track actual capability releases against hardware site availability dates in other branches (e.g., matching software capability to hardware node activations under WBS 1.12.2.1 for OWSA at FE Warren AFB)."
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Northrop Grumman Responsibility Assignment MatrixGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx) Proposed CSDR WBS DictionarySentinel Statement of Work Revision 9.0'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='Strength 1 (Clear Organizational Ownership): The control account has a clearly assigned Control Account Manager (Tyrone Jackson) under the established CS-SW OBS branch, ensuring strong, single-point accountability for the work.Strength 2 (Well-Defined Functional Scope): The control account title clearly links the scope of work to a specific, trackable software release (IFC 4.0) and a discrete functional capability (Update TCG Support Data), which supports detailed task decomposition.'
+[24] PLAIN_TEXT checked=None alias='' tag='' text="Concern 1 (Systemic WBS Coding Misalignment / Index Shift):The contractor has coded this IFC 4.0 control account under WBS 1.16.05.21. However, the proposed CSDR WBS and dictionary designate 1.16.5 for IFC 5.0 (Increment 1 Capability), whereas IFC 4.0 must map to 1.16.4. This is a program-wide index shift (+1) caused by the contractor's insertion of IFC 3.1 as WBS 1.16.04 in their RAM.Risk 1:This structural mismatch will corrupt program-wide cost reporting and EVMS metrics, leading to critical compliance failures in IPMDAR and CSDR submissions, and preventing the Government from accurately tracking the true actual costs of the IFC 4.0 and IFC 5.0 releases.Concern 2 (Cross-Functional Schedule Desynchronization):Because the software WBS branch is structurally desynchronized from the hardware and site activation WBS branches, matching software release dates with hardware node deployments (e.g., OWSA WCC/LS/LC at FE Warren, under WBS 1.12.2.1.x) will become a manual, error-prone process.Risk 2:This desynchronization could lead to schedule delays where hardware sites are activated but the required software (such as IFC 4.0 under this CA) is untraceable or misaligned, stalling integrated testing and deployment."
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Question 1: What is the technical definition and scope of the "TCG Support Data" referenced in this account, and what specific configuration items (CIs) or computer software configuration items (CSCIs) does it update?Follow-Up 1: Contractor to provide a detailed walkthrough of the IFC 4.0 feature list (from the IFC Feature Plan/Product Roadmap under SOW 3.16.2.6) and show where "Update TCG Support Data" is mapped.Question 2: What was the programmatic driver for inserting IFC 3.1 as a level-3 WBS element (1.16.04) in the RAM, and can the contractor demonstrate how they plan to re-align their internal EVMS/RAM coding to match the proposed CSDR WBS?Follow-Up 2: Contractor to present a corrective action plan to re-align the entire 1.16 Software WBS branch in their RAM to match the proposed CSDR WBS (with IFC 4.0 mapped under 1.16.4).'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='Observation 1 (Software-to-Hardware Site Activation Integration): The software developed under this CA (part of IFC 4.0) is a critical enabler for the Full Launch Capability. This software must directly integrate with the hardware and physical infrastructure nodes under C&L Integrated Nodes (WBS 1.4.2) and the site activation activities for OWSA - FE Warren AFB (WBS 1.12.2.1).Observation 2 (Traceability and Verification Integration): Under SOW 3.16.2.6, the contractor is required to map features to CSCIs and show how they mature across IFCs. However, due to the +1 WBS index shift in the RAM, tracking the verification status of "Update TCG Support Data" through system test and evaluation (WBS 1.7) will be difficult to cross-reference with actual costs, as the testing files may reference WBS 1.16.4 while the finance system references 1.16.5.'

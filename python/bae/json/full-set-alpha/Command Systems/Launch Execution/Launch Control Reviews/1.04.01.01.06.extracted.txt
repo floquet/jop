@@ -1,0 +1,239 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+How is the schedule logic structured to prevent high-value hardware from shipping to a launch silo that is not yet physically secure or environmentally ready?
+How do you track and account for variance in construction rates and issues between individual physical silo sites?
+There is no visibility into task durations, resource allocation, or the technical specifications governing physical/logical handoffs.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+While there are foundational structural elements in place, the planning architecture currently lacks the necessary maturity, detail, and integration linkages required to successfully proceed with Integrated Master Schedule (IMS) loading and Performance Measurement Baseline (PMB) establishment.
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+This WBS element is inherently cross-functional, as the "Launch Silo PM" is responsible for overseeing the integration of numerous subsystems within the Launch Silo. This includes coordinating between Launch Systems (1.04.02.01) and Command and Launch Subsystems like Launch Execution (1.04.03.01), Communications (1.04.03.03), and Physical Security (1.04.03.04). Potential risk could exists if the schedule alignment between infrastructure readiness and hardware delivery is not meticulously managed by the Launch Silo PM.
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/5/2026
+Control Account
+:
+1.04.01.01.06
+-
+LS-INF Launch Silo PM
+Product Elemen
+t Owner Designation
+:
+Command Systems Segment
+Government Participants:
+Jason Noah
+-(PM)
+Lt. Col. Ralston-(ML)
+Dr. Troy Wynn
+-(
+Lead Engineer)
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+How is the schedule logic structured to prevent high-value hardware from shipping to a launch silo that is not yet physically secure or environmentally ready?
+H
+ow do you track and account for variance in construction rates and issues between individual physical silo sites?
+There is no visibility into task durations, resource allocation, or the technical specifications governing physical/logical handoffs.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed
+during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+While there are foundational structural elements in place, the planning architecture currently lacks the necessary maturity, detail, and integration linkages required to successfully proceed with Integrated Master Schedule (IMS) loading and Performance Measurement Baseline (PMB) establishment.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+RAM lists Austin Richardson as CAM for LS-INF Launch Silo PM, which is also listed in the WBS dictionary but was not associated in the CS CA WP Rollup IIR2 document.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The provided documents do not show
+any decom
+position
+of the program management WBS into detailed planning tasks or any
+lower level
+hierarchy such as PP and WP.
+There is no documented rationale or basis for
+durations, planning
+assumptions
+, or quantity-
+based
+data to support the planned effort
+for this management effort
+, that could potentially impact schedule credibility.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+This WBS element is inherently cross-functional, as the "Launch Silo PM" is responsible for overseeing the integration of numerous subsystems within the Launch Silo. This includes coordinating between Launch Systems (1.04.02.01) and Command and Launch Subsystems like Launch Execution (1.04.03.01), Communications (1.04.03.03), and Physical Security (1.04.03.04).
+Potential risk could
+exists
+if the schedule alignment
+between infrastructure readiness and hardware delivery
+is not meticulously managed by the Launch Silo PM.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Sow Rev. 9.0
+NG Command Systems Control Account Rollup/COBRA Exports 31JUL26
+WBS Dictionary 24JUL26
+IMP Rev. B
+NG RAM 05AUG26
+3. Strengths Observed
+Document the most significant strengths identified during the
+assessment
+increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+RAM assigns clear ownership for LS-INF Launch Silo PM, creating clear lines of responsibility.
+The WBS
+structure positions the specialized program management under the overarching C&L infrastructure node.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+WBS Dictionary is very vague
+and lacks detailed descriptions to show specific boundaries
+, which could lead to scope creep and execution gaps without proper definition of the PMs scope
+.
+5. Open Questions and Follow-Up Items
+Document
+questions
+remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+There is no clear path or traceability from the WBS Dictionary to the
+NG Command Systems Control Account Rollup/COBRA Exports 31JUL26
+, into the NG WBS that was provided
+. It is however in the RAM
+.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+There
+is
+undefined hand-off criteria
+and lack of bilateral schedule integration
+that would alert CS-HW of a slip in the infrastructure schedule
+.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/5/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.04.01.01.06-LS-INF Launch Silo PM'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Command Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Jason Noah-(PM)Lt. Col. Ralston-(ML)Dr. Troy Wynn-(Lead Engineer)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text=''
+[05] PLAIN_TEXT checked=None alias='' tag='' text=''
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=True alias='' tag='' text='☒'
+[09] PLAIN_TEXT checked=None alias='' tag='' text=''
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=True alias='' tag='' text='☒'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='RAM lists Austin Richardson as CAM for LS-INF Launch Silo PM, which is also listed in the WBS dictionary but was not associated in the CS CA WP Rollup IIR2 document.'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=True alias='' tag='' text='☒'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='The provided documents do not show any decomposition of the program management WBS into detailed planning tasks or any lower level hierarchy such as PP and WP. There is no documented rationale or basis for durations, planning assumptions, or quantity-based data to support the planned effort for this management effort, that could potentially impact schedule credibility.'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=True alias='' tag='' text='☒'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] PLAIN_TEXT checked=None alias='' tag='' text=''
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Sow Rev. 9.0NG Command Systems Control Account Rollup/COBRA Exports 31JUL26WBS Dictionary 24JUL26IMP Rev. BNG RAM 05AUG26'
+[23] PLAIN_TEXT checked=None alias='' tag='' text='RAM assigns clear ownership for LS-INF Launch Silo PM, creating clear lines of responsibility. The WBS structure positions the specialized program management under the overarching C&L infrastructure node.'
+[24] PLAIN_TEXT checked=None alias='' tag='' text='WBS Dictionary is very vague and lacks detailed descriptions to show specific boundaries, which could lead to scope creep and execution gaps without proper definition of the PMs scope.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='There is no clear path or traceability from the WBS Dictionary to the NG Command Systems Control Account Rollup/COBRA Exports 31JUL26, into the NG WBS that was provided. It is however in the RAM.'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='There is undefined hand-off criteria and lack of bilateral schedule integration that would alert CS-HW of a slip in the infrastructure schedule.'

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXV/IIR2 Worksheet NSSE [SPCTR] [PRSTS] [PRS SIM].docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:06:42.213719+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "NSSE",
+    "owner": "Reentry Systems Branch - NIXV",
+    "gov_personnel": [
+      {
+        "name": "Jason Poll",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Derrick Avery",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Supplier Oversight Plan is Well-Defined: The planning architecture for Level-of-Effort (LOE) supplier oversight is clear and mature. The use of historical Sentinel data for the Basis of Estimate (BOE) provides a credible foundation for cost planning.Strong Integration Framework: The contractor demonstrates a robust and effective approach to integration using a Giver/Receiver (G/R) model to manage handoffs with suppliers (Lockheed Martin and NG ATSS), which provides high confidence in cross-functional visibility.Execution Depends on Supplier Maturation: The plan transparently identifies that supplier-detailed task networks are still stabilizing. While the contractor's oversight plan is strong, its success is dependent on the timely finalization of supplier baselines. Risk in schedule based on 17 and 5 month gap between PRSTS and PRS SIM.",
+    "score_overall": 1,
+    "rationale": "The presentation provides a high degree of confidence in the planning maturity for this Control Account. The scope is clearly defined, the estimation methodology is sound and based on historical actuals, and the approach to integration is structured and proactive. The contractor openly identifies dependencies on supplier re-planning efforts and has a clear engagement plan to manage them. This demonstrates a mature planning foundation ready to support PMB implementation.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The presentation clearly and concisely defines the remaining scope as Level-of-Effort (LOE) supplier oversight for the NSSE and SPCTR products. The \"LOE BOE Approach\" slide demonstrates a logical method for quantifying and organizing this work based on historical program data, ensuring the scope is well-understood and traceable."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "This is a significant strength. The \"G/R Structure\" slide provides clear evidence of a formal process for mapping supplier handoffs to key program events (e.g., CDRs, flight tests). This, combined with the \"Near-Term Supplier Engagement Plan,\" shows a proactive and effective approach to ensuring supplier activities are visible and integrated with the prime contractor's schedule."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "IIR_2_NSSE_SPCTR.pptx dated 30 Jul 2026"
+      }
+    ],
+    "products": "IIR_2_NSSE_SPCTR.pptx dated 30 Jul 2026",
+    "strengths": "Mature Giver/Receiver (G/R) Model: The use of G/R inventories to formally map supplier handoffs to specific prime contract milestones provides a structured and traceable foundation for integration. It ensures that dependencies are visible and managed, increasing confidence that work will flow smoothly across organizational boundaries.\nData-Driven Estimation Approach: The Basis of Estimate (BOE) is built on historical actuals from the Sentinel program. This data-driven approach provides a credible and defensible basis for the LOE estimates and reduces subjectivity in the planning process.\nTransparent Communication of Maturity: The presentation is forthright about what is still maturing, specifically the detailed internal tasking from suppliers (LM and ATSS). This transparency allows for a clear-eyed view of dependencies and demonstrates confidence in the overall management approach.",
+    "concerns": "Concern 1: The successful execution of the contractor's oversight plan is wholly dependent on the timely completion of the suppliers' (LM and ATSS) internal re-planning and re-baselining activities. Risk: If the suppliers' final cost and schedule baselines are delayed or significantly different than currently assumed, it could require re-work of the contractor's BOEs and impact the PMB establishment timeline. (Mitigation: The contractor has identified this and scheduled a series of near-term reviews with suppliers to manage this risk).Concern 2: The presentation does not detail how potential design rework, driven by evolving cybersecurity requirements, will be factored into the suppliers' schedules and budgets. Risk: If unforeseen cybersecurity mandates force significant design rework at the supplier level, the resulting schedule delays and budget impacts may not be accounted for in the current oversight plan. This could cause disruptions to the integrated schedule and lead to cost overruns that are not identified until after the baseline is set.Concern 3: The plan for supplier oversight does not explicitly mention how the stringent requirements for Nuclear Certification are being flowed down to, and validated with, suppliers. Risk: Failure to proactively manage and verify nuclear certification compliance within the supply chain could introduce significant programmatic risk. While the immediate impact on production schedules may be minimal, it could jeopardize critical, long-lead certification milestones later in the program and necessitate substantial, unfunded rework.",
+    "questions": "While the G/R structure is well-defined, how will changes to supplier handoff dates or content be managed and communicated post-baseline to ensure alignment with the prime IMS?Follow-Up Item: Provide a walkthrough of the change control process as it applies to G/R agreements with suppliers once they are baselined.",
+    "integration": "Integration with suppliers is explicitly and effectively addressed. The presentation demonstrates that handoffs (G/R) are not just identified but are tied to specific, measurable system events and milestones like CDR, FCA, and flight tests. This ensures that the supplier schedules are directly linked to the Prime CEAC timeline.The \"Near-Term Supplier Engagement Plan\" serves as objective evidence of proactive integration. By scheduling reviews with both Lockheed Martin and NG ATSS to validate BOEs and align schedules before CEAC artifact submission, the contractor is actively synchronizing cross-functional planning.The overall integration strategy is mature. By focusing the LOE oversight on key milestones and handoffs, the contractor shows an efficient and effective method for integrating external supplier workstreams without becoming entangled in their day-to-day internal tasking, which is appropriate for this scope."
+  }
+}

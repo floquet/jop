@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Segment Level/1.04.01.01.22 - CS_SEIT Program Management PM.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:04:55.734720+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-06",
+    "control_account": "1.04.01.01.22 - CS_SEIT Program Management PM",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Dave Hamblin",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. Adequate Planning Foundation: The planning for this management task is mature and clearly defined as a Level of Effort (LOE) account, providing a basis for execution and oversight.2. Ready for IMS Loading: This account is ready for inclusion in the Integrated Master Schedule (IMS) with moderate risk, as its LOE nature simplifies the scheduling process, however, there is only one WP assigned to it. 3. Critical Integration Function: This is a central integration and governance role, essential for coordinating all CS SEIT activities and ensuring the successful execution of the entire portfolio.",
+    "score_overall": 0,
+    "rationale": "The schedule planning for this LOE account is moderately understood. The planning logic is straightforward, providing confidence that the contractor is prepared to load this WBS element into the IMS credibly and without significant rework.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The WBS Dictionary defines the scope as the management and technical leadership for the C&L SEIT organization. The deliverables are management artifacts, including oversight of internal and subcontractor efforts, coordination of SEIT activities, and program management functions (planning, cost/schedule control, etc.). This is clearly identified as a Level of Effort (LOE) task. The deliverables are management artifacts, including reporting, governance, earned value tracking, staffing plans, budgets, and performance metrics. This WBS element fits logically within the Contract Work Breakdown Structure (CWBS). It clearly maps to the SOW."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The task is sufficiently defined for its purpose. The account has one work package under it. It would be beneficial to see the specific tasks associated with this package in P6, however, that data is not available. The primary assumption is that management oversight is required for the duration of the hardware development and integration lifecycle. QBD data is not available for this LOE management task, as its output is continuous oversight and governance rather than a quantifiable number of physical products."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "The assumption is that this account interfaces with all other CS hardware management elements, as well as cross-functional organizations like finance, scheduling, and supply chain management, to perform its governance role."
+      }
+    ],
+    "products": "SOW Rev 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31 July 2026, WBS Dictionary 6 Aug 2026, IMP Rev B, NG RAM 6 Aug 2026",
+    "strengths": "",
+    "concerns": "A singular work package under this account is a concern, especially as compared to 1.04.01.01.21, which has nine packages and are a similar LOE. As LOE,",
+    "questions": "The government would like to see a detailed breakdown of tasks in P6.",
+    "integration": "The assumption is that a function of this account is to manage workflows and handoffs between other tasks. It is a \"giver\" of direction and a \"receiver\" of status and performance data. The IMS should reflect this as a continuous activity running in parallel with the discrete work it oversees."
+  }
+}

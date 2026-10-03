@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "System Integration/NIXZ/IIR2 WORKSHEET_CA 1.08.02.05_Devices.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:42:03.627139+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-27",
+    "control_account": "1.08.02.05",
+    "owner": "Training Systems Branch - NIXZ",
+    "gov_personnel": [
+      {
+        "name": "Sasha TormanKaty SchuffTrevor CookTimothy Strader",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Proactive partnership is extremely valuableOur team has found extreme value in working shoulder to shoulder with our NG counterparts. This has alleviated multiple concerns at a lower level resulting in accelerated progress on training system development. 2. Lack of integration within NG silosWhile our peer-to-peer partnership is solid, the government has observed there is room to grow with NG collaborating with other NG product teams. Example: communication within NG is essential in providing schedule logic between segments. 3. Schedule is paramount This evaluation is based on a very early schedule and there will be continual updates. We have expectations for what future schedules will look like and with our proactive partnership we are confident that our concerns will be addressed.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "We have a great relationship with our NG counterparts; however, this is early in CA maturity leaving room for future improvement.",
+    "score_overall": 0,
+    "rationale": "The schedule is in the early stages of development so the logic ties and details we want to evaluate are not mature. The training system is heavily dependent on the weapons system maturity and logic ties are instrumental in our evaluation. Much of the trainer scope are in high level packages that don’t provide enough detail to evaluate.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Our expectation is that we have cross-product/cross-function integration within the schedule however, the contractor has not shown that level of fidelity in their current schedule, yet."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "BOE draft: Met with NG multiple times Schedule draft: Met with NG and established a meeting cadenceVSM: Met with NG and reviewed CA: Met with NG and reviewedSOW/STS-TRD: Reviewed and concurred with NG"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Despite being dependent on WS maturity, we continue to work proactively with NG to effectively collaborate to empower decisions in a quick and efficient manner. NG counterparts are transparent and open to communication regarding government concerns"
+      }
+    ],
+    "products": "BOE draft: Met with NG multiple times Schedule draft: Met with NG and established a meeting cadence VSM: Met with NG and reviewed CA: Met with NG and reviewed SOW/STS-TRD: Reviewed and concurred with NG",
+    "strengths": "Despite being dependent on\nWS\nmaturity,\nwe continue to work proactively with NG to effectively collaborate to empower\ndecisions\nin a quick and efficient\nmanner\n.\nNG\ncounterparts\nare trans\nparent\nand open to communication\nregarding\ngovernment\nconcerns",
+    "concerns": "There is a concern with the current lack in logic integrating this CA to the overall Sentinel schedule. The impact of sub-contractor inputs to the schedule are currently unclear.",
+    "questions": "Nothing additional to previously mentioned concerns.",
+    "integration": "Too early as NG is still working through their logic."
+  }
+}

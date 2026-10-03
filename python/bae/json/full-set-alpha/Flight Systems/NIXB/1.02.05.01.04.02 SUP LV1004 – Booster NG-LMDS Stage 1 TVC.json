@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXB/1.02.05.01.04.02 SUP LV1004 – Booster NG-LMDS Stage 1 TVC.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:51:51.590354+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Overall checkbox rating could not be determined. Inspect the .extracted.txt file and the Word checkbox type.",
+      "Checkbox rating not determined for: Scope and Deliverables Definition",
+      "Checkbox rating not determined for: Schedule Planning and IMS-Loading Readiness",
+      "Checkbox rating not determined for: Cross-Product/Cross-Function Integration"
+    ]
+  },
+  "data": {
+    "date": "2026-07-29",
+    "control_account": "1.02.05.01.04.02 SUP LV1004 – Booster NG-LMDS Stage 1 TVC",
+    "owner": "Boosters Branch - NIXB",
+    "gov_personnel": [
+      {
+        "name": "Andrew SherkJohn PalmerRob Preator",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Dana Tracy",
+        "role": "CAM"
+      },
+      {
+        "name": "Angela Baranowski",
+        "role": "CAM"
+      },
+      {
+        "name": "Chris Russell",
+        "role": "Assignment Manager"
+      },
+      {
+        "name": "CJ Huntsman",
+        "role": "BM Counterpart"
+      },
+      {
+        "name": "Buzz Brough",
+        "role": "BM Counterpart"
+      }
+    ],
+    "leadership_messages": "Regarding the upcoming TEMs and reviews, Boosters will be unable to meet the current timeline. This constraint is due to our unique work structure, which is not executed at the SDS level, resulting in a lack of mature artifacts and Basis of Estimates (BOEs) at this stage. We have coordinated with our Northrop Grumman (NG) counterparts at SDS, who have confirmed that completing this request by the initial suspense is not feasible given our current position in the process.",
+    "score_overall": null,
+    "rationale": "",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": null,
+        "text": "☐\n\n☐\n\n☐"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": null,
+        "text": "☐\n\n☐\n\n☐"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": null,
+        "text": ""
+      }
+    ],
+    "products": "",
+    "strengths": "",
+    "concerns": "",
+    "questions": "",
+    "integration": "Confidence Rating\n(Select One)\nStrong:\n☐\nModerate:\n☐\nLow:\n☐\n2\n. Products\n& Artifacts\nReviewed\nDocument the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.\nThe list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.\nThis element includes the systems engineering activities associated\nwith the Booster Stage 1 ACS. Systems engineering and program management (SEPM) responsibilities are often indistinct and may be combined into a\nsingle SEPM element.\nSOW Ref: 3.1, 3.3, 3.6, 3.7\nSOW Paragraph: 3.1.2.3.3, 3.1.3.1.2, 3.1.3.1.3, 3.1.3.2, 3.1.10.1, 3.1.10.2, 3.3.9, 3.6.1.5, 3.7.2\n3. Strengths Observed\nDocument the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.\n4. Concerns and Risks Observed\nDocument the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and\nreadiness or adversely affect future planning, integration, or program execution if not addressed.\nConcerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.\nNot every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.\nDefinitions\nConcern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.\nRisk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.\n5. Open Questions and Follow-Up Items\nDocument questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.\nOpen Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.\n6. Cross-\nProduct\n/Cross-Function\nIntegration Observations\nDocument observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.\nCross-Product\n/Cross-Function\nIntegration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product\n/cross-function\ninterfaces, dependencies, and integration activities into its\nplanning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program."
+  }
+}

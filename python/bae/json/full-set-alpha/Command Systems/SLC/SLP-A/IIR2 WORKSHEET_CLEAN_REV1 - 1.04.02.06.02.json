@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_CLEAN_REV1 - 1.04.02.06.02.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:26:40.392323+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-04",
+    "control_account": "1.04.02.07 MMIII SLP-A",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Matthew Matysik",
+        "role": "Program Manager"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "David Cloward",
+        "role": "Program Manager"
+      }
+    ],
+    "leadership_messages": "1.The WBS Dictionary as of 3 August 2026 has missing or limited information. 2.The WBS Description refers to MMIII SLP-A the WBS dictionary has missing or limited content to determine scope. Need to verify scope and info. 3. Verify CA info. provided.",
+    "score_overall": -1,
+    "rationale": "Missing data provided on the NG collaboration portal as of 3 August 26 is not currently reviewable and provided info. will need verification.​",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "What is the correct scope? What is correct scope of work"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "​​ Without a correct dictinary of scope and expected workload for account this item needs to be verified for correct info. making this a high risk​.Child accounts 1.04.02.06.02.01, .02.02 & .02.03, 1.04.02.06.03 have no Dictionary info. Verify account dictionary info for 1.04.02.06.02.01.01, 02.02.01 & 02. 03.01, 1.04.02.06.03.01"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "​​ This cannot be determined​. WBS Dictionary has no supporting info.Child accounts 1.04.02.06.02.01, .02.02, & .02.03, 1.04.02.06.03 have no Dictionary info. Verify account dictionary info for 1.04.02.06.02.01.01, 02.02.01 & 02. 03.01, 1.04.02.06.03.01"
+      }
+    ],
+    "products": "Draft Sentinel EMD WBS Dictionary_73026, NG WBS_7222026, NG WBS_7162026, NG WBS_RAM_7302026, New WBS IPT Mapping, PMB Development Progress_31JUL, IIR #2 Power Point brief, PCAM Working document, KDC PWBS for the Gov IMS 7-16-26",
+    "strengths": "​​ This cannot be determined​.",
+    "concerns": "​​ Risks are widespread and functionally identical across all SLP-A CAs to a greater or lesser extent: 1. Missing information for Account, Technical Scope for Dictionary.​ Verify/Populate as required.",
+    "questions": "Missing information for this review. Verify",
+    "integration": "As described in detail above, lower level reviews are attempting to identify cross use equipment and efforts, but missing scope/dictionary information is not available to perform that review."
+  }
+}

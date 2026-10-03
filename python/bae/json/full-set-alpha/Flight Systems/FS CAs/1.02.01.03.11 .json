@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/FS CAs/1.02.01.03.11 .docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:47:33.471260+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-27",
+    "control_account": "1.02.01.03.11 Systems Engineering Requirements Interfaces & Architecture",
+    "owner": "Flight Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Col Cameron FS Segment Chief Jesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Van DoAdam HickmanLuke HeagneyVivian SuarezGiuseppe Tonini Collin Wagner",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Resource Constraints vs. Competing Priorities: The team is significantly resource and time-constrained due to multiple, concurrent milestone priorities (SFR, PDR, FT-01, FT-02). This presents a risk to meeting all objectives without impacting quality or schedule.Scope Definition is Solid, but Traceability is a Gap: While the overall work scope is well-defined and captured in the work packages, there are significant issues with tracing this scope back to the latest contractual documents (SOW Rev 9, SEMP). This needs to be addressed to ensure full compliance.High Dependency on Sub-tier Suppliers: The current plan carries a high degree of risk due to its dependency on sub-tier supplier schedules and architecture models, which are not yet available. This introduces significant uncertainty that could lead to rework and delays post-AVE PDR.",
+    "score_overall": 0,
+    "rationale": "The \"Moderate\" rating is based on a mixture of solid foundational planning and significant unresolved risks. While the work packages thoroughly describe the necessary scope, reflecting the requirements of SOW Rev 8, they do not accurately trace to the current, governing Class A documents such as SOW Rev 9 and the SEMP. This traceability gap, combined with a high dependency on un-submitted sub-tier supplier schedules and a critical shortage of staffing, creates significant uncertainty. The team's planning is mature enough to proceed, but these issues must be addressed to ensure a successful and executable Performance Measurement Baseline (PMB).",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The \"Moderate\" rating reflects a dichotomy between well-understood legacy work and high-uncertainty new scope. Core activities related to the Weapon System Architecture Model (WSAM) are well-defined. However, the Verification Architecture Model (VAM) has undergone significant recent scope changes per the Systems Engineering MOA and SOW revisions. This introduces risk to the quality of current planning. Furthermore, interface requirements for key areas like Support Equipment are not yet defined, creating scope gaps. The compressed schedule between now and the AVE PDR forces an unrealistic timeline, which may compromise the quality of deliverables."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "The \"Low\" confidence rating is driven by the convergence of multiple significant risks. The aggressive timeline imposed for the AVE PDR is not supported by a realistic schedule, and the planning is brittle. Confidence is low that the contractor can effectively create and deliver necessary systems engineering products post-PDR due to dependencies on subcontractor architecture products that have not been delivered. The combination of current manpower shortages, aggressive timelines, missing interface requirements, and poor traceability to current documents indicates a low readiness for successful IMS loading without significant adjustments."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "The \"Moderate\" confidence rating acknowledges that near-term risk has been artificially reduced by limiting the AVE PDR scope to the sub-contractor handoff point. While this avoids immediate integration issues with suppliers, it defers a significant integration challenge until the weapon system PDR next year. The current plan relies heavily on assumptions about subcontractor inputs, and a formal, documented plan for integrating these external products is not yet evident."
+      }
+    ],
+    "products": "WBS Dictionary (27 Jul 26), Work Packages (27 Jul 26), Planning Packages (27 Jul 26)",
+    "strengths": "The scope of work is clearly identified and well-articulated within the work packages. This demonstrates a thorough understanding of the technical tasks required to meet the objectives.\nThe contractor's team is deeply experienced in this specific Systems Engineering discipline. They have a credible plan for knowledge retention and capability sustainment, which increases confidence in their ability to manage the technical work.",
+    "concerns": "The current work packages are built on a large number of assumptions regarding the content and delivery timing of sub-tier supplier inputs. There is a significant risk that once supplier schedules and architecture models are delivered in 2027, extensive rework will be required on the prime's work packages, leading to schedule slips and potential cost overruns.At present, the contractor does not have the required level of staffing to execute the full scope of identified work within the planned schedule. The staffing shortfall could lead to delays in key deliverables for the AVE PDR and compromise the quality of the technical work due to an over-tasked team.The scope described in the work packages is not fully traced to the latest Class A documents (SOW Rev 9, SEMP, TEMP). This lack of traceability may result in the delivery of non-compliant products, leading to costly rework and impacting the credibility of the Performance Measurement Baseline (PMB).",
+    "questions": "What specific, near-term actions are being taken to mitigate the risks associated with the high number of assumptions made in the absence of sub-tier supplier schedules and models?What is the formal plan and timeline for mapping all SOW Rev 8 requirements to the updated Class A documents (SOW Rev 9, etc.) to close the current traceability gaps?",
+    "integration": "There is a large amount of architecture model and verification model content that needs to be delivered by sub-tier suppliers. The scope is identified, but there is very real concern that this will be delayed."
+  }
+}

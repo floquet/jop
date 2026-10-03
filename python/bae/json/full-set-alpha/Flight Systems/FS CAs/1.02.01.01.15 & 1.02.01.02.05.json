@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/FS CAs/1.02.01.01.15 & 1.02.01.02.05.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:45:20.923327+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-28",
+    "control_account": "1.02.01.02.05 Program Management1.02.01.01.15 IATC_ Segment Integration Management",
+    "owner": "Flight Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Steve SimpsonBlake Larsen",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The Level of Effort (LOE) scope for these management and integration accounts is well-defined and stable. The contractor has demonstrated a mature planning process, using historical actuals to accurately project near-term needs.While near-term planning is strong, there is a significant concern regarding the contractor's ability to accurately forecast the required management and integration manpower through Milestone B and into EMD. This is an area to watch for long-term budget and resource planning.The contractor is facing significant challenges in attracting and hiring qualified personnel, with some job postings open for over 100 days. This poses a latent risk to the program, as an inability to staff these key management and integration roles could eventually impact oversight and program execution.",
+    "score_overall": 1,
+    "rationale": "The \"Strong\" rating is based on the well-defined and straightforward nature of the Level of Effort (LOE) scope within these control accounts. The contractor has demonstrated a solid methodology for planning by detailing hours used and needed, based on historical data. However, this confidence is conditional. The contractor must follow through on mapping this scope to the new Class A documents (SOW Rev 9) to ensure full traceability. Furthermore, while the planning is detailed, significant uncertainty remains in the long-term forecasting of manpower needs, which will require continued management attention.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The \"Strong\" rating is appropriate as this control account consists entirely of Level of Effort (LOE) activities that are inherently stable and well-understood (e.g., management, PM support, travel). The scope is clearly defined in the work packages. This rating is contingent on the contractor completing the required mapping of this scope to the forthcoming SOW Rev 9 to ensure continued contractual traceability."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "The \"Strong\" rating is assigned because, for an LOE account, the primary \"schedule\" is the manpower plan against a period of performance, which is well-defined and ready for IMS loading. However, this is not without weakness. The current plan lacks a clear \"definition of done\" or a methodology for scaling the LOE effort as the program transitions through different phases (e.g., how management effort changes from design to production). The plan does not adequately anticipate how changes to major Configuration Items (CIs) will impact the required level of management oversight over time."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Because these accounts primarily cover LOE management functions, they have few external dependencies, which minimizes integration risk. The assessment shows that the contractor's management and integration teams are well-integrated with their internal Government and contractor counterparts within SDS. Most identified issues lie outside their direct purview."
+      }
+    ],
+    "products": "WBS Dictionary (28 July 26)Work Packages (28 July 26)Planning Package Descriptions (28 July 26)",
+    "strengths": "The team demonstrated a mature Basis of Estimate (BOE) process, effectively using historical actuals from prior work to project\nwork time required\n. This data-driven approach increases confidence in the accuracy of near-term forecasts.\nThe work packages are well-defined. They clearly articulate the scope of the LOE tasks, identify who is charging to the accounts, and provide a clear rationale for why the effort is required, demonstrating strong administrative control.",
+    "concerns": "WBS Dictionary (28 July 26)Work Packages (28 July 26)Planning Package Descriptions (28 July 26)",
+    "questions": "What is the contractor's formal plan and timeline for completing the full mapping of all work packages in these control accounts to SOW Revision 9 upon its release?",
+    "integration": "Scope is mostly management functions that are well understood and there are few to no dependencies with other groups."
+  }
+}
