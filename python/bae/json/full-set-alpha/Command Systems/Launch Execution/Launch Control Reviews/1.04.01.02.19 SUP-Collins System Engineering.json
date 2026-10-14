@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Launch Control Reviews/1.04.01.02.19 SUP-Collins System Engineering.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:25:02.538105+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-29",
+    "control_account": "1.04.01.02.19",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah-PMLt. Col. Ralston-MLDr. Troy Wynn",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Krystal Joscher-PM",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1.While the Responsibility Assignment Matrix (RAM) clearly assigns WBS 1.04.01.02.19 to \"SUP-COLLINS\" under the management of Bryce Warner, the planning artifacts reviewed provide limited insight into the detailed integration with other product elements.2. The \"Collins\" scope is extensive, covering not only Command and Launch System Engineering but also aspects of SLP-A design, communications, training devices, and software. This wide-ranging involvement necessitates robust cross-product and cross-functional coordination, which is not yet fully evident in the provided documentation.3. The current artifacts do not fully detail the \"giver/receiver\" relationships between Collins' System Engineering and the various hardware and software components they influence, which is a key aspect of Assessment Area 3.",
+    "score_overall": 0,
+    "rationale": "Foundational planning is in place with clear scope and ownership. However, there are gaps in the documented integration details, which is a critical aspect for a program of this complexity. More detailed evidence of cross-product coordination is needed to build stronger confidence.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "☒\n\n☐\n\n☐\nThe scope for Collins is well-defined across multiple documents, and the responsibility is clearly assigned. The WBS dictionary and RAM provide a solid basis for understanding the work to be performed."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "☐\n\n☒\n\n☐\nWhile high-level planning is evident, the lack of detailed dependency mapping in the provided artifacts suggests that further refinement is needed to ensure a credible and integrated schedule can be developed."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The provided planning artifacts offer limited evidence of mature cross-product integration planning. Key interfaces and dependencies are not consistently documented, indicating that additional planning and coordination are required."
+      }
+    ],
+    "products": "Sow Rev. 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31JUL26, WBS Dictionary 24JUL26, IMP Rev. B, NG RAM 05AUG26",
+    "strengths": "The RAM\nclearly assigns WBS 1.04.01.02.19 and related activities to a single, accountable organization (SUP-COLLINS) and a responsible manager (Bryce Warner), which simplifies points of contact and accountability.",
+    "concerns": "The planning artifacts lack a detailed depiction of the dependencies between \"Collins System Engineering\" and the various hardware and software design teams. Risk: Without a clear understanding of these dependencies, there is a risk of schedule delays and rework if engineering outputs are not delivered in the required sequence and format to the dependent teams.",
+    "questions": "Request a \"giver/receiver\" matrix or similar artifact that explicitly documents the inputs required by the Collins System Engineering team and the outputs they provide to other teams, along with the associated need dates.",
+    "integration": "Confidence Rating\n(Select One)\nStrong:\n☐\nModerate:\n☐\nLow:\n☒\nThe provided planning artifacts\noffer\nlimited evidence of mature cross-product integration planning. Key interfaces and dependencies are not consistently documented, indicating that additional planning and coordination are required.\n2\n. Products\n& Artifacts\nReviewed\nDocument the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.\nThe list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.\nSow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26\n3. Strengths Observed\nDocument the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning\nmaturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.\nThe RAM\nclearly assigns WBS 1.04.01.02.19 and related activities to a single, accountable organization (SUP-COLLINS) and a responsible manager (Bryce Warner), which simplifies points of contact and accountability.\n4. Concerns and Risks Observed\nDocument the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.\nConcerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.\nNot every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.\nDefinitions\nConcern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.\nRisk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.\nThe planning artifacts lack a detailed depiction of the dependencies between \"Collins System Engineering\" and the various hardware and software design teams. Risk: Without a clear understanding of these dependencies, there is a risk of schedule delays and rework if engineering outputs are not delivered in the required sequence and format to the dependent teams.\n5. Open Questions and Follow-Up Items\nDocument questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.\nOpen Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should\nbe resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.\nRequest a \"giver/receiver\" matrix or similar artifact that explicitly documents the\ninputs\nrequired by the Collins System Engineering team and the outputs they provide to other teams, along with the associated need dates.\n6. Cross-\nProduct\n/Cross-Function\nIntegration Observations\nDocument observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.\nCross-Product\n/Cross-Function\nIntegration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product\n/cross-function\ninterfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.\nThe \"SUP-COLLINS\" organization represents a significant integration point within the program.\nThe system engineering activities performed under WBS 1.04.01.02.19 will directly impact the design and development of numerous other WBS elements. The planning for how this \"cause and effect\" relationship is managed is not yet mature."
+  }
+}

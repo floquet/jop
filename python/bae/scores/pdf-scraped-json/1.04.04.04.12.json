@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\ExHW Reviews\\1.04.04.04.12.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T00:09:05.914118",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 5,
+    "inference_time_sec": 1145.28
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.04.04.04.12- CS_HW Launch Ex Hardware Production Manufacturing",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "LtCol Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. This manufacturing work must be completed in time to support major events like the C&L Segment CDR and asset transfer. However, the critical \"how\" and \"how long\" are still completely missing. There is no evidence of a production schedule, lead time estimates, or the basis for any durations.\n2. While the key players are identified, the formal processes to manage these high-consequence handoffs remain undocumented.\n3. Relying on informal coordination between the Design, Manufacturing, and I&T CAMs introduces a major risk to the program's top-level plan.",
+    "score_overall": 0,
+    "rationale": "The IMP makes it clear that the entire Increment 1 test and fielding plan is dependent on this hardware being delivered. A failure in this WBS will have a direct, significant, and visible impact on major program milestones.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The WBS Dictionary provides a clear, well-understood scope description for this hardware production manufacturing task. The scope is logically organized within the hierarchy, and ownership is defined."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "Lack of planned start/finish dates and expected quantities for this effort make it difficult to assess confidence."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The IMP makes it clear that the entire Increment 1 test and fielding plan is dependent on this hardware being delivered. A failure in this WBS will have a direct, significant, and visible impact on major program milestones."
+      }
+    ],
+    "products": "SOW Rev 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31 July 2026\nWBS Dictionary 24 July 2026\nIMP Rev B\nNG RAM 16 July 2026",
+    "strengths": "",
+    "concerns": "The WBS Dictionary entry lacks specific, measurable completion criteria (e.g., a defined list of hardware serial numbers to be produced or specific factory acceptance test procedures to be passed). Adding this detail would fully mature this assessment factor.",
+    "questions": "",
+    "integration": "While the standalone scope is well-defined, the lack of schedule artifacts and interface documentation creates critical blind spots for both cross-functional handoffs (e.g., Design to Manufacturing) and cross-product linkages (e.g., Launch Ex Hardware to system software/facilities)."
+  }
+}

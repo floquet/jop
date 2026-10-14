@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXV/IIR2 WORKSHEET_Payloads _PRO SEIT.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:07:13.581110+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-04",
+    "control_account": "1.02.10.01.03.03",
+    "owner": "Reentry Systems Branch - NIXV",
+    "gov_personnel": [
+      {
+        "name": "Nicholas Dragon, Jacob Brown, Joseph Sanchez",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Andrew Bloomquist, Edward Wassman",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "​​1.\nPLT SEIT is high risk, but the risk posture is consistent with the rest of the program to meet IOC in 2033 (e.g. schedule is success oriented – no margin for test failure or redesign work, concurrent development may drive design changes or rework, etc.).\n2. PLT\nfor MS&A\nhas captured scope accurately in work p\nackage leading to milestone dates, however, there was a level of requested clarification for specifics of milestone dates\n.\n3. PLT\nfor MS&A\nhas captured high level scope in high level planning packages\nrelated to MS&A activities, however, further maturing is needed for specifics of CDRLs/deliverable vectors as well as integration considerations/dependencies of other threads\n.",
+    "score_overall": 0,
+    "rationale": "The PLT MS&A for IIR 2 on the WBS has captured most high-level aspects well, however, there were uncertainties that resided about specifics of deliveries, milestone dates, and integration efforts to ensure completion of tasks within planning packages.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The PLT MS&A Scope and Deliverables definition was largely robust at a high level and captured most main large task elements across PLT M&S dependencies. However, there were some elements of confusion and lack of key deliverable CDRLs, which were noted by Prime contractor to be completed following further maturation into IIR3 and with the understanding that more components were intended to be added to the list."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The PLT MS&A scope for planning was largely sufficient for capturing IIR activities, however, there was a degree of uncertainty in documentation and discussion surrounding specifics of scheduling on key dates for expectations to key tasks."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The PLT MS&A scope for cross product/cross function integration was largely non-existent and described as a task that is outside of scope for the sake of this IIR WBS task. MS&A does have an assigned WBS at the AVE level, which may seek to resolve some of these integration concerns, however, there was no mention made to it."
+      }
+    ],
+    "products": "The meeting walked through a list of MS&A activities tied to PLT MS&A for the IIR discussion.",
+    "strengths": "Scope is clearly and logically captured in sequential order for most key tasks that need to be complete, with clear understanding that more work is needed and in progress to further break out/define scope tasks.",
+    "concerns": "Concern: Integration, cross product, and cross function were not only not covered but largely described as not a responsibility by leadership for the purpose of this IIR discussion. This can have impacts on potential delivery timelines and quality of deliverables. Risk: If definitions, clarifications, and additions to deliverables and schedules are not adjusted or made transparent, due to corrective and clarifying definitions to tasks not being made, then there does run the risk of not receiving desired products or in needed timelines.",
+    "questions": "Look for tie in or clarification to AVE M&S IIR. AVE M&S IIR WBS task does not have an assigned PCAM.",
+    "integration": "Concern surrounding contractors willingness and ability to engage with cross product and cross function integration to ensure influencing equities related this IIR."
+  }
+}

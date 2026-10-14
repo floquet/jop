@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/KDC/IIR2 WORKSHEET_1.04.02.04.01.02_CS_SEIT Key Distribution Center (KDC) Systems Engineering.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:07:28.483671+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-04",
+    "control_account": "1.04.02.04.01.02 – “CS_SEIT Key Distribution Center (KDC) Systems Engineering”",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Kimberly Covert",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Manrico Mirabelli",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The IIR#2 Execution Review was conducted on 15 July 2026. On 16 July, the team identified a critical gap in the required task documentation. Although a continuous search and retrieval effort was maintained from 17 July through 3 August, ongoing document updates by external stakeholders made assessing these shifting requirements highly challenging.2. This CA includes 49 child tasks. 3. Based on the WBS descriptions of the child tasks, we are unable to ascertain whether any of the originally Control Account (CA) data provided by NG on 4/16/26 is integrated into this CA. Based on discussions with NG on 8/4/26, the data previously tracked by the SPO from April ’26 has either been deleted, reassigned, redistributed, or rolled into other WBS elements due to duplicability. For awareness, we have listed those CAs below:",
+    "score_overall": -1,
+    "rationale": "Data sets constantly changing from hour-to-hour making it difficult to understand long-term scope impacts. The team can only conduct analysis based on the most current data. Would meet the requirements of IIR#2. Beyond that will be more challenging.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "This element covers tasks required to complete the Command Systems (CS) Systems Engineering, Integration, and Test (SEIT) owned Systems Engineering (SE) specific to the Key Distribution Center (KDC) Node.MS&A:This element covers tasks required to complete the Command Systems (CS) Systems Engineering, Integration, and Test (SEIT) owned Technical Baseline Development and Management documented in the Systems Engineering Management Plan (SEMP) and the Configuration Management Plan (CMP) specific to system analysis, modeling, and simulation. This scope includes technical baseline artifacts to define and produce the analysis artifacts to assess and substantiate the design mapping to specific Configuration Items (CI) and Computer Software Configuration Items (CSCI) and the required CDRL artifact packages in Table B-1 in Annex B. Additional scope is to develop, maintain, and execute the Modeling and Simulation Master Plan (MSMP) which describes how the following analysis activities are to be performed, documented, and delivered: Analysis used for requirements development, decomposition and allocation; analysis used for requirements verification and validation (V&V); analysis supporting pre- and post-test activities; analysis supporting anomaly and failure investigations; analysis supporting development of U.S. Strategic Command (USSTRATCOM) force planning factors; product support analysis, and manufacturing and deployment analysis. Finally, tasks associated with the Verification and Validation Plan, per MIL-STD 3022 Documentation of Validation, and Accreditation (VV&A) for analytical and simulation tools identified as subject to accreditation in the approved MSMP.Node Integration:This element covers tasks required to complete the Command Systems (CS) Systems Engineering, Integration, and Test (SEIT) owned Technical Baseline Development and Management documented in the Systems Engineering Management Plan (SEMP) and the Configuration Management Plan (CMP) specific to the node-level artifacts within the CS Segment. This element contains the resources associated with the node-level systems engineering and oversight of lower-level content to ensure a successful integration including technical planning, technical management, analysis, and support efforts for development and production activities of the node-level capabilities. The systems engineering entity is responsible for the analysis, derivation, allocation, and traceability, of requirements, design, and interfaces as defined in the SEMP, the Requirements Model Management Plan (RMMP), and the Interface Control Plan (ICP). In addition, it also includes the maturation of Interface Control Modules (ICM) and the Engineering Bill of Materials (EBOM) as identified in the XXXX. The technical work that is a part of this package is for the maturation of requirements, architecture, Risk Management Framework (RMF) decomposition, incorporating Modeling, Simulation, and Analysis (MS&A), and verification planning in accordance with the Integrated Verification Plan (IVP). All technical development supports the respective Integrated Node CDRs for which the capability applies to, which will eventually culminate and iterate in preparation for C&L CDR. There are also activities in this control account to develop content related to these capabilities in support of preparation for C&L and Weapon System CDRsSE:This element contains the resources associated support efforts for development and production activities of the node-level capabilities."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "NG is working toward integration into P6. Final determination can be assessed once full integration is completed. Until that point, the SPO must use the current resources available."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Product element applies solely to KDC elements."
+      }
+    ],
+    "products": "NG WBS_7162026, NG WBS_7222026, Draft Sentinel EMD WBS Dictionary_73026, NG WBS_RAM_7302026, NG WBS_RAM_8032026, CS CA_WP Rollup IIIR2, New WBS IPT Mapping, PMB Development Progress_31JUL, IIR #2 Power Point brief, PCAM Working document, KDC PWBS for the Gov IMS 7-16-26",
+    "strengths": "None\ncurrently\n.",
+    "concerns": "Numerous data gaps; up-to-date artifact delivery cadence; adequate communication between prime & customer",
+    "questions": "None currently.",
+    "integration": "This initiative remains a work in progress; however, the contractor is demonstrating clear intent toward establishing a highly collaborative environment. We observe positive trends in their internal planning, communication, and cross-organizational coordination."
+  }
+}

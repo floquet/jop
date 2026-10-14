@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.10.03.05.06_LS_SPT_MMV_MTES_EMD_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:10:04.806141+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted.",
+      "Overall checkbox rating could not be determined. Inspect the .extracted.txt file and the Word checkbox type.",
+      "Checkbox rating not determined for: Scope and Deliverables Definition",
+      "Checkbox rating not determined for: Schedule Planning and IMS-Loading Readiness",
+      "Checkbox rating not determined for: Cross-Product/Cross-Function Integration"
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "Review Book\nControl Account:\n1.10.03.05.06 – LS-SPT MMV MTES EMD\n1.0 Executive Summary\nPurpose\nThis control account supports Engineering and Manufacturing Development (EMD) activities for the LS‑SPT MMV MTES effort. The objective is to mature the design, verify technical performance, reduce integration risk, and prepare the system for production readiness and operational deployment.\nExecutive Assessment\nThe EMD phase is where technical, schedule, and cost risks converge. Success depends on disciplined systems engineering, prototype evaluation, verification planning, configuration management, and integrated test execution. Leadership should emphasize technical baseline maturity, requirement verification, and timely resolution of design issues.\nExecutive Dashboard\n• Scope Definition – Green\n• Technical Maturity – Yellow (confirm design maturity)\n• Schedule Integration – Yellow (monitor test milestones)\n• EVMS Compliance – Yellow\n• Configuration Management – Green\n• Risk Management – Yellow\n• Overall Readiness – Green\n2.0 Program Context\nThe MMV MTES EMD effort transitions concepts into an executable engineering baseline. Activities include detailed design, subsystem integration, verification planning, engineering analyses, developmental testing, and preparation for production. This control account coordinates engineering, manufacturing, logistics, quality, and test organizations.\n3.0 Control Account Overview\nVerified from the WBS\nThe WBS identifies this control account as LS‑SPT MMV MTES EMD. The work is engineering-focused and supports maturation of the design through the Engineering and Manufacturing Development lifecycle.\nExpected deliverables include:\n• Engineering analyses\n• Design documentation\n• Developmental test plans\n• Verification matrices\n• Technical review packages\n• Configuration updates\n• Manufacturing readiness inputs\nScope Assessment\nThe scope appropriately supports technical maturation and integration activities leading toward production readiness.\n4.0 WBS Decomposition Assessment\nObjective\nAssess whether EMD activities are decomposed into measurable work packages that support planning, execution, earned value reporting, and technical progress.\nRecommended Work Packages\n• Systems Engineering\n• Detailed Design\n• Prototype Integration\n• Developmental Test Support\n• Verification & Validation\n• Technical Reviews\n• Configuration Management\n• Manufacturing Readiness Support\nReviewer Assessment\nStrengths\n• Logical alignment with engineering development objectives.\n• Measurable technical milestones.\n• Strong linkage between engineering and manufacturing readiness.\nPotential Concerns\n• Design changes may drive schedule growth.\n• Test failures could require engineering rework.\n• Baseline changes must remain tightly controlled.\nReviewer Validation Required\n• Control Account Plan (CAP)\n• Systems Engineering Management Plan (SEMP)\n• Requirements Traceability Matrix (RTM)\n• Verification Cross Reference Matrix (VCRM)\n• Integrated Master Schedule excerpts\n• Preliminary/Critical Design Review artifacts\n• Developmental Test Plans\n• Risk Register\n• Configuration Status Accounting\n• Basis of Estimate (BOE)\nPreliminary Readiness Assessment\nOverall WBS Health: Green\nTechnical Maturity: Yellow (validate completion of design reviews)\nTest Readiness: Yellow (confirm verification planning)\nConfiguration Control: Green\nOverall Readiness: Green",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": null,
+    "rationale": "",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": null,
+        "text": "The scope appropriately supports technical maturation and integration activities leading toward production readiness."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": null,
+        "text": ""
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": null,
+        "text": ""
+      }
+    ],
+    "products": "• Engineering analyses\n• Design documentation\n• Developmental test plans\n• Verification matrices\n• Technical review packages\n• Configuration updates\n• Manufacturing readiness inputs",
+    "strengths": "• Logical alignment with engineering development objectives.\n• Measurable technical milestones.\n• Strong linkage between engineering and manufacturing readiness.",
+    "concerns": "• Design changes may drive schedule growth.\n• Test failures could require engineering rework.\n• Baseline changes must remain tightly controlled.",
+    "questions": "",
+    "integration": ""
+  }
+}

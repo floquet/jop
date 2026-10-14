@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Mission Planning_Targeting Reviews/IIR2 WORKSHEET_1.16.05.28.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:43:01.487962+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.28",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Critical Feedback Loop Scope is Bounded but structurally Mismapped: Control Account 1.16.05.28 (CS_SW IFC 4.0_Update and Report Retargeting Status) represents the vital real-time feedback loop reporting retargeting success back to ground stations. Though functionally defined, its WBS code places it in the wrong parent capability branch.2. Follows the Systemic WBS Coding Shift Pattern (+1): This control account exhibits the exact same systemic +1 WBS coding shift identified throughout the database, countdown, database compilation, and targeting sub-suites (such as WBS .21 through .27). It resides under WBS prefix 1.16.05 (reserved in the proposed WBS for Increment 1 Capability / IFC 5.0) rather than mapping to 1.16.4 (IFC 4.0 / Full Launch Capability).3. Critical Path Dependency for Retargeting Verification: Real-time feedback and status reporting are essential for the launch authority to verify command executions. Because of the WBS misalignment, automated EVMS and scheduling tools cannot accurately link and track testing dependencies between this software's development status and physical control center hardware integrations.",
+    "score_overall": 0,
+    "rationale": "The Government has assigned a Moderate confidence rating. The functional software planning is mature: the retargeting status reporting scope is clearly bounded, and ownership is held by a specialized targeting CAM (Tyrone Jackson). However, the systemic WBS index shift remains unresolved. Placing a critical feedback software module for IFC 4.0 under the IFC 5.0 WBS branch breaks EVMS cost-schedule automated alignment, posing a significant risk to the integrity of future CSDR and IPMDAR compliance reports.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The internal software scope for compiling and reporting retargeting statuses is well-defined. However, because it is coded under WBS 1.16.05, it cannot be traceably mapped to the government's defined parent WBS element 1.16.4 (Full Launch Capability). The contractor must correct this structural mapping before the baseline is established."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The software work packages are technically sequence-ready. However, loading this control account into the IMS with the current code 1.16.05.28 will create immediate conflicts with the proposed WBS structure, necessitating manual, error-prone adjustments during automated schedule status updates."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Cross-product integration is rated Low. The Retargeting Status Reporting software must coordinate closely with ground-based mission planning generators and active databases. The WBS coding shift prevents the scheduling and financial software from linking status update maturity with physical Wing Command Center (WCC) Node Integration (WBS 1.4.2.3.3) or Wing-Wide activating schedules (WBS 1.12.2.1)."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix, Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx), Proposed CSDR WBS Dictionary, Sentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consolidated Target Domain CAM): Tyrone Jackson owns the complete targeting execution, database, and feedback chain (Silo Target .23, Control Node Target .24, Wing-Wide Target .25, Wing-Wide Generator .26, Revoke Targeting .27, and Report Retargeting Status .28). This single-point accountability minimizes communication friction and ensures technical consistency across all database and feedback loop schemas.\nStrength 2 (Standalone Status Module): Bounding status updates and feedback as a discrete software module isolates non-execution status tracking from execution pathways, which aligns with standard software partition safety practices (e.g., RTCA DO-178C).",
+    "concerns": "Concern 1 (Systemic WBS Coding Shift):The contractor has coded this IFC 4.0 reporting account under WBS 1.16.05.28. The proposed CSDR WBS reserves 1.16.5 for IFC 5.0. All IFC 4.0 tasks must reside under WBS 1.16.4 (Full Launch Capability).Risk 1:This structural coding mismatch breaks program-level cost collection, resulting in the incorrect consolidation of IFC 4.0 retargeting status reporting development costs under the IFC 5.0 budget.Concern 2 (Target Distribution Synchronization Risks):The Retargeting Status Reporting module is functionally dependent on data streams from both ground mission planning systems and launch silos.Risk 2:If the software WBS is structurally desynchronized, delays in command interface testing on physical control center hardware may go undetected under this software account, increasing the risk of missing critical interface feedback loops before formal HWIL test campaigns.",
+    "questions": "Question 1: What are the specific report formats and communication interfaces used by the \"Update and Report Retargeting Status\" software? Is the transmission protocol automated or operator-driven?Follow-Up 1: Contractor to provide the software design descriptions (SDDs) and Interface Requirements Specifications (IRSs) detailing status reporting transmission protocols.Question 2: Will the contractor present a unified correction plan to shift the entire 1.16.05.xx IFC 4.0 series back to 1.16.04 (to map to 1.16.4)?Follow-Up 2: Contractor to submit a corrected RAM showing government-aligned software mappings before PMB baseline locking.",
+    "integration": "Observation 1 (Target Generation to Catalog Integration): The reporting module must interface directly with the Fixed Wing Wide Target Catalogs database (1.16.05.25) and the Fixed Control Node Target Catalog (1.16.05.24). While the technical relationships between these software modules are planned internally, the WBS index shift prevents automated EVMS scheduling from flagging a delay in the safety-veto software as a critical-path impact on the integrated targeting execution schedule.Observation 2 (Broken Automated Cost-Schedule Linking): The physical installation and verification of the wing command center processing equipment occurs under WBS 1.4.2.3.2.1 (Wing Command Center Integrated Assemblies). Due to the coding misalignment, automated EVMS tools cannot automatically link and track this software's maturity against physical hardware availability at the command centers."
+  }
+}

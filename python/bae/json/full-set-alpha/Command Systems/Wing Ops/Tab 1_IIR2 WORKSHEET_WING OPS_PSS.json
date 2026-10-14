@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Wing Ops/Tab 1_IIR2 WORKSHEET_WING OPS_PSS.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:42:39.880509+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-03",
+    "control_account": "Physical Security Control Accounts",
+    "owner": "Wing Operations Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Jeffrey Owejan, Phillip Ingraham, Mark Pingeton (BAE), and William Brown",
+        "role": "BAE"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Benjamin Farnsworth, Jason Hall, Diane Cooper, Landon Simonsen, and Daniel Dickenson",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. The Prime’s CAMs demonstrated high cooperation and helpfulness during IIR #2. Their proactive engagement successfully resolved all open-scope questions, establishing a solid, joint-team understanding of the planning baseline.2. The Prime utilized explicit, product-oriented \"Physical Security\" nomenclature across WBS Levels 4–7. This clean structure allowed the Government to rapidly isolate portfolio items.3. The Prime established a dedicated, separate WBS branch for the Cold Weather Test Site (CWTS). This ensures extreme weather testing is not hidden under generic hardware lines, providing the SPO with clear visibility to monitor future range planning.",
+    "score_overall": 0,
+    "rationale": "The PSS portfolio has established a stable, functional planning architecture that meets the basic requirements for the current phase. Whilst the Contract WBS is logically organized around explicit physical security nomenclature and provides clear visibility into our future test site boundaries, a significant portion of our long-term testing and integration schedule remains in high-level Planning Packages.The successful completion of our working-level technical sync has established a cooperative baseline with the contractor's teams. However, additional schedule details and cost-estimating audits are required as the program office prepares to transition into the detailed Basis of Estimates (BOEs) and Work Package reviews during the upcoming IIR #3 phase.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities, though continued tracking of legacy hardware mapping and requirements traceability is required as planning matures."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The planning architecture provides a reasonable foundation for IMS loading. However, the high volume of near-term testing scope currently held in Planning Packages will require progressive detailing into discrete Work Packages to support subsequent IIR activities."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Cross-functional handoffs and technical interfaces are sufficiently captured to support subsequent IIR activities, ensuring the PSS architecture can be effectively integrated into the overall program baseline."
+      }
+    ],
+    "products": "Contractor WBS columns; CWBS Dictionary; Organizational Breakdown Structure (OBS); Responsibility Assignment Matrix (RAM); Value stream-to-CWBS mapping; SOW Versions 6-8 and draft V9; CDRLs, and CARD.",
+    "strengths": "Strength 1: S - 3\nThe Prime's Contract WBS Dictionary utilizes explicit, product-oriented \"Physical Security\" nomenclature across WBS Levels 4–7. Having this standardized terminology made isolating and tracking PSS-specific portfolio line items straightforward, allowing the Government to successfully map baseline elements.\nStrength 2: S - 7\nThe Prime established a dedicated, separate WBS branch for the Cold Weather Test Site (CWTS) separating it from generic hardware testing. This discrete structure provides the Government with clear visibility to monitor future range planning and ensures extreme weather testing is not hidden under generic hardware lines.\nStrength 3: I - 4\nThe WBS and technical sync discussions confirm that the cross-functional handoffs between the hardware, software, design, systems engineering, and test groups are visible and well-coordinated, ensuring the PSS architecture can be successfully integrated into the overall program.",
+    "concerns": "Strength 1: S - 3The Prime's Contract WBS Dictionary utilizes explicit, product-oriented \"Physical Security\" nomenclature across WBS Levels 4–7. Having this standardized terminology made isolating and tracking PSS-specific portfolio line items straightforward, allowing the Government to successfully map baseline elements.Strength 2: S - 7The Prime established a dedicated, separate WBS branch for the Cold Weather Test Site (CWTS) separating it from generic hardware testing. This discrete structure provides the Government with clear visibility to monitor future range planning and ensures extreme weather testing is not hidden under generic hardware lines.Strength 3: I - 4The WBS and technical sync discussions confirm that the cross-functional handoffs between the hardware, software, design, systems engineering, and test groups are visible and well-coordinated, ensuring the PSS architecture can be successfully integrated into the overall program.",
+    "questions": "Concern 1: P - 2Under the WBS element CS_HW Physical Security Subsystems I&T (Levels 5–7), almost all active, near-term hardware and software testing tasks are currently categorized as Planning Packages (_PP).The Risk: Carrying near-term, critical-path testing activities purely as Planning Packages prevents the Government from tracking actual schedule progress or verifying technical maturity. If the transition from Planning Packages to detailed, discrete Work Packages (WPs) does not occur in a timely manner, the overall program baseline may lose the near-term logic and duration fidelity required to effectively manage cost, schedule, and performance leading into the EMD phase.",
+    "integration": "None"
+  }
+}

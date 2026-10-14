@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Mission Planning_Targeting Reviews\\IIR2 WORKSHEET_1.16.03.09.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T05:09:07.634715",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 6,
+    "inference_time_sec": 1570.47
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.28",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Perfect Structural Alignment with Government WBS: Unlike downstream IFC 4.0 accounts (which suffer from a +1 index shift), Control Account 1.16.03.09 (CS_SW IFC 3.0_Generate Target) is perfectly aligned with WBS element 1.16.3 (Core Launch Capability). This represents a mature and direct structural relationship that supports clean, automated reporting.\n2. Critical Core Targeting Engine for First Silo Launch: This account represents the core target-generation software logic required to execute the program's first silo launch capability. It is a critical path item for the IFC 3.0 release.\n3. Consolidated Domain Ownership Minimizes Handoff Risks: The account is owned by CAM Julie Richey, who consistently manages core security, veto, and targeting generation accounts across both the IFC 3.0 and IFC 3.1 releases. This consolidated domain expertise significantly reduces organizational communication risks.",
+    "score_overall": 1,
+    "rationale": "The Government has assigned a Strong overall confidence rating. The planning foundation for this account is highly mature. There is perfect vertical traceability between the contractor's RAM and the proposed CSDR WBS for the IFC 3.0 release. Furthermore, the technical scope is well-bounded, the task relationships are logically planned for IMS loading, and the account is managed by a highly specialized CAM.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The scope of developing the target-generation software module for IFC 3.0 is exceptionally clear and vertically traceable to the proposed WBS dictionary for 1.16.3 (Core Launch Capability). Deliverables are clearly mapped to support the First Silo Launch Major Program Event (MPE)."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "The control account is fully ready for IMS loading. Because the WBS code 1.16.03.09 directly maps to the parent WBS element 1.16.3, there are no coding conflicts. Automated scheduling and financial tools can ingest this account and link it to program milestones without manual remapping."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Integration planning is rated Moderate. While this IFC 3.0 core module is structurally aligned and integrates cleanly with other IFC 3.0 sub-elements, there is a risk of downstream desynchronization. Because the contractor introduces an extra WBS tier in the next release cycle (IFC 3.1 mapped under 1.16.04), tracing the migration of this target-generation logic from IFC 3.0 to IFC 3.1 (1.16.04.06) and IFC 4.0 (1.16.05.18/.19) is structurally disrupted in the EVMS architecture."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix\nGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)\nProposed CSDR WBS Dictionary\nSentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Structural Traceability Compliance): This account serves as a baseline example of perfect compliance with the government's proposed WBS, allowing for seamless automated cost accumulation and auditing.\nStrength 2 (High CAM Specialization): CAM Julie Richey manages a highly consolidated suite of safety, security, and execution targeting software accounts across multiple releases. This minimizes cross-segment design handoff friction.",
+    "concerns": "Concern 1 (Downstream Migration Desynchronization): While this account (1.16.03.09) is aligned, the targeting logic must evolve and migrate to IFC 3.1 (coded under 1.16.04.06 in the RAM) and IFC 4.0 (coded under 1.16.05.19 in the RAM). Because of the downstream +1 index shift in those releases, the EVMS cannot automatically track logic maturity across the release cycles.\nConcern 2 (Hardware-Software Lab Scheduling Dependencies): Target generation testing is highly dependent on early Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HWIL) lab availability.",
+    "questions": "Question 1: What is the baseline target-generation algorithm used in IFC 3.0, and how does it scale technically when transitioning to the SLP-A (1.16.04.06) and Wing (1.16.05.19) targeting generators?\nQuestion 2: How does the \"Generate Target\" (.09) module interface with the NC2 security software modules managed by the same CAM within IFC 3.0?",
+    "integration": "Observation 1 (Target Generation to Flight Systems Integration): The target-generation software under IFC 3.0 must output data compatible with the flight systems segment, specifically Missile Guidance, Navigation, and Control (WBS 1.2.7). Because WBS 1.16.3 is structurally aligned, automated scheduling tools can cleanly link these inter-segment dependencies.\nObservation 2 (Clean EVMS Remapping Potential): Because the prefix 1.16.03 is mathematically aligned to proposed WBS 1.16.3, this control account can be immediately established as a baseline for the software PMB, providing a stable control point while the downstream WBS shift is resolved."
+  }
+}

@@ -1,0 +1,222 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☒Moderate: ☒Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/5/2026
+Control Account
+:
+1.16.0
+3
+.
+13
+Product Elemen
+t Owner Designation
+:
+Command Systems Segment
+Government Participants:
+Lt Col Kelly Ralston (ML)
+Troy Wynn (Lead Engineer)
+Kevin Sessions (PM)
+Contractor Participants:
+Pete Richard (PM)
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1.
+Perfect Structural WBS Alignment for Core Launch Sequence: Unlike downstream software releases, Control Account 1.16.03.13 (CS_SW IFC 3.0_Terminal Countdown) maps perfectly to WBS 1.16.3 (Core Launch Capability). This direct structural relationship allows for seamless cost and schedule traceability for the program's most critical core launch sequencing software.
+2.
+Safety-Critical Launch Execution Module: This control account represents the final, safety-critical terminal countdown execution logic. It is a high-integrity, critical-path software function for the program's first silo launch major program event (MPE).
+3.
+Consolidated Launch Domain Ownership Minimizes Technical Risk: The account is managed by CAM Rebecca Davenport, who consistently owns the final launch execution software domain (including Command AVE Startup .03, Preparatory Launch Command
+.11, and Terminal Countdown .13). This single-point accountability minimizes interface handoff risks within the core launch suite.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The Government has assigned a Strong overall confidence rating. The planning foundation for this account is highly mature. There is perfect vertical traceability between the contractor's Responsibility Assignment Matrix (RAM) and the proposed CSDR WBS for the core launch sequencing branch. The functional scope is tightly
+bounded
+, the schedule sequence is ready for Integrated Master Schedule (IMS) loading, and the account is managed by a highly qualified, domain-specialized CAM.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The scope of the terminal countdown software module is exceptionally clear and traces vertically to WBS element 1.16.3 (Core Launch Capability). The deliverables are logically planned to support the technical baseline necessary to successfully exit the first silo launch test.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☒
+Low:
+☐
+The control account is fully ready for IMS loading. Because the WBS code 1.16.03.13 directly maps to parent WBS element 1.16.3, there are no coding conflicts. Automated scheduling and financial reporting systems can ingest this account and link it to hardware milestones without manual remapping.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+Integration is rated Moderate. While this IFC 3.0 module integrates cleanly with other core launch execution functions (such as startup and prep launch commands), tracing its technical maturation into downstream releases is hindered. Because the contractor introduces an extra
+level-3
+WBS element in the next release cycle (IFC 3.1 mapped under 1.16.04), tracing the migration of this terminal countdown logic to IFC 3.1 (1.16.04.12) and IFC 4.0 (1.16.05.xx) is structurally disrupted in the EVMS architecture.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Northrop Grumman Responsibility Assignment Matrix
+Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)
+Proposed CSDR WBS Dictionary
+Sentinel Statement of Work Revision 9.0
+3. Strengths Observed
+Document the most significant strengths identified during the
+assessment that
+increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Strength 1 (Vertical Traceability Compliance): This control account serves as a baseline example of clean compliance with the government's proposed WBS, allowing for seamless automated cost accumulation and auditing.
+Strength 2 (Consolidated Domain CAM): CAM Rebecca Davenport manages the primary launch-execution sequence software block. This ensures that the technical dependencies between AVE startup, prep launch, and terminal countdown are coordinated by a single technical lead.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern 1 (Downstream Logic Migration Tracking):
+While this core account is vertically aligned, the terminal countdown software logic must migrate and evolve in IFC 3.1 (under WBS 1.16.04.12) and IFC 4.0. Because of the downstream +1 index shift in those releases, the EVMS cannot automatically track logic maturity across the release cycles.
+Risk 1:
+Design changes or issues identified in this core countdown module under IFC 3.0 may not automatically flag critical-path impacts on the secondary launch platforms (SLP-A) or wing-wide countdown functions in the IMS.
+Concern 2 (Hardware-Software Lab Scheduling Dependencies):
+As terminal countdown is the final execution step, its verification is highly dependent on early Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HWIL) lab availability.
+Risk 2:
+Any delay in the availability of the Launch Silo node testing environments (WBS 1.4.2.1.3) will directly stall the qualification of this safety-critical countdown software, risking a slip in the first silo launch MPE date.
+5. Open Questions and Follow-Up Items
+Document
+questions that
+remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Question 1: What fallback and hold-fire paths are implemented in this terminal countdown software if ground or missile hardware timing sensors report a fault?
+Follow-Up 1: Contractor to provide the software requirements specification (SRS) and software design description (SDD) for the terminal countdown logic to verify safety-interlock boundaries.
+Question 2: How does the countdown software interface with the NC2 security software
+modules managed by Julie Richey within IFC 3.0?
+Follow-Up 2: Contractor to provide a technical interface diagram showing the data boundaries between the terminal countdown execution module and NC2 Security Functionality (1.16.03.05).
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Observation 1 (High Safety and Security Coupling): The terminal countdown software must
+directly couple
+with physical command center hardware safety relays. Since WBS 1.16.3 is structurally aligned, automated scheduling tools can cleanly link these inter-segment dependencies.
+Observation 2 (Hardware-to-Software Scheduling Synchronization): Execution of this countdown software relies on physical hardware availability under WBS 1.4.4 (C&L Hardware), specifically Launch Power and Distribution and launcher systems. Because this account is properly coded, EVMS tools can cleanly track software maturity against these physical hardware delivery schedules.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/5/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.16.03.13'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Command Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Pete Richard (PM)'
+[05] PLAIN_TEXT checked=None alias='' tag='' text="1. Perfect Structural WBS Alignment for Core Launch Sequence: Unlike downstream software releases, Control Account 1.16.03.13 (CS_SW IFC 3.0_Terminal Countdown) maps perfectly to WBS 1.16.3 (Core Launch Capability). This direct structural relationship allows for seamless cost and schedule traceability for the program's most critical core launch sequencing software.2. Safety-Critical Launch Execution Module: This control account represents the final, safety-critical terminal countdown execution logic. It is a high-integrity, critical-path software function for the program's first silo launch major program event (MPE).3. Consolidated Launch Domain Ownership Minimizes Technical Risk: The account is managed by CAM Rebecca Davenport, who consistently owns the final launch execution software domain (including Command AVE Startup .03, Preparatory Launch Command .11, and Terminal Countdown .13). This single-point accountability minimizes interface handoff risks within the core launch suite."
+[06] CHECKBOX checked=True alias='' tag='' text='☒'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text="The Government has assigned a Strong overall confidence rating. The planning foundation for this account is highly mature. There is perfect vertical traceability between the contractor's Responsibility Assignment Matrix (RAM) and the proposed CSDR WBS for the core launch sequencing branch. The functional scope is tightly bounded, the schedule sequence is ready for Integrated Master Schedule (IMS) loading, and the account is managed by a highly qualified, domain-specialized CAM."
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The scope of the terminal countdown software module is exceptionally clear and traces vertically to WBS element 1.16.3 (Core Launch Capability). The deliverables are logically planned to support the technical baseline necessary to successfully exit the first silo launch test.'
+[14] CHECKBOX checked=True alias='' tag='' text='☒'
+[15] CHECKBOX checked=True alias='' tag='' text='☒'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='The control account is fully ready for IMS loading. Because the WBS code 1.16.03.13 directly maps to parent WBS element 1.16.3, there are no coding conflicts. Automated scheduling and financial reporting systems can ingest this account and link it to hardware milestones without manual remapping.'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=True alias='' tag='' text='☒'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='Integration is rated Moderate. While this IFC 3.0 module integrates cleanly with other core launch execution functions (such as startup and prep launch commands), tracing its technical maturation into downstream releases is hindered. Because the contractor introduces an extra level-3 WBS element in the next release cycle (IFC 3.1 mapped under 1.16.04), tracing the migration of this terminal countdown logic to IFC 3.1 (1.16.04.12) and IFC 4.0 (1.16.05.xx) is structurally disrupted in the EVMS architecture.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Northrop Grumman Responsibility Assignment MatrixGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx) Proposed CSDR WBS DictionarySentinel Statement of Work Revision 9.0'
+[23] PLAIN_TEXT checked=None alias='' tag='' text="Strength 1 (Vertical Traceability Compliance): This control account serves as a baseline example of clean compliance with the government's proposed WBS, allowing for seamless automated cost accumulation and auditing.Strength 2 (Consolidated Domain CAM): CAM Rebecca Davenport manages the primary launch-execution sequence software block. This ensures that the technical dependencies between AVE startup, prep launch, and terminal countdown are coordinated by a single technical lead."
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Concern 1 (Downstream Logic Migration Tracking):While this core account is vertically aligned, the terminal countdown software logic must migrate and evolve in IFC 3.1 (under WBS 1.16.04.12) and IFC 4.0. Because of the downstream +1 index shift in those releases, the EVMS cannot automatically track logic maturity across the release cycles.Risk 1:Design changes or issues identified in this core countdown module under IFC 3.0 may not automatically flag critical-path impacts on the secondary launch platforms (SLP-A) or wing-wide countdown functions in the IMS.Concern 2 (Hardware-Software Lab Scheduling Dependencies):As terminal countdown is the final execution step, its verification is highly dependent on early Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HWIL) lab availability.Risk 2:Any delay in the availability of the Launch Silo node testing environments (WBS 1.4.2.1.3) will directly stall the qualification of this safety-critical countdown software, risking a slip in the first silo launch MPE date.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Question 1: What fallback and hold-fire paths are implemented in this terminal countdown software if ground or missile hardware timing sensors report a fault?Follow-Up 1: Contractor to provide the software requirements specification (SRS) and software design description (SDD) for the terminal countdown logic to verify safety-interlock boundaries.Question 2: How does the countdown software interface with the NC2 security software modules managed by Julie Richey within IFC 3.0?Follow-Up 2: Contractor to provide a technical interface diagram showing the data boundaries between the terminal countdown execution module and NC2 Security Functionality (1.16.03.05).'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='Observation 1 (High Safety and Security Coupling): The terminal countdown software must directly couple with physical command center hardware safety relays. Since WBS 1.16.3 is structurally aligned, automated scheduling tools can cleanly link these inter-segment dependencies.Observation 2 (Hardware-to-Software Scheduling Synchronization): Execution of this countdown software relies on physical hardware availability under WBS 1.4.4 (C&L Hardware), specifically Launch Power and Distribution and launcher systems. Because this account is properly coded, EVMS tools can cleanly track software maturity against these physical hardware delivery schedules.'

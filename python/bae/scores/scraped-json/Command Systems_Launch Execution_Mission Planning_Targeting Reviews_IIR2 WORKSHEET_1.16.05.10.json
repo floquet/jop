@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Mission Planning_Targeting Reviews\\IIR2 WORKSHEET_1.16.05.10.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T06:56:21.049469",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 6,
+    "inference_time_sec": 1596.16
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.10",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Critical NC3/EAM Scope Defined but Structurally Mismapped: Control Account 1.16.05.10 (CS_SW IFC 4.0_Process NC3 Execute Direction EAM) represents the safety-critical software path responsible for receiving, decrypting, validating, and processing Emergency Action Messages (EAMs) for nuclear launch execution. Although functionally mature, its WBS code places it under the wrong parent capability branch.\n2. Impacted by the Systemic Software WBS Index Shift (+1): This account confirms that the contractor's WBS indexing mismatch extends to high-priority nuclear command and control communication pathways. The contractor has mapped this IFC 4.0 task under WBS prefix 1.16.05 (reserved in the proposed WBS for Increment 1 Capability / IFC 5.0) rather than mapping to 1.16.4 (IFC 4.0 / Full Launch Capability).\n3. Severe Integration Risk for NC3 Security-Veto Pathways: Safe and secure message processing relies on absolute synchronicity with hardware cryptographic decrypters and secure communications subsystems. Maintaining this structural coding shift blocks automated EVMS tracking against physical command center and launch node hardware activations.",
+    "score_overall": 0,
+    "rationale": "The Government has assigned a Moderate confidence rating. On a functional basis, the software planning is highly mature: the scope is tightly bounded, safety-critical processing boundaries are isolated, and ownership is held by a specialized command processing CAM (Brian Ellis). However, the systemic WBS index shift is present here as well. Placing a critical NC3 message-processing module for IFC 4.0 under the WBS branch meant for IFC 5.0 breaks EVMS cost-schedule automated alignment, posing a significant compliance risk for future CSDR and IPMDAR auditing.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The internal software scope for executing and processing high-integrity NC3/EAM commands is well-defined. However, because it is coded under WBS 1.16.05, it cannot be traceably mapped to the government's defined parent WBS element 1.16.4 (Full Launch Capability). The contractor must correct this structural mapping before the baseline is established."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The software work packages are technically sequence-ready. However, loading this control account into the IMS with the current code 1.16.05.10 will create immediate conflicts with the proposed WBS structure, necessitating manual, error-prone adjustments during automated schedule status updates."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Cross-product integration is rated Low. The NC3/EAM message-processing software must coordinate closely with physical cryptographic devices and secure communications subsystems. The WBS coding shift prevents the scheduling and financial software from linking software command maturity with physical Wing Command Center (WCC) Node Integration (WBS 1.4.2.3.3) or Wing-Wide activating schedules (WBS 1.12.2.1)."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix\nGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)\nProposed CSDR WBS Dictionary\nSentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consolidated NC3 Command Processing Domain): This account is assigned to Brian Ellis, who manages other real-time processing and system initialization modules under IFC 4.0 (such as .09 Process Retargeting Data and .17 Off Wing System Initialization). Consolidating the real-time command, EAM decryption, and message-processing domain under a single CAM significantly reduces handoff and technical communication risks.\nStrength 2 (High-Security Partitioning): Bounding NC3/EAM message validation and processing in its own account isolates this safety-critical command path from database and telemetry routines, which aligns with standard software safety and modular partition practices (e.g., RTCA DO-178C).",
+    "concerns": "Concern 1 (Systemic WBS Coding Shift): The contractor has coded this IFC 4.0 dynamic command account under WBS 1.16.05.10. The proposed CSDR WBS reserves 1.16.5 for IFC 5.0. All IFC 4.0 tasks must reside under WBS 1.16.4 (Full Launch Capability).\nConcern 2 (Dynamic Cryptographic and Communication Interface Risks): The EAM processing module is functionally dependent on data decrypted by physical high-assurance cryptographic devices (GFP) and must interface with secure execution networks.",
+    "questions": "Question 1: What specific software interface protocols are defined for the dynamic validation of the decrypted NC3/EAM packets, and are they documented under an existing Interface Requirements Specification (IRS)?\nQuestion 2: Will the contractor present a unified correction plan to shift the entire 1.16.05.xx IFC 4.0 series back to 1.16.04 (to map to 1.16.4)?",
+    "integration": "Observation 1 (High Coupling to Secure Communications): Processing EAMs requires seamless integration with the Communications Outside Plant (COSP) (WBS 1.4.2.9) and ground execution networks. While the technical relationships between these software modules and the secure communication links are planned internally, the WBS index shift prevents automated EVMS scheduling from flagging a delay in secure communication testing as a critical-path impact on the integrated command verification schedule.\nObservation 2 (Broken Automated Cost-Schedule Linking): The physical installation and verification of the secure communication equipment occurs under WBS 1.4.2.2.2.1 (Launch Center Integrated Assemblies). Due to the coding misalignment, automated EVMS tools cannot automatically link and track this safety-critical software's maturity against physical hardware availability at the command centers."
+  }
+}

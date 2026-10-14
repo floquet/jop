@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/ExHW Reviews/1.04.02.02.02.01.03.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:15:17.632944+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Checkbox rating not determined for: Cross-Product/Cross-Function Integration"
+    ]
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.04.02.02.02.01.03- CS_HW Launch Center Integrated Assemblies",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "LtCol Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Moderate Scope Definition and Ownership: The artifacts has demonstrated a moderately mature Work Breakdown Structure (WBS) with detailed scope descriptions in the WBS Dictionary and clear ownership assigned to Control Account Managers (CAMs) in the Responsibility Assignment Matrix (RAM). 2. While task descriptions are included, the WBS Dictionary entries often lack explicitly stated, measurable completion criteria. The \"Task Description\" explains what will be done, but not the specific, verifiable conditions that will mark the task as 100% complete.3. Supplier Integration is Identified but Needs Deeper Review: Supplier scope is clearly identified and assigned within the artifacts. However, the documentation of specific deliverables, handoffs, and dependencies between suppliers and internal teams requires further evaluation to ensure seamless integration.",
+    "score_overall": 0,
+    "rationale": "A clear \"giver/receiver\" relationship exists with this CA. By its very nature, integration is critical. The installation team is critically dependent on another team delivering the assemblies on time. The risk is that a delay in assembly will have a direct, cascading impact on the installation schedule.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The WBS Dictionary provides a clear and detailed \"Task Description\" for this element. It explicitly outlines the scope, which includes managing the procurement, assembly, and testing of Launch Center (LC) integrated assemblies, racks, and cabinets. It also specifies that this work covers managing build processes, performing integration and checkout, and supporting problem resolution. This level of detail demonstrates a mature understanding of the required work."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The scope involves producing physical assemblies. The schedule plan must be supported by QBD, such as the number of units to be produced, production rate assumptions, and required cycle times. This information is critical for schedule realism."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": null,
+        "text": "The artifacts provide a solid foundation for integration by identifying key players, but the processes for managing the integration are not documented."
+      }
+    ],
+    "products": "SOW Rev 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31 July 2026, WBS Dictionary 24 July 2026, IMP Rev B, NG RAM 16 July 2026",
+    "strengths": "",
+    "concerns": "There is no evidence of a formal dependency log, interface control document (ICD), or integrated milestone plan to manage these handoffs. While the owners are clear, the \"when\" and \"how\" of the handoffs are not documented in the provided files. This lack of documented coordination process prevents a \"Strong\" rating.",
+    "questions": "What is the estimated duration for producing one Launch Center integrated assembly? What is the basis for this estimate (e.g., historical data, engineering judgment, supplier quotes)? This information is critical for schedule realism.",
+    "integration": "This element must integrate components procured from various sources and deliver a completed assembly to the next-level integration or installation team."
+  }
+}

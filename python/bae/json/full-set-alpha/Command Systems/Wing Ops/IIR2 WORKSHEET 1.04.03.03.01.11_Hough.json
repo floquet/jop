@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Wing Ops/IIR2 WORKSHEET 1.04.03.03.01.11_Hough.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:33:58.554906+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-03",
+    "control_account": "HW Comms L3Harris, 1.04.03.03.01.11",
+    "owner": "Wing Operations Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Ulrike Brown",
+        "role": "Lead PM"
+      },
+      {
+        "name": "Lt. Eric Yaeger",
+        "role": "PM"
+      },
+      {
+        "name": "Rosa Nunez",
+        "role": "PM"
+      },
+      {
+        "name": "Rolan Desmarais",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Matt Okabue (CAM), also covered Andy Hough’s CAs Joseph Jackson",
+        "role": "CAM"
+      }
+    ],
+    "leadership_messages": "This specific control account encompasses subcontractor operations; the volume of currently assessable data remains constrained.",
+    "score_overall": 0,
+    "rationale": "Schedule (Low): Rationale: The rating is Low. No schedule artifacts, duration basis, or evidence of any kind was provided for this subcontractor.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "Sentinel EMD WBS Dictionary (Contained significant errors and did not accurately reflect all L3Harris CAs). WBS_RAM (Failed to capture all L3Harris CAs). WP Rollup IIR2 (Contained no useful planning or schedule data for this CA)."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "N/A Control account is for subcontractor."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "N/A Control account is for subcontractor."
+      }
+    ],
+    "products": "Sentinel EMD WBS Dictionary (Contained significant errors and did not accurately reflect all L3Harris CAs). WBS_RAM (Failed to capture all L3Harris CAs). WP Rollup IIR2 (Contained no useful planning or schedule data for this CA).",
+    "strengths": "N/A Control account is for subcontractor.",
+    "concerns": "N/A Control account is for subcontractor.",
+    "questions": "N/A Control account is for subcontractor.",
+    "integration": "Confidence Rating\n(Select One)\nStrong:\n☐\nModerate:\n☐\nLow:\n☒\nIntegration (Low): Rationale: The rating is Low. It is impossible to assess integration maturity for work that has no defined scope or schedule.\n2\n. Products\n& Artifacts\nReviewed\nDocument the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.\nThe list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.\nSentinel EMD WBS Dictionary (Contained significant errors and did not accurately reflect all L3Harris CAs)\n.\nWBS_RAM (Failed to capture all L3Harris CAs)\n.\nWP Rollup IIR2 (Contained no useful planning or schedule data for this CA)\n.\n3. Strengths Observed\nDocument the most significant strengths identified during the\nassessment that\nincrease confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.\nN/A Control account is for subcontractor.\n4. Concerns and Risks Observed\nDocument the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.\nConcerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.\nNot every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.\nDefinitions\nConcern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.\nRisk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.\nN/A Control account is for\nsubcontractor\n.\n5. Open Questions and Follow-Up Items\nDocument\nquestions that\nremain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.\nOpen Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.\nN/A Control account is for subcontractor.\n6. Cross-\nProduct\n/Cross-Function\nIntegration Observations\nDocument observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the\nidentification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.\nCross-Product\n/Cross-Function\nIntegration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product\n/cross-function\ninterfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.\nN/A Control account is for\nsubcontractor\n."
+  }
+}

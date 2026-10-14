@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\ExHW Reviews\\1.04.01.04.02.19.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-23T17:08:30.979443",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 6,
+    "inference_time_sec": 1475.17
+  },
+  "data": {
+    "date": "2026-08-03",
+    "control_account": "1.04.01.04.02.19 - CS_HW CDR Peculiar Support Equipment (PSE)",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "LtCol Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. Fragmented Integration Architecture: The program's integration planning is currently operating in often undefined areas of responsibility. The lack of a unified, systems-level architecture makes it difficult to map vital interdependencies between the hardware, software, test etc.\n2. Critical Path Analysis: Due to disconnected schedule logic and isolated planning packages, the current artifacts cannot lead to a confident critical path analysis, stripping leadership of the ability to forecast true program completion dates.\n3. Ambiguous Complexity & Lack of Focus: The inherent complexity of the Control Accounts and Work Packages and often vague, or repeated high-level task definitions.",
+    "score_overall": 0,
+    "rationale": "While the planning documents show an initial effort to establish contract scope, the resulting definitions are inconsistent and lack sufficient detail. Furthermore, key deliverables lack defined boundaries and traceable requirements, creating ambiguity that risks compromising IMS integration and critical path analysis.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The planning artifacts do define ownership by the contractor, however, the complexity of the amount of work and planning packages made it difficult to assess clear scope. They appear traceable to program objectives, however, the ambiguity makes clear tracing a challenge. Tracing defined products as CI/CSCIs to the artifacts and definitions is not immediately discernible."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "There are assumptions that the government must make in order to have a significant confidence level for IMS loading. The artifacts provide a reasonable foundation for continued planning."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Most integration activities have been identified and incorporated into the planning architecture; however, additional clarification, documentation, or coordination is needed before the Government can establish stronger confidence in cross-product/cross-function integration maturity and readiness"
+      }
+    ],
+    "products": "SOW Rev 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31 July 2026\nWBS Dictionary 24 July 2026\nIMP Rev B\nNG RAM 16 July 2026",
+    "strengths": "",
+    "concerns": "Without updates to and a higher fidelity detailed CWBS Dictionary, there is a risk of scope creep and ambiguity in defining \"done,\" which could impact schedule and budget.",
+    "questions": "N/A",
+    "integration": "The contractor identifies POCs for different functional areas (\"Node,\" \"Launch Ex/SLC,\" \"Wing Ops/Comms/PS\"), which highlights the need for cross-functional coordination. However, there is no evidence (e.g., dependency logs, interface agreements) showing how these teams will manage handoffs."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "PMO/1.06.05.21_IIR2 WORKSHEET_PMO_PMO - OCE.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:39:03.576920+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.06.05.21 – PMO – PMO Program Office of Chief Engineer",
+    "owner": "Acquisition Integration Branch - NIXQ",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Chris Willey, Barry Niemann",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Overall confidence is high. NG needs to build out the WBS dictionary to be more comprehensive, but overall no issues with being able to track information under the CA’s or WPs.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Assessment is moderate, NG needs to build out the WBS Dictionary entry to be more comprehensive to the totality of the effort included in the CA.",
+    "score_overall": 1,
+    "rationale": "Assessment is strong, effort is entirely captured as LOE.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Assessment is strong, based on above information."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Presentation was entirely PPT delivered, work packages descriptions, LOE discussions; reviewed WBS dictionary separately as it was not presented in the review."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "No strengths observed at this time."
+      }
+    ],
+    "products": "Presentation was entirely PPT delivered, work packages descriptions, LOE discussions; reviewed WBS dictionary separately as it was not presented in the review.",
+    "strengths": "No strengths observed at this time.",
+    "concerns": "Overall WBS dictionary needs to be more robust across the board. The current entry is very lacking.",
+    "questions": "Will request follow-up review of updated WBS dictionary for IIR 3.",
+    "integration": "N/A"
+  }
+}

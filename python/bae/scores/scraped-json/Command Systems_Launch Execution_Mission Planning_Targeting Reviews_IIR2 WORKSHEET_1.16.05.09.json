@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Mission Planning_Targeting Reviews\\IIR2 WORKSHEET_1.16.05.09.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T06:29:32.985673",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 6,
+    "inference_time_sec": 1584.47
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.09",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Critical Operational Scope Defined but Structurally Mismapped: Control Account 1.16.05.09 (CS_SW IFC 4.0_Process Retargeting Data) represents the critical real-time execution logic responsible for ingesting, validating, and processing dynamic retargeting commands. While functionally distinct and well-scoped, its WBS code places it in the wrong parent capability branch.\n2. Impacted by the Systemic Software WBS Index Shift (+1): This control account exhibits the exact same systemic +1 WBS coding shift identified throughout the database, countdown, and targeting sub-suites (such as WBS .21 through .28). The contractor has mapped this IFC 4.0 task under 1.16.05 (reserved in the proposed WBS for Increment 1 Capability / IFC 5.0) rather than mapping to 1.16.4 (IFC 4.0 / Full Launch Capability).\n3. High Inter-Segment Integration Risk for Mission Command Paths: Processing retargeting data is highly dependent on ground station mission planning formats and guidance computer interfaces. Because of the WBS coding mismatch, automated EVMS",
+    "score_overall": 0,
+    "rationale": "The Government has assigned a Moderate confidence rating. The functional software planning is mature: the retargeting data processing scope is clearly bounded, and ownership is held by a specialized processing CAM (Brian Ellis). However, the systemic WBS index shift remains unresolved. Placing a critical dynamic command software module for IFC 4.0 under the IFC 5.0 WBS branch breaks EVMS cost-schedule automated alignment, posing a significant risk to the integrity of future CSDR and IPMDAR compliance reports.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The internal software scope for executing and processing retargeting commands is well-defined. However, because it is coded under WBS 1.16.05, it cannot be traceably mapped to the government's defined parent WBS element 1.16.4 (Full Launch Capability). The contractor must correct this structural mapping before the baseline is established."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The software work packages are technically sequence-ready. However, loading this control account into the IMS with the current code 1.16.05.09 will create immediate conflicts with the proposed WBS structure, necessitating manual, error-prone adjustments during automated schedule status updates."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Cross-product integration is rated Low. The Retargeting Data Processing software must coordinate closely with ground-based mission planning generators and flight-system guidance nodes. The WBS coding shift prevents the scheduling and financial software from linking software command maturity with physical Wing Command Center (WCC) Node Integration (WBS 1.4.2.3.3) or Wing-Wide activating schedules (WBS 1.12.2.1)."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix\nGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)\nProposed CSDR WBS Dictionary\nSentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consolidated Command Processing CAM): This account is assigned to Brian Ellis, who manages other real-time processing and system initialization modules under IFC 4.0 (such as .10 Process NC3 Execute Direction EAM and .17 Off Wing System Initialization). This consolidates the real-time command and message processing domain under a single CAM, reducing handoff and technical communication risks.\nStrength 2 (Discrete Functional Scope): Bounding retargeting data processing in its own account isolates this high-stress, real-time command transaction from normal database and telemetry routines, which aligns with standard software safety and modular partition practices (e.g., RTCA DO-178C).",
+    "concerns": "Concern 1 (Systemic WBS Coding Shift):\nThe contractor has coded this IFC 4.0 dynamic command account under WBS 1.16.05.09. The proposed CSDR WBS reserves 1.16.5 for IFC 5.0. All IFC 4.0 tasks must reside under WBS 1.16.4 (Full Launch Capability).\nConcern 2 (Dynamic Inter-Segment Coordination Risks):\nThe retargeting processing module is functionally dependent on data formats generated by ground-based systems and must distribute coordinates to flight control nodes.",
+    "questions": "Question 1: What formatting standards (e.g., coordinate reference systems, encryption wrappers) are expected for the incoming retargeting packets?\nQuestion 2: Will the contractor present a unified correction plan to shift the entire 1.16.05.xx IFC 4.0 series back to 1.16.04 (to map to 1.16.4)?",
+    "integration": "Observation 1 (High Coupling to Flight Systems): Processing retargeting data outputs target coordinates to the Missile Guidance, Navigation, and Control (WBS 1.2.7) flight control computer. While the technical relationships between these software modules are planned internally, the WBS index shift prevents automated EVMS scheduling from flagging a delay in this processing software as a critical-path impact on the flight systems integration schedule.\nObservation 2 (Broken Automated Cost-Schedule Linking): The physical installation and verification of the wing command center processing equipment occurs under WBS 1.4.2.3.2.1 (Wing Command Center Integrated Assemblies). Due to the coding misalignment, automated EVMS tools cannot automatically link and track this software's maturity against physical hardware availability at the command centers."
+  }
+}

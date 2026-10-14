@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.02.01.04.02.13_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:08:52.701440+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted.",
+      "Overall checkbox rating could not be determined. Inspect the .extracted.txt file and the Word checkbox type.",
+      "Checkbox rating not determined for: Scope and Deliverables Definition",
+      "Checkbox rating not determined for: Schedule Planning and IMS-Loading Readiness",
+      "Checkbox rating not determined for: Cross-Product/Cross-Function Integration"
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "1.02.01.04.02.13\nLS-SPT Increment 1 Support Equipment Development – Design & Procurement\nExecutive Summary\nThis Control Account encompasses the design, development, procurement, fabrication, and delivery of Increment 1 Support Equipment. It demonstrates a mature hardware development approach that transitions engineering outputs into producible support equipment through disciplined procurement and manufacturing activities.\nEarly alignment of support equipment specifications with O&S requirements (e.g., maintainability, reliability, provisioning, and training) will reduce downstream sustainment risk.\nOverall Health:\nGREEN\nOverall Confidence: HIGH (88%)\nControl Account Purpose\nDetailed support equipment design\nProcurement planning\nLong-lead material acquisition\nVendor coordination\nFabrication support\nHardware integration support\nDelivery of operational support equipment\nConfiguration-controlled hardware releases\nScope Assessment\nThe WBS decomposition demonstrates a logical progression through the hardware realization lifecycle.\nDesign activities logically precede procurement.\nProcurement scope is separated from engineering effort.\nHardware development activities are clearly identifiable.\nConfiguration-controlled hardware is incorporated into planning.\nWork packages are executable and planning packages are appropriately limited.\nContinue\nd\nsynchronizing procurement with engineering releases\nand\nlogistic deliverables\nDesign Maturity Assessment\nEngineering products support procurement readiness.\nShould require logis\ntic sign off at design reviews\nDesign activities are sufficiently decomposed.\nConfiguration management supports hardware baseline.\nMonitor engineering changes, supplier availability, and component obsolescence.\nProcurement Assessment\nProcurement follows engineering maturity.\nSupplier activities are planned.\nMaterial acquisition supports production schedules.\nMaintain configuration control throughout procurement.\nEnsure lifecycle support in all procurement packages.\nOverall Procurement Risk: LOW TO MODERATE\nManufacturing Readiness\nManufacturing receives mature engineering outputs.\nHardware planning supports fabrication.\nProcurement sequencing appears appropriate.\nDesign supports manufacturability.\nSchedule Assessment\nEngineering Complete → Drawing Release → Procurement → Fabrication → Delivery → Integration.\nMonitor supplier performance.\nTrack long-lead materials.\nControl engineering revisions.\nRecommend logistics readiness reviews before integration/fielding\nConfiguration Management\nMaintain controlled drawing releases.\nUse procurement package version control.\nImplement engineering changes through formal configuration management.\nMaintain hardware serialization where applicable.\nIntegration Assessment\nSupports hardware availability for integration.\nProvides supplier support.\nEnsures configuration-controlled deliveries.\nMaintain schedule alignment with integration teams.\nEVMS / IBR Assessment\nClearly defined scope.\nExecutable work packages.\nProper separation of engineering and procurement.\nLogical technical flow.\nNo significant structural deficiencies identified.\nRecommended Actions\nMonitor\nlogistic &\nengineering maturity before procurement authorization.\nConduct recurring supplier readiness reviews.\nClosely monitor long-lead material acquisition.\nMaintain strict configuration management.\nConvert remaining planning packages before execution.\nEmbed logistics supportability, maintainability, and provisioning as key performance parameters in all support equipment design and procurement activities\nActively manage DMSMS and supply chain risks.\nOverall Reviewer Conclusion\nThis control account exhibits the characteristics expected of a mature Design & Procurement control account supporting a major DoD acquisition program. Execution risks are manageable through disciplined supplier oversight, configuration management, and engineering change\ncontrol.\nThe\ncontrol account is mature and supports logistics and O&S objectives. Continued focus on logistics deliverables, configuration management, and supplier readiness will ensure support equipment is fully supportable and cost-effective throughout its lifecycle\n.",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": null,
+    "rationale": "",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": null,
+        "text": ""
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": null,
+        "text": ""
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": null,
+        "text": ""
+      }
+    ],
+    "products": "",
+    "strengths": "",
+    "concerns": "",
+    "questions": "",
+    "integration": ""
+  }
+}

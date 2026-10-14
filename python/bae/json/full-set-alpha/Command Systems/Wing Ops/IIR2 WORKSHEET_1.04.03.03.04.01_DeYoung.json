@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Wing Ops/IIR2 WORKSHEET_1.04.03.03.04.01_DeYoung.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:38:54.977153+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-03",
+    "control_account": "CS_HW Comms I&T 1.04.03.03.04.01",
+    "owner": "Wing Operations Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Maj. Brad Pruitt",
+        "role": "Deputy Branch Chief"
+      },
+      {
+        "name": "Ulrike Brown",
+        "role": "Lead PM"
+      },
+      {
+        "name": "Capt. Mark Hayes",
+        "role": "PM"
+      },
+      {
+        "name": "Lt. Eric Yaeger",
+        "role": "PM"
+      },
+      {
+        "name": "Rosa Nunez",
+        "role": "PM"
+      },
+      {
+        "name": "Rolan Desmarais",
+        "role": "PM"
+      },
+      {
+        "name": "Zane Winkler (EN)Aaron Mills",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Andrew De Young",
+        "role": "CAM"
+      },
+      {
+        "name": "Donny Kitchens",
+        "role": "CAM"
+      },
+      {
+        "name": "Brian Marquez (WIPL)Daniel DickinsonRyan Kirkpatrick",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Planning Foundation is Established",
+    "score_overall": 0,
+    "rationale": "NG has derived the control account into numerous accomplishable tasks, primarily located within the RAM. NG has also made clear their intention to further develop their plan as needed for various milestones. However, the constant shuffling of control accounts between CAMs and even different IPTs establishes a sense of uncertainty for future planning.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Scope and deliverables within the control account seem well defined. However, the constant movement of control accounts opens the door for deliverables to become misplaced and scope boundaries to become opaque."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "All discrete tasks are planned within P6. However, all the projected task durations are a guess where the basis has not been provided to the government."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Cross integration is immature and has not been presented in any discernable way at this point in time."
+      }
+    ],
+    "products": "WP Rollup IIR2, Sentinel EMD WBS Dictionary, and WBS_RAM",
+    "strengths": "S-3 (CWBS Dictionary Maturity): The WBS Dictionary entry for this specific control account (CS_HW Comms I&T) is a standout strength. It is well-written, clearly scoped, and provides clear completion criteria. This serves as a \"best practice\" example for other control accounts.\nS-1 (Task Decomposition): The contractor has successfully decomposed the high-level scope into a list of discrete tasks within\nthe RAM\n, providing a logical foundation for future planning\nif and when\nevidence is provided.",
+    "concerns": "Concern 1 (P-5: Duration and Assumption Basis): The contractor could not provide any basis for schedule durations. All presented timelines are unsubstantiated guesses. Risk: This introduces unquantifiable risk into the master schedule. Key integration and testing milestones are likely to be missed, causing cascading delays across the entire program.Concern 2 (S-4: Organizational Ownership): There is no stable ownership for this control account, with responsibilities constantly shifting between CAMs and IPTs. Risk: This churn guarantees that scope will be dropped, deliverables will be lost, and accountability will be impossible to enforce, severely jeopardizing the success of integration and test activities.Concern 3 (General): The review was characterized by a lack of configuration control over planning artifacts (RAM, WBS), with multiple conflicting versions in circulation. Risk: This demonstrates a systemic failure in process discipline. It forces the Government to make assessments on unstable, unreliable data and prevents the establishment of a firm performance measurement baseline.",
+    "questions": "Q1 (P-2): The contractor asserts that detailed plans exist within the P6 scheduling tool, but no evidence has been provided to the Government for review. Follow-Up 1: The Government requires read-only access to, or regularly scheduled demonstrations of, the current P6 schedule for this control account. This is necessary to substantiate planning maturity and to enable evidence-based, rather than trust-based, oversight.",
+    "integration": "I-2 According to NG’s own words, cross integration is currently immature. In NG’s defense, internal maturity must be achieved in order to put effort towards cross integration."
+  }
+}

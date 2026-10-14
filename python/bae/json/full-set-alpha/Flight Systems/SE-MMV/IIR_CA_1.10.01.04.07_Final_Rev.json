@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.10.01.04.07_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:09:46.684081+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted."
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "1.10.01.04.07\nLS-SPT Prototype Support Equipment Development – Design & Procurement\nExecutive Summary\nThis Control Account manages the design, development, procurement, fabrication, and delivery of prototype support equipment required for the LS-SPT program. The WBS indicates a well-planned prototype development effort emphasizing early hardware availability, design validation, supplier coordination, and support for integration and test activities. The control account demonstrates a logical progression from engineering outputs to prototype hardware delivery.\nOverall Health:\nGREEN\nOverall Confidence: HIGH (90%)\nControl Account Purpose\nDevelop prototype support equipment designs.\nProcure prototype hardware and long-lead materials.\nCoordinate supplier fabrication activities.\nSupport prototype manufacturing and assembly.\nDeliver prototype hardware for integration and testing.\nMaintain configuration control throughout prototype development.\nScope Assessment\nPrototype development activities are logically decomposed.\nDesign and procurement activities are clearly separated.\nWork packages are executable and measurable.\nPlanning packages support future prototype efforts.\nScope supports engineering, manufacturing, and test organizations.\nPlan for the capture of logistics data (provisioning, maintenance procedures, technical data) during prototype development.\nDesign & Prototype Development\nPrototype designs support early verification of engineering concepts.\nDesign maturity should be confirmed prior to procurement.\nPrototype hardware provides valuable technical risk reduction.\nEngineering changes should be tightly controlled.\nInclude\nd\nlogistics and supportability criteria in design reviews to influence prototype design\nProcurement & Supplier Assessment\nSupplier engagement supports prototype schedules.\nLong-lead material planning is appropriate.\nPrototype procurement should remain configuration controlled.\nSupplier performance should be monitored throughout fabrication.\nSupplier contracts should require deliverables (provisioning data, tech data, spares) for prototype hardware.\nManufacturing Readiness\nPrototype fabrication activities support production learning.\nManufacturing processes should be documented for future production.\nTooling and specialized equipment availability should be verified.\nPrototype build lessons learned should be captured.\nIntegration & Test Support\nPrototype hardware supports integration planning.\nEarly hardware availability reduces downstream program risk.\nEngineering\n& logistic\nparticipation during testing is recommended.\nTest feedback should be incorporated into design updates.\nRisk Assessment\nEngineering changes remain the primary technical risk.\nSupplier delays may impact prototype schedules.\nPrototype failures should be captured as design learning opportunities.\nOverall execution risk assessed as LOW–MODERATE.\nMonitor supply chain risk in the risk register\n.\nEVMS / IBR Assessment\nClearly defined prototype scope.\nStrong linkage between engineering and procurement.\nExecutable work package structure.\nPlanning supports measurable earned value.\nNo significant structural deficiencies identified.\nReport readiness metrics as part of EVMS/IBR reviews.\nRecommended Actions\nMaintain engineering baseline stability before procurement.\nConduct recurring supplier readiness reviews.\nCapture prototype lessons learned for production planning.\nMonitor long-lead material procurement closely.\nMaintain configuration management discipline.\nLogistics SME participation in all technical and integration reviews.\nOverall Reviewer Conclusion\nThis Control Account reflects a mature prototype development strategy supporting a major Department of Defense acquisition program. The WBS demonstrates appropriate planning for prototype design, procurement, fabrication, and integration. Prototype execution is expected to reduce technical risk prior to production while providing valuable manufacturing and integration experience. Overall assessment: IIR Ready with HIGH\nconfidence.\nContinued\nlogistics integration and proactive sustainment planning will ensure prototypes are not only technically sound, but also fully supportable and ready for seamless transition to production. This approach embeds sustainment requirements from the outset, maximizing readiness and minimizing lifecycle risk.",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": 1,
+    "rationale": "Overall assessment: IIR Ready with HIGH confidence.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Prototype development activities are logically decomposed. Design and procurement activities are clearly separated. Work packages are executable and measurable. Planning packages support future prototype efforts. Scope supports engineering, manufacturing, and test organizations."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Supplier engagement supports prototype schedules. Long-lead material planning is appropriate. Prototype procurement should remain configuration controlled. Supplier performance should be monitored throughout fabrication."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Prototype hardware supports integration planning. Early hardware availability reduces downstream program risk. Engineering & logistic participation during testing is recommended. Test feedback should be incorporated into design updates."
+      }
+    ],
+    "products": "",
+    "strengths": "Prototype designs support early verification of engineering concepts. Design maturity should be confirmed prior to procurement. Prototype hardware provides valuable technical risk reduction.",
+    "concerns": "Engineering changes remain the primary technical risk. Supplier delays may impact prototype schedules. Prototype failures should be captured as design learning opportunities.",
+    "questions": "",
+    "integration": "Continued logistics integration and proactive sustainment planning will ensure prototypes are not only technically sound, but also fully supportable and ready for seamless transition to production."
+  }
+}

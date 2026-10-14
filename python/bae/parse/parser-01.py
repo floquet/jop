@@ -123,5 +123,5 @@ def print_provenance():
     print(f"Implementation: {platform.python_implementation()}")
 
 if __name__ == "__main__":
-    raise SystemExit(main())
-    print_provenance()
+    raise SystemExit( main( ) )
+    print_provenance( )

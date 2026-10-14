@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.04.01.04.02.08_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:09:04.245342+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted."
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "1.04.01.04.02.08\nLS-SPT C&L MMIII SLC Support Equipment Development – Design & Procurement\nExecutive Summary\nThis Control Account governs the design, development, procurement, fabrication, integration support, and delivery of Support Equipment required to sustain the MMIII SLC capability. The WBS reflects a disciplined hardware realization strategy with appropriate separation between engineering activities and hardware execution.\nFrom a logistics perspective, the account is fundamentally sound, but several areas should be emphasized or strengthened to ensure full alignment with O&S (Operations & Support) and long-term sustainment objectives.\nOverall Health:\nGREEN\nOverall Confidence: HIGH (89%)\nControl Account Purpose\nDetailed support equipment design completion\nHardware development\nProcurement planning\nSupplier coordination\nMaterial acquisition\nFabrication support\nHardware acceptance\nEquipment delivery\nConfiguration-controlled hardware releases\nScope Assessment\nLogical decomposition of design and procurement activities.\nHardware realization follows engineering completion.\nProcurement work packages are executable and measurable.\nSupplier engagement is planned.\nManufacturing support is integrated into the Control Account.\nContinue converting planning packages before execution.\nTechnical & Design Maturity\nDesign products appear sufficiently mature.\nEngineering documentation supports procurement.\nReview\ned\nfor lifecycle support and maintainability.\nTechnical baseline supports manufacturing.\nMonitor engineering changes and supplier lead times.\nProcurement Readiness\nProcurement sequencing is logical.\nLong-lead materials identified early.\nSupplier coordination is represented.\nMaintain configuration control during procurement.\nOverall Procurement Risk: LOW–MODERATE.\nManufacturing Readiness\nFabrication support is planned.\nManufacturing documentation appears complete.\nProduction sequencing appears executable.\nConduct Manufacturing Readiness Reviews before fabrication.\nSchedule Assessment\nEngineering → Drawing Release → Procurement → Fabrication → Delivery → Integration.\nMonitor supplier delivery performance.\nTrack long-lead materials.\nControl engineering\nand logistics\nsupportability checks\nrevised\nConfiguration Management\nControlled drawing releases.\nConfiguration-controlled procurement packages.\nTraceable hardware baselines.\nPerform periodic configuration audits.\nEnsure support for provisioning and maintenance.\nIntegration Assessment\nSupports hardware availability for integration.\nEquipment readiness aligns with downstream milestones.\nCoordinate with Systems Engineering for delivery timing.\nEVMS / IBR Assessment\nClearly defined scope.\nExecutable work packages.\nAppropriate separation of engineering and procurement.\nStrong planning discipline.\nNo significant structural deficiencies identified.\nRecommended Actions\nMaintain engineering baseline stability.\nConduct recurring supplier readiness reviews.\nMonitor long-lead procurement monthly.\nPerform Manufacturing Readiness Reviews.\nConvert planning packages into executable work.\nTrack sustainability scope, cost, and schedule separately for visibility and accountability\nReport logistics readiness metrics at each program review to highlight sustainment risk and fielding status.\nOverall Reviewer Conclusion\nThis Control Account demonstrates a mature Design & Procurement planning approach supporting a major Department of Defense acquisition program. Primary risks are supplier performance, long-lead materials, and engineering change management. Overall assessment: IIR Ready with HIGH confidence.\nLogistics readiness metrics and proactive sustainment tracking are essential for fielding success and long-term O&S performance. Maintain high visibility and accountability for all logistics deliverables.",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": 1,
+    "rationale": "Overall assessment: IIR Ready with HIGH confidence.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Logical decomposition of design and procurement activities. Hardware realization follows engineering completion. Procurement work packages are executable and measurable. Supplier engagement is planned. Manufacturing support is integrated into the Control Account. Continue converting planning packages before execution."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Engineering → Drawing Release → Procurement → Fabrication → Delivery → Integration. Monitor supplier delivery performance. Track long-lead materials. Control engineering and logistics supportability checks revised"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Supports hardware availability for integration. Equipment readiness aligns with downstream milestones. Coordinate with Systems Engineering for delivery timing."
+      }
+    ],
+    "products": "",
+    "strengths": "Design products appear sufficiently mature. Engineering documentation supports procurement. Technical baseline supports manufacturing.",
+    "concerns": "Primary risks are supplier performance, long-lead materials, and engineering change management.",
+    "questions": "",
+    "integration": "Equipment readiness aligns with downstream milestones. Coordinate with Systems Engineering for delivery timing."
+  }
+}

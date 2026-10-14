@@ -1,0 +1,178 @@
+dantopa@isomer:~/repos-isomer/github/jop/python/bae/scores$ python3 inspect_scrape.py scrape.db 
+Database: /home/dantopa/repos-isomer/github/jop/python/bae/scores/scrape.db
+Records: 50
+
+=== RECORDS ===
+1. Command Systems\Launch Execution\ExHW Reviews\1.04.01.04.02.19.docx
+   Control account: 1.04.01.04.02.19 - CS_HW CDR Peculiar Support Equipment (PSE)
+   Scores (c0, c1, c2, c3): (0, 0, 0, 0)
+2. Command Systems\Launch Execution\ExHW Reviews\1.04.02.01.02.01.02.docx
+   Control account: 1.04.02.01.02.01.02 CS_HW Launch Silo Integrated Assemblies
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+3. Command Systems\Launch Execution\ExHW Reviews\1.04.02.01.02.02.01.docx
+   Control account: 1.04.02.01.02.02.01 CS_HW Launch Silo Cabling
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+4. Command Systems\Launch Execution\ExHW Reviews\1.04.02.02.02.01.03.docx
+   Control account: 1.04.02.02.01.03- CS_HW Launch Center Integrated Assemblies
+   Scores (c0, c1, c2, c3): (0, 1, 0, -1)
+5. Command Systems\Launch Execution\ExHW Reviews\1.04.02.02.02.02.01.docx
+   Control account: 1.04.02.02.02.02.01 CS_HW Launch Center Cabling
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+6. Command Systems\Launch Execution\ExHW Reviews\1.04.02.03.02.01.01.docx
+   Control account: 1.04.02.03.02.01.01 CS_HW WCC Integrated Assemblies
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+7. Command Systems\Launch Execution\ExHW Reviews\1.04.02.04.02.01.01.docx
+   Control account: 1.04.02.04.02.01CS_HW KDC Integrated Assemblies
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+8. Command Systems\Launch Execution\ExHW Reviews\1.04.03.01.02.02.docx
+   Control account: 1.04.03.01.02.02- CS_HW Launch Ex Subsystems SE
+   Scores (c0, c1, c2, c3): (0, 0, -1, -1)
+9. Command Systems\Launch Execution\ExHW Reviews\1.04.03.01.03.07.docx
+   Control account: 1.04.03.01.03.07 - CS_HW Launch Ex_Missile Products
+   Scores (c0, c1, c2, c3): (-1, 0, -1, -1)
+10. Command Systems\Launch Execution\ExHW Reviews\1.04.03.01.03.09 .docx
+   Control account: 1.04.03.01.03.09 - CS_HW LaunchEx_Ground Safety Devices
+   Scores (c0, c1, c2, c3): (-1, -1, -1, -1)
+11. Command Systems\Launch Execution\ExHW Reviews\1.04.03.01.03.10.docx
+   Control account: 1.04.03.01.03.10 - CS_HW Launch Ex_NSCD
+   Scores (c0, c1, c2, c3): (-1, -1, -1, -1)
+12. Command Systems\Launch Execution\ExHW Reviews\1.04.03.01.04.01.docx
+   Control account: 1.04.03.01.04.01 - CS_HW Launch Ex Subsystems I&T
+   Scores (c0, c1, c2, c3): (0, 1, -1, -1)
+13. Command Systems\Launch Execution\ExHW Reviews\1.04.03.01.04.02.docx
+   Control account: 1.04.03.01.04.02 - CS_HW Launch Ex Subsystem Production Manufacturing
+   Scores (c0, c1, c2, c3): (0, 1, 0, 0)
+14. Command Systems\Launch Execution\ExHW Reviews\1.04.04.01.04.docx
+   Control account: 1.04.04.01.04 SUP GDMS2 Program Management
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+15. Command Systems\Launch Execution\ExHW Reviews\1.04.04.01.05.docx
+   Control account: 1.04.04.01.05 SUP GDMS2 Non PMB Work Packages
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+16. Command Systems\Launch Execution\ExHW Reviews\1.04.04.02.08.docx
+   Control account: 1.04.04.02.08 SUP GDMS2 System Engineering
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+17. Command Systems\Launch Execution\ExHW Reviews\1.04.04.03.01.03.docx
+   Control account: 1.04.04.03.01.03 CS_HW Launch Ex Hardware Design
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+18. Command Systems\Launch Execution\ExHW Reviews\1.04.04.03.01.04.docx
+   Control account: 1.04.04.03.01.04 CS_HW Design Integration Design
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+19. Command Systems\Launch Execution\ExHW Reviews\1.04.04.03.01.05.docx
+   Control account: 1.04.04.03.01.05 SUP-GDMS2 - Launch Ex Hardware
+   Scores (c0, c1, c2, c3): (0, 0, 0, 0)
+20. Command Systems\Launch Execution\ExHW Reviews\1.04.04.04.09.docx
+   Control account: 1.04.04.04.09 CS_HW Design Integration I&T
+   Scores (c0, c1, c2, c3): (0, -1, -1, -1)
+21. Command Systems\Launch Execution\ExHW Reviews\1.04.04.04.12.docx
+   Control account: 1.04.04.04.12- CS_HW Launch Ex Hardware Production Manufacturing
+   Scores (c0, c1, c2, c3): (0, 0, -1, -1)
+22. Command Systems\Launch Execution\ExHW Reviews\1.08.02.05.docx
+   Control account: 1.08.02.05 SEIT-STI Training Devices
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+23. Command Systems\Launch Execution\Launch Control Reviews\1.04.01.01.06.docx
+   Control account: 1.04.01.01.06-LS-INF Launch Silo PM
+   Scores (c0, c1, c2, c3): (-1, 0, -1, -1)
+24. Command Systems\Launch Execution\Launch Control Reviews\1.04.01.01.07 LS-INF Launch Center PM.docx
+   Control account: 1.04.01.01.07 LS-INF Launch Center PM
+   Scores (c0, c1, c2, c3): (1, 1, 0, 0)
+25. Command Systems\Launch Execution\Launch Control Reviews\1.04.01.01.08 SUP-Collins Non-PMB Work Packages.docx
+   Control account: 1.04.01.01.08
+   Scores (c0, c1, c2, c3): (-1, -1, -1, -1)
+26. Command Systems\Launch Execution\Launch Control Reviews\1.04.01.05.02 CS PM General Procurement.docx
+   Control account: 1.04.01.05.02
+   Scores (c0, c1, c2, c3): (0, 1, 0, -1)
+27. Command Systems\Launch Execution\Launch Control Reviews\1.04.04.03.01.05 SUP GDMS S2 LEX HARDWARE.docx
+   Control account: 1.04.04.03.01.05 SUP GDMS S2 LEX HARDWARE
+   Scores (c0, c1, c2, c3): (0, 0, -1, -1)
+28. Command Systems\Launch Execution\Launch Control Reviews\1.16.03.18 SUP GDMS Core Launch Capability .docx
+   Control account: 1.16.03.18 SUP GDMS Core Launch Capability
+   Scores (c0, c1, c2, c3): (0, 0, -1, -1)
+29. Command Systems\Launch Execution\Launch Control Reviews\1.16.04.16 FS-GNC Full Launch Capability Software.docx
+   Control account: 1.16.04.16 FS-GNC-Full Launch Capability Software
+   Scores (c0, c1, c2, c3): (0, 1, 0, -1)
+30. Command Systems\Launch Execution\Launch Control Reviews\1.16.08.03 SUP-Collins-Modeling Simulation & Analysis Tools SW .docx
+   Control account: 1.16.08.03
+   Scores (c0, c1, c2, c3): (0, 1, 0, -1)
+31. Command Systems\Launch Execution\Launch Control Reviews\1.16.09.03 CS_SW Integration & Test SW.docx
+   Control account: 1.04.02.04.02.01
+   Scores (c0, c1, c2, c3): (-1, 0, -1, -1)
+32. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.03.09.docx
+   Control account: 1.16.05.28
+   Scores (c0, c1, c2, c3): (1, 1, 1, 0)
+33. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.03.13.docx
+   Control account: 1.16.03.13
+   Scores (c0, c1, c2, c3): (1, 1, 1, 0)
+34. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.03.14.docx
+   Control account: 1.16.03.14
+   Scores (c0, c1, c2, c3): (1, 1, 1, 0)
+35. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.09.docx
+   Control account: 1.16.05.09
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+36. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.10.docx
+   Control account: 1.16.05.10
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+37. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.18.docx
+   Control account: 1.16.05.18
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+38. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.19.docx
+   Control account: 1.16.05.19
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+39. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.20.docx
+   Control account: 1.16.05.20
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+40. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.21.docx
+   Control account: 1.16.05.21
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+41. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.22.docx
+   Control account: 1.16.05.22
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+42. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.23.docx
+   Control account: 1.16.05.28
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+43. Command Systems\Launch Execution\Mission Planning_Targeting Reviews\IIR2 WORKSHEET_1.16.05.28.docx
+   Control account: 1.16.05.28
+   Scores (c0, c1, c2, c3): (0, 0, 0, -1)
+44. Command Systems\Launch Execution\NC3 Reviews\IIR2 WORKSHEET_1.04.04.01.04.docx
+   Control account: 1.04.04.01.04 | SUP-GDMS2 - Program Management
+   Scores (c0, c1, c2, c3): (-1, 0, -1, 0)
+45. Command Systems\Launch Execution\NC3 Reviews\IIR2 WORKSHEET_1.04.04.01.05.docx
+   Control account: 1.04.04.01.05 | SUP-GDMS2 - Non-PMB Work Packages
+   Scores (c0, c1, c2, c3): (-1, 0, -1, 0)
+46. Command Systems\Launch Execution\NC3 Reviews\IIR2 WORKSHEET_1.04.04.02.08.docx
+   Control account: 1.04.04.03.01.05 | SUP-GDMS2 - Launch Ex Hardware
+   Scores (c0, c1, c2, c3): (-1, 1, 1, 0)
+47. Command Systems\Launch Execution\NC3 Reviews\IIR2 WORKSHEET_1.04.04.03.01.05.docx
+   Control account: 1.04.04.03.01.05 | SUP GDMS2 – Launch Execution Hardware
+   Scores (c0, c1, c2, c3): (-1, -1, 1, 0)
+48. Command Systems\Launch Execution\NC3 Reviews\IIR2 WORKSHEET_1.16.04.15.docx
+   Control account: 1.16.04.15 | SUP-GDMS2 - SUP-GDMS - Full Launch Capability
+   Scores (c0, c1, c2, c3): (-1, -1, -1, 0)
+49. Command Systems\Launch Execution\NC3 Reviews\IIR2 WORKSHEET_1.16.05.10.docx
+   Control account: 1.16.05.10 | CS_SW IFC 4.0_Process NC3 Execute Direction EAM
+   Scores (c0, c1, c2, c3): (-1, 1, 1, -1)
+50. Command Systems\Launch Execution\NC3 Reviews\IIR2 WORKSHEET_1.16.05.20.docx
+   Control account: 1.16.05.20 | CS_SW IFC 4.0_Update Mission Planning Status_NC3
+   Scores (c0, c1, c2, c3): (-1, 1, 1, -1)
+
+=== SCORE VECTORS ===
+c0 = [0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, -1, 0, 0, 0, 0, 0, -1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1]
+c1 = [0, -1, -1, 1, -1, -1, -1, 0, 0, -1, -1, 1, 1, -1, -1, -1, -1, -1, 0, -1, 0, 0, 0, 1, -1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -1, -1, 1, 1]
+c2 = [0, -1, -1, 0, -1, -1, -1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, 0, -1, -1, 0, -1, 0, -1, 0, -1, -1, 0, 0, -1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, 1, 1, -1, 1, 1]
+c3 = [0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, -1, -1]
+
+=== BASIC PROVENANCE ===
+Timestamp: 2026-09-27 02:31:23
+User: dantopa
+Script location: /home/dantopa/repos-isomer/github/jop/python/bae/scores/inspect_scrape.py
+Working directory: /home/dantopa/repos-isomer/github/jop/python/bae/scores
+
+=== SYSTEM ===
+OS: Linux 7.0.11-76070011-generic
+Machine: x86_64
+Processor: 
+
+=== PYTHON ===
+• Version: 3.14.4
+• Executable: /usr/bin/python3
+• Implementation: CPython
+

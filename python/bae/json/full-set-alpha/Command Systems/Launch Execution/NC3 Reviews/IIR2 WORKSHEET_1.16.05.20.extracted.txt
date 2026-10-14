@@ -1,0 +1,208 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+1.16.05.20 | CS_SW IFC 4.0_Update Mission Planning Status_NC3
+Product Element Owner Designation:
+Launch Execution Branch - NIXX
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025 Weapon Systems Specification (WSS), Rev K Statement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline) WBSWBS Dictionary
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/31/2026
+Control Account
+:
+1.16.05.20 | CS_SW IFC 4.0_Update Mission Planning Status_NC3
+Product Elemen
+t Owner Designation
+:
+Launch Execution Branch - NIXX
+Government Participants:
+Lt Col Ralston (ML)
+Troy Wynn (Lead Engineer)
+Capt David Noland (PCAM - Sentinel NC3 Integration Lead)
+Jill Phan (PM)
+Chi Ma (Engineer)
+Contractor Participants:
+Kenyon Orme (Senior Principal Engineer)
+Teresa Kendell (PM)
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1. Control Account Volume: The current quantity of Control Accounts (CAs) is unsustainably high, severely diluting management oversight. This administrative bloat actively places the program at risk of repeating past Earned Value (EV) reporting failures.
+2. Control Account Fragmentation (Micro-Management Risk): CAs managing IFC features are fragmented down to an excessively low level. This forces the program into tactical micro-management, risking schedule delays due to administrative overhead. IFC management should be consolidated into a single, high-level account per IFC.
+3. NC3 Integration Complexity: Core Nuclear Command, Control, and Communications (NC3) message flow and execution are unnecessarily fractured across four separate CAs.
+This artificial complexity severely degrades end-to-end management oversight and complicates the critical path of a vital program capability.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+Unwieldy Planning Architecture: The contractor’s chosen approach inserts unnecessary complexity into the management structure, resulting in an unwieldy and fragmented network of Control Accounts (CAs).
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+Explicit Deliverable Definition: The Control Account (CA) clearly captures and explicitly defines the required deliverable, providing a transparent baseline for performance
+.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+Milestone Traceability: The deliverables and activities defined within this Control Account (CA) are highly structured, enabling them to be directly and clearly tied to key program milestone activities.
+High IMS Readiness: This explicit logical alignment ensures a seamless transition into schedule planning, fully supporting immediate IMS-loading and accurate critical path modeling.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+Siloed Management Structure: The excessive fragmentation of this Control Account (CA) and its associated accounts actively promote isolated, "siloed" management rather than facilitating cross-product or cross-functional integration
+.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025
+Weapon Systems Specification (WSS), Rev K
+Statement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline)
+WBS
+WBS Dictionary
+3. Strengths Observed
+Document the most significant strengths identified during the
+assessment that
+increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-
+developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Comprehensive Scope Coverage: The contractor's planning architecture is highly thorough; the current structure ensures that no program scope is omitted. The exhaustive volume of Control Accounts (CAs) guarantees that all contract requirements, program management activities, and risk reduction efforts are captured
+.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern (Excessive CA Fragmentation & Ambiguity): The contractor's planning architecture relies on an unsustainably high volume of Control Accounts (CAs) with poorly defined, ambiguous boundaries. This lacks the crisp operational separation required for clean management.
+Risk (Erosion of Program Control & Resource Misalignment): Left unaddressed, this highly complex matrix will lead to duplicated efforts, misaligned team activities, and critical gaps in program execution. Structurally, it directly threatens the government’s ability to conduct accurate EV reporting, perform critical path analysis, and maintain effective program oversight.
+5. Open Questions and Follow-Up Items
+Document
+questions that
+remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+N/A
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Observation (Fragmented Integration Architecture): The assessed Control Account (CA) structure lacks an inherent focus on cross-product and cross-functional integration. The extreme fragmentation caused by the high volume of CAs prevents the clear identification and mapping of interdependencies.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/31/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.16.05.20 | CS_SW IFC 4.0_Update Mission Planning Status_NC3'
+[02] PLAIN_TEXT checked=None alias='' tag='' text='Lt Col Ralston (ML)Troy Wynn (Lead Engineer)Capt David Noland (PCAM - Sentinel NC3 Integration Lead)Jill Phan (PM)Chi Ma (Engineer)'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Kenyon Orme (Senior Principal Engineer)Teresa Kendell (PM)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='1. Control Account Volume: The current quantity of Control Accounts (CAs) is unsustainably high, severely diluting management oversight. This administrative bloat actively places the program at risk of repeating past Earned Value (EV) reporting failures.2. Control Account Fragmentation (Micro-Management Risk): CAs managing IFC features are fragmented down to an excessively low level. This forces the program into tactical micro-management, risking schedule delays due to administrative overhead. IFC management should be consolidated into a single, high-level account per IFC.3. NC3 Integration Complexity: Core Nuclear Command, Control, and Communications (NC3) message flow and execution are unnecessarily fractured across four separate CAs. This artificial complexity severely degrades end-to-end management oversight and complicates the critical path of a vital program capability.'
+[05] CHECKBOX checked=False alias='' tag='' text='☐'
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=True alias='' tag='' text='☒'
+[08] PLAIN_TEXT checked=None alias='' tag='' text='Unwieldy Planning Architecture: The contractor’s chosen approach inserts unnecessary complexity into the management structure, resulting in an unwieldy and fragmented network of Control Accounts (CAs).'
+[09] CHECKBOX checked=True alias='' tag='' text='☒'
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] PLAIN_TEXT checked=None alias='' tag='' text='Explicit Deliverable Definition: The Control Account (CA) clearly captures and explicitly defines the required deliverable, providing a transparent baseline for performance.'
+[13] CHECKBOX checked=True alias='' tag='' text='☒'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] PLAIN_TEXT checked=None alias='' tag='' text='Milestone Traceability: The deliverables and activities defined within this Control Account (CA) are highly structured, enabling them to be directly and clearly tied to key program milestone activities.High IMS Readiness: This explicit logical alignment ensures a seamless transition into schedule planning, fully supporting immediate IMS-loading and accurate critical path modeling.'
+[17] CHECKBOX checked=False alias='' tag='' text='☐'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=True alias='' tag='' text='☒'
+[20] PLAIN_TEXT checked=None alias='' tag='' text='Siloed Management Structure: The excessive fragmentation of this Control Account (CA) and its associated accounts actively promote isolated, "siloed" management rather than facilitating cross-product or cross-functional integration.'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025 Weapon Systems Specification (WSS), Rev K Statement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline) WBSWBS Dictionary'
+[22] PLAIN_TEXT checked=None alias='' tag='' text="Comprehensive Scope Coverage: The contractor's planning architecture is highly thorough; the current structure ensures that no program scope is omitted. The exhaustive volume of Control Accounts (CAs) guarantees that all contract requirements, program management activities, and risk reduction efforts are captured."
+[23] PLAIN_TEXT checked=None alias='' tag='' text="Concern (Excessive CA Fragmentation & Ambiguity): The contractor's planning architecture relies on an unsustainably high volume of Control Accounts (CAs) with poorly defined, ambiguous boundaries. This lacks the crisp operational separation required for clean management.Risk (Erosion of Program Control & Resource Misalignment): Left unaddressed, this highly complex matrix will lead to duplicated efforts, misaligned team activities, and critical gaps in program execution. Structurally, it directly threatens the government’s ability to conduct accurate EV reporting, perform critical path analysis, and maintain effective program oversight."
+[24] PLAIN_TEXT checked=None alias='' tag='' text='N/A'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Observation (Fragmented Integration Architecture): The assessed Control Account (CA) structure lacks an inherent focus on cross-product and cross-functional integration. The extreme fragmentation caused by the high volume of CAs prevents the clear identification and mapping of interdependencies.'

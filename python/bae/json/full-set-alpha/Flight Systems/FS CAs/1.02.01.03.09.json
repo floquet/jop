@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/FS CAs/1.02.01.03.09.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:45:58.683745+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-27",
+    "control_account": "1.02.01.03.09 Systems Engineering Electrical Design Integration",
+    "owner": "Flight Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Col Cameron FS Segment Chief Jesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Van DoVictoria AyonAdam HickmanLuke HeagneyVivian SuarezGiuseppe Tonini Collin Wagner",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The \"Moderate\" rating is driven by the fact that this team's ability to execute is almost entirely dependent on the performance of other organizations. While they understand what they need, they have little to no control over the quality or timeliness of the required inputs. This high degree of external dependency, with its associated communication and coordination challenges, represents a significant integration risk.",
+    "score_overall": 0,
+    "rationale": "WBS Dictionary (27 July 26) Work Packages (27 July 26) Planning Package Descriptions (27 July 26)",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "There is a concern that the volume of work required to support major milestone events will create an unsustainable workload for the team. This workload compression, especially if compounded by delays in external inputs, could lead to staff burnout, an increase in errors, and a failure to deliver required products on schedule for key program reviews. The schedule is highly sensitive to the delivery dates of inputs from other organizations."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "What is the contractor's formal plan and timeline for completing the traceability mapping of all work packages in this control account to SOW Revision 9?"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Ability to execute the plan is heavily dependent on deliverables from other organizations."
+      }
+    ],
+    "products": "WBS Dictionary (27 July 26), Work Packages (27 July 26), Planning Package Descriptions (27 July 26)",
+    "strengths": "The deliverables for this control account are exceptionally well-defined, demonstrating a mature understanding of the specific electrical design integration tasks required.\nThe team is staffed appropriately for the planned work and has demonstrated proactive planning by accounting for future schedule efficiencies as the team matures, which adds credibility to their resource forecasts.",
+    "concerns": "There is a concern that the volume of work required to support major milestone events will create an unsustainable workload for the team. This workload compression, especially if compounded by delays in external inputs, could lead to staff burnout, an increase in errors, and a failure to deliver required products on schedule for key program reviews. The schedule is highly sensitive to the delivery dates of inputs from other organizations.",
+    "questions": "What is the contractor's formal plan and timeline for completing the traceability mapping of all work packages in this control account to SOW Revision 9?",
+    "integration": "Ability to execute the plan is heavily dependent on deliverables from other organizations."
+  }
+}

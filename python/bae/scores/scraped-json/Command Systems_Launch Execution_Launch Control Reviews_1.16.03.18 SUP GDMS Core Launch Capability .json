@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Launch Control Reviews\\1.16.03.18 SUP GDMS Core Launch Capability .docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T03:19:56.583717",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 7,
+    "inference_time_sec": 2127.73
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.03.18 SUP GDMS Core Launch Capability",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Capt Lobo",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Krystal Joscher",
+        "role": "ISC BAE"
+      }
+    ],
+    "leadership_messages": "1. The contractor has successfully mapped the high-level Statement of Work (SOW) to unique WBS elements and established clear 1-to-1 CAM ownership in the RAM. However, this is only a structural shell. We have a solid baseline organization, but the underlying execution data is not yet proven.\n2. The \"Core Launch\" and \"Launch Execution Hardware\" subsystems must integrate continuously with flight software, secure communications, and cryptographic systems. Currently, these critical handoffs, data flows, and hardware delivery logic-ties are completely undocumented in the planning artifacts.",
+    "score_overall": 0,
+    "rationale": "While the contractor has established clear organizational ownership and high-level structural alignment for the \"Core Launch Capability\" under supplier GDMS2, there is a critical, systemic lack of objective evidence regarding detailed schedule planning, task maturity, and cross-functional integration. Proceeding to load this element into the Integrated Master Schedule (IMS) at this stage presents a severe risk of establishing an inexecutable Performance Measurement Baseline (PMB).",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The contractor has established a solid organizational foundation for WBS 1.16.03.18 (\"SUP GDMS2_Core Launch Capability\") by clearly assigning it to CAM John Fiorante under the SUP-GDMS2 organization. Furthermore, perfect structural synchronization between the WBS Dictionary and the RAM ensures a clean database framework that is ready to support baseline tracking. However, confidence is capped at Moderate because the dictionary contains only a high-level title, completely omitting detailed scope narratives and explicit deliverables. This lack of technical boundaries and objective exit criteria leaves the account highly vulnerable to scope creep and prevents accurate, evidence-based tracking of work completion."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "\"Black Box\" Supplier Planning: There is zero visibility into the underlying supplier tasks, durations, or logical sequences for this critical element. No Integrated Master Plan (IMP) data, task-level descriptions, or Basis of Estimates (BOEs) have been provided.\nAssociated Risk: Loading an unverified \"black box\" supplier scope into the IMS will establish a flawed schedule baseline. It will mask the true program critical path and likely lead to immediate, cascading schedule variances as soon as execution begins."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Unmapped Critical Interfaces: A \"Core Launch Capability\" must interface continuously with Aerospace Vehicle Equipment (AVE), Ground Systems, and secure cryptographic systems. Currently, none of these technical, planning, or deliverable interfaces are mapped or documented.\nAssociated Risk: Without explicit, horizontal logic-ties in the IMS, the program will suffer from uncoordinated work handoffs and severe integration bottlenecks during physical assembly and testing at test facilities."
+      }
+    ],
+    "products": "Sow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26",
+    "strengths": "Definitized Accountability: The Responsibility Assignment Matrix (RAM) clearly identifies John Fiorante as the assigned Control Account Manager (CAM) under the SUP-GDMS2 organization, ensuring a single point of responsibility.\nStructural Alignment: WBS 1.16.03.18 is properly established within the hierarchical structure of the Command & Launch segment, ensuring correct rollup within the program's reporting framework.",
+    "concerns": "Vague Scope Boundaries: The WBS Dictionary contains only the high-level title \"SUP GDMS2_Core Launch Capability.\" It completely lacks the detailed scope narratives, explicit boundaries, or defined deliverables necessary to manage scope.\nAssociated Risk: Without rigorous boundary definitions in the dictionary, this high-value account is highly vulnerable to uncontrolled scope creep. This ambiguity prevents objective verification of completion, undermining future Earned Value Management (EVM) reporting.",
+    "questions": "Detailed Supplier Schedule: Will the contractor provide the sub-tier, detailed schedule and Basis of Estimates (BOEs) from GDMS2 for this capability to verify duration and sequence realism?\nScope Granularity Update: When will the WBS Dictionary be updated to include explicit, measurable deliverables and objective completion (exit) criteria for WBS 1.16.03.18?\nHorizontal Interface Mapping: What is the contractor's specific plan to map and logic-tie the critical data and hardware handoffs between GDMS2 and the receiving prime integration teams within the IMS?",
+    "integration": "Observation: Because the contractor has not yet demonstrated how cross-product interfaces and dependencies are incorporated into its schedule architecture, the Government cannot verify that the assessed elements are ready for IMS integration.\nObjective Evidence: Without explicit mapping of these interdependencies, the resulting IMS will function as a disjointed collection of isolated project schedules rather than a true Integrated Master Schedule. This leads directly to \"parts waiting on software\" or \"facilities waiting on parts\" scenarios during execution.\nConfidence Conclusion: The Government's confidence that these supplier-driven product elements can be successfully integrated into the overall program schedule without causing severe, unforeseen bottlenecks during assembly and test phases is currently Low. Immediate demonstration of cross-product dependency logic and horizontal schedule ties is required prior to finalizing the performance baseline."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\ExHW Reviews\\1.04.02.02.02.02.01.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-23T18:37:21.615840",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 5,
+    "inference_time_sec": 1162.47
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.02.02.02.02.01 CS_HW Launch Center Cabling",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "LtCol Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. For the review of the artifacts provided for this IIR assessment, there is insufficient evidence of defined task durations, or quantity-based data (QBD) to support the planning. This presents a risk to developing a credible and realistic IMS. This may be rectified by a systematic review of P6 data.\n2. Key interfaces and cross-product dependencies appear to be identified at a high level through the WBS and RAM. However, detailed integration plans, dependency management logs, and documented schedule alignment across teams are not yet evident.\n3. The contractor has established a defined Work Breakdown Structure (WBS) with a corresponding dictionary and Responsibility Assignment Matrix (RAM). This demonstrates a foundation for scope definition, ownership, and accountability.",
+    "score_overall": 0,
+    "rationale": "The contractor has a strong grasp of the program's scope, which is a critical prerequisite for IMS development. However, the lack of mature schedule planning artifacts and detailed integration evidence reduces overall confidence. While the foundation is reasonable, significant refinement is required in key areas before proceeding to a full IMS load to mitigate the risk of schedule delays and integration issues.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "The scope is explicitly for work that does not fit neatly elsewhere, and the title conflicts with the description. No specific deliverables, boundaries, or completion criteria are provided."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "The description provides no basis for schedule planning. There are no defined tasks, milestones, or quantity-based data to support the creation of activities, durations, or logical dependencies."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Cabling and integrated assemblies are heavily dependent on interfaces. The definition acknowledges the cross-subsystem nature of the work but fails to identify or document any of the required integration points or dependencies."
+      }
+    ],
+    "products": "SOW Rev 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31 July 2026\nWBS Dictionary 5 August 2026\nIMP Rev B\nNG RAM 5 August 2026",
+    "strengths": "",
+    "concerns": "The program should ensure that detailed planning and dependency mapping are completed before committing this scope to the IMS to prevent potential integration conflicts and schedule slips.",
+    "questions": "As NG continues to load P6, the government may be able to make a higher confidence rating as it will show durations, task breakdowns within work packages, analyze handoffs, predecessors/successors, etc.",
+    "integration": "There still remains a significant gap in organizational structure and alignment between the contractor and the government. Clear ownership and direct counterparts for oversight for end to end product completion within the “V model” and how cross integration will occur between the contractor and the government remains a challenge at this stage."
+  }
+}

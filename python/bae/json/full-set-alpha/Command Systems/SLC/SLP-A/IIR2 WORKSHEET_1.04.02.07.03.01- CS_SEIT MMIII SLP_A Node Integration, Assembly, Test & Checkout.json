@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_1.04.02.07.03.01- CS_SEIT MMIII SLP_A Node Integration, Assembly, Test & Checkout.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:20:19.194783+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.02.07.03.01- CS_SEIT MMIII SLP_A Node Integration, Assembly, Test, & Checkout",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Christian Fascio - BAE",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "N/A",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "WBS definition was incorrect and pointed to STOS systems engineering which is false for this element. The CAM provided the following WBS definition which somehow got lost in handoff between NG and GOV, “This element includes all effort of technical and functional activities associated with the design, development, and production of mating surfaces, structures, equipment, parts, materials, and software required to assemble, test, and checkout the subsystem equipment (hardware/software) elements at the Command and Launch (C&L) segment level for the Secondary Launch Platform - Airborne (SLP-A) Minuteman III (MMIII) capability as a part of the IFC 2.0/Delivery/Installation/OUE Complete (DIOC) Test Campaign.” 2. 462 work packages under this CA for SLP 3. CA is focused on SLP node level testing activities.",
+    "score_overall": 1,
+    "rationale": "There is strong confidence that the prime contractor has established mature planning of work packages supporting MMIII SLP node level testing. CA does not contain scope for PAX SIL or aircraft install or test. It covers integration planning, test planning, test procedure, development, dry running, test execution, and test reporting.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Aside from WBS dictionary and definitions having incorrect/outdated information, NG CAM provided updated definition, and the work packages captures the high level program objectives giving confidence in the contractor’s planning maturity and readiness."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "Scope is sufficiently captured in work and planning packages to support IIR #2, however, P6 will be required for subsequent review in order to make a complete and full assessment."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Element covers SLP node level 3 test activities."
+      }
+    ],
+    "products": "NG WBS_RAM_8042026.xlsx, New WBS IPT Mapping.xlsx, Draft_Sentinel EMD WBS Dictionary_73026 .xslx",
+    "strengths": "Majority of\nwork packages have been identified and organized in a logical and planning structure.\nThis provides confidence that future planning is based on a complete understanding of the remaining work.\nIn addition, NG CAM addressed\nthe\nreviewer\n’\ns\nquestions by providing objective evidence\nto support planning of remaining contract scope.",
+    "concerns": "Majority of work packages have been identified and organized in a logical and planning structure. This provides confidence that future planning is based on a complete understanding of the remaining work. In addition, NG CAM addressed the reviewer’s questions by providing objective evidence to support planning of remaining contract scope.",
+    "questions": "Need P6 containing WBS dictionary and additional information that is pertinent to make a complete and detailed assessment for IIR#3",
+    "integration": "Does CA include program management and hours for design effort of special test equipment?"
+  }
+}

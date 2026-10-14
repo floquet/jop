@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "System Integration/NIXZ/IIR2 WORKSHEET_CA 1.08.03.04_Training Services Supplier.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:43:38.246951+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-27",
+    "control_account": "1.08.03.04",
+    "owner": "Training Systems Branch - NIXZ",
+    "gov_personnel": [
+      {
+        "name": "Sasha TormanKaty SchuffTrevor CookTimothy Strader",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Proactive Partnership has benefited schedule developmentWe consistently collaborate with our NG counterparts as they build BOEs, schedules, and other artifacts, allowing us to ensure a common understanding of portfolio scope and discuss concerns early on. 2. Artifacts are still in early development stagesWhile we are evaluating what we can for BOEs and schedules, these are still in development and missing logic, durations, etc. We anticipate some rework as we evaluate early products that are still being updated. 3. Schedule pressures There is pressure to create an aggressive schedule to meet IOC dates, and our concern is that logic or durations may be optimistic rather than realistic in order to show an ability to meet key milestones.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "We have moderate confidence in the planning foundation for development of schedule artifacts. Open communication and a solid relationship will enable collaborative discussions, but schedules in previous years that were missing key logic or scope leave us with a some definite concerns that we will be looking for in future evaluations.",
+    "score_overall": 0,
+    "rationale": "The schedule is in the early stages of development, and only a small part of the scope is detail planned. Additionally, logic, durations, and resource loading is not yet present. We are heavily dependent not just upon the WS maturity, but other dependencies like support equipment, TOs, device availability, etc. We will be examining the schedule for the inclusion of this logic in future meetings, but there is some challenge in identifying the best point in which to tie to TO development, and there is some resistance to adding logic that would put this portfolio on the critical path. In addition, we are expecting to see logic from sub-contractors as much as possible. This will ensure a better schedule and offer more oversight into what is taking place.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "See above comment about schedule dependencies. We are early in the process and this information is not present for us to evaluate."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "BOE draft: Have had multiple meetings with NG. We still have ongoing discussions on the efficiencies used for curriculum development that need following up. Schedule draft: We met with NG and established a regular meeting cadence for schedule reviews. We talked through our expectations for logic and durations in future meetings and discussed our concerns. VSM: We met with NG and reviewed the value streams with no concerns. CA: We have reviewed the control accounts listed, but have a concern with having duplicate training scope listed and have sent this concern to our counterparts at NG. SOW/STS-TRD: We have worked through these documents with NG and agree on the scope and content of these artifacts."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Our teams proactively partner, which allows us to discuss concerns and understand progress on these artifacts as they are being developed. We also have confidence that our NG counterparts deeply understand the scope as we collaboratively worked through the STS-TRD over time."
+      }
+    ],
+    "products": "BOE draft, Schedule draft, VSM, CA, SOW/STS-TRD",
+    "strengths": "Our teams proactively partner, which allows us to discuss concerns and understand progress on these artifacts as they are being developed. We also have confidence that our NG counterparts deeply understand the scope as we collaboratively worked through the STS-TRD over time.",
+    "concerns": "At this early stage, our main concern is that logic ties will be missing, so we will be evaluating future schedules for that logic. We are also concerned about overly optimistic durations and/or lack of logic given the pressure to create a schedule that meets the overarching Level 1-3 schedule milestones.",
+    "questions": "We still need to work with NG on how subcontractor schedules will be reflected in the NG schedule.",
+    "integration": "In future schedule meetings, we will be working with NG to understand how WS data dependencies are being captured in the schedule logic."
+  }
+}

@@ -1,0 +1,215 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+Steve SimpsonBlake LarsenWilliam Werner​
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+The team demonstrated a mature Basis of Estimate (BOE) process, effectively using historical actuals from prior work to project work time required. This data-driven approach increases confidence in the accuracy of near-term forecasts.
+The work packages are well-defined. They clearly articulate the scope of the LOE tasks, identify who is charging to the accounts, and provide a clear rationale for why the effort is required, demonstrating strong administrative control.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+The current planning does not include a defined methodology for projecting LOE manning needs through major program phases like the transition to EMD. The plan is linear and lacks a defined end date or scaling factors. This can lead to inaccurate out-year budget and staffing forecasts, potentially resulting in unfunded manpower requirements or the inability to retain critical management staff at key points in the program.
+The contractor has not yet mapped the LOE work scope to the forthcoming SOW Revision 9, as they are waiting for it to be formally on contract. Delaying this mapping creates a risk of a misalignment between the planned work and the new contractual requirements, which could necessitate replanning and introduce administrative churn once the new SOW is in place.
+The contractor is experiencing extended timelines (100+ days) to fill open positions for key personnel. A persistent inability to attract and hire talent could lead to an overworked "standing army," reduced management effectiveness, and a potential erosion of program oversight and control if critical positions remain unfilled.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Appendix C - IIR #2 Assessment Worksheet Example
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/28/2026
+Control Account
+:
+1.02.01.0
+2.0
+5
+Program Management
+1.02.01.01.15 IATC_ Segment Integration Management
+Product Elemen
+t Owner Designation
+:
+Flight Systems Segment
+Government Participants:
+Jesse Scott- FS ISC Lead
+Brad Wichtoski- FS ISC Chief Engineer
+Wayne Walker- FS ISC Deputy
+Jessica
+Schlawin
+- ISC PM Support
+Contractor Participants:
+Steve Simpson
+Blake Larsen
+William Werner​
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+The Level of Effort (LOE) scope for these management and integration accounts is well-defined and stable. The contractor has demonstrated a mature planning process, using historical actuals to accurately project near-term needs.
+While near-term planning is strong, there is a significant concern regarding the contractor's ability to accurately forecast the required management and integration manpower through Milestone B and into EMD. This is an area to watch for long-term budget and resource planning.
+The contractor is facing significant challenges in attracting and hiring qualified personnel, with some job postings open for over 100 days. This poses a latent risk to the program, as an inability to staff these key management and integration roles could eventually impact oversight and program execution.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The "Strong" rating is based on the well-defined and straightforward nature of the Level of Effort (LOE) scope within these control accounts. The contractor has demonstrated a solid methodology for planning by detailing hours used and needed, based on historical data. However, this confidence is conditional. The contractor must follow through on mapping this scope to the new Class A documents (SOW Rev 9) to ensure full traceability. Furthermore, while the planning is detailed, significant uncertainty remains in the long-term forecasting of manpower needs, which will require continued management attention.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The "Strong" rating is appropriate as this control account consists entirely of Level of Effort (LOE) activities that are inherently stable and well-understood (e.g., management, PM support, travel). The scope is clearly defined in the work packages. This rating is contingent on the contractor completing the required mapping of this scope to the forthcoming SOW Rev 9 to ensure continued contractual traceability.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The "Strong" rating is assigned because, for an LOE account, the primary "schedule" is the manpower plan against a period of performance, which is well-defined and ready for IMS loading. However, this is not without weakness. The current plan lacks a clear "definition of done" or a methodology for scaling the LOE effort as the program transitions through different phases (e.g., how management effort changes from design to production). The plan does not adequately anticipate how changes to major Configuration Items (CIs) will impact the required level of management oversight over time.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+Because these accounts primarily cover LOE management functions, they have few external dependencies, which minimizes integration risk. The assessment shows that the contractor's management and integration teams are well-integrated with their internal Government and contractor counterparts within SDS
+.
+Most identified issues lie outside their direct purview.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by
+discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+WBS Dictionary (28 July 26)
+Work Packages (28 July 26)
+Planning Package Descriptions (28 July 26)
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+The team demonstrated a mature Basis of Estimate (BOE) process, effectively using historical actuals from prior work to project
+work time required
+. This data-driven approach increases confidence in the accuracy of near-term forecasts.
+The work packages are well-defined. They clearly articulate the scope of the LOE tasks, identify who is charging to the accounts, and provide a clear rationale for why the effort is required, demonstrating strong administrative control.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+The current planning does not include a defined methodology for projecting LOE manning needs through major program phases like the transition to EMD. The plan is linear and lacks a defined end date or scaling factors. This can lead to inaccurate out-year budget and staffing forecasts, potentially resulting in unfunded manpower requirements or the inability to retain critical management staff at key points in the program.
+The contractor has not yet mapped the LOE work scope to the forthcoming SOW Revision 9, as they are waiting for it to be formally on contract. Delaying this mapping creates a risk of a misalignment between the planned work and the new contractual requirements, which could necessitate replanning and introduce administrative churn once the new SOW is in place.
+The contractor is experiencing extended timelines (100+ days) to fill open positions for key personnel.
+A persistent inability to attract and hire talent could lead to an overworked "standing army," reduced management effectiveness, and a potential erosion of program oversight and control if critical positions remain unfilled.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+What is the contractor's formal plan and timeline for completing the full mapping of all work packages in these control accounts to SOW Revision 9 upon its release?
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Scope is mostly management functions that are well understood and there are few to no dependencies with other groups.
+Appendix C - IIR #2 Assessment Worksheet
+Example
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/28/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.02.01.02.05 Program Management1.02.01.01.15 IATC_ Segment Integration Management'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Flight Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Jesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Steve SimpsonBlake Larsen'
+[05] PLAIN_TEXT checked=None alias='' tag='' text="The Level of Effort (LOE) scope for these management and integration accounts is well-defined and stable. The contractor has demonstrated a mature planning process, using historical actuals to accurately project near-term needs.While near-term planning is strong, there is a significant concern regarding the contractor's ability to accurately forecast the required management and integration manpower through Milestone B and into EMD. This is an area to watch for long-term budget and resource planning.The contractor is facing significant challenges in attracting and hiring qualified personnel, with some job postings open for over 100 days. This poses a latent risk to the program, as an inability to staff these key management and integration roles could eventually impact oversight and program execution."
+[06] CHECKBOX checked=True alias='' tag='' text='☒'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='The "Strong" rating is based on the well-defined and straightforward nature of the Level of Effort (LOE) scope within these control accounts. The contractor has demonstrated a solid methodology for planning by detailing hours used and needed, based on historical data. However, this confidence is conditional. The contractor must follow through on mapping this scope to the new Class A documents (SOW Rev 9) to ensure full traceability. Furthermore, while the planning is detailed, significant uncertainty remains in the long-term forecasting of manpower needs, which will require continued management attention.'
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The "Strong" rating is appropriate as this control account consists entirely of Level of Effort (LOE) activities that are inherently stable and well-understood (e.g., management, PM support, travel). The scope is clearly defined in the work packages. This rating is contingent on the contractor completing the required mapping of this scope to the forthcoming SOW Rev 9 to ensure continued contractual traceability.'
+[14] CHECKBOX checked=True alias='' tag='' text='☒'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='The "Strong" rating is assigned because, for an LOE account, the primary "schedule" is the manpower plan against a period of performance, which is well-defined and ready for IMS loading. However, this is not without weakness. The current plan lacks a clear "definition of done" or a methodology for scaling the LOE effort as the program transitions through different phases (e.g., how management effort changes from design to production). The plan does not adequately anticipate how changes to major Configuration Items (CIs) will impact the required level of management oversight over time.'
+[18] CHECKBOX checked=True alias='' tag='' text='☒'
+[19] CHECKBOX checked=False alias='' tag='' text='☐'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] PLAIN_TEXT checked=None alias='' tag='' text="Because these accounts primarily cover LOE management functions, they have few external dependencies, which minimizes integration risk. The assessment shows that the contractor's management and integration teams are well-integrated with their internal Government and contractor counterparts within SDS. Most identified issues lie outside their direct purview."
+[22] PLAIN_TEXT checked=None alias='' tag='' text='WBS Dictionary (28 July 26)Work Packages (28 July 26)Planning Package Descriptions (28 July 26)'
+[23] PLAIN_TEXT checked=None alias='' tag='' text="What is the contractor's formal plan and timeline for completing the full mapping of all work packages in these control accounts to SOW Revision 9 upon its release?"
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Scope is mostly management functions that are well understood and there are few to no dependencies with other groups.'

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_1.04.04.03.01.07- CS_HW MMIII Design Engineering.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:20:56.284643+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.04.03.01.07- CS_HW MMIII Design Engineering",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Christian Fascio - BAE",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "N/A",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "WBS Definition and SOW references/paragraphs missing in New WBS IPT Mapping xlsx. 2. 56 Child work packages under this CA 3. Separate CA for MMIII design engineering (WBS 1.04.04.03.01.07) also owned by the same NG CAM.",
+    "score_overall": -1,
+    "rationale": "Missing information provided in the New WBS IPT Mapping xlsx., including but not limited to WBS definition and SOW references.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Missing WBS definition and SOW references."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "Without work scope, it is difficult to assess an estimation of IMS-loading readiness."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Element covers SLP and SKDC MMII systems engineering for both LRU and SKDC LRUs"
+      }
+    ],
+    "products": "NG WBS_RAM_8042026.xlsx, New WBS IPT Mapping.xlsx, Draft_Sentinel EMD WBS Dictionary_73026 .xslx",
+    "strengths": "None at the moment",
+    "concerns": "None at the moment",
+    "questions": "Work scope and SOW references not provided in WBS spreadsheet = high risk",
+    "integration": "Provide WBS dictionary and definitions along with P6 for thorough and in-depth review for IIR#3.Does CA include any program/project control and planning (scheduling, accounting, finance, risk and opportunity management)?"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/FS CAs/1.02.01.03.10, .12, .13, .14.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:46:44.662201+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-27",
+    "control_account": "1.02.01.03.10 SEI_Systems Engineering Mechanical Design Integration and Mass Properties1.02.01.03.12 Systems Engineering Medeling Simulation and Analysis MS&A 1.02.01.03.13 Systems Engineering MS&A Loads & Environments1.02.01.03.14 Systems Engineering MS&A Mission Engineering",
+    "owner": "Flight Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Col Cameron FS Segment ChiefJesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Adam HickmanBlake LarsenVivian SuarezGiuseppe ToniniCollin WagnerLisa Russo",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The scope is well-defined with mature internal processes. However, Government-driven \"must-meet\" dates are forcing the use of schedule constraints, creating a high-risk, brittle schedule that does not accurately reflect the work's logical flow.The success of these control accounts is critically dependent on timely and accurate data from both internal and external suppliers. These inputs are not yet available, creating significant uncertainty and risk to the analysis and modeling timelines.The combination of a constrained schedule, serial analysis processes, and dependency on missing supplier data creates a high risk of failing to provide complete and verified analysis products in time for the Preliminary Design Review (PDR).",
+    "score_overall": 1,
+    "rationale": "The \"Strong\" rating reflects the high confidence in the contractor's mature internal processes and their comprehensive definition of the scope and deliverables within these control accounts. The planning artifacts demonstrate a clear understanding of the work to be performed. However, this high confidence is tempered by significant external risks, primarily the dependency on supplier data. While the current plan is solid and ready for the next level of IMS loading, it is highly susceptible to schedule disruptions as external planning data is incorporated. Leadership should be aware that the plan's executability is contingent on factors outside the contractor's immediate control.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The \"Strong\" rating is warranted because the scope and deliverables for these analysis-heavy control accounts are mature, well-understood, and have been stable over a long period. The work is well-defined, and the work packages sufficiently capture the tasks required for mechanical design integration, mass properties, and various MS&A functions. This foundational stability provides a high degree of confidence in the contractor's understanding of \"what\" needs to be done."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The \"Moderate\" rating is driven by a conflict between excellent scope readiness and a flawed scheduling approach. While the team has accurately captured the required work scope and is prepared to resource-load the IMS, the schedule itself is not a realistic reflection of the workflow. Government-driven hard dates for milestones like the AVE PDR are forcing the use of schedule constraints rather than network logic. This practice masks the true critical path, removes organic float, and creates a brittle plan that is highly susceptible to breaking when faced with anticipated delays."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "The \"Moderate\" rating is assigned because while the internal analysis processes are well-integrated, the plan's success is critically dependent on under-defined handoffs from external suppliers. The serial nature of the analysis work means that any delay in receiving inputs from one source can cause a cascading delay across the entire workflow. The current planning relies heavily on assumptions about these external deliveries, and a robust, documented plan for managing these cross-product integrations and mitigating potential delays is not yet evident."
+      }
+    ],
+    "products": "WBS Dictionary (28 July 26), Work Packages (28 July 26), Planning Package Descriptions (28 July 26)",
+    "strengths": "The team utilizes long-standing, well-documented processes for their complex analysis tasks. These processes have been successfully executed multiple times on the program, providing high confidence in the technical approach.\nThe team\nleads\npossess deep institutional knowledge and technical expertise, ensuring strong oversight and direction for the highly specialized work in these control accounts.\nThe products and outputs of these control accounts (e.g., mass properties reports, loads analyses, mission engineering studies) are clearly defined, well-understood, and directly support major program milestones.",
+    "concerns": "The execution of the analysis scope is dependent on the availability of HPC resources, which are currently a known bottleneck. Insufficient HPC capacity could create a queuing-effect for analysis jobs, delaying the generation of critical data and potentially impacting the schedule for major reviews like PDR.The analysis processes are highly sequential, where one task must complete before the next can begin. The schedule contains minimal float to absorb delays. Any delay, whether from a staffing issue, a technical problem, or a late input—is difficult to overcome and will likely result in a direct, day-for-day slip to the final deliverable, jeopardizing milestone dates.Recent requirement changes in the Weapon System Specification (WSS) Rev K will necessitate new software development to support analysis. This work was not originally planned. This emergent software development effort represents un-planned work that could divert resources from primary analysis tasks or delay the availability of tools needed to complete the planned scope on time.",
+    "questions": "What is the contractor's formal plan and timeline for enhancing the high-performance computing (HPC) capability to meet the projected analysis demand for PDR and beyond?What is the plan to track and resource the emergent software development burden resulting from the WSS Rev K changes, and how will its impact on the existing schedule be managed?",
+    "integration": "Same as many other Flight Systems Segment control accounts, subcontractor management for the availability of the required modeling, simulation, and analysis inputs is critical to the success of these tasks."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/ExHW Reviews/1.04.03.01.03.07.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:17:30.597426+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.03.01.03.07 - CS_HW Launch Ex_Missile Products",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "LtCol Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Ryan Kohler",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "This CA IS MD1/2. 1.For the review of the artifacts provided for this IIR assessment, there is insufficient evidence of defined task durations, or quantity-based data (QBD) to support the planning. This presents a risk to developing a credible and realistic IMS. This may be rectified by a systematic review of P6 data. 2. Key interfaces and cross-product dependencies appear to be identified at a high level through the WBS and RAM. However, detailed integration plans, dependency management logs, and documented schedule alignment across teams are not yet evident.3. The contractor has established a defined Work Breakdown Structure (WBS) with a corresponding dictionary and Responsibility Assignment Matrix (RAM). This demonstrates a foundation for scope definition, ownership, and accountability.",
+    "score_overall": -1,
+    "rationale": "The contractor has a strong grasp of the program's scope, which is a critical prerequisite for IMS development. However, the lack of mature schedule planning artifacts and detailed integration evidence reduces overall confidence. While the foundation is reasonable, significant refinement is required in key areas before proceeding to a full IMS load to mitigate the risk of schedule delays and integration issues.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The provided WBS, WBS Dictionary, and Responsibility Assignment Matrix (RAM) demonstrate a comprehensive and well-organized approach to defining and assigning the contract scope. Work is broken down logically, and ownership is clearly established."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "There is a significant lack of evidence regarding schedule planning maturity. The artifacts do not include a developed task durations, documented assumptions, or quantity-based data (QBD). This indicates that the planning architecture is not yet ready to support the development of a credible IMS."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The planning artifacts provide a basic level of integration by identifying product elements and assigning ownership. However, there is limited evidence of detailed dependency management, cross-product schedule alignment, or formal processes for managing interfaces, which are crucial for a complex program. Handoffs for integration up and down the “V Model” for unique products remain a challenge to follow with the artifacts provided."
+      }
+    ],
+    "products": "SOW Rev 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31 July 2026, WBS Dictionary 5 August 2026, IMP Rev B, NG RAM 5 August 2026",
+    "strengths": "",
+    "concerns": "The program should ensure that detailed planning and dependency mapping are completed before committing this scope to the IMS to prevent potential integration conflicts and schedule slips.",
+    "questions": "As NG continues to load P6, the government may be able to make a higher confidence rating as it will show durations, task breakdowns within work packages, analyze handoffs, predecessors/successors, etc.",
+    "integration": "There still remains a significant gap in organizational structure and alignment between the contractor and the government. Clear ownership and direct counterparts for oversight for end to end product completion within the “V model” and how cross integration will occur between the contractor and the government remains a challenge at this stage."
+  }
+}

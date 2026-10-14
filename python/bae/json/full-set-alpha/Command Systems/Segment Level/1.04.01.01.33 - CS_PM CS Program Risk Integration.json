@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Segment Level/1.04.01.01.33 - CS_PM CS Program Risk Integration.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:05:59.968234+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.01.01.33",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Austin Emery",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Michael Beavers, Jason Brzozowski, Bruce Keeton",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Planning foundation appears to be mature, given this phase of the effort, and NG Team is working through the program re-baseline.2. Work captured in this CA incorporates creates space to capture “known unknowns” for risks and opportunities; this seems to be a workable approach.",
+    "score_overall": 1,
+    "rationale": "Overall strong due to minimal information contained currently, but an appropriate structure to expand and track RIO items in execution.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Assessment is strong; scope is minimal currently, but an appropriate structure for future RIO scope capture."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Assessment is strong; work can be programmed as needed."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Assessment is strong; work can be programmed as needed."
+      }
+    ],
+    "products": "Work packages and WBS Dictionary",
+    "strengths": "No\nspecific\nstrengths observed at this time.",
+    "concerns": "No significant concerns annotated at this time.",
+    "questions": "No RFAs were allocated to this CA.",
+    "integration": "Nothing of note."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Segment Level/1.04.01.05.02 - CS_PM General Procurement.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:06:13.910510+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.01.05.02",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Austin Emery",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Michael Beavers, Jason Brzozowski, Bruce Keeton",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "Planning foundation appears to be mature, given this phase of the effort, and NG Team is working through the program re-baseline.",
+    "score_overall": 1,
+    "rationale": "Overall strong due to a reasonable structure for capturing procurement program management.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Assessment is strong; scope will fluctuate based on procurement needs, but structure is in place."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Assessment is strong; work can be programmed as needed."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Assessment is strong; work can be programmed as needed."
+      }
+    ],
+    "products": "Work packages and WBS Dictionary",
+    "strengths": "No\nspecific\nstrengths observed at this time.",
+    "concerns": "No significant concerns annotated at this time.",
+    "questions": "No RFAs were allocated to this CA.",
+    "integration": "Nothing of note."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/SLP-A/IIR2 WORKSHEET_CLEAN_REV1 - 1.04.02.01.03.14.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:24:10.140801+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-03",
+    "control_account": "1.04.02.01.03.14 LGC Systems Engineering - Collins",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Matthew Matysik",
+        "role": "Program Manager"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "David Cloward",
+        "role": "Program Manager"
+      }
+    ],
+    "leadership_messages": "1.The WBS Dictionary as of 3 August 2026 does not include this Control Account for review. 2.While the WBS WP titles themselves could be reviewed to validate at least intent, and ROM, portions could be misconstrued as scope creep. 3. CA includes 0 child tasks. Need to ensure they’re inclusive of the parent tasks.",
+    "score_overall": -1,
+    "rationale": "​​ No data has been provided on the NG collaboration portal as of 3 Aug that is currently reviewable.​",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "​​ Without a description of scope and expected deliveries that would be further expanded on from a BOE, an estimation of IMS-loading cant be performed, making this a high risk​."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "​​ This cannot be determined​."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "“Draft Sentinel EMD WBS Dictionary_73026” (NG) “NG WBS_7222026” (NG) “NG WBS_7162026” (NG) “NG WBS_RAM_7302026” (NG) “New WBS IPT Mapping” (NIX) as of 8/3/26 “PMB Development Progress_31JUL” (NIX) “IIR #2” Power Point brief” (NIX) “PCAM Working document” (NIX2) “KDC PWBS for the Gov IMS 7-16-26” (ICS)"
+      }
+    ],
+    "products": "“Draft Sentinel EMD WBS Dictionary_73026” (NG) “NG WBS_7222026” (NG) “NG WBS_7162026” (NG) “NG WBS_RAM_7302026” (NG) “New WBS IPT Mapping” (NIX) as of 8/3/26 “PMB Development Progress_31JUL” (NIX) “IIR #2” Power Point brief” (NIX) “PCAM Working document” (NIX2) “KDC PWBS for the Gov IMS 7-16-26” (ICS)",
+    "strengths": "​​ This cannot be determined​.",
+    "concerns": "​​ Risks are widespread and functionally identical across all SLP-A CAs to a greater or lesser extent: 1. Technical scope was not provided.​",
+    "questions": "Insufficient scope information is available to perform this review.",
+    "integration": "​ As described in detail above, lower level reviews are attempting to identify cross use equipment and efforts, but insufficient scope information is available to perform that review."
+  }
+}

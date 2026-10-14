@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/SLC/KDC/IIR2 WORKSHEET_1.16.02.05_CS_SW MMIII Mitigate.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:17:32.703858+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.02.05_CS_SW MMIII Mitigate",
+    "owner": "Secondary Launch Capabilities Branch - NIXC",
+    "gov_personnel": [
+      {
+        "name": "Kimberly Covert",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Manrico Mirabelli",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1. The IIR#2 Execution Review was conducted on 15 July 2026. On 16 July, the team identified a critical gap in the required task documentation. Although a continuous search and retrieval effort was maintained from 17 July through 3 August, ongoing document updates by external stakeholders made assessing these shifting requirements highly challenging.2. CA includes 1 child tasks. 3. Based on the WBS descriptions of the child tasks, we are unable to ascertain whether any of the originally provided CA data provided by NG on 4/16/26 is integrated into this CA. Based on discussions with NG on 8/4/26, the data previously tracked by the SPO from April ’26 has either been deleted, reassigned, redistributed, or rolled into other WBS elements due to duplicability. For awareness, we have listed those CAs below:",
+    "score_overall": -1,
+    "rationale": "Data sets constantly changing from day-to-day making it difficult to understand long-term scope impacts. The team can only conduct analysis based on the most current data. Would meet the requirements of IIR#2. Beyond that will be more challenging.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "This element covers MMIII Mitigate, using a framework of Incremental Features. This includes Incremental Feature definition, software requirements, software design, software implementation and unit tests, unit integration and testing, and Incremental Feature integration, following the development logic outlined in the Software Development Plan (SDP)."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "NG is working toward integration into Prima-vera 6. Final determination can be assessed once full integration is completed. Until that point, the SPO must use currently available resources."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Product element applies solely to KDC elements."
+      }
+    ],
+    "products": "",
+    "strengths": "None\nat this time\n.",
+    "concerns": "Numerous data gaps; up-to-date artifact delivery cadence; adequate communication between prime & customer",
+    "questions": "None at this time.",
+    "integration": "This initiative remains a work in progress; however, the contractor is demonstrating clear intent toward establishing a highly collaborative environment. We observe positive trends in their internal planning, communication, and cross-organizational coordination."
+  }
+}

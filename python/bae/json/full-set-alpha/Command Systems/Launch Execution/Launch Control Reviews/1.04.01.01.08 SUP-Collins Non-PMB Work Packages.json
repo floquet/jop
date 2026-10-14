@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Launch Control Reviews/1.04.01.01.08 SUP-Collins Non-PMB Work Packages.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:24:33.771334+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-29",
+    "control_account": "1.04.01.01.08",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah-",
+        "role": "PM"
+      },
+      {
+        "name": "Lt. Col. Ralston-",
+        "role": "ML"
+      },
+      {
+        "name": "Dr. Troy Wynn-",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "1.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The scope for WBS 1.04.01.01.08, identified as \"SUP COLLINS Non PMB Work Packages,\" is not clearly defined in the provided documentation, which presents a risk to effective oversight and integration.\nThe element is designated as a \"Non-PMB Work Package,\" indicating it is outside the Performance Measurement Baseline. This requires clear justification and a defined management approach to ensure visibility and control.\nA significant concern exists regarding cross-functional integration, as the nature of \"Non-PMB\" work can lead to a lack of detailed planning and coordination with other integrated product teams, potentially impacting the overall program schedule and performance.",
+    "score_overall": -1,
+    "rationale": "The title \"SUP COLLINS Non PMB Work Packages\" is the only description of the scope. No specific deliverables, boundaries, or completion criteria are defined in the provided WBS Dictionary or other documents.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "There is no evidence of schedule planning, task definition, or duration basis for this WBS element. As a \"Non-PMB\" item, it is likely not intended for IMS loading, which is a concern for program visibility."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "☐\n\n☐\n\n☒\nThere is no evidence of schedule planning, task definition, or duration basis for this WBS element. As a \"Non-PMB\" item, it is likely not intended for IMS loading, which is a concern for program visibility\n."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Sow Rev. 9.0NG Command Systems Control Account Rollup/COBRA Exports 31JUL26WBS Dictionary 24JUL26IMP Rev. BNG RAM 05AUG26"
+      }
+    ],
+    "products": "Sow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26",
+    "strengths": "Labeling the element as “Non-PMB”\nprevents accidental commingling of non-baseline work with\nPerformance Measurement Baseline\n, ensuring EVMS metrics do not get distorted.",
+    "concerns": "Concern 1: The scope of work for WBS 1.04.01.01.08 is undefined beyond its title, \"SUP COLLINS Non PMB Work Packages.\"Risk 1: Without a clear scope, there is a high risk of unmanaged work, cost overruns, and schedule delays. It is impossible to track progress or ensure that the work aligns with program objectives.Concern 2: The designation \"Non-PMB\" suggests this work is outside the formal planning and control system of the program's EVMS.Risk 2: This lack of visibility could lead to integration problems with other product teams and a failure to account for dependencies, which could have cascading effects on the overall program schedule and performance.",
+    "questions": "Question 1: What specific tasks and deliverables are included in \"SUP COLLINS Non PMB Work Packages\"?Question 2: What is the justification for this work being outside the Performance Measurement Baseline?",
+    "integration": "Confidence Rating\n(Select One)\nStrong:\n☐\nModerate:\n☐\nLow:\n☒\nThe lack of scope definition makes it impossible to identify interfaces, dependencies, or necessary coordination with other teams. This presents a high risk of integration issues and unforeseen impa\nc\nts on other parts of the program.\n2\n. Products\n& Artifacts\nReviewed\nDocument the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.\nThe list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.\nSow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26\n3. Strengths Observed\nDocument the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.\nLabeling the element as “Non-PMB”\nprevents accidental commingling of non-baseline work with\nPerformance Measurement Baseline\n, ensuring EVMS metrics do not get distorted.\n4. Concerns and Risks Observed\nDocument the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.\nConcerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.\nNot every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.\nDefinitions\nConcern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.\nRisk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.\nConcern 1: The scope of work for WBS 1.04.01.01.08 is undefined beyond its title, \"SUP COLLINS Non PMB Work Packages.\"\nRisk 1: Without a clear scope, there is a high risk of unmanaged work, cost overruns, and schedule delays. It is impossible to track progress or ensure that the work aligns with program objectives.\nConcern 2: The designation \"Non-PMB\" suggests this work is outside the formal planning and control system of the program's EVMS.\nRisk 2: This lack of visibility could lead to integration problems with other product teams and a failure to account for dependencies, which could have cascading effects on the overall program schedule and performance\n.\n5. Open Questions and Follow-Up Items\nDocument questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.\nOpen Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.\nQuestion 1: What specific tasks and deliverables are included in \"SUP COLLINS Non PMB Work Packages\"?\nQuestion 2: What is the justification for this work being outside the Performance Measurement Baseline?\n6. Cross-\nProduct\n/Cross-Function\nIntegration Observations\nDocument observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.\nCross-Product\n/Cross-Function\nIntegration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product\n/cross-function\ninterfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.\nNo cross-product or cross-functional integration points have been identified for WBS 1.04.01.01.08 due to the lack of scope definition. This is a significant finding that indicates a high risk of future integration issues. The nature of this work being \"Non-PMB\" exacerbates this risk, as it is likely not being discussed in integrated planning sessions. It is critical to understand what this work entails to determine its impact on and dependencies with other product teams\n."
+  }
+}

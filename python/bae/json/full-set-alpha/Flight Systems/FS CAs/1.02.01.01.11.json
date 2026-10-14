@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/FS CAs/1.02.01.01.11.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:44:40.860087+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-28",
+    "control_account": "1.02.01.01.11 IATC_ Segment Integration EGSE_PL EGSE",
+    "owner": "Flight Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Levi Rock",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The \"Strong\" rating is based on the exceptional quality of the artifacts provided. The CAM presented not just work packages, but a comprehensive charter and supporting documents that thoroughly captured the work scope, objectives, and success criteria, leaving no ambiguity about the work to be performed.",
+    "score_overall": 1,
+    "rationale": "The \"Strong\" rating is assigned because this control account is largely self-contained and independent of the external hardware dependencies that plague other parts of the program. This independence is a significant de-risking factor. Its primary integration points are with internal software and requirements documents, which are understood and documented.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "WBS Dictionary (30 July 26) Work Packages (30 July 26) Planning Package Descriptions (30 July 26)"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "The IIR #2 artifacts for this account were excellent. The planning was not just complete but demonstrated a deep, proactive understanding of the process objectives, far exceeding the standard of other accounts reviewed."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "This control account is independent of external hardware dependencies."
+      }
+    ],
+    "products": "WBS Dictionary (30 July 26) Work Packages (30 July 26) Planning Package Descriptions (30 July 26)",
+    "strengths": "The IIR #2 artifacts for this account were excellen\nt.\nThe planning was not just complete but demonstrated a deep, proactive understanding of the process objectives, far exceeding the standard of other accounts reviewed.",
+    "concerns": "WBS Dictionary (30 July 26) Work Packages (30 July 26) Planning Package Descriptions (30 July 26)",
+    "questions": "The IIR #2 artifacts for this account were excellent. The planning was not just complete but demonstrated a deep, proactive understanding of the process objectives, far exceeding the standard of other accounts reviewed.",
+    "integration": "This control account is independent of external hardware dependencies."
+  }
+}

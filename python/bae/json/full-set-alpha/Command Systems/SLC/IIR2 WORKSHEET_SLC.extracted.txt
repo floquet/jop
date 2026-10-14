@@ -1,0 +1,258 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The scope validation is currently the highest risk for this review. For reference WBS 1.04.02.05.02 has 3 CA’s, 9 WPs and 1 PP. This appears at first glance to be a reasonable amount of packages. However, the work described could easily be duplicated and overlap with CA 1.04.02.05.03, as both describe HW engineering, but the WBS Dictionary assigns this works to the USAF 625th STOS. No deliveries or expected workload are described.The level of detail for CA’s is also insufficient. From the above, 1.04.02.05.02 is for integrated assemblies, which is also assumed to be integrated LRUs. 1.04.02.05.03 is for Cabling. Both CAs have WP’s related to the RSD. From this level of detail, the RSD itself should be a CA as well. But as described, without reviewable scope, the LOE and the deliverables have not been assigned and we can not be certain all required scope is present.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Appendix C - IIR #2 Assessment Worksheet Example
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/30/2026
+Control Account
+:
+1.04.02.06.01
+Product Elemen
+t Owner Designation
+:
+Secondary Launch Capabilities Branch - NIXC
+Government Participants:
+Ryan Sandoval
+, Brian Long
+Contractor Participants:
+N/A
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1.
+The WBS Dictionary as of 30 July 2026 provides no scope that can be reviewed.
+2.
+While the WBS
+WP titles themselves
+c
+ould
+be reviewed to validate
+at least
+intent
+,
+and
+ROM
+, portions could be misconstrued as scope
+creep.
+3. W
+hile an obvious error, the scope that is presen
+t
+appears to
+offload virtually all NG scope to USAF organic components, including development and production of
+SLP-A and SKDC
+hardware.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed
+during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+No data has been provided on the NG collaboration portal as of 30 Jul that is
+currently
+reviewable
+for virtually
+all of
+SLC equities
+. While the WBS is structured correctly, and appears to have
+a sufficient number of
+WP’s and PP’s
+based on WP titles alone
+, without a WBS dictionary to validate the scope of the WBS WP’s
+, a review
+cant
+be reasonably completed.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The scope validation is currently the highest risk for this review.
+For reference WBS 1.04.02.05.02 has 3 CA’s, 9 WPs and 1 PP. This appears at first glance to be a reasonable
+amount
+of packages. However, the work described could easily be duplicated and overlap with CA 1.04.02.05.03, as both describe HW engineering, but the WBS Dictionary assigns this
+works
+to the USAF 625th STOS
+. No deliveries or expected workload are described.
+The level of detail for CA’s is also insufficient.
+From the above, 1.04.02.05.02 is for integrated assemblies, which is also assumed to be integrated LRUs. 1.04.02.05.03 is for Cabling. Both CAs have
+WP’s
+related to the RSD. From this level of detail, the RSD itself should be a CA as well. But as described, without
+reviewable scope, the LOE and the
+deliverables have not been
+assigned
+and we
+can not
+be certain all required
+scope is
+present.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+As above. While the # of WPs and PPs for most of the Cost Accounts appear reasonable, without a description of scope and expected deliveries that would be further expanded on from a BOE, an estimation of IMS-loading
+cant
+be performed, making this a high risk
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+As no common HW/SW CAs are included and identified as cross functional
+, and due to the scope errors described, this
+can not
+be determined
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+WBS Dictionary 7-13-2026, WBS_7222026
+, as of 30 July 2026
+3. Strengths Observed
+Document the most significant strengths identified during the
+assessment that
+increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Risks are widespread and functionally identical across all SLP-A
+CAs to a greater or lesser extent:
+1. Technical scope was no
+t
+provided. As of 31 July
+, the technical scope either is inapplicable to the workload described, or is “peanut butter smeared,” in that all CA’s describe every cost account as doing all work for the entire program.
+5. Open Questions and Follow-Up Items
+Document
+questions that
+remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Me
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+As described in detail above,
+lower level
+reviews are attempting to identify cross use equipment and efforts, but insufficient scope information is available to perform that review.
+Appendix C - IIR #2 Assessment Worksheet
+Example
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/30/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.04.02.06.01'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Secondary Launch Capabilities Branch - NIXC'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Ryan Sandoval, Brian Long'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='N/A'
+[05] PLAIN_TEXT checked=None alias='' tag='' text='1.The WBS Dictionary as of 30 July 2026 provides no scope that can be reviewed. 2.While the WBS WP titles themselves could be reviewed to validate at least intent, and ROM, portions could be misconstrued as scope creep. 3. While an obvious error, the scope that is present appears to offload virtually all NG scope to USAF organic components, including development and production of SLP-A and SKDC hardware.'
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=True alias='' tag='' text='☒'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='No data has been provided on the NG collaboration portal as of 30 Jul that is currently reviewable for virtually all of SLC equities. While the WBS is structured correctly, and appears to have a sufficient number of WP’s and PP’s based on WP titles alone, without a WBS dictionary to validate the scope of the WBS WP’s, a review cant be reasonably completed.'
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=True alias='' tag='' text='☒'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The scope validation is currently the highest risk for this review. For reference WBS 1.04.02.05.02 has 3 CA’s, 9 WPs and 1 PP. This appears at first glance to be a reasonable amount of packages. However, the work described could easily be duplicated and overlap with CA 1.04.02.05.03, as both describe HW engineering, but the WBS Dictionary assigns this works to the USAF 625th STOS. No deliveries or expected workload are described.The level of detail for CA’s is also insufficient. From the above, 1.04.02.05.02 is for integrated assemblies, which is also assumed to be integrated LRUs. 1.04.02.05.03 is for Cabling. Both CAs have WP’s related to the RSD. From this level of detail, the RSD itself should be a CA as well. But as described, without'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=True alias='' tag='' text='☒'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='As above. While the # of WPs and PPs for most of the Cost Accounts appear reasonable, without a description of scope and expected deliveries that would be further expanded on from a BOE, an estimation of IMS-loading cant be performed, making this a high risk'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=False alias='' tag='' text='☐'
+[20] CHECKBOX checked=True alias='' tag='' text='☒'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='As no common HW/SW CAs are included and identified as cross functional, and due to the scope errors described, this can not be determined'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='WBS Dictionary 7-13-2026, WBS_7222026, as of 30 July 2026'
+[23] PLAIN_TEXT checked=None alias='' tag='' text=''
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Risks are widespread and functionally identical across all SLP-A CAs to a greater or lesser extent:1. Technical scope was not provided. As of 31 July, the technical scope either is inapplicable to the workload described, or is “peanut butter smeared,” in that all CA’s describe every cost account as doing all work for the entire program.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Me'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='As described in detail above, lower level reviews are attempting to identify cross use equipment and efforts, but insufficient scope information is available to perform that review.'

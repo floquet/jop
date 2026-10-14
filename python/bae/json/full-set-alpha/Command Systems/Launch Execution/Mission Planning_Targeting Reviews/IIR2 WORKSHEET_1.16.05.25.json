@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Mission Planning_Targeting Reviews/IIR2 WORKSHEET_1.16.05.25.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:40:27.572329+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.25",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "Pete Richard (PM)",
+    "score_overall": 0,
+    "rationale": "1. Top-Tier Database Scope is Bounded but Structurally Mismapped: Control Account 1.16.05.25 (CS_SW IFC 4.0_Fixed Wing Wide Target Catalogs) is responsible for the top-tier, wing-wide database layer coordinating target catalogs under IFC 4.0. While its functional boundaries are clear, it is structurally misaligned in the WBS.2. Completes the Systemic Software WBS Index Shift Pattern: This account completes the pattern of +1 index mismatches across the entire database suite (including Silo Target Catalog .23 and Control Node Catalog .24). It is coded under WBS prefix 1.16.05 (reserved in the proposed WBS for Increment 1 Capability / IFC 5.0) instead of mapping to 1.16.4 (IFC 4.0 / Full Launch Capability).3. High Synchronization and Coordination Risks: The Wing-Wide Catalog coordinates data across all intermediate Control Nodes and end-point Launch Silos. Maintaining this structural coding shift makes it impossible for automated program tools to track database synchronization dependencies against physical wing activations and command center deployments.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The Government has assigned a Moderate confidence rating. The functional software planning is mature: the database scope is clearly bounded, and ownership is held by a specialized targeting CAM (Tyrone Jackson). However, the systemic WBS index shift remains unresolved. Placing a critical wing-wide IFC 4.0 database under the IFC 5.0 WBS branch breaks EVMS cost-schedule automated alignment, posing a significant risk to the integrity of future CSDR and IPMDAR compliance reports."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The internal software scope for the wing-wide target database is well-defined. However, because it is coded under WBS 1.16.05, it cannot be traceably mapped to the government's defined parent WBS element 1.16.4 (Full Launch Capability). The contractor must correct this structural mapping before the baseline is established."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The software work packages are technically sequence-ready. However, loading this control account into the IMS with the current code 1.16.05.25 will create immediate conflicts with the proposed WBS structure, necessitating manual, error-prone adjustments during automated schedule status updates."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix, Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026), Proposed CSDR WBS Dictionary, Sentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consolidated Target Domain CAM): Tyrone Jackson owns the complete target database chain (Silo .23, Control Node .24, and Wing-Wide .25). This single-point accountability minimizes communication friction and ensures technical consistency across all database schemas.\nStrength 2 (Hierarchical Database Architecture): The software design establishes a clear, top-to-bottom hierarchy from the Wing Command Center down to individual silos, facilitating cleaner data routing.",
+    "concerns": "Concern 1 (Systemic WBS Coding Shift):The contractor has coded this IFC 4.0 database account under WBS 1.16.05.25. The proposed CSDR WBS reserves 1.16.5 for IFC 5.0. All IFC 4.0 tasks must reside under WBS 1.16.4 (Full Launch Capability).Risk 1:This structural coding mismatch breaks program-level cost collection, resulting in the incorrect consolidation of IFC 4.0 wing-wide database actual costs under the IFC 5.0 budget.Concern 2 (Target Distribution Synchronization Risks):The Wing-Wide Catalog is functionally dependent on data streams from ground mission planning systems.Risk 2:If the software WBS is structurally desynchronized, delays in the ground-based targeting generators (WBS 1.16.05.18/.19) cannot be automatically analyzed for impact on this wing-wide catalog, increasing the risk of database version mismatches during HWIL testing.",
+    "questions": "Question 1: What is the technical mechanism for target catalog data synchronization between the Wing-Wide Database (.25) and the intermediate Control Node Database (.24)?Follow-Up 1: Contractor to provide the software design descriptions (SDDs) detailing the data transaction protocols and backup routines between the Wing-Wide database and Control Node database tiers.Question 2: Will the contractor present a unified correction plan to shift the entire 1.16.05.xx IFC 4.0 series back to 1.16.04 (to map to 1.16.4)?Follow-Up 2: Contractor to submit a corrected RAM showing government-aligned software mappings before PMB baseline locking.",
+    "integration": "Observation 1 (Target Generation to Wing-Wide Catalog Integration): The wing-wide database must ingest target files from WBS 1.16.05.18 (Generate Target_STOS) and 1.16.05.19 (Generate Target_Wing). While the technical relationships between these software modules are planned internally, the WBS index shift prevents automated EVMS scheduling from flagging a delay in the generator software as a critical-path impact on this catalog database.Observation 2 (Broken Automated Cost-Schedule Linking): The physical installation and verification of the wing command center processing equipment occurs under WBS 1.4.2.3.2.1 (Wing Command Center Integrated Assemblies). Due to the coding misalignment, automated EVMS tools cannot automatically link and track the software's maturity against physical hardware availability at the command centers."
+  }
+}

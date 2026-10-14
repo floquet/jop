@@ -1,0 +1,212 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/5/2026
+Control Account
+:
+1.16.0
+5
+.
+28
+Product Elemen
+t Owner Designation
+:
+Command Systems Segment
+Government Participants:
+Lt Col Kelly Ralston (ML)
+Troy Wynn (Lead Engineer)
+Kevin Sessions (PM)
+Contractor Participants:
+Pete Richard (PM)
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1.
+Perfect Structural Alignment with Government WBS: Unlike downstream IFC 4.0 accounts (which suffer from a +1 index shift), Control Account 1.16.03.09 (CS_SW IFC 3.0_Generate Target) is perfectly aligned with WBS element 1.16.3 (Core Launch Capability). This represents a mature and direct structural relationship that supports clean, automated reporting.
+2.
+Critical Core Targeting Engine for First Silo Launch: This account represents the core target-generation software logic required to execute the program's first silo launch capability. It is a critical path item for the IFC 3.0 release.
+3.
+Consolidated Domain Ownership Minimizes Handoff Risks: The account is owned by CAM Julie Richey, who consistently manages core security, veto, and targeting generation accounts across both the IFC 3.0 and IFC 3.1 releases. This consolidated domain expertise significantly reduces organizational communication risks.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The Government has assigned a Strong overall confidence rating. The planning foundation for this account is highly mature. There is perfect vertical traceability between the contractor's RAM and the proposed CSDR WBS for the IFC 3.0 release. Furthermore, the technical scope is well-bounded, the task relationships are logically planned for IMS loading, and the account is managed by a highly specialized CAM.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The scope of developing the target-generation software module for IFC 3.0 is exceptionally clear and vertically traceable to the proposed WBS dictionary for 1.16.3
+(Core Launch Capability). Deliverables are clearly mapped to support the First Silo Launch Major Program Event (MPE).
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The control account is fully ready for IMS loading. Because the WBS code 1.16.03.09 directly maps to the parent WBS element 1.16.3, there are no coding conflicts. Automated scheduling and financial tools can ingest this account and link it to program milestones without manual remapping.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+Integration planning is rated Moderate. While this IFC 3.0 core module is structurally aligned and integrates cleanly with other IFC 3.0 sub-elements, there is a risk of downstream desynchronization. Because the contractor introduces an extra WBS tier in the next release cycle (IFC 3.1 mapped under 1.16.04), tracing the migration of this target-generation logic from IFC 3.0 to IFC 3.1 (1.16.04.06) and IFC 4.0 (1.16.05.18/.19) is structurally disrupted in the EVMS architecture.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Northrop Grumman Responsibility Assignment Matrix
+Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx)
+Proposed CSDR WBS Dictionary
+Sentinel Statement of Work Revision 9.0
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Strength 1 (Structural Traceability Compliance): This account serves as a baseline example of perfect compliance with the government's proposed WBS, allowing for seamless automated cost accumulation and auditing.
+Strength 2 (High CAM Specialization): CAM Julie Richey manages a highly consolidated suite of safety, security, and execution targeting software accounts across multiple releases. This minimizes cross-segment design handoff friction.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern 1 (Downstream Migration Desynchronization):
+While this account (1.16.03.09) is aligned, the targeting logic must evolve and migrate to IFC 3.1 (coded under 1.16.04.06 in the RAM) and IFC 4.0 (coded under 1.16.05.19 in the RAM). Because of the downstream +1 index shift in those releases, the EVMS cannot automatically track logic maturity across the release cycles.
+Risk 1:
+Schedule delays or design changes in this core IFC 3.0 targeting module may not automatically flag critical-path impacts on downstream SLP-A or Wing-Wide targeting capabilities in the IMS.
+Concern 2 (Hardware-Software Lab Scheduling Dependencies):
+Target generation testing is highly dependent on early Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HWIL) lab availability.
+Risk 2:
+Any delay in the availability of the Launch Silo node testing environments (WBS 1.4.2.1.3) will directly stall the qualification of this core software module, risking a slip in the First Silo Launch MPE date.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Question 1: What is the baseline target-generation algorithm used in IFC 3.0, and how does it scale technically when transitioning to the SLP-A (1.16.04.06) and Wing (1.16.05.19) targeting generators?
+Follow-Up 1: Contractor to provide the software design descriptions (SDDs) showing the logical schema flow of targeting computations across IFC 3.0, 3.1, and 4.0.
+Question 2: How does the "Generate Target" (.09) module interface with the NC2
+security software modules managed by the same CAM within IFC 3.0?
+Follow-Up 2: Contractor to provide a technical interface diagram showing the data boundaries between target generation and NC2 Security Functionality (1.16.03.05).
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Observation 1 (Target Generation to Flight Systems Integration): The target-generation software under IFC 3.0 must output data compatible with the flight systems segment, specifically Missile Guidance, Navigation, and Control (WBS 1.2.7). Because WBS 1.16.3 is structurally aligned, automated scheduling tools can cleanly link these inter-segment dependencies.
+Observation 2 (Clean EVMS Remapping Potential): Because the prefix 1.16.03 is mathematically aligned to proposed WBS 1.16.3, this control account can be immediately established as a baseline for the software PMB, providing a stable control point while the downstream WBS shift is resolved.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='8/5/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.16.05.28'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Command Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Lt Col Kelly Ralston (ML)Troy Wynn (Lead Engineer)Kevin Sessions (PM)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Pete Richard (PM)'
+[05] PLAIN_TEXT checked=None alias='' tag='' text="1. Perfect Structural Alignment with Government WBS: Unlike downstream IFC 4.0 accounts (which suffer from a +1 index shift), Control Account 1.16.03.09 (CS_SW IFC 3.0_Generate Target) is perfectly aligned with WBS element 1.16.3 (Core Launch Capability). This represents a mature and direct structural relationship that supports clean, automated reporting.2. Critical Core Targeting Engine for First Silo Launch: This account represents the core target-generation software logic required to execute the program's first silo launch capability. It is a critical path item for the IFC 3.0 release.3. Consolidated Domain Ownership Minimizes Handoff Risks: The account is owned by CAM Julie Richey, who consistently manages core security, veto, and targeting generation accounts across both the IFC 3.0 and IFC 3.1 releases. This consolidated domain expertise significantly reduces organizational communication risks."
+[06] CHECKBOX checked=True alias='' tag='' text='☒'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text="The Government has assigned a Strong overall confidence rating. The planning foundation for this account is highly mature. There is perfect vertical traceability between the contractor's RAM and the proposed CSDR WBS for the IFC 3.0 release. Furthermore, the technical scope is well-bounded, the task relationships are logically planned for IMS loading, and the account is managed by a highly specialized CAM."
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The scope of developing the target-generation software module for IFC 3.0 is exceptionally clear and vertically traceable to the proposed WBS dictionary for 1.16.3 (Core Launch Capability). Deliverables are clearly mapped to support the First Silo Launch Major Program Event (MPE).'
+[14] CHECKBOX checked=True alias='' tag='' text='☒'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='The control account is fully ready for IMS loading. Because the WBS code 1.16.03.09 directly maps to the parent WBS element 1.16.3, there are no coding conflicts. Automated scheduling and financial tools can ingest this account and link it to program milestones without manual remapping.'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=True alias='' tag='' text='☒'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='Integration planning is rated Moderate. While this IFC 3.0 core module is structurally aligned and integrates cleanly with other IFC 3.0 sub-elements, there is a risk of downstream desynchronization. Because the contractor introduces an extra WBS tier in the next release cycle (IFC 3.1 mapped under 1.16.04), tracing the migration of this target-generation logic from IFC 3.0 to IFC 3.1 (1.16.04.06) and IFC 4.0 (1.16.05.18/.19) is structurally disrupted in the EVMS architecture.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Northrop Grumman Responsibility Assignment MatrixGovernment Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx) Proposed CSDR WBS DictionarySentinel Statement of Work Revision 9.0'
+[23] PLAIN_TEXT checked=None alias='' tag='' text="Strength 1 (Structural Traceability Compliance): This account serves as a baseline example of perfect compliance with the government's proposed WBS, allowing for seamless automated cost accumulation and auditing.Strength 2 (High CAM Specialization): CAM Julie Richey manages a highly consolidated suite of safety, security, and execution targeting software accounts across multiple releases. This minimizes cross-segment design handoff friction."
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Concern 1 (Downstream Migration Desynchronization):While this account (1.16.03.09) is aligned, the targeting logic must evolve and migrate to IFC 3.1 (coded under 1.16.04.06 in the RAM) and IFC 4.0 (coded under 1.16.05.19 in the RAM). Because of the downstream +1 index shift in those releases, the EVMS cannot automatically track logic maturity across the release cycles.Risk 1:Schedule delays or design changes in this core IFC 3.0 targeting module may not automatically flag critical-path impacts on downstream SLP-A or Wing-Wide targeting capabilities in the IMS.Concern 2 (Hardware-Software Lab Scheduling Dependencies):Target generation testing is highly dependent on early Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HWIL) lab availability.Risk 2:Any delay in the availability of the Launch Silo node testing environments (WBS 1.4.2.1.3) will directly stall the qualification of this core software module, risking a slip in the First Silo Launch MPE date.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Question 1: What is the baseline target-generation algorithm used in IFC 3.0, and how does it scale technically when transitioning to the SLP-A (1.16.04.06) and Wing (1.16.05.19) targeting generators?Follow-Up 1: Contractor to provide the software design descriptions (SDDs) showing the logical schema flow of targeting computations across IFC 3.0, 3.1, and 4.0.Question 2: How does the "Generate Target" (.09) module interface with the NC2 security software modules managed by the same CAM within IFC 3.0?Follow-Up 2: Contractor to provide a technical interface diagram showing the data boundaries between target generation and NC2 Security Functionality (1.16.03.05).'
+[26] PLAIN_TEXT checked=None alias='' tag='' text='Observation 1 (Target Generation to Flight Systems Integration): The target-generation software under IFC 3.0 must output data compatible with the flight systems segment, specifically Missile Guidance, Navigation, and Control (WBS 1.2.7). Because WBS 1.16.3 is structurally aligned, automated scheduling tools can cleanly link these inter-segment dependencies.Observation 2 (Clean EVMS Remapping Potential): Because the prefix 1.16.03 is mathematically aligned to proposed WBS 1.16.3, this control account can be immediately established as a baseline for the software PMB, providing a stable control point while the downstream WBS shift is resolved.'

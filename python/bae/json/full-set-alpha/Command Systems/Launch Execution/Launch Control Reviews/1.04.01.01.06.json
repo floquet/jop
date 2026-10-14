@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Launch Control Reviews/1.04.01.01.06.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:23:28.560067+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.04.01.01.06-LS-INF Launch Silo PM",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah-",
+        "role": "PM"
+      },
+      {
+        "name": "Lt. Col. Ralston-",
+        "role": "ML"
+      },
+      {
+        "name": "Dr. Troy Wynn-",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "1.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "How is the schedule logic structured to prevent high-value hardware from shipping to a launch silo that is not yet physically secure or environmentally ready?\nH\now do you track and account for variance in construction rates and issues between individual physical silo sites?\nThere is no visibility into task durations, resource allocation, or the technical specifications governing physical/logical handoffs.",
+    "score_overall": -1,
+    "rationale": "While there are foundational structural elements in place, the planning architecture currently lacks the necessary maturity, detail, and integration linkages required to successfully proceed with Integrated Master Schedule (IMS) loading and Performance Measurement Baseline (PMB) establishment.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "RAM lists Austin Richardson as CAM for LS-INF Launch Silo PM, which is also listed in the WBS dictionary but was not associated in the CS CA WP Rollup IIR2 document."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "The provided documents do not show any decomposition of the program management WBS into detailed planning tasks or any lower level hierarchy such as PP and WP. There is no documented rationale or basis for durations, planning assumptions, or quantity-based data to support the planned effort for this management effort, that could potentially impact schedule credibility."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "This WBS element is inherently cross-functional, as the \"Launch Silo PM\" is responsible for overseeing the integration of numerous subsystems within the Launch Silo. This includes coordinating between Launch Systems (1.04.02.01) and Command and Launch Subsystems like Launch Execution (1.04.03.01), Communications (1.04.03.03), and Physical Security (1.04.03.04). Potential risk could exists if the schedule alignment between infrastructure readiness and hardware delivery is not meticulously managed by the Launch Silo PM."
+      }
+    ],
+    "products": "Sow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26",
+    "strengths": "RAM assigns clear ownership for LS-INF Launch Silo PM, creating clear lines of responsibility.\nThe WBS\nstructure positions the specialized program management under the overarching C&L infrastructure node.",
+    "concerns": "WBS Dictionary is very vague and lacks detailed descriptions to show specific boundaries, which could lead to scope creep and execution gaps without proper definition of the PMs scope.",
+    "questions": "There is no clear path or traceability from the WBS Dictionary to the NG Command Systems Control Account Rollup/COBRA Exports 31JUL26, into the NG WBS that was provided. It is however in the RAM.",
+    "integration": "There is undefined hand-off criteria and lack of bilateral schedule integration that would alert CS-HW of a slip in the infrastructure schedule."
+  }
+}

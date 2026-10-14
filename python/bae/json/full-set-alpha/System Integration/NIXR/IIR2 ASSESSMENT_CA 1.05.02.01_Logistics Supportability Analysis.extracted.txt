@@ -1,0 +1,221 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/18/2026
+Control Account:
+1.05.02.01 LSA
+Product Element Owner Designation:
+Government Participants:
+Amber VaughnJosue NegrerosLacey RemkesDawn YanezISC:Tom AlbaneseRyan Towner
+Contractor Participants:
+Michael Piper (CAM)James BroomeShamas DowetyMindy Grant
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Our Proactive Partnership has benefited from schedule development as we consistently collaborate with our Northrop counterparts as they build BOEs, schedules, and other artifacts, allowing us to ensure a common understanding of portfolio scope and discuss concerns.
+While we are evaluating what we can for BOEs and schedules, these are still in development and missing durations, logic, etc. Anticipating rework as we evaluate products that are still being updated. Reliance on LOE rather than building out WP for Level of Repair Analysis (LORA) into discrete tasks is very concerning and gov’t is still pushing for that to be broken out appropriately.
+There is pressure to create an aggressive schedule to meet IOC dates, and our concern is that logic or durations may be optimistic rather than realistic to show an ability to meet key milestones.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Have moderate confidence in the planning foundation for development of schedule artifacts. Transparency and a solid relationship will enable collaborative discussions, but schedules in previous years that were missing key logic or scope left us with some definite concerns that we’ll be looking for in future evaluations.
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Gov and Northrop teams have worked jointly to overhaul the SOW and CDRLs to provide a great amount of clarity on the scope needed. In reviewing initial drafts of BOEs and schedules, our team has moderate confidence that the new scope and deliverables are captured. However, with the schedule being largely in planning packages, it can be difficult to see the level of detail required to confirm the full scope is captured at this early stage.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Schedule is in early stage of development where only a small part of the scope is planned. Additionally, logic, duration, and resource loading are not yet present. We are heavily dependent not just upon the WS maturity, but other dependencies like FMECAs. We will be examining the schedule for the inclusion of this logic in future meetings.
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Information is not there. Regarding schedule dependencies, it’s early in the process and this information is not present for us to evaluate.
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Draft Schedule: Met with Northrop and reviewed their WBS for LSA. We have a regular monthly cadence for Shoulder-to-Shoulder reviews to discuss schedule and EVM data. We talked through our expectations for logic and durations as well as our concerns.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Our teams are embedded, which allows us to discuss concerns and understand progress as artifacts are being developed. We also have confidence that our Northrop counterparts understand the scope based on working collaboratively together which was demonstrated through our efforts on the Product Support Analysis Plan (PSAP).
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern that logic ties will be missing, so we’ll be evaluating future schedules for that logic. We are also concerned about overly optimistic durations and/or lack of logic given the pressure to create a schedule that meets the overarching Level 1-3 schedule milestones.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Still need to work with Northrop on breaking out the LORA into a WP with discrete tasks. We have observed the Northrop RAM-C team’s breakout of the FMECA and the Northrop Logistics Product Data team should be able to follow the same methodology for the LORA.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+We will be working closely with Northrop to understand how WS Data dependencies are being captured in the schedule logic.
+Appendix C - IIR #2 Assessment Worksheet Example
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+8/18/2026
+Control Account
+:
+1.05.02.01 LSA
+Product Elemen
+t Owner Designation
+:
+Product Support Branch - NIXR
+Government Participants:
+Amber Vaughn
+Josue Negreros
+La
+cey Remkes
+Dawn Yanez
+ISC:
+Tom Albanese
+Ryan Towner
+Contractor Participants:
+Michael Piper (CAM)
+James Broome
+Shamas Dowety
+Mindy Grant
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Our Proactive Partnership has benefited from schedule development as we consistently collaborate with our Northrop counterparts as they build BOEs, schedules, and other artifacts, allowing us to ensure a common understanding of portfolio scope and discuss concerns.
+While we are evaluating what we can for BOEs and schedules, these are still in development and missing durations, logic, etc. Anticipating rework as we evaluate products that are still being updated.
+R
+eliance on LOE rather than building out WP for Level of Repair Analysis (LORA) into discrete tasks
+is
+very concerning and gov’t is still pushing for that to be broken out
+appropriately.
+There is pressure to create an aggressive schedule to meet IOC dates, and our concern is that logic or durations may be optimistic rather than realistic to show an ability to meet key milestones.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+Have moderate confidence in the planning foundation for development of schedule artifacts. Transparency and a solid relationship will enable collaborative discussions, but schedules in previous years that were missing key logic or scope left us with some definite concerns that we’ll be looking for in future evaluations.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+Gov and Northrop teams have worked jointly to overhaul the SOW and CDRLs to provide a great amount of clarity on the scope needed. In reviewing initial drafts of BOEs and schedules, our team has moderate confidence that the new scope and deliverables are captured. However, with the schedule being largely in planning packages, it can be difficult to see the level of detail required to confirm the full scope is captured at this early stage.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+Schedule is in early stage of development where only a small part of the scope is planned. Additionally, logic, duration, and resource loading are not yet present. We are heavily dependent not just upon the WS maturity, but other dependencies like FMECAs. We will be examining the schedule for the inclusion of this logic in future meetings.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+Information is not there.
+Regarding
+schedule dependencies
+, it’s early in the process and this information is not present for us to evaluate.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+Draft Schedule: Met with Northrop and reviewed their WBS for LSA. We have a regular monthly cadence for Shoulder-to-Shoulder reviews to discuss schedule and EVM data. We talked through our expectations for logic and durations as well as our concerns.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Our teams are embedded, which allows us to discuss concerns and understand progress as artifacts are being developed. We also have confidence that our Northrop counterparts understand the scope based on working collaboratively together
+which was demonstrated through our efforts on the Product Support Analysis Plan (PSAP).
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern that logic ties will be missing, so we’ll be evaluating future schedules for that logic. We are also concerned about overly optimistic durations and/or lack of logic given the pressure to create a schedule that meets the overarching Level 1-3 schedule milestones.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Still need to work with Northrop on breaking out the LORA into
+a WP with discrete tasks.
+We have observed
+the Northrop
+RAM-C team
+’
+s breakout of the FMECA and the
+Northrop
+L
+ogistics Product Data team should be able to follow
+the same methodology for the LORA.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+We will be working closely with Northrop to understand how
+WS Data dependencies are being captured in the schedule logic.
+Appendix C - IIR #2 Assessment Worksheet
+Example
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DROPDOWN checked=None alias='Product' tag='Product' text='Product Support Branch - NIXR'
+[01] CHECKBOX checked=False alias='' tag='' text='☐'
+[02] CHECKBOX checked=True alias='' tag='' text='☒'
+[03] CHECKBOX checked=False alias='' tag='' text='☐'
+[04] CHECKBOX checked=False alias='' tag='' text='☐'
+[05] CHECKBOX checked=True alias='' tag='' text='☒'
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=True alias='' tag='' text='☒'
+[09] CHECKBOX checked=False alias='' tag='' text='☐'
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=True alias='' tag='' text='☒'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'

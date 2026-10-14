@@ -1,0 +1,259 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+Michael CohenStuart Daniel​
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+The success of this entire test and integration effort is critically dependent on hardware and data from external suppliers who are reportedly experiencing delays of up to a year. This creates a near day-for-day slip risk to the prime's schedule, over which they have little control.
+Test and integration activities are constrained by a shared, two-bay test line (M627) and a lack of a defined process for calibrating equipment in a classified facility. These bottlenecks limit throughput, force inefficient sequential work, and introduce significant schedule risk.
+The planning is based on incomplete information, including undefined interface requirements, missing supplier schedules, and changing top-level requirements. The contractor is forced to "guess" at key inputs, leading to a high probability of significant rework and replanning.​
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+The "Low" overall confidence rating is driven by critical issues that make the current planning foundation unstable and likely un-executable. The contractor is completely dependent on external suppliers for hardware and data, with some suppliers reporting year-long delays, resulting in a direct day-for-day slip impact on the integration schedule. There is also a llack of a viable process for equipment calibration in a secure facility. The plan is immature, built on numerous assumptions and placeholders, with a low probability of success without resolution of these foundational dependencies.
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+The "Moderate" rating reflects a significant contradiction in the planning. While the team understands the types of integration and test activities they must perform, they lack a stable understanding of the full scope of that work. Constant changes to upstream requirements and undefined interfaces mean the team cannot definitively know what the final deliverables must be. They are attempting to plan work without a firm, baselined set of requirements, which undermines the entire planning foundation.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+The "Moderate" rating is based on the existence of a schedule framework that is, at present, largely notional. While a logical flow for test line usage exists, it is functionally unusable as it lacks critical inputs, including hardware delivery dates and schedule data from multiple key suppliers. The current schedule is a placeholder that cannot be considered a credible tool for forecasting or execution until these data gaps are filled.
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☐Low: ☒
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+The single greatest concern is the uncertainty surrounding supplier hardware and data deliverables. These inputs are the fundamental prerequisite for nearly all work in these control accounts. Continued delays from suppliers will break the contractor's ability to execute the test and integration plan, leading to a catastrophic failure to meet program milestones. The entire plan's success is contingent on external factors.
+There is no defined process for removing test equipment from the secure facility for its required annual calibration. This will lead to either using uncalibrated test equipment (a major quality and technical risk) or a complete work stoppage on the test line when calibration expires, causing significant and prolonged schedule delays.
+The identified mitigation to use shift work during surge periods may not be supported by a funded manpower plan.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+What is the formal plan and timeline for completing the full mapping of all work packages in these control accounts to the governing SOW rev 9 and technical requirements documents?
+What specific Government action is required to resolve the equipment calibration issue? Who is the required signature authority for a "mission impact" memo that would allow in-place calibration or accept the associated risk? The Program Office must identify the correct authority and process to provide the contractor with a formal, documented path forward for the equipment calibration dilemma. This is a Government-owned action item.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Shared resource line, Limited to a sequential process with very little opportunity for parallel efforts.IFC not defined at right level, causing guess work for requirements which risks rework.Concerns about supplier data pedigree (CONOPS, operating instruction, user manuals, etc.)Quality concerns from suppliers and drawing release timelines.​For these control accounts, there is a high dependency on supplier deliverables in order for them to meet objectives.
+Appendix C - IIR #2 Assessment Worksheet Example
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/23/2026
+Control Account
+:
+1.02.01.01.
+9
+IATC_AVE HWIL & Segment Integrated Test Planning
+1.02.01.01.12 IATC_ Segment Integration and Test
+1.02.01.01.13 IATC_ Segment and Test Electronic Ground Support Equipment
+1.02.01.01.14 LV1004_IPMDAR LV IWO_IAT&C
+Product Elemen
+t Owner Designation
+:
+Flight Systems Segment
+Government Participants:
+Richard Fawcett
+FS Segment Chief Engineer
+Jesse Scott- FS ISC Lead
+Brad Wichtoski- FS ISC Chief Engineer
+Wayne Walker- FS ISC Deputy
+Jessica
+Schlawin
+- ISC PM Support
+Contractor Participants:
+Michael Cohen
+Stuart Daniel​
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+The success of this entire test and integration effort is critically dependent on hardware and data from external suppliers who are reportedly experiencing delays of up to a year. This creates a near day-for-day slip risk to the prime's schedule, over which they have little control.
+Test and integration activities are constrained by a shared, two-bay test line (M627) and a lack of a defined process for calibrating equipment in a classified facility. These bottlenecks limit throughput, force inefficient sequential work, and introduce significant schedule risk.
+The planning is based on incomplete information, including undefined interface requirements, missing supplier schedules, and changing top-level requirements. The
+contractor is forced to "guess" at key inputs, leading to a high probability of significant rework and replanning.
+​
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The "Low" overall confidence rating is driven by critical issues that make the current planning foundation unstable and likely un-executable. The contractor is completely dependent on external suppliers for hardware and data, with some suppliers reporting year-long delays, resulting in a direct day-for-day slip impact on the integration schedule.
+There is also a
+l
+lack
+of a viable process for equipment calibration in a secure facility. The plan is immature, built on numerous assumptions and placeholders, with a low probability of success without resolution of these foundational dependencies.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The "Moderate" rating reflects a significant contradiction in the planning. While the team understands the
+types
+of integration and test activities they must perform, they lack a stable understanding of the full
+scope
+of that work. Constant changes to upstream requirements and undefined interfaces mean the team cannot definitively know what the final deliverables must be. They are attempting to plan work without a firm, baselined set of requirements, which undermines the entire planning foundation.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The "Moderate" rating is based on the existence of a schedule framework that is, at present, largely notional. While a logical flow for test line usage exists, it is functionally unusable as it lacks critical inputs, including hardware delivery dates and schedule data from multiple key suppliers. The current schedule is a placeholder that cannot be considered a credible tool for forecasting or execution until these data gaps are filled.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☐
+Low:
+☒
+The "Low" rating is driven by
+several
+integration failures. The use of a shared, resource-constrained test line creates a process bottleneck, forcing sequential work where parallel efforts are needed. Interface Control
+D
+ocuments are not defined at the right level, forcing the team to guess at requirements, which will inevitably cause rework. There are significant concerns about the pedigree and quality of supplier data (e.g., CONOPS, user manuals), and the contractor lacks an established process for critical tasks like equipment sanitization and calibration, causing day-for-day slips.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+WBS Dictionary (23July 26)
+Work Packages (23 July 26)
+Planning Package Descriptions (23 July 26)
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+The team has a logic-driven, baselined schedule for managing the usage of the bottlenecked test line. This demonstrates an awareness of the primary constraint and a proactive approach to deconflicting a shared resource.
+The team is cognizant of the extreme supplier risks and has identified mitigation strategies, such as implementing shift work, to attempt to claw back schedule in the event of hardware delivery slips.
+The contractor team is not blind to these issues; they are very cognizant of the risks and concerns impacting their work and have communicated them clearly.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+The single greatest concern is the uncertainty surrounding supplier hardware and data deliverables. These inputs are the fundamental prerequisite for nearly all work in these control accounts. Continued delays from suppliers will break the contractor's ability to execute the test and integration plan, leading to a catastrophic failure to meet program milestones. The entire plan's success is contingent on external factors.
+There is no defined process for removing test equipment from the secure facility for its required annual calibration. This will lead to either using uncalibrated test equipment (a major quality and technical risk) or a complete work stoppage on the test line when calibration expires, causing significant and prolonged schedule delays.
+The identified mitigation to use shift work during surge periods
+may not be
+supported by a funded manpower plan.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+What is the formal plan and timeline for completing the full mapping of all work packages in these control accounts to the governing SOW
+rev 9
+and technical requirements documents?
+What specific Government action is required to resolve the equipment calibration issue? Who is the required signature authority for a "mission impact" memo that would allow in-place calibration or accept the associated risk? The Program Office must identify the correct authority and process to provide the contractor with a formal, documented path forward for the equipment calibration dilemma. This is a Government-owned action item.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the
+identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Shared resource line
+,
+Limited to a sequential process with very little opportunity for parallel efforts
+.
+IFC not defined at right level
+, causing guess work for
+requirements
+which risks
+rework
+.
+Concerns about
+supplier data pedigre
+e (CONOPS
+, operating instruction, user manuals, etc.
+)
+Q
+uality concerns from suppliers
+and
+drawing release timelines
+.
+​For these control accounts
+,
+there is a high dependency on supplier deliverables
+in order for them
+to meet objectives.
+Appendix C - IIR #2 Assessment Worksheet
+Example
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/23/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.02.01.01.9 IATC_AVE HWIL & Segment Integrated Test Planning1.02.01.01.12 IATC_ Segment Integration and Test1.02.01.01.13 IATC_ Segment and Test Electronic Ground Support Equipment 1.02.01.01.14 LV1004_IPMDAR LV IWO_IAT&C'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Flight Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Richard Fawcett FS Segment Chief EngineerJesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Michael Cohen'
+[05] CHECKBOX checked=False alias='' tag='' text='☐'
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=True alias='' tag='' text='☒'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] CHECKBOX checked=True alias='' tag='' text='☒'
+[10] CHECKBOX checked=False alias='' tag='' text='☐'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=True alias='' tag='' text='☒'
+[13] CHECKBOX checked=False alias='' tag='' text='☐'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=False alias='' tag='' text='☐'
+[16] CHECKBOX checked=True alias='' tag='' text='☒'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='The "Low" rating is driven by several integration failures. The use of a shared, resource-constrained test line creates a process bottleneck, forcing sequential work where parallel efforts are needed. Interface Control Documents are not defined at the right level, forcing the team to guess at requirements, which will inevitably cause rework. There are significant concerns about the pedigree and quality of supplier data (e.g., CONOPS, user manuals), and the contractor lacks an established process for critical tasks like equipment sanitization and calibration, causing day-for-day slips.'
+[18] PLAIN_TEXT checked=None alias='' tag='' text='WBS Dictionary (23July 26) Work Packages (23 July 26) Planning Package Descriptions (23 July 26)'
+[19] PLAIN_TEXT checked=None alias='' tag='' text='The team has a logic-driven, baselined schedule for managing the usage of the bottlenecked test line. This demonstrates an awareness of the primary constraint and a proactive approach to deconflicting a shared resource.The team is cognizant of the extreme supplier risks and has identified mitigation strategies, such as implementing shift work, to attempt to claw back schedule in the event of hardware delivery slips.The contractor team is not blind to these issues; they are very cognizant of the risks and concerns impacting their work and have communicated them clearly.'
+[20] PLAIN_TEXT checked=None alias='' tag='' text='Shared resource line, Limited to a sequential process with very little opportunity for parallel efforts.IFC not defined at right level, causing guess work for requirements which risks rework.Concerns about supplier data pedigree (CONOPS, operating instruction, user manuals, etc.)Quality concerns from suppliers and drawing release timelines.'

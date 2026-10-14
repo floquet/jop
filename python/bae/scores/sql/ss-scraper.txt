@@ -1,0 +1,71 @@
+dantopa@isomer:~/repos-isomer/github/jop/python/bae/scores$ python3 scraper.py 
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.01.04.02.19.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.02.01.02.01.02.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.02.01.02.02.01.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.02.02.02.01.03.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.02.02.02.02.01.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.02.03.02.01.01.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.02.04.02.01.01.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.03.01.02.02.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.03.01.03.07.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.03.01.03.09 .json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.03.01.03.10.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.03.01.04.01.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.03.01.04.02.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.01.04.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.01.05.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.02.08.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.03.01.03.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.03.01.04.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.03.01.05.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.04.09.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.04.04.04.12.json
+Loaded: Command Systems_Launch Execution_ExHW Reviews_1.08.02.05.json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.04.01.01.06.json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.04.01.01.07 LS-INF Launch Center PM.json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.04.01.01.08 SUP-Collins Non-PMB Work Packages.json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.04.01.05.02 CS PM General Procurement.json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.04.04.03.01.05 SUP GDMS S2 LEX HARDWARE.json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.16.03.18 SUP GDMS Core Launch Capability .json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.16.04.16 FS-GNC Full Launch Capability Software.json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.16.08.03 SUP-Collins-Modeling Simulation & Analysis Tools SW .json
+Loaded: Command Systems_Launch Execution_Launch Control Reviews_1.16.09.03 CS_SW Integration & Test SW.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.03.09.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.03.13.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.03.14.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.09.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.10.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.18.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.19.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.20.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.21.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.22.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.23.json
+Loaded: Command Systems_Launch Execution_Mission Planning_Targeting Reviews_IIR2 WORKSHEET_1.16.05.28.json
+Loaded: Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.04.04.01.04.json
+Loaded: Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.04.04.01.05.json
+Loaded: Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.04.04.02.08.json
+Loaded: Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.04.04.03.01.05.json
+Loaded: Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.16.04.15.json
+Loaded: Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.16.05.10.json
+Loaded: Command Systems_Launch Execution_NC3 Reviews_IIR2 WORKSHEET_1.16.05.20.json
+
+Database: /home/dantopa/repos-isomer/github/jop/python/bae/scores/scraped-json/scrape.db
+Loaded: 50; skipped: 0
+
+=== BASIC PROVENANCE ===
+Timestamp: 2026-09-27 02:33:12
+User: dantopa
+Script location: /home/dantopa/repos-isomer/github/jop/python/bae/scores/scraper.py
+Working directory: /home/dantopa/repos-isomer/github/jop/python/bae/scores
+
+=== SYSTEM ===
+OS: Linux 7.0.11-76070011-generic
+Machine: x86_64
+Processor: 
+
+=== PYTHON ===
+• Version: 3.14.4
+• Executable: /usr/bin/python3
+• Implementation: CPython
+

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Launch Control Reviews/1.16.04.16 FS-GNC Full Launch Capability Software.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:27:40.654344+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.16.04.16 FS-GNC-Full Launch Capability Software",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah-PMLT. Col. Ralston-MLDr. Troy Wynn-LE",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "1.",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "1.",
+    "score_overall": 0,
+    "rationale": "The assignment of this software scope to the GNC experts is a logical strength. However, the inherent complexity and risk of integrating software across two major program segments (Flight Systems and Command & Launch) require a much more detailed and visible integration plan than is evident in the provided documents.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The scope is clearly defined in the RAM as \"Full Launch Capability Software\" under the FS-GNC organization. This specific assignment provides clear ownership and accountability."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The schedule for this software is highly dependent on the schedules of both the GNC hardware team and the CS-SW integration team. Without a clear, documented integration and test workflow, it is difficult to assess the true readiness for IMS loading."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "This WBS element is a prime example of a critical integration point, yet the provided artifacts lack any detail on how this cross-segment integration will be managed. Key interfaces, dependencies, and schedule alignment between FS-GNC and CS-SW are not documented, representing a significant gap in planning visibility."
+      }
+    ],
+    "products": "Sow Rev. 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31JUL26, WBS Dictionary 24JUL26, IMP Rev. B, NG RAM 05AUG26",
+    "strengths": "Assigning the development of this specific \"Full Launch Capability\" software to the FS-GNC team ensures that the subject matter experts for Guidance, Navigation, and Control are directly responsible for the software that implements those functions. This aligns expertise with responsibility.",
+    "concerns": "The\nprovided documentation\ndoes not define the technical interfaces or data exchange requirements between the software developed by FS-GNC (WBS 1.16.04.16) and the larger software baseline managed by CS-SW (e.g., WBS 1.16.04.01).\nRisk: Undefined or poorly managed interfaces are a primary source of integration failures, which could lead to significant rework and schedule delays for the entire \"Full Launch Capability\" software release.",
+    "questions": "Request a demonstration of how the FS-GNC software development schedule is aligned and integrated with the main CS-SW Integrated Master Schedule (IMS), including key dependency milestones for delivery,",
+    "integration": "Confidence Rating\n(Select One)\nStrong:\n☐\nModerate:\n☐\nLow:\n☒\nThis WBS element is a prime example of a critical integration point, yet the provided artifacts lack any detail on how this cross-segment integration will be managed. Key interfaces, dependencies, and schedule alignment between FS-GNC and CS-SW are not documented, representing a significant gap in planning visibility.\n2\n. Products\n& Artifacts\nReviewed\nDocument the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.\nThe list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.\nSow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26\n3. Strengths Observed\nDocument the most significant strengths identified during the\nassessment that\nincrease confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning\nmaturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.\nAssigning the development of this specific \"Full Launch Capability\" software to the FS-GNC team ensures that the subject matter experts for Guidance, Navigation, and Control are directly responsible for the software that implements those functions. This aligns expertise with responsibility.\n4. Concerns and Risks Observed\nDocument the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.\nConcerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.\nNot every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.\nDefinitions\nConcern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.\nRisk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.\nThe\nprovided documentation\ndoes not define the technical interfaces or data exchange requirements between the software developed by FS-GNC (WBS 1.16.04.16) and the larger software baseline managed by CS-SW (e.g., WBS 1.16.04.01).\nRisk: Undefined or poorly managed interfaces are a primary source of integration failures, which could lead to significant rework and schedule delays for the entire \"Full Launch Capability\" software release.\n5. Open Questions and Follow-Up Items\nDocument\nquestions that\nremain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.\nOpen Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.\nRequest a demonstration of how the FS-GNC software development schedule is aligned and integrated with the main CS-SW Integrated Master Schedule (IMS), including key dependency milestones for delivery, integration, and testing.\n6. Cross-\nProduct\n/Cross-Function\nIntegration Observations\nDocument observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.\nCross-Product\n/Cross-Function\nIntegration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product\n/cross-function\ninterfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.\nThe FS-GNC team acts as an organizational bridge, developing a software component that is part of the 1.16 Software WBS structure but is logically tied to the 1.02 Flight Systems segment where the GNC hardware and core algorithms are developed.\nThis is not just a technical integration of software modules; it is an organizational integration between two major program segments. It requires robust governance, clear communication channels, and tightly synchronized schedules to be successful. The current planning artifacts do not provide confidence that this level of integrated planning is mature\n."
+  }
+}

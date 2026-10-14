@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/NC3 Reviews/IIR2 WORKSHEET_1.16.06.08.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:47:33.326939+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-31",
+    "control_account": "1.16.06.08 | CS_SW 5.0_07 Ensure Interoperability with Higher Authority",
+    "owner": "Lt Col Ralston (ML)Troy Wynn (Lead Engineer)Capt David Noland (PCAM - Sentinel NC3 Integration Lead)Jill Phan (PM)Chi Ma (Engineer)",
+    "gov_personnel": [
+      {
+        "name": "Kenyon Orme",
+        "role": "Senior Principal Engineer"
+      },
+      {
+        "name": "Teresa Kendell",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Kenyon Orme",
+        "role": "Senior Principal Engineer"
+      },
+      {
+        "name": "Teresa Kendell",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "Baseline Mismatch: The title of this CA does not align with its technical references, WBS Dictionary description, or SOW references. The title makes it seem as if should be an NC3 item, but all other details say it shouldn’t be.",
+    "score_overall": -1,
+    "rationale": "Absence of Defined Deliverables: The Control Account (CA) completely fails to identify or explicitly define measurable, concrete deliverables.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "Insufficient Planning Detail: This Control Account (CA) lacks the necessary technical details, milestones, and logical relationships required to build a structured schedule."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "Inherent Integration Focus: The high-level activities described within this CA naturally align with and support cross-product and cross-functional integration.Vague Execution Details: Confidence is capped at Moderate because these integration pathways are not clearly defined or documented. While the intent is correct, the lack of explicit interfaces and milestones prevents the government from verifying how this integration will be executed."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025 Weapon Systems Specification (WSS), Rev K Statement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline) WBS WBS Dictionary"
+      }
+    ],
+    "products": "Sentinel Systems Engineering Plan (SEP), Rev 3, Sep 2025 Weapon Systems Specification (WSS), Rev K Statement of Work (SOW) for supporting TMRR and EMD, Rev 9 (outline) WBS WBS Dictionary",
+    "strengths": "Comprehensive Scope Coverage: The contractor's planning architecture is highly thorough; the current structure ensures that no program scope is omitted. The exhaustive volume of Control Accounts (CAs) guarantees that all contract requirements, program management activities, and risk reduction efforts are captured\n.",
+    "concerns": "Concern (Excessive CA Fragmentation & Ambiguity): The contractor's planning architecture relies on an unsustainably high volume of Control Accounts (CAs) with poorly defined, ambiguous boundaries. This lacks the crisp operational separation required for clean management.Risk (Erosion of Program Control & Resource Misalignment): Left unaddressed, this highly complex matrix will lead to duplicated efforts, misaligned team activities, and critical gaps in program execution. Structurally, it directly threatens the government’s ability to conduct accurate EV reporting, perform critical path analysis, and maintain effective program oversight.",
+    "questions": "N/A",
+    "integration": "Inherent Integration Focus: The high-level activities described within this CA naturally align with and support cross-product and cross-functional integration."
+  }
+}

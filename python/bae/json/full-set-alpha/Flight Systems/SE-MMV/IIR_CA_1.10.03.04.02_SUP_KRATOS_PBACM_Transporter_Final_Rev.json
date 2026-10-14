@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/SE-MMV/IIR_CA_1.10.03.04.02_SUP_KRATOS_PBACM_Transporter_Final_Rev.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:09:55.037067+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": [
+      "Missing expected header field: date",
+      "Missing expected header field: owner",
+      "No government personnel extracted.",
+      "No contractor personnel extracted.",
+      "Overall checkbox rating could not be determined. Inspect the .extracted.txt file and the Word checkbox type.",
+      "Checkbox rating not determined for: Scope and Deliverables Definition",
+      "Checkbox rating not determined for: Schedule Planning and IMS-Loading Readiness",
+      "Checkbox rating not determined for: Cross-Product/Cross-Function Integration"
+    ]
+  },
+  "data": {
+    "date": "",
+    "control_account": "Review Book\nControl Account:\n1.10.03.04.02 – SUP-KRATOS – PBACM Transporter\n1.0 Executive Summary\nPurpose\nThis control account governs the engineering, integration, and execution activities associated with the PBACM Transporter supplied through KRATOS. The transporter is a mission-critical support asset whose readiness directly affects deployment, handling, transportation, and operational availability.\nExecutive Assessment\nSuccessful execution depends on close coordination among the supplier, systems engineering, logistics, manufacturing, quality, and program management organizations. Management emphasis should be placed on supplier performance, interface control, technical compliance, and schedule integration.\nExecutive Dashboard\n• Scope Definition – Green\n• Supplier Integration – Yellow (validate subcontract performance)\n• Technical Execution – Green\n• Schedule Integration – Yellow (monitor supplier milestones)\n• EVMS Compliance – Yellow\n• Configuration Management – Green\n• Risk Management – Yellow\n• Overall Readiness – Green\n2.0 Program Context\nThe PBACM Transporter provides the transportation capability required to safely support movement and fielding of program assets. This control account integrates subcontractor performance with overall program objectives while ensuring contractual, technical, and logistics requirements remain aligned.\nPrimary objectives include supplier oversight, technical integration, configuration control, delivery management, and risk reduction.\n3.0 Control Account Overview\nVerified from the WBS\nThe WBS identifies this control account as SUP-KRATOS – PBACM Transporter, indicating responsibility for managing transporter-related activities performed by or with KRATOS.\nExpected deliverables include:\n• Supplier technical reviews\n• Transporter design documentation\n• Interface coordination\n• Delivery planning\n• Configuration management records\n• Acceptance documentation\n• Logistics support planning\nScope Assessment\nThe scope is centered on subcontract management and transporter integration rather than internal production activities. Performance should be measured using objective supplier and program milestones.\n4.0 WBS Decomposition Assessment\nObjective\nEvaluate whether transporter activities are decomposed into measurable work packages supporting supplier oversight, engineering integration, scheduling, and earned value reporting.\nRecommended Work Packages\n• Supplier Program Management\n• Transporter Engineering Integration\n• Interface Control\n• Supplier Design Reviews\n• Configuration Management\n• Qualification & Acceptance\n• Delivery & Logistics Coordination\n• Performance Reporting\nReviewer Assessment\nStrengths\n• Clearly defined supplier integration mission.\n• High visibility deliverables with measurable milestones.\n• Strong linkage between technical and logistics execution.\nPotential Concerns\n• Supplier schedule delays may affect program critical path.\n• Interface definition must remain under strict configuration control.\n• Technical changes require disciplined change management across organizations.\nReviewer Validation Required\n• Control Account Plan (CAP)\n• Supplier Statement of Work\n• Subcontract Management Plan\n• Integrated Master Schedule excerpts\n• Supplier Design Review Packages\n• Interface Control Documents (ICDs)\n• Configuration Status Accounting\n• Supplier Risk Register\n• Acceptance Test Procedures\n• Delivery Schedule\n• Basis of Estimate (BOE)\nPreliminary Readiness Assessment\nOverall WBS Health: Green\nSupplier Integration: Yellow (validate supplier performance metrics)\nConfiguration Control: Green\nSchedule Confidence: Yellow (confirm milestone realism)\nOverall Readiness: Green",
+    "owner": "",
+    "gov_personnel": [],
+    "ctr_personnel": [],
+    "leadership_messages": "",
+    "score_overall": null,
+    "rationale": "",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": null,
+        "text": ""
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": null,
+        "text": ""
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": null,
+        "text": ""
+      }
+    ],
+    "products": "",
+    "strengths": "Clearly defined supplier integration mission. High visibility deliverables with measurable milestones. Strong linkage between technical and logistics execution.",
+    "concerns": "Supplier schedule delays may affect program critical path. Interface definition must remain under strict configuration control. Technical changes require disciplined change management across organizations.",
+    "questions": "",
+    "integration": ""
+  }
+}

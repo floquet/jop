@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXA/1.02.09.03.07_FS PBACM AJRD Supplier Mgmt.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:49:34.707815+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-06",
+    "control_account": "1.02.09.03.07_FS PBACM AJRD Supplier Mgmt",
+    "owner": "Post-Boot Branch - NIXA",
+    "gov_personnel": [
+      {
+        "name": "Sofia Fouquet, Shane Wright, Bailey Bradford, Lt Boris Hutchinson",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Caleb Swartz",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "USG acknowledges that NGC has not yet received Supplier Schedule information. USG will rate confidence levels based on available information with the understanding that a more robust review will occur once the supplier data has been delivered. The lack of Supplier data, combined with the lack of presentable draft data contributes to a low confidence rating at this time.",
+    "score_overall": -1,
+    "rationale": "USG acknowledges that NGC has not yet received Supplier Schedule information. USG will rate confidence levels based on available information with the understanding that a more robust review will occur once the supplier data has been delivered. The lack of Supplier data, combined with the lack of presentable draft data contributes to a low confidence rating at this time.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "Me"
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "NGC has not yet received Supplier Schedule information. USG will rate confidence levels based on available information with the understanding that a more robust review will occur once the supplier data has been delivered."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "June 15 P6 WBS deliveryWBS Dictionary 7-13-2026 Sentinel EMD WBS Dictionary.xlsxNG RAM NG RAM_7222026.xlsxNG WBS NG WBS_7222026.xlsxPBACM P6 Export_20260804.xlsx"
+      }
+    ],
+    "products": "June 15 P6 WBS deliveryWBS Dictionary 7-13-2026 Sentinel EMD WBS Dictionary.xlsxNG RAM NG RAM_7222026.xlsxNG WBS NG WBS_7222026.xlsxPBACM P6 Export_20260804.xlsx",
+    "strengths": "N/A",
+    "concerns": "USG acknowledges NGC is awaiting schedule information from the Supplier. The lack of Supplier data, combined with the lack of presentable draft data contributes to a low confidence rating at this time.",
+    "questions": "USG looks forward to receiving the Supplier Schedule data.",
+    "integration": "N/A"
+  }
+}

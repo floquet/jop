@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "source_file": "Command Systems\\Launch Execution\\Launch Control Reviews\\1.04.01.01.08 SUP-Collins Non-PMB Work Packages.docx",
+    "prompt_version": "1.0",
+    "template_version": "1.0",
+    "extraction_timestamp": "2026-09-24T01:28:32.713981",
+    "model": "qwen3vl-8b-instruct.gguf",
+    "pages_processed": 5,
+    "inference_time_sec": 1185.28
+  },
+  "data": {
+    "date": "2026-07-29",
+    "control_account": "1.04.01.01.08",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jason Noah",
+        "role": "PM"
+      },
+      {
+        "name": "Lt. Col. Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Dr. Troy Wynn",
+        "role": "Lead Engineer"
+      }
+    ],
+    "ctr_personnel": [],
+    "leadership_messages": "1. The scope for WBS 1.04.01.01.08, identified as \"SUP COLLINS Non PMB Work Packages,\" is not clearly defined in the provided documentation, which presents a risk to effective oversight and integration.\n2. The element is designated as a \"Non-PMB Work Package,\" indicating it is outside the Performance Measurement Baseline. This requires clear justification and a defined management approach to ensure visibility and control.\n3. A significant concern exists regarding cross-functional integration, as the nature of \"Non-PMB\" work can lead to a lack of detailed planning and coordination with other integrated product teams, potentially impacting the overall program schedule and performance.",
+    "score_overall": -1,
+    "rationale": "The lack of detailed scope definition and the \"Non-PMB\" designation for this work package led to low confidence. Without a clear understanding of the work, it's impossible to assess schedule readiness or cross-functional integration effectively. The potential for unmanaged and untracked work presents a significant risk to the program.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": -1,
+        "text": "The title \"SUP COLLINS Non PMB Work Packages\" is the only description of the scope. No specific deliverables, boundaries, or completion criteria are defined in the provided WBS Dictionary or other documents."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "There is no evidence of schedule planning, task definition, or duration basis for this WBS element. As a \"Non-PMB\" item, it is likely not intended for IMS loading, which is a concern for program visibility."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "The lack of scope definition makes it impossible to identify interfaces, dependencies, or necessary coordination with other teams. This presents a high risk of integration issues and unforeseen impacts on other parts of the program."
+      }
+    ],
+    "products": "Sow Rev. 9.0\nNG Command Systems Control Account Rollup/COBRA Exports 31JUL26\nWBS Dictionary 24JUL26\nIMP Rev. B\nNG RAM 05AUG26",
+    "strengths": "Labeling the element as \"Non-PMB\" prevents accidental commingling of non-baseline work with Performance Measurement Baseline, ensuring EVMS metrics do not get distorted.",
+    "concerns": "Concern 1: The scope of work for WBS 1.04.01.01.08 is undefined beyond its title, \"SUP COLLINS Non PMB Work Packages.\" Concern 2: The designation \"Non-PMB\" suggests this work is outside the formal planning and control system of the program's EVMS.",
+    "questions": "Question 1: What specific tasks and deliverables are included in \"SUP COLLINS Non PMB Work Packages\"? Question 2: What is the justification for this work being outside the Performance Measurement Baseline?",
+    "integration": "No cross-product or cross-functional integration points have been identified for WBS 1.04.01.01.08 due to the lack of scope definition. This is a significant finding that indicates a high risk of future integration issues. The nature of this work being \"Non-PMB\" exacerbates this risk, as it is likely not being discussed in integrated planning sessions. It is critical to understand what this work entails to determine its impact on and dependencies with other product teams."
+  }
+}

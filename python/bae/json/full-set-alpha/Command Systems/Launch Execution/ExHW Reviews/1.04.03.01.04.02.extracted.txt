@@ -1,0 +1,202 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+SOW Rev 9.0
+NG Command Systems Control Account Rollup/COBRA Exports 31 July 2026
+WBS Dictionary 24 July 2026
+IMP Rev B
+NG RAM 16 July 2026
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/30/2026
+Control Account
+:
+1.04.03.01.04.02 - CS_HW Launch Ex Subsystem Production Manufacturing
+Product Elemen
+t Owner Designation
+:
+Command Systems Segment
+Government Participants:
+LtCol Kelly Ralston (ML)
+Troy Wynn (Lead Engineer)
+Contractor Participants:
+Ryan Kohler
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+1
+. This includes all efforts related to the fabrication, assembly, inspection, and acceptance testing of the hardware components defined by the approved design documentation.
+2.
+No visibility into production rates, task durations, resource loading, or supply chain dependencies
+3
+. Furthermore, the lack of formal handoff documentation (e.g., criteria for accepting a "build-to" package from design) introduces a significant risk of starting production with an immature design
+3.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The schedule loading readiness and integration assessments is Moderate based on the artifacts review
+ed
+for this CA. There is moderate confidence in scope and logical hierarchy to requirements with vertical traceability, though detailed execution artifacts are still pending for a strong confidence rating.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The WBS Dictionary provides a clear scope for this production and manufacturing task.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+This manufacturing effort is correctly placed after the Increment 1 C&L Segment CDR (DC1.01.04), and its deliverables are a direct prerequisite for the Increment 1 C&L Segment PCA/Asset Ownership Transfer
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+It is functionally dependent on the Design Engineering team to provide complete and accurate "build-to" packages. It, in turn, provides the finished hardware to the Integration & Test (I&T) team (WBS 1.04.03.01.04.01) and the Quality Assurance team for verification. The IMP confirms this flow at a high level, but the execution-level handoff criteria are undefined.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+SOW Rev 9.0
+NG Command Systems Control Account Rollup/COBRA Exports 31 July 2026
+WBS Dictionary 24 July 2026
+IMP Rev B
+NG RAM 16 July 2026
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Without visibility into the assumptions for production rates and durations, there is a risk of inefficient resource planning, schedule delays, and an inability to accurately forecast delivery dates for the Launch Ex hardware.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+Are there hard-linked IMS dependencies between the delivery of these manufactured assets and the start of I&T activities (WBS 1.04.03.01.04.01)?
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+The items produced by this WBS
+/CA
+are individual products that must be integrated into a larger system. This manufacturing WBS must be aligned with the schedules for all other interfacing hardware products to ensure a complete subsystem can be delivered to I&T. While the IMP provides the overall program flow, a detailed IMS is needed to verify that the production schedules for all related components are properly synchronized.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/30/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='1.04.03.01.04.02 - CS_HW Launch Ex Subsystem Production Manufacturing'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Command Systems Segment'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='LtCol Kelly Ralston (ML)Troy Wynn (Lead Engineer)'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Ryan Kohler'
+[05] PLAIN_TEXT checked=None alias='' tag='' text='1. This includes all efforts related to the fabrication, assembly, inspection, and acceptance testing of the hardware components defined by the approved design documentation.2.No visibility into production rates, task durations, resource loading, or supply chain dependencies3. Furthermore, the lack of formal handoff documentation (e.g., criteria for accepting a "build-to" package from design) introduces a significant risk of starting production with an immature design3.'
+[06] CHECKBOX checked=False alias='' tag='' text='☐'
+[07] CHECKBOX checked=True alias='' tag='' text='☒'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='The schedule loading readiness and integration assessments is Moderate based on the artifacts reviewed for this CA. There is moderate confidence in scope and logical hierarchy to requirements with vertical traceability, though detailed execution artifacts are still pending for a strong confidence rating.'
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The WBS Dictionary provides a clear scope for this production and manufacturing task.'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=True alias='' tag='' text='☒'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] PLAIN_TEXT checked=None alias='' tag='' text='This manufacturing effort is correctly placed after the Increment 1 C&L Segment CDR (DC1.01.04), and its deliverables are a direct prerequisite for the Increment 1 C&L Segment PCA/Asset Ownership Transfer'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=True alias='' tag='' text='☒'
+[20] CHECKBOX checked=False alias='' tag='' text='☐'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='It is functionally dependent on the Design Engineering team to provide complete and accurate "build-to" packages. It, in turn, provides the finished hardware to the Integration & Test (I&T) team (WBS 1.04.03.01.04.01) and the Quality Assurance team for verification. The IMP confirms this flow at a high level, but the execution-level handoff criteria are undefined.'
+[22] PLAIN_TEXT checked=None alias='' tag='' text=''
+[23] PLAIN_TEXT checked=None alias='' tag='' text='Without visibility into the assumptions for production rates and durations, there is a risk of inefficient resource planning, schedule delays, and an inability to accurately forecast delivery dates for the Launch Ex hardware.'
+[24] PLAIN_TEXT checked=None alias='' tag='' text='Are there hard-linked IMS dependencies between the delivery of these manufactured assets and the start of I&T activities (WBS 1.04.03.01.04.01)?'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='The items produced by this WBS/CA are individual products that must be integrated into a larger system. This manufacturing WBS must be aligned with the schedules for all other interfacing hardware products to ensure a complete subsystem can be delivered to I&T. While the IMP provides the overall program flow, a detailed IMS is needed to verify that the production schedules for all related components are properly synchronized.'

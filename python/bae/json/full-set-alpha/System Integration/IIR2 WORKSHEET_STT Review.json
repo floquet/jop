@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "System Integration/IIR2 WORKSHEET_STT Review.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:40:03.522857+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-03",
+    "control_account": "STT Control Accounts",
+    "owner": "Sentinel Test & Evaluation - NIXT",
+    "gov_personnel": [
+      {
+        "name": "Bridget Romney, Jeff Dinich, Madison Roy",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "John Datka, Alicia Marcus, Kelly Gomez, Craig Broome, Neil Sheffield, Kurt Brunken, Victor Gomez",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "G/R identification not complete.2. Training for these IIRs should be advertised more so review personnel can be trained before conducting the review. 3. Learn about review deadline ~ week out and so that was not enough time to review the IMS in depth to determine things like duration justifications, handoffs within NG and with the government.",
+    "score_overall": 0,
+    "rationale": "Schedule has good foundation, need to conduct more reviews to dig more into the details.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent planning. Areas lacking are the CBWS and CWBS dictionary, supplier scope boundaries and integration with other teams in the program. Some integration points are identified but not linked/coordinated with other teams. Coordination responsibilities are not clear based on what we saw in P6."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "There was not enough time to determine the rationale for the duration estimates, determine if all handoffs were included for the detail planned timeframe. No USG handoffs in schedule yet."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "Some integration activities are identified, however there was not enough time to tell if all are identified within the detail planning timeframe (~16 months)."
+      }
+    ],
+    "products": "We walked through the control accounts at a high level, some WBS, P6 schedules at a high level where we could see some detailed tasks, work packages, and planning packages.",
+    "strengths": "Schedule is\nmore in depth than previous schedule reviews, good structure for\nfuture scope to build further\non\n.",
+    "concerns": "Concern: cyber survivability is working off of use cases in lieu of requirements. Concern: We feel handoffs were not sufficiently discussed. 2 were viewed and we learned there is still work to go to link the work with other product teams, suppliers, and the government. Concern: Some work was detail planned until FT-10. With FT-10 being years away, we feel there is low confidence in the schedule. Unable to assess if duration estimates were justified- did not have enough time. Concern: SVTs for supplier are only included in the schedule when the item is over 100K and/or it is on the critical path for the schedule.",
+    "questions": "Would like to see the CWBS and CWBS dictionary, control account scope definition, Follow up items: handoffs build out further in next review, incorporate USG handoffs",
+    "integration": "See comments from above."
+  }
+}

@@ -1,0 +1,202 @@
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product elements. Before completing this worksheet, reviewers should read Section 9 – Completing the IIR #2 IPT Assessment Worksheet, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+Control Account:
+Product Element Owner Designation:
+Government Participants:
+Contractor Participants:
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating Rationale
+Next, record the confidence rating for each assessment area using the applicable Confidence Rating Criteria from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the Government’s judgment. The purpose is not to document every observation, but to clearly explain why the Government reviewers concluded that the assessment area warranted a Strong, Moderate, or Low confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness Confidence Rating (Select One)
+Strong: ☐Moderate: ☒Low: ☐
+The contractor clearly articulates that this LOE scope will be represented in the IMS via milestones and handoffs, which is an appropriate and mature approach for this type of effort. The detailed "Tentative BOE Development Schedule," with its multi-phased review cycle (Pink, Red, Gold, White), demonstrates a disciplined process for maturing planning outputs for IMS loading. Moderate rating given due to schedule mismatch. Otherwise, a strong rating would be awarded.
+Assessment Area 3 – Cross-Product/Cross-Function Integration Confidence Rating (Select One)
+Strong: ☒Moderate: ☐Low: ☐
+2. Products & Artifacts Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved. Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+6. Cross-Product/Cross-Function Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product/Cross-Function Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product/cross-function interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+
+--- SECONDARY WORD XML TEXT ---
+Appendix C - IIR #2 Assessment Worksheet
+Reviewer Instructions
+This worksheet is intended to document the Government's assessment results for product element
+s
+. Before completing this worksheet, reviewers should read
+Section 9 – Completing the IIR #2 IPT Assessment Worksheet
+, which provides detailed instructions for completing each section, applying the Confidence Rating Criteria, and documenting evidence-based observations and conclusions.
+Date:
+7/30/2026
+Control Account
+:
+NSSE
+Product Elemen
+t Owner Designation
+:
+Reentry Systems Branch - NIXV
+Government Participants:
+Jason Poll
+Contractor Participants:
+Derrick Avery
+1. Leadership Summary & Confidence Ratings
+Top Three Messages for Leadership
+If leadership only remembers three things from this assessment, what should they be?
+Supplier Oversight Plan is Well-Defined: The planning architecture for Level-of-Effort (LOE) supplier oversight is clear and mature. The use of historical Sentinel data for the Basis of Estimate (BOE) provides a credible foundation for cost planning.
+Strong Integration Framework: The contractor demonstrates a robust and effective approach to integration using a Giver/Receiver (G/R) model to manage handoffs with suppliers (Lockheed Martin and NG ATSS), which provides high confidence in cross-functional visibility.
+Execution Depends on Supplier Maturation: The plan transparently identifies that supplier-detailed task networks are still stabilizing. While the contractor's oversight plan is strong, its success is dependent on the timely finalization of supplier baselines.
+Risk in s
+chedule
+based on 17 and 5 month gap between PRSTS and PRS SIM.
+Confidence Ratings
+Overall Confidence Rating (Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The Overall Confidence Rating represents the Government's professional judgment of the contractor's current planning maturity and readiness based on the evidence reviewed during IIR #2. It reflects the Government's point-in-time assessment of the contractor's planning architecture and its readiness to continue progressing toward Integrated Master Schedule (IMS) loading, Performance Measurement Baseline (PMB) implementation, and subsequent IIR activities.
+Importantly, this rating is not a determination that the IMS or PMB is fully mature, executable, or ready for approval. Instead, it reflects the Government's current confidence that the contractor has established a sufficiently mature planning foundation to support continued planning, integration, and progressive maturation toward Milestone B.
+Overall Confidence Rating
+Rationale
+The presentation provides a high degree of confidence in the planning maturity for this Control Account. The scope is clearly defined, the estimation methodology is sound and based on historical actuals, and the approach to integration is structured and proactive. The contractor openly identifies dependencies on supplier re-planning efforts and has a clear engagement plan to manage them. This demonstrates a mature planning foundation ready to support PMB implementation.
+Next, record
+the confidence rating for each assessment area using the applicable
+Confidence Rating Criteria
+from the IIR #2 Assessment Guide. For each assessment area, provide a brief rationale explaining the basis for the assigned rating. The rationale should summarize the key evidence, observations, strengths, concerns, and uncertainties that most influenced the
+Government’s
+judgment. The purpose is not to document every observation, but to clearly explain why the
+Government reviewers
+concluded that the assessment area warranted a
+Strong, Moderate, or Low
+confidence rating. The rationale should focus on the most significant factors influencing the rating rather than attempting to summarize every discussion, planning artifact, or piece of evidence reviewed.
+Assessment Area 1 – Scope and Deliverables Definition
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+The presentation clearly and concisely defines the remaining scope as Level-of-Effort (LOE) supplier oversight for the NSSE and SPCTR products. The "LOE BOE Approach" slide demonstrates a logical method for quantifying and organizing this work based on historical program data, ensuring the scope is well-understood and traceable.
+Assessment Area 2 – Schedule Planning and IMS-Loading Readiness
+Confidence Rating
+(Select One)
+Strong:
+☐
+Moderate:
+☒
+Low:
+☐
+The contractor clearly articulates that this LOE scope will be represented in the IMS via milestones and handoffs, which is an appropriate and mature approach for this type of effort. The detailed "Tentative BOE Development Schedule," with its multi-phased review cycle (Pink, Red, Gold
+, White
+), demonstrates a disciplined process for maturing planning outputs for IMS loading.
+Moderate rating given due to schedule mismatch. Otherwise, a strong rating would be awarded.
+Assessment Area 3 – Cross-Product
+/Cross-Function
+Integration
+Confidence Rating
+(Select One)
+Strong:
+☒
+Moderate:
+☐
+Low:
+☐
+This is a significant strength. The "G/R Structure" slide provides clear evidence of a formal process for mapping supplier handoffs to key program events (e.g., CDRs, flight tests). This, combined with the "Near-Term Supplier Engagement Plan," shows a proactive and effective approach to ensuring supplier activities are visible and integrated with the prime contractor's schedule.
+2
+. Products
+& Artifacts
+Reviewed
+Document the planning artifacts, technical products, and supporting documentation reviewed by the IPT to support its assessment and confidence determinations.
+The list should identify the primary sources of evidence used during the assessment and demonstrate that conclusions were based on documented information, supplemented by discussions with contractor counterparts as appropriate. When available, include the applicable revision, version, or date of each artifact reviewed.
+IIR_2_NSSE_SPCTR.pptx dated 30 Jul 2026
+3. Strengths Observed
+Document the most significant strengths identified during the assessment that increase confidence in the contractor's planning maturity and readiness. Strengths should be supported by objective evidence and highlight effective planning practices, planning artifacts, integration activities, or management disciplines that demonstrate a well-developed planning architecture and increase confidence in the contractor's planning maturity and readiness to support future Integrated Master Schedule (IMS) development, Performance Measurement Baseline (PMB) implementation, and program execution.
+Mature Giver/Receiver (G/R) Model: The use of G/R inventories to formally map supplier handoffs to specific prime contract milestones provides a structured and traceable foundation for integration. It ensures that dependencies are visible and managed, increasing confidence that work will flow smoothly across organizational boundaries.
+Data-Driven Estimation Approach: The Basis of Estimate (BOE) is built on historical actuals from the Sentinel program. This data-driven approach provides a credible and defensible basis for the LOE estimates and reduces subjectivity in the planning process.
+Transparent Communication of Maturity: The presentation is forthright about what is still maturing, specifically the detailed internal tasking from suppliers (LM and ATSS). This transparency allows for a clear-eyed view of dependencies and demonstrates confidence in the overall management approach.
+4. Concerns and Risks Observed
+Document the most significant concerns identified during the assessment and any associated risks that could reduce confidence in the contractor's planning maturity and readiness or adversely affect future planning, integration, or program execution if not addressed.
+Concerns should be supported by objective evidence and identify observed weaknesses, gaps, inconsistencies, or uncertainties that warrant additional management attention. Risks should describe the potential consequences if those concerns remain unresolved.
+Not every concern creates a program risk, and not every identified risk is currently affecting program execution. The purpose of this section is to identify issues that warrant Government visibility, follow-up, or corrective action as planning continues to mature.
+Definitions
+Concern: An observed weakness, gap, inconsistency, or uncertainty that may reduce confidence in the contractor's planning maturity and readiness.
+Risk: A potential future consequence that could adversely affect planning, cost, schedule, technical performance, integration, PMB implementation, or program execution if a concern is not addressed.
+Concern 1: The successful execution of the contractor's oversight plan is wholly dependent on the timely completion of the suppliers' (LM and ATSS) internal re-planning and re-baselining activities.
+Risk: If the suppliers' final cost and schedule baselines are delayed or significantly different than currently assumed, it could require re-work of the contractor's BOEs and impact the PMB establishment timeline. (Mitigation: The contractor has identified this and scheduled a series of near-term reviews with suppliers to manage this risk).
+Concern 2: The presentation does not detail how potential design rework, driven by evolving cybersecurity requirements, will be factored into the suppliers' schedules and budgets.
+Risk: If unforeseen cybersecurity mandates force significant design rework at the supplier level, the resulting schedule delays and budget impacts may not be accounted for in the current oversight plan. This could cause disruptions to the integrated schedule and lead to cost overruns that are not identified until after the baseline is set.
+Concern 3: The plan for supplier oversight does not explicitly mention how the stringent requirements for Nuclear Certification are being flowed down to, and validated with, suppliers.
+Risk: Failure to proactively manage and verify nuclear certification compliance within the supply chain could introduce significant programmatic risk. While the immediate impact on production schedules may be minimal, it could jeopardize critical, long-lead certification milestones later in the program and necessitate substantial, unfunded rework.
+5. Open Questions and Follow-Up Items
+Document questions that remain unanswered during the assessment and identify the additional evidence, clarification, documentation, or demonstrations needed from the contractor to complete the evaluation or increase confidence in the assessment findings.
+Open Questions and Follow-Up Items identify areas where the available evidence was incomplete, unclear, or inconsistent. These items represent information gaps that should be resolved through additional discussions, demonstrations, or artifact reviews before the Government can fully assess the contractor's planning maturity and readiness. They are not, by themselves, concerns, deficiencies, or risks.
+While the G/R structure is well-defined, how will changes to supplier handoff dates or content be managed and communicated post-baseline to ensure alignment with the prime IMS?
+Follow-Up Item: Provide a walkthrough of the change control process as it applies to G/R agreements with suppliers once they are baselined.
+6. Cross-
+Product
+/Cross-Function
+Integration Observations
+Document observations regarding the extent to which the assessed product element is integrated with other product elements and Government assessment areas, including the identification, coordination, and management of technical, planning, schedule, and deliverable interfaces necessary to support planning maturity and program execution.
+Cross-Product
+/Cross-Function
+Integration Observations should summarize how effectively the contractor has identified, coordinated, and incorporated cross-product
+/cross-function
+interfaces, dependencies, and integration activities into its planning architecture. Observations should be supported by objective evidence and reflect the maturity of cross-functional planning, the visibility of interdependencies, and the Government's confidence that the assigned product element can be successfully integrated into the overall program.
+Integration with suppliers is explicitly and effectively addressed. The presentation demonstrates that handoffs (G/R) are not just identified but are tied to specific, measurable system events and milestones like CDR, FCA, and flight tests. This ensures that the supplier schedules are directly linked to the Prime CEAC timeline.
+The "Near-Term Supplier Engagement Plan" serves as objective evidence of proactive integration. By scheduling reviews with both Lockheed Martin and NG ATSS to validate BOEs and align schedules before CEAC artifact submission, the contractor is actively synchronizing cross-functional planning.
+The overall integration strategy is mature. By focusing the LOE oversight on key milestones and handoffs, the contractor shows an efficient and effective method for integrating external supplier workstreams without becoming entangled in their day-to-day internal tasking, which is appropriate for this scope.
+
+--- STRUCTURED CONTENT CONTROLS ---
+[00] DATE checked=None alias='Date' tag='Date' text='7/30/2026'
+[01] PLAIN_TEXT checked=None alias='' tag='' text='NSSE'
+[02] DROPDOWN checked=None alias='Product' tag='Product' text='Reentry Systems Branch - NIXV'
+[03] PLAIN_TEXT checked=None alias='' tag='' text='Jason Poll'
+[04] PLAIN_TEXT checked=None alias='' tag='' text='Derrick Avery'
+[05] PLAIN_TEXT checked=None alias='' tag='' text="Supplier Oversight Plan is Well-Defined: The planning architecture for Level-of-Effort (LOE) supplier oversight is clear and mature. The use of historical Sentinel data for the Basis of Estimate (BOE) provides a credible foundation for cost planning.Strong Integration Framework: The contractor demonstrates a robust and effective approach to integration using a Giver/Receiver (G/R) model to manage handoffs with suppliers (Lockheed Martin and NG ATSS), which provides high confidence in cross-functional visibility.Execution Depends on Supplier Maturation: The plan transparently identifies that supplier-detailed task networks are still stabilizing. While the contractor's oversight plan is strong, its success is dependent on the timely finalization of supplier baselines. Risk in schedule based on 17 and 5 month gap between PRSTS and PRS SIM."
+[06] CHECKBOX checked=True alias='' tag='' text='☒'
+[07] CHECKBOX checked=False alias='' tag='' text='☐'
+[08] CHECKBOX checked=False alias='' tag='' text='☐'
+[09] PLAIN_TEXT checked=None alias='' tag='' text='The presentation provides a high degree of confidence in the planning maturity for this Control Account. The scope is clearly defined, the estimation methodology is sound and based on historical actuals, and the approach to integration is structured and proactive. The contractor openly identifies dependencies on supplier re-planning efforts and has a clear engagement plan to manage them. This demonstrates a mature planning foundation ready to support PMB implementation.'
+[10] CHECKBOX checked=True alias='' tag='' text='☒'
+[11] CHECKBOX checked=False alias='' tag='' text='☐'
+[12] CHECKBOX checked=False alias='' tag='' text='☐'
+[13] PLAIN_TEXT checked=None alias='' tag='' text='The presentation clearly and concisely defines the remaining scope as Level-of-Effort (LOE) supplier oversight for the NSSE and SPCTR products. The "LOE BOE Approach" slide demonstrates a logical method for quantifying and organizing this work based on historical program data, ensuring the scope is well-understood and traceable.'
+[14] CHECKBOX checked=False alias='' tag='' text='☐'
+[15] CHECKBOX checked=True alias='' tag='' text='☒'
+[16] CHECKBOX checked=False alias='' tag='' text='☐'
+[17] CHECKBOX checked=True alias='' tag='' text='☒'
+[18] CHECKBOX checked=False alias='' tag='' text='☐'
+[19] CHECKBOX checked=False alias='' tag='' text='☐'
+[20] PLAIN_TEXT checked=None alias='' tag='' text='This is a significant strength. The "G/R Structure" slide provides clear evidence of a formal process for mapping supplier handoffs to key program events (e.g., CDRs, flight tests). This, combined with the "Near-Term Supplier Engagement Plan," shows a proactive and effective approach to ensuring supplier activities are visible and integrated with the prime contractor\'s schedule.'
+[21] PLAIN_TEXT checked=None alias='' tag='' text='IIR_2_NSSE_SPCTR.pptx dated 30 Jul 2026'
+[22] PLAIN_TEXT checked=None alias='' tag='' text='Mature Giver/Receiver (G/R) Model: The use of G/R inventories to formally map supplier handoffs to specific prime contract milestones provides a structured and traceable foundation for integration. It ensures that dependencies are visible and managed, increasing confidence that work will flow smoothly across organizational boundaries. Data-Driven Estimation Approach: The Basis of Estimate (BOE) is built on historical actuals from the Sentinel program. This data-driven approach provides a credible and defensible basis for the LOE estimates and reduces subjectivity in the planning process.Transparent Communication of Maturity: The presentation is forthright about what is still maturing, specifically the detailed internal tasking from suppliers (LM and ATSS). This transparency allows for a clear-eyed view of dependencies and demonstrates confidence in the overall management approach.'
+[23] PLAIN_TEXT checked=None alias='' tag='' text="Concern 1: The successful execution of the contractor's oversight plan is wholly dependent on the timely completion of the suppliers' (LM and ATSS) internal re-planning and re-baselining activities. Risk: If the suppliers' final cost and schedule baselines are delayed or significantly different than currently assumed, it could require re-work of the contractor's BOEs and impact the PMB establishment timeline. (Mitigation: The contractor has identified this and scheduled a series of near-term reviews with suppliers to manage this risk).Concern 2: The presentation does not detail how potential design rework, driven by evolving cybersecurity requirements, will be factored into the suppliers' schedules and budgets. Risk: If unforeseen cybersecurity mandates force significant design rework at the supplier level, the resulting schedule delays and budget impacts may not be accounted for in the current oversight plan. This could cause disruptions to the integrated schedule and lead to cost overruns that are not identified until after the baseline is set.Concern 3: The plan for supplier oversight does not explicitly mention how the stringent requirements for Nuclear Certification are being flowed down to, and validated with, suppliers. Risk: Failure to proactively manage and verify nuclear certification compliance within the supply chain could introduce significant programmatic risk. While the immediate impact on production schedules may be minimal, it could jeopardize critical, long-lead certification milestones later in the program and necessitate substantial, unfunded rework."
+[24] PLAIN_TEXT checked=None alias='' tag='' text='While the G/R structure is well-defined, how will changes to supplier handoff dates or content be managed and communicated post-baseline to ensure alignment with the prime IMS?Follow-Up Item: Provide a walkthrough of the change control process as it applies to G/R agreements with suppliers once they are baselined.'
+[25] PLAIN_TEXT checked=None alias='' tag='' text='Integration with suppliers is explicitly and effectively addressed. The presentation demonstrates that handoffs (G/R) are not just identified but are tied to specific, measurable system events and milestones like CDR, FCA, and flight tests. This ensures that the supplier schedules are directly linked to the Prime CEAC timeline.The "Near-Term Supplier Engagement Plan" serves as objective evidence of proactive integration. By scheduling reviews with both Lockheed Martin and NG ATSS to validate BOEs and align schedules before CEAC artifact submission, the contractor is actively synchronizing cross-functional planning.The overall integration strategy is mature. By focusing the LOE oversight on key milestones and handoffs, the contractor shows an efficient and effective method for integrating external supplier workstreams without becoming entangled in their day-to-day internal tasking, which is appropriate for this scope.'

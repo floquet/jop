@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Launch Execution/Mission Planning_Targeting Reviews/IIR2 WORKSHEET_1.16.05.18.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-09-30T22:34:10.792840+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-05",
+    "control_account": "1.16.05.18",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Lt Col Kelly Ralston",
+        "role": "ML"
+      },
+      {
+        "name": "Troy Wynn",
+        "role": "Lead Engineer"
+      },
+      {
+        "name": "Kevin Sessions",
+        "role": "PM"
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Pete Richard",
+        "role": "PM"
+      }
+    ],
+    "leadership_messages": "1. Critical Strategic Scope Defined but Structurally Mismapped: Control Account 1.16.05.18 (CS_SW IFC 4.0_Generate Target_STOS) represents the core target generation software module for Strategic Operations (STOS) within the IFC 4.0 release. Though functionally defined, its WBS code places it in the wrong parent capability branch.2. Follows the Systemic WBS Coding Shift Pattern (+1): This control account exhibits the exact same systemic +1 WBS coding shift identified throughout the database, countdown, and targeting sub-suites (such as WBS .21 through .28). It resides under WBS prefix 1.16.05 (reserved in the proposed WBS for Increment 1 Capability / IFC 5.0) rather than mapping to 1.16.4 (IFC 4.0 / Full Launch Capability).3. Strategic Operational Risk with External Mission Planning Networks: STOS target generation represents the key operational bridge between joint strategic planning inputs (STRATCOM) and the tactical weapon system. Disrupted WBS coding hinders automated EVMS and scheduling integration with external mission planning hardware nodes.",
+    "score_overall": 0,
+    "rationale": "The Government has assigned a Moderate confidence rating. The functional software planning is mature: the STOS-specific targeting generation scope is clearly bounded, and ownership is held by a specialized targeting CAM (Tyrone Jackson). However, the systemic WBS index shift remains unresolved. Placing a critical strategic command and targeting software module for IFC 4.0 under the IFC 5.0 WBS branch breaks EVMS cost-schedule automated alignment, posing a significant risk to the integrity of future CSDR and IPMDAR compliance reports.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "The internal software scope for STOS-level target generation execution is well-defined. However, because it is coded under WBS 1.16.05, it cannot be traceably mapped to the government's defined parent WBS element 1.16.4 (Full Launch Capability). The contractor must correct this structural mapping before the baseline is established."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The software work packages are technically sequence-ready. However, loading this control account into the IMS with the current code 1.16.05.18 will create immediate conflicts with the proposed WBS structure, necessitating manual, error-prone adjustments during automated schedule status updates."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Cross-product integration is rated Low. The STOS Target Generation software must coordinate closely with external mission planning networks and downstream database nodes. The WBS coding shift prevents the scheduling and financial software from linking software veto maturity with physical Strategic Operations (STOS) Node Integration (WBS 1.4.2.8.3) or Wing-Wide activating schedules (WBS 1.12.2.1)."
+      }
+    ],
+    "products": "Northrop Grumman Responsibility Assignment Matrix, Government Proposed WBS (CSDR WBS - WAS_IS 2 Apr 2026.xlsx), Proposed CSDR WBS Dictionary, Sentinel Statement of Work Revision 9.0",
+    "strengths": "Strength 1 (Consolidated Target Domain CAM): Tyrone Jackson owns the complete targeting execution, database, and safety revocation chain (including Silo Target .23, Control Node Target .24, Wing-Wide Target .25, and STOS Target Generator .18). This single-point accountability minimizes communication friction and ensures technical consistency across all dynamic targeting and planning schemas.\nStrength 2 (Logical Modular Boundaries): Bounding STOS-specific targeting generation in its own account isolates strategic-level mission planning inputs from tactical, launch-silo execution paths, aligning with standard system safety and modular partitioning practices (e.g., RTCA DO-178C).",
+    "concerns": "Concern 1 (Systemic WBS Coding Shift):The contractor has coded this IFC 4.0 strategic command account under WBS 1.16.05.18. The proposed CSDR WBS reserves 1.16.5 for IFC 5.0. All IFC 4.0 tasks must reside under WBS 1.16.4 (Full Launch Capability).Risk 1:This structural coding mismatch breaks program-level cost collection, resulting in the incorrect consolidation of IFC 4.0 strategic target generation development costs under the IFC 5.0 budget.Concern 2 (Dynamic Inter-Segment and Agency Interface Risks):The STOS-level targeting generation module must dynamically ingest mission planning parameters from external strategic joint defense networks.Risk 2:Because the software WBS is structurally desynchronized, delays or API formatting updates on the physical STOS node interfaces (WBS 1.4.2.8.1/1.4.2.8.2) may not automatically flag critical-path impacts on this software account, increasing the risk of dynamic integration failures during formal HWIL test campaigns.",
+    "questions": "Question 1: What specific data schemas, data transaction boundaries, and encryption formats are defined between the STOS target generator (.18) and the downstream Control Node Database (.24)?Follow-Up 1: Contractor to provide the system/subsystem design description (SSDD) and Interface Requirements Specifications (IRSs) detailing the STOS-to-Control Node data transmission protocols.Question 2: Will the contractor present a unified correction plan to shift the entire 1.16.05.xx IFC 4.0 series back to 1.16.04 (to map to 1.16.4)?Follow-Up 2: Contractor to submit a corrected RAM showing government-aligned software mappings before PMB baseline locking.",
+    "integration": "Observation 1 (High Vertical Coupling to Strategic Operations Node): The software developed under this CA must integrate directly with the Strategic Operations (STOS) node under WBS 1.4.2.8 (proposed WBS) and the Infrastructure Strategic Operation under WBS 1.4.7.6 (old WBS). While the technical relationships between this generator software and the physical STOS hardware consoles are planned internally, the WBS index shift prevents automated EVMS scheduling from flagging a delay in the hardware as a critical-path impact on the integrated software schedule.Observation 2 (Lack of Automated EVMS Linkage): The physical installation and verification of the STOS equipment occurs under WBS 1.4.2.8.2.1 (Strategic Operations Integrated Assemblies). Due to the WBS indexing misalignment, automated EVMS tools cannot automatically link and track this strategic targeting software's maturity against physical hardware availability at the STOS nodes."
+  }
+}

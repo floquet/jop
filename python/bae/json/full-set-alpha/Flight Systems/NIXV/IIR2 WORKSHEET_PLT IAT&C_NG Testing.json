@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/NIXV/IIR2 WORKSHEET_PLT IAT&C_NG Testing.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T01:07:36.502253+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-30",
+    "control_account": "1.02.10.01.01\n.07\nProduct Elemen\nt Owner Designation\n:\nReentry Systems Branch - NIXV",
+    "owner": "Reentry Systems Branch - NIXV",
+    "gov_personnel": [
+      {
+        "name": "McKenzie Madsen, Bethany White, Joseph Sanchez",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Nathaniel Butler, Andrew Blomquist",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "PLT IAT&C is high risk, but the risk posture is consistent with the rest of the program to meet IOC in 2033 (e.g. schedule is success oriented – no margin for test failure or redesign work, concurrent development may drive design changes or rework, etc.).2. PLT has captured scope accurately in work packages up to the WS PDR milestone.3. PLT has captured high level scope accurately in high level planning packages beyond WS PDR.",
+    "score_overall": 1,
+    "rationale": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 1,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 1,
+        "text": "Scope is sufficiently captured in work packages and planning packages to support subsequent IIR activities."
+      }
+    ],
+    "products": "We walked through detailed work packages to support PRS CDR, MBSE development, MS&A activities, and payloads testing.",
+    "strengths": "Scope is clearly\nand logically captured",
+    "concerns": "PLT IAT&C is high risk, but the risk posture is consistent with the rest of the program to meet IOC in 2033 (e.g. schedule is success oriented – no margin for test failure or redesign work, concurrent development may drive design changes or rework, etc.). At this point it is highly likely this risk is realized that drives schedule impacts to the program, however there is no action at this time to address. No margin exists in the schedule to support these activities.",
+    "questions": "We took an action to include the iMk21 DAQ calibration activities in the Test work package",
+    "integration": "Not applicable for PLT IATC & NG Testing. Cross-product/cross-function integration occurs at L2"
+  }
+}

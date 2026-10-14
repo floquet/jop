@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Flight Systems/FS CAs/1.02.01.01.10 & 1.02.01.02.04 .docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:44:08.392005+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-07-28",
+    "control_account": "1.02.01.02.04 Production Operations Support1.02.01.01.10 Segment Integration Production and Manufacturing",
+    "owner": "Flight Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Jesse Scott- FS ISC LeadBrad Wichtoski- FS ISC Chief EngineerWayne Walker- FS ISC DeputyJessica Schlawin- ISC PM Support",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Blake LarsenSteve Simpson",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The contractor has a mature and well-defined understanding of the scope for production and manufacturing support. Internal planning, including staffing and a ramp-up plan for the Flight Test campaign, is a significant strength.Despite strong internal planning, the entire plan is critically dependent on the timely delivery of hardware from other organizations. The plan is brittle; any delay in receiving hardware will cause a direct and significant slip to the production support schedule.The Level of Effort (LOE) portion of this work is well-defined for a stable schedule. However, it will be extremely difficult to manage this \"standing army\" effectively and affordably if the schedule is disrupted by hardware delays, leading to potential cost inefficiencies.",
+    "score_overall": 1,
+    "rationale": "The \"Strong\" rating is based on the contractor's excellent definition of their internal scope, deliverables, and staffing plan. The planning artifacts show a mature understanding of the work required. However, this rating must be caveated with a significant external risk. The plan's executability is entirely dependent on the timely receipt of hardware from other suppliers. While the contractor's internal plan is solid, a high risk of schedule slip exists due to these external dependencies. Additionally, full traceability to SOW Revision 9 has not yet been completed, which remains a required action.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 1,
+        "text": "The \"Strong\" rating is warranted because the team has demonstrated a mature understanding of their scope, with detailed definitions for their deliverables and a clear \"definition of done\" for their tasks. This provides a high degree of confidence that the contractor knows exactly what work they are responsible for producing."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": 0,
+        "text": "The \"Moderate\" rating reflects external risk that undermines an otherwise strong staffing and scheduling plan. The team is sufficiently staffed and has a credible plan to ramp up resources for the Flight Test campaign. However, the schedule's viability is wholly dependent on hardware delivery dates that are outside their control. This makes the schedule fragile and introduces a moderate level of risk to the overall IMS readiness, as the current plan may not be executable as laid out."
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": 0,
+        "text": "The \"Moderate\" rating is assigned due to the high-risk nature of the primary integration point. While the contractor clearly understands the key hardware and data artifacts they need to receive (e.g., OBTE hardware), their ability to execute is completely dependent on the quality and timeliness of those deliverables. Given that the quality and accuracy of those upstream deliverables are currently a concern across the program, this dependency introduces a significant integration risk that reduces confidence."
+      }
+    ],
+    "products": "WBS Dictionary (28 July 26), Work Packages (28 July 26), Planning Package Descriptions (28 July 26)",
+    "strengths": "The work is well-defined with clear deliverables, and the team has already successfully traced this scope to the forthcoming SOW Revision 9, demonstrating proactive compliance.\nThe team is staffed appropriately for the current workload and has a credible, well-documented plan to ramp up personnel as needed to support the future Flight Test campaign, demonstrating strong resource management.",
+    "concerns": "The execution of the entire production support plan is critically dependent on the on-time delivery of hardware from other suppliers. As long as hardware is delivered on time, there is little concern. However, any delay in receiving hardware will result in a direct, day-for-day slip to the production and manufacturing schedule, leading to significant inefficiencies and jeopardizing downstream milestones. The Level of Effort (LOE) portion of this work is planned against a stable schedule. It will be difficult to manage this workforce efficiently if the schedule slips due to external delays. If hardware is late, the LOE team will be funded but unable to perform their primary work, leading to cost overruns (cost without progress) or the inefficient redirection of skilled personnel to lower-priority tasks.",
+    "questions": "The assessment discovered that 60% of incoming supplier artifacts currently have errors. How is this staggering error rate being factored into the production planning, and what are the schedule and resource implications of the inevitable rework? Request the contractor provide a Basis of Estimate (BOE) for the level of rework anticipated due to poor supplier quality and to demonstrate how this is accounted for in the IMS.",
+    "integration": "Key OBTE hardware and deliverables, both hardware and data artifacts, were discussed with contractor counterparts and appear to be understood. However, their ability to execute the plan is heavily dependent on deliverables from other organizations and currently the quality and accuracy of those deliverables is a concern."
+  }
+}

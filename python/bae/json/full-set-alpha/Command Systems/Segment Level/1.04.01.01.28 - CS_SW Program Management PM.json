@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source_file": "Command Systems/Segment Level/1.04.01.01.28 - CS_SW Program Management PM.docx",
+    "prompt_version": "2.0",
+    "schema_version": "1.0",
+    "extraction_timestamp": "2026-10-01T00:05:44.318402+00:00",
+    "model": "Llama 3.3 70B",
+    "warnings": []
+  },
+  "data": {
+    "date": "2026-08-06",
+    "control_account": "1.04.01.01.28 – CS_SW Program Management PM",
+    "owner": "Command Systems Segment",
+    "gov_personnel": [
+      {
+        "name": "Dave Hamblin",
+        "role": ""
+      }
+    ],
+    "ctr_personnel": [
+      {
+        "name": "Austin Briscoe",
+        "role": ""
+      }
+    ],
+    "leadership_messages": "The addition of work packages will do well to bolster the Control accountIs this account for software for the related hardware? Or is a software account managing hardware work packages?",
+    "score_overall": 0,
+    "rationale": "The work necessary to maintain SW elements defined in this control account is reassuring. The addition of associated work packages will solidify the accounts intent.",
+    "areas": [
+      {
+        "area_name": "Scope and Deliverables Definition",
+        "score": 0,
+        "text": "Which hardware-related work packages will be linked to this account? The work needed has been identified, but the work that needs support has not."
+      },
+      {
+        "area_name": "Schedule Planning and IMS-Loading Readiness",
+        "score": -1,
+        "text": "The IMS loading could be bolstered by indicating the related WP’s. Schedule and planning can be assessed when the appropriate discrete tasks have been identified"
+      },
+      {
+        "area_name": "Cross-Product/Cross-Function Integration",
+        "score": -1,
+        "text": "Without the identification of the specific discrete tasks this LOE account supports, it is impossible to accurately assess the cross-functional integration of this account."
+      }
+    ],
+    "products": "SOW Rev 9.0, NG Command Systems Control Account Rollup/COBRA Exports 31 July 2026, WBS Dictionary 6 Aug 2026, IMP Rev B, NG RAM 6 Aug 2026",
+    "strengths": "Identifying all of the supporting work and the general areas that will be supported is a helpful start, when the related Work packages are identified, the planning portions should be straight forward.",
+    "concerns": "Concern: The Scope of this account does seem large, though not unmanageable.",
+    "questions": "This Control account mentions it will supply the management for related hardware packages. Does this mean the Control account is managing Software accounts for a given hardware?",
+    "integration": "N/A"
+  }
+}
