@@ -17,7 +17,6 @@
 
 int main(int argc, char* argv[]) {
     // Print system, compiler, and library versions
-    telemetry::print_provenance(argc, argv);
 
     // 1. Set up the optimization parameters
     unsigned int dimensions = 10;
@@ -114,6 +113,9 @@ int main(int argc, char* argv[]) {
     std::cout << divider << "\n";
     std::cout << "Overall Verification: " << (all_passed ? "SUCCESS" : "FAILURE") << "\n";
 
+    std::cout << "\n";
+    telemetry::print_provenance(argc, argv);
+
     if (all_passed) {
         return 0;
     } else {
@@ -123,20 +125,6 @@ int main(int argc, char* argv[]) {
 
 // dantopa@isomer:~/repos-isomer/github/jop/c++/pagmo$ make pagmo-rosenbrock-de && ./pagmo-rosenbrock-de 2>&1 | tee pagmo-rosenbrock-de.log
 // make: 'pagmo-rosenbrock-de' is up to date.
-// ================================================================================
-// SYSTEM & BUILD TELEMETRY
-// ================================================================================
-// Host:                 isomer
-// OS / Kernel:          Linux 7.0.11-76070011-generic (x86_64)
-// Hardware Threads:     14
-// Working Dir:          /home/dantopa/repos-isomer/github/jop/c++/pagmo
-// Executable:           ./pagmo-rosenbrock-de
-// Source File:          pagmo-rosenbrock-de.cpp
-// Compiled At:          Nov 15 2026 16:33:36
-// Compiler:             GCC 15.2.0 (C++17)
-// Build Flags:          Release (-DNDEBUG) [Optimized] 
-// Pagmo Version:        2.18.0
-
 // ================================================================================
 // OPTIMIZATION INTENT & EXPECTED OUTCOME
 // ================================================================================
@@ -149,9 +137,24 @@ int main(int argc, char* argv[]) {
 // ================================================================================
 // Island   Measured_f     Goal_f    Diff (f-Goal)  ||x - x*||_2   Fevals    Status
 // --------------------------------------------------------------------------------
-// 0        4.4190e-07     0         +4.4190e-07    7.0456e-04     22340     PASS
-// 1        2.8080e-07     0         +2.8080e-07    1.0065e-04     22420     PASS
-// 2        3.2484e-07     0         +3.2484e-07    5.9697e-05     23460     PASS
-// 3        4.3543e-07     0         +4.3543e-07    9.6998e-05     22020     PASS
+// 0        4.4614e-07     0         +4.4614e-07    5.1704e-04     24460     PASS
+// 1        4.1061e-07     0         +4.1061e-07    1.5706e-04     22360     PASS
+// 2        3.8735e-07     0         +3.8735e-07    7.8595e-04     25440     PASS
+// 3        4.0894e-07     0         +4.0894e-07    8.6884e-04     24640     PASS
 // --------------------------------------------------------------------------------
 // Overall Verification: SUCCESS
+
+// ================================================================================
+// SYSTEM & BUILD TELEMETRY
+// ================================================================================
+// Host:                 isomer
+// OS / Kernel:          Linux 7.0.11-76070011-generic (x86_64)
+// Hardware Threads:     14
+// Working Dir:          /home/dantopa/repos-isomer/github/jop/c++/pagmo
+// Executable:           ./pagmo-rosenbrock-de
+// Source File:          pagmo-rosenbrock-de.cpp
+// Compiled At:          Nov 15 2026 16:42:31
+// Compiler:             GCC 15.2.0 (C++17)
+// Build Flags:          Release (-DNDEBUG) [Optimized] 
+// Pagmo Version:        2.18.0
+
