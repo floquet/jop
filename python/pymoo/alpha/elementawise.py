@@ -1,4 +1,3 @@
-
 # ChatGPT
 # Sat Nov 14 12:30:17 MST 2026
 # https://pymoo.org/
