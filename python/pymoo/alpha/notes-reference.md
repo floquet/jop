@@ -1,0 +1,5 @@
+A **reference point** is a pair of objective values you give the algorithm to say **“I’m interested in tradeoffs around here.”** For example, `(0.3, 0.4)` means \(f_1=0.3\) and \(f_2=0.4\). It’s the left black cross on your plot. At \(f_1=0.3\), the best possible \(f_2\) is about \(0.452\), so that cross asks for a tradeoff just beyond what ZDT1 can achieve.
+
+A **reference direction** is a ray in normalized objective space. Picture a **fan of rays** for each black cross. The algorithm builds those fans from your reference points, then assigns candidates to nearby rays. When there are too many candidates to keep, it favors rays with fewer representatives. That helps it return a spread of solutions in each region of interest.
+
+The confusing part is that **the gray dots represent the direction vectors**, because the example plots their components as coordinates. To see the result of the search, look at the **hollow circles along the black curve**. The crosses show what you asked for, and the circles show the tradeoffs the algorithm found.

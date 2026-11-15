@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dantopa/repos-isomer/github/jop/c++/pagmo/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

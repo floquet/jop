@@ -2,7 +2,7 @@
 #include <pagmo/problem.hpp>
 #include <pagmo/problems/zdt.hpp>
 #include <pagmo/algorithm.hpp>
-#include <pagmo/algorithms/nsga3.hpp>
+#include <pagmo/algorithms/nsga2.hpp>
 #include <pagmo/population.hpp>
 
 int main() {
@@ -12,7 +12,7 @@ int main() {
 
         // 2. Instantiate the NSGA-III algorithm 
         // Parameters: generations = 250, seed = 42
-        pagmo::algorithm algo{pagmo::nsga3(250, 42)};
+        pagmo::algorithm algo{pagmo::nsga2(250, 0.95, 10., 0.01, 50., 42)};
 
         // Set verbosity to track progress every 10 generations
         algo.set_verbosity(10);
