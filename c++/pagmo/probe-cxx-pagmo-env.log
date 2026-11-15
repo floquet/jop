@@ -1,0 +1,84 @@
+
+================================================================================
+[STEP 01] Host & Operating System Identification
+================================================================================
+
+--- [STEP 01.01] System Kernel, Architecture & OS Release ---
+Host:         isomer
+User:         dantopa
+Kernel:       Linux 7.0.11-76070011-generic x86_64
+OS Release:   Ubuntu 26.04.1 LTS
+CPU Threads:  14
+
+================================================================================
+[STEP 02] Spack Environment & Activation Status
+================================================================================
+
+--- [STEP 02.01] Active Spack Shell Integration & Environment ---
+SPACK_ROOT:   /home/dantopa/spacktivity/genesis
+SPACK_ENV:    <unset>
+spack on PATH: YES (spack)
+
+--- [STEP 02.02] Spack Installed Packages Check (pagmo2, boost, eigen, tbb, mpi) ---
+boost@1.90.0%gcc@15.2.0/q7vwbgrk5vk77lyb5mn3ytlvxu3f5jaa /m4jykra -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/boost-1.90.0-m4jykraml54gif4muxs77mpdxrcx3bku
+boost@1.90.0%gcc@15.2.0/q7vwbgrk5vk77lyb5mn3ytlvxu3f5jaa /xop333p -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/boost-1.90.0-xop333p2zcai5kkladusqxejkqbuzq46
+intel-tbb@2022.3.0%gcc@15.2.0/q7vwbgrk5vk77lyb5mn3ytlvxu3f5jaa /h2tlzcc -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/intel-tbb-2022.3.0-h2tlzccwzwm2x7deq2sk3jre63ocm24g
+openmpi@5.0.10%gcc@15.2.0/q7vwbgrk5vk77lyb5mn3ytlvxu3f5jaa /uon3iga -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2
+pagmo2@2.18.0%gcc@15.2.0/q7vwbgrk5vk77lyb5mn3ytlvxu3f5jaa /ewn7rlp -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/pagmo2-2.18.0-ewn7rlp7wcbkjteq2wx25cgiazo5fvvk
+
+================================================================================
+[STEP 03] C++ Compilers, Build Tools & MPI Probe
+================================================================================
+
+--- [STEP 03.01] C/C++ Compilers & CMake/Make ---
+g++:           FOUND -> /usr/bin/g++ (g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0)
+gcc:           FOUND -> /usr/bin/gcc (gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0)
+clang++:       FOUND -> /usr/bin/clang++ (Ubuntu clang version 21.1.8 (6ubuntu1))
+clang:         FOUND -> /usr/bin/clang (Ubuntu clang version 21.1.8 (6ubuntu1))
+cmake:         FOUND -> /usr/bin/cmake (cmake version 4.2.3)
+make:          FOUND -> /usr/bin/make (GNU Make 4.4.1)
+pkg-config:    FOUND -> /usr/bin/pkg-config (2.5.1)
+
+--- [STEP 03.02] MPI Wrappers & Runtime ---
+mpicxx:        FOUND -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2/bin/mpicxx (g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0)
+mpic++:        FOUND -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2/bin/mpic++ (g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0)
+mpicc:         FOUND -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2/bin/mpicc (gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0)
+mpiexec:       FOUND -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2/bin/mpiexec (mpiexec (Open MPI) 5.0.10)
+mpirun:        FOUND -> /home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2/bin/mpirun (mpirun (Open MPI) 5.0.10)
+
+================================================================================
+[STEP 04] System & Environment Search Paths (CPATH / LIBRARY_PATH / System Dirs)
+================================================================================
+
+--- [STEP 04.01] Compiler Environment Variables ---
+CPATH:            <unset>
+CPLUS_INCLUDE_PATH: <unset>
+LIBRARY_PATH:     <unset>
+LD_LIBRARY_PATH:  <unset>
+CMAKE_PREFIX_PATH:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/pagmo2-2.18.0-ewn7rlp7wcbkjteq2wx25cgiazo5fvvk:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/boost-1.90.0-m4jykraml54gif4muxs77mpdxrcx3bku:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/intel-tbb-2022.3.0-h2tlzccwzwm2x7deq2sk3jre63ocm24g:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/icu4c-74.2-fc5gbuqtd7fz7fwv5h3gcuztca32fzw2:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/python-3.14.5-tgia2bzue2ve74lahsjkajeltqwvqjdw:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/numactl-2.0.19-2d3dc6fc7jvxc2cbd4ltdk5idznghrsk:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openssh-10.3p1-zcbs7fo443ef5zb7o5mcalzaz532lrts:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/prrte-4.1.0-56a6oe7av4qjedqdidqsdyurkcneeuhb:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/expat-2.8.5-hbvm6ex4devpeymqnlgx5kw7ewqhbzjb:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gdbm-1.26-omwqp3wh4bjnl4i6qyudukiogt7f34zc:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libffi-3.5.2-k36y7pbgdeanhoyn6akdea77gnqrkiut:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/sqlite-3.53.1-zqyjmeq6kvmmojioz3wlozcxnx4ims42:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/util-linux-uuid-2.41-6myrerb5hud3h7lgst5r3hozmk3fn3ze:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/krb5-1.22.2-acgkc6mohwjmqiqk5qzltllrkeolil64:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libxcrypt-4.5.2-2i345bhdnicswr7qa5ruaoad4f36qaln:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/pmix-6.1.0-pv5crf3xew3frz4flo5fi4ae2gcnai6i:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gcc-runtime-15.2.0-vtyqdfhckykbxlv4nzfxt3xl3hgoembv:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libbsd-0.12.2-4wizdy2eckh3gqlpzkypmz74wgi73n7y:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/readline-8.3-ijlhw46cudqbcqfmlvycqc3bo74olafm:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gettext-1.0-gqifhkie2ymphtjetqxh5dwuusnpnjlh:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libedit-3.1-20251016-ca3zeunmyy4balerkyc3ff7jj266ssrs:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/hwloc-2.13.0-vxdcibmzoiyuwo4zox34qj2s52gyyixj:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libevent-2.1.12-ikbpzd33k36bjoxdldgndjhxljjufiih:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libmd-1.1.0-nqbu4vp2jcmki6xq2an4n2ld5ep4fatx:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/tar-1.35-ycreyzakazupyl4nwkcg5idlx6sjn7me:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libpciaccess-0.17-sfp6aiqh2i7smk42ispmjlbydxuwtxak:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libxml2-2.15.3-ldwalog4eh2yxq76htprpix3i7sqdovg:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/ncurses-6.6-ysmg62sukc42xs4ctbxxjx6zjkxqcoef:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openssl-3.5.5-j2hpdlfuzxckv3dc3g3kx7yi33bffnjl:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/bzip2-1.0.8-zobujap4l7hy7lhm6s3v4io6edf6nswi:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/pigz-2.8-irsgneeml7i45zidjklvudlvpwkab5zm:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/zstd-1.5.7-mcgr6rarwa5o5v5uvqnmnkmkxpluzqq6:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libiconv-1.18-q5femyauve76qswbyavanv77dsvu5wod:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/xz-5.8.3-55huk62q62d65enuhdqbmidrzt4hoont:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/zlib-ng-2.3.3-redqgkvyn3p3cq7fo4baqkjvlbcqrnlj:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gcc-runtime-15.2.0-fcbx6gzrud76nahrs3zb63ahzbyy537o:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/pagmo2-2.18.0-ewn7rlp7wcbkjteq2wx25cgiazo5fvvk:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/boost-1.90.0-m4jykraml54gif4muxs77mpdxrcx3bku:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/intel-tbb-2022.3.0-h2tlzccwzwm2x7deq2sk3jre63ocm24g:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openmpi-5.0.10-uon3igak3eu3um6b56w7ancefezlidw2:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/icu4c-74.2-fc5gbuqtd7fz7fwv5h3gcuztca32fzw2:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/python-3.14.5-tgia2bzue2ve74lahsjkajeltqwvqjdw:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/numactl-2.0.19-2d3dc6fc7jvxc2cbd4ltdk5idznghrsk:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openssh-10.3p1-zcbs7fo443ef5zb7o5mcalzaz532lrts:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/prrte-4.1.0-56a6oe7av4qjedqdidqsdyurkcneeuhb:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/expat-2.8.5-hbvm6ex4devpeymqnlgx5kw7ewqhbzjb:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gdbm-1.26-omwqp3wh4bjnl4i6qyudukiogt7f34zc:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libffi-3.5.2-k36y7pbgdeanhoyn6akdea77gnqrkiut:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/sqlite-3.53.1-zqyjmeq6kvmmojioz3wlozcxnx4ims42:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/util-linux-uuid-2.41-6myrerb5hud3h7lgst5r3hozmk3fn3ze:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/krb5-1.22.2-acgkc6mohwjmqiqk5qzltllrkeolil64:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libxcrypt-4.5.2-2i345bhdnicswr7qa5ruaoad4f36qaln:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/pmix-6.1.0-pv5crf3xew3frz4flo5fi4ae2gcnai6i:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gcc-runtime-15.2.0-vtyqdfhckykbxlv4nzfxt3xl3hgoembv:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libbsd-0.12.2-4wizdy2eckh3gqlpzkypmz74wgi73n7y:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/readline-8.3-ijlhw46cudqbcqfmlvycqc3bo74olafm:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gettext-1.0-gqifhkie2ymphtjetqxh5dwuusnpnjlh:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libedit-3.1-20251016-ca3zeunmyy4balerkyc3ff7jj266ssrs:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/hwloc-2.13.0-vxdcibmzoiyuwo4zox34qj2s52gyyixj:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libevent-2.1.12-ikbpzd33k36bjoxdldgndjhxljjufiih:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libmd-1.1.0-nqbu4vp2jcmki6xq2an4n2ld5ep4fatx:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/tar-1.35-ycreyzakazupyl4nwkcg5idlx6sjn7me:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libpciaccess-0.17-sfp6aiqh2i7smk42ispmjlbydxuwtxak:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libxml2-2.15.3-ldwalog4eh2yxq76htprpix3i7sqdovg:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/ncurses-6.6-ysmg62sukc42xs4ctbxxjx6zjkxqcoef:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/openssl-3.5.5-j2hpdlfuzxckv3dc3g3kx7yi33bffnjl:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/bzip2-1.0.8-zobujap4l7hy7lhm6s3v4io6edf6nswi:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/pigz-2.8-irsgneeml7i45zidjklvudlvpwkab5zm:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/zstd-1.5.7-mcgr6rarwa5o5v5uvqnmnkmkxpluzqq6:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/libiconv-1.18-q5femyauve76qswbyavanv77dsvu5wod:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/xz-5.8.3-55huk62q62d65enuhdqbmidrzt4hoont:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/zlib-ng-2.3.3-redqgkvyn3p3cq7fo4baqkjvlbcqrnlj:/home/dantopa/spacktivity/genesis/opt/spack/linux-alderlake/gcc-runtime-15.2.0-fcbx6gzrud76nahrs3zb63ahzbyy537o
+
+--- [STEP 04.02] System Ubuntu Package & Header Check (/usr/include & dpkg) ---
+System pagmo header: NOT FOUND in /usr/include/pagmo/
+libboost-dev 1.90.0.1ubuntu3 (install ok installed)
+libeigen3-dev 3.4.0-5 (install ok installed)
+libopenmpi-dev 5.0.10-1 (install ok installed)
+libtbb-dev 2022.3.0-2 (install ok installed)
+No matching system apt dev packages installed.
+
+================================================================================
+[STEP 05] Live C++ Compilation & Link Smoke Test for pagmo2
+================================================================================
+
+--- [STEP 05.01] Testing Direct g++ Compile (Without Spack Flags) ---
+Direct g++ compile: FAILED (compiler cannot see pagmo2 by default)
+  | /tmp/tmp.BDaSIzxtaE/smoke.cpp:2:10: fatal error: pagmo/config.hpp: No such file or directory
+  |     2 | #include <pagmo/config.hpp>
+  |       |          ^~~~~~~~~~~~~~~~~~
+  | compilation terminated.
+
+--- [STEP 05.02] Testing g++ Compile Using Spack Location Flags ---
+Spack-guided g++ compile: SUCCESS -> pagmo 2.18.0 linked OK (dim=2)
+
+================================================================================
+TOTAL ELAPSED TIME: 00m 02s
+================================================================================
