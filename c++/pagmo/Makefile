@@ -16,6 +16,7 @@ TARGETS := \
 	$(BIN)/pagmo-rosenbrock-stress \
 	$(BIN)/pagmo-rosenbrock-mpi \
 	$(BIN)/pagmo-nsga3-zdt1 \
+	$(BIN)/pagmo-nsga3-dtlz2-archi \
 	$(BIN)/pagmo-zdt1-table
 
 .PHONY: all build clean run-nsga3 run-table run-mpi
@@ -44,6 +45,13 @@ $(BIN)/pagmo-nsga3-zdt1: src/multi_obj/pagmo-nsga3-zdt1.cpp include/provenance.h
 
 $(BIN)/pagmo-zdt1-table: src/multi_obj/pagmo-zdt1-table.cpp | $(BIN)
 	$(CXX) $(CXXFLAGS) $< $(LDFLAGS) -o $@
+
+$(BIN)/pagmo-nsga3-dtlz2-archi: src/multi_obj/pagmo-nsga3-dtlz2-archi.cpp include/provenance.hpp | $(BIN)
+	$(CXX) $(CXXFLAGS) $< $(LDFLAGS) -o $@
+
+run-dtlz2: $(BIN)/pagmo-nsga3-dtlz2-archi
+	@mkdir -p $(LOGS)
+	set -o pipefail; ./$(BIN)/pagmo-nsga3-dtlz2-archi 2>&1 | tee $(LOGS)/pagmo-nsga3-dtlz2-archi_$(HOST).log
 
 run-nsga3: $(BIN)/pagmo-nsga3-zdt1
 	@mkdir -p $(LOGS)
