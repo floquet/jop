@@ -1,0 +1,41 @@
+========================================================================================
+PAGMO2 TRUE NSGA-III BENCHMARK INTENT & EXPECTED OUTCOME (ZDT1)
+========================================================================================
+Problem:    ZDT1 (D = 30, 2 objectives, analytical f2 = 1 - sqrt(f1))
+Algorithm:  nsga3_uda (pop=100, ref_dirs=100, gens=250, cr=0.95, eta_c=10, prob_m=0.01, eta_m=50, seed=42)
+Goal:       GD < 1.00e-03, IGD < 1.50e-02, ND_Count >= 95
+
+Gen    1 | Fevals:     200 | z_min: [2.3394e-03, 2.6563e+00]
+Gen   50 | Fevals:    5100 | z_min: [1.9416e-07, 2.8026e-01]
+Gen  100 | Fevals:   10100 | z_min: [1.9416e-07, 7.3042e-02]
+Gen  150 | Fevals:   15100 | z_min: [1.9109e-07, 1.2217e-02]
+Gen  200 | Fevals:   20100 | z_min: [1.9109e-07, 5.5251e-03]
+Gen  250 | Fevals:   25100 | z_min: [1.9109e-07, 2.5000e-03]
+
+========================================================================================
+PAGMO2 NSGA-III RESULTS SUMMARY (MEASURED VS. GOAL)
+========================================================================================
+Metric                Measured        Goal            Status
+----------------------------------------------------------------------------------------
+Non-Dominated Pts     100             >= 95           PASS
+Generational Dist(GD) 2.5627e-04      < 1.0000e-03    PASS
+Inverted GD (IGD)     4.4486e-03      < 1.5000e-02    PASS
+f1 Range              [0.000000, 0.999420]
+Total Fevals          25100
+Wall-Clock Time       0.4234 s
+Overall Verification: SUCCESS
+
+================================================================================
+SYSTEM & BUILD TELEMETRY
+================================================================================
+Host:                 isotope
+OS / Kernel:          Linux 7.0.0-43-generic (x86_64)
+Hardware Threads:     24
+Working Dir:          /home/dantopa/repos-isotope/github/jop/c++/pagmo
+Executable:           ./build/bin/pagmo-nsga3-zdt1
+Source File:          src/multi_obj/pagmo-nsga3-zdt1.cpp
+Compiled At:          Nov 15 2026 21:09:54
+Compiler:             GCC 15.2.0 (C++17)
+Build Flags:          Release (-DNDEBUG) [Optimized] 
+Pagmo Version:        2.19.1
+
