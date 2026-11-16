@@ -40,6 +40,7 @@ print("                   f1 = x1")
 print("                   f2 = g - sqrt(g * f1)")
 print(f"                   g = 1 + 9 * mean(x2, ..., x{problem.n_var})")
 print("  Exact front      f2 = 1 - sqrt(f1)")
+print(f"Random seed       : {seed}")
 print("  Reference points (f1, f2)")
 for index, (f1, f2) in enumerate(ref_points, start=1):
     print(f"    {index}. ({f1:g}, {f2:g})")

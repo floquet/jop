@@ -49,24 +49,9 @@ plot.add(
     ref_points, marker="x", s=48, color="black", linewidths=1.2,
     label="Reference points", zorder=4,
 )
-ideal = res.algorithm.survival.ideal_point
-
-# The final n_obj entries are the axis directions.
-fans = np.split(reference_directions[:-problem.n_obj], len(ref_points))
-
-for fan_number, fan in enumerate(fans):
-    indices = np.linspace(0, len(fan) - 1, 7, dtype=int)
-    for ray_number, endpoint in enumerate(fan[indices]):
-        label = "Sampled reference rays" if fan_number == ray_number == 0 else "_nolegend_"
-        plot.add(
-            np.vstack([ideal, endpoint]),
-            plot_type="line", color="0.65", linewidth=0.7,
-            label=label, zorder=1,
-        )
-
 plot.add(
-    ideal[None, :], marker="s", s=20, color="0.35",
-    label="Estimated ideal point", zorder=4,
+    reference_directions, marker=".", s=9, color="0.65",
+    label="Reference directions", zorder=1,
 )
 
 plot.save("plot-rnsga3.png")

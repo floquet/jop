@@ -25,6 +25,9 @@ int main(int argc, char* argv[]) {
     unsigned int gens_per_step = 500;
     unsigned int evolve_steps = 5;
 
+    unsigned int algo_seed = 42;
+    unsigned int archi_seed = 12345;
+
     double goal_fitness = 0.0;
     double max_allowed_fitness = 1.0e-5;
     double max_allowed_distance = 1.0e-2;
@@ -40,21 +43,25 @@ int main(int argc, char* argv[]) {
     std::cout << "      running Differential Evolution for "
               << (gens_per_step * evolve_steps) << " generations per island.\n";
     std::cout << "Pass: Fitness < " << max_allowed_fitness
-              << " and distance from x* = [1, ..., 1] < " << max_allowed_distance << "\n\n";
+              << " and distance from x* = [1, ..., 1] < " << max_allowed_distance << "\n";
+    std::cout << "Seed: Algorithm base seed = " << algo_seed
+              << ", Archipelago seed = " << archi_seed << "\n\n";
 
     // 2. Build the core pagmo objects one by one
     pagmo::rosenbrock raw_problem(dimensions);
     pagmo::problem prob(raw_problem);
 
-    pagmo::de raw_algorithm(gens_per_step);
+    pagmo::de raw_algorithm(gens_per_step, 0.8, 0.9, 2, 1e-6, 1e-6, algo_seed);
     pagmo::algorithm algo(raw_algorithm);
 
     // Create an archipelago: multiple islands running the same problem and algorithm in parallel
-    pagmo::archipelago archi(num_islands, algo, prob, population_size);
+    pagmo::archipelago archi(num_islands, algo, prob, population_size, archi_seed);
 
     // 3. Run the optimization and wait for all islands to finish
+    std::cout << "Launching " << num_islands << " island threads...\n";
     archi.evolve(evolve_steps);
     archi.wait_check();
+    std::cout << num_islands << " island threads completed.\n\n";
 
     // 4. Print the results table (Measured vs. Goal)
     std::cout << banner << "\n";
