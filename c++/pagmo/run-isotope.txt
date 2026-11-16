@@ -1,0 +1,41 @@
+dantopa@isotope:~/repos-isotope/github/jop/c++/pagmo$ make clean && make pagmo-rosenbrock-de && ./pagmo-rosenbrock-de
+rm -f pagmo-rosenbrock-de
+g++ -std=c++17 -O3 -DNDEBUG -Wall -Wextra  -isystem /usr/include/eigen3 pagmo-rosenbrock-de.cpp   -lpagmo -ltbb -lpthread -o pagmo-rosenbrock-de
+================================================================================
+OPTIMIZATION INTENT & EXPECTED OUTCOME
+================================================================================
+Goal: Minimize 10-D Rosenbrock function using 4 islands (20 individuals each)
+      running Differential Evolution for 2500 generations per island.
+Pass: Fitness < 1e-05 and distance from x* = [1, ..., 1] < 0.01
+Seed: Algorithm base seed = 42, Archipelago seed = 12345
+
+Launching 4 island threads...
+4 island threads completed.
+
+================================================================================
+RESULTS SUMMARY (MEASURED VS. GOAL)
+================================================================================
+Island   Measured_f     Goal_f    Diff (f-Goal)  ||x - x*||_2   Fevals    Status
+--------------------------------------------------------------------------------
+0        2.2115e-07     0         +2.2115e-07    5.8593e-04     23600     PASS
+1        4.6860e-07     0         +4.6860e-07    1.1410e-04     21480     PASS
+2        6.0535e-07     0         +6.0535e-07    6.8445e-04     23500     PASS
+3        3.5212e-07     0         +3.5212e-07    2.8506e-04     21080     PASS
+--------------------------------------------------------------------------------
+Overall Verification: SUCCESS
+
+================================================================================
+SYSTEM & BUILD TELEMETRY
+================================================================================
+Host:                 isotope
+OS / Kernel:          Linux 7.0.0-43-generic (x86_64)
+Hardware Threads:     24
+Working Dir:          /home/dantopa/repos-isotope/github/jop/c++/pagmo
+Executable:           ./pagmo-rosenbrock-de
+Source File:          pagmo-rosenbrock-de.cpp
+Compiled At:          Nov 15 2026 19:45:07
+Compiler:             GCC 15.2.0 (C++17)
+Build Flags:          Release (-DNDEBUG) [Optimized] 
+Pagmo Version:        2.19.1
+
+
