@@ -1,0 +1,60 @@
+========================================================================================
+MPI + PAGMO2 HYBRID BENCHMARK INTENT & EXPECTED OUTCOME
+========================================================================================
+Goal: Minimize 50-D Rosenbrock function across 4 MPI ranks x 6 islands/rank
+      (24 total islands, 100 individuals/island, 25000 gens/island).
+Pass: All 24 islands reach fitness < 1e-05 and ||x - x*||_2 < 0.01
+Seed: Base algo_seed = 42 (+1000*rank), Base archi_seed = 12345 (+1000*rank)
+
+Synchronizing MPI barrier and launching 24 island threads...
+All 4 MPI ranks (24 islands) completed in 2.338 s.
+
+========================================================================================
+MPI RESULTS SUMMARY (MEASURED VS. GOAL)
+========================================================================================
+Rank  Host        Island  Measured_f     Diff (f-Goal)  ||x - x*||_2   Fevals     Status
+----------------------------------------------------------------------------------------
+0     isotope     0       5.8362e-13     +5.8362e-13    4.4274e-07     1313900    PASS
+0     isotope     1       5.4519e-13     +5.4519e-13    4.5383e-07     1295300    PASS
+0     isotope     2       5.9575e-13     +5.9575e-13    2.7616e-07     1306500    PASS
+0     isotope     3       5.3203e-13     +5.3203e-13    4.8531e-08     1296800    PASS
+0     isotope     4       4.8013e-13     +4.8013e-13    2.5394e-07     1285800    PASS
+0     isotope     5       4.9245e-13     +4.9245e-13    4.9537e-07     1287300    PASS
+1     isotope     0       5.0252e-13     +5.0252e-13    4.5453e-07     1307900    PASS
+1     isotope     1       4.1389e-13     +4.1389e-13    1.8915e-07     1305800    PASS
+1     isotope     2       4.3238e-13     +4.3238e-13    2.6980e-07     1330800    PASS
+1     isotope     3       5.4690e-13     +5.4690e-13    6.5892e-08     1307600    PASS
+1     isotope     4       4.0983e-13     +4.0983e-13    1.0457e-07     1310400    PASS
+1     isotope     5       4.1492e-13     +4.1492e-13    1.2958e-07     1312400    PASS
+2     isotope     0       5.6910e-13     +5.6910e-13    2.7635e-07     1283700    PASS
+2     isotope     1       4.1934e-13     +4.1934e-13    4.8071e-08     1314000    PASS
+2     isotope     2       7.1075e-13     +7.1075e-13    7.6703e-08     1318700    PASS
+2     isotope     3       5.3316e-13     +5.3316e-13    3.0772e-07     1302600    PASS
+2     isotope     4       4.8301e-13     +4.8301e-13    3.4102e-07     1299600    PASS
+2     isotope     5       8.2084e-13     +8.2084e-13    7.9814e-08     1302400    PASS
+3     isotope     0       4.6525e-13     +4.6525e-13    3.5928e-07     1299900    PASS
+3     isotope     1       4.0909e-13     +4.0909e-13    3.0945e-07     1314000    PASS
+3     isotope     2       3.1672e-13     +3.1672e-13    2.4651e-07     1316300    PASS
+3     isotope     3       5.7791e-13     +5.7791e-13    7.1399e-08     1315800    PASS
+3     isotope     4       4.2092e-13     +4.2092e-13    6.5499e-08     1297200    PASS
+3     isotope     5       6.9975e-13     +6.9975e-13    9.1069e-08     1308000    PASS
+----------------------------------------------------------------------------------------
+MPI Ranks x Islands:  4 x 6 (24 total islands)
+Total Fevals:         31332700 (13.40 M evals/sec)
+Max Rank Wall-Clock:  2.338 s
+Overall Verification: SUCCESS
+
+================================================================================
+SYSTEM & BUILD TELEMETRY
+================================================================================
+Host:                 isotope
+OS / Kernel:          Linux 7.0.0-43-generic (x86_64)
+Hardware Threads:     24
+Working Dir:          /home/dantopa/repos-isotope/github/jop/c++/pagmo
+Executable:           ./pagmo-rosenbrock-mpi
+Source File:          pagmo-rosenbrock-mpi.cpp
+Compiled At:          Nov 15 2026 20:38:09
+Compiler:             GCC 15.2.0 (C++17)
+Build Flags:          Release (-DNDEBUG) [Optimized] 
+Pagmo Version:        2.19.1
+

@@ -1,0 +1,59 @@
+================================================================================
+STRESS BENCHMARK INTENT & EXPECTED OUTCOME
+================================================================================
+Goal: Minimize 50-D Rosenbrock function using 24 islands (100 individuals each)
+      running Differential Evolution for 25000 generations per island.
+Pass: Fitness < 1e-05 and distance from x* = [1, ..., 1] < 0.01
+Seed: Algorithm base seed = 42, Archipelago seed = 12345
+
+Launching 24 island threads...
+24 island threads completed in 2.760 s.
+
+================================================================================
+RESULTS SUMMARY (MEASURED VS. GOAL)
+================================================================================
+Island   Measured_f     Goal_f    Diff (f-Goal)  ||x - x*||_2   Fevals      Status
+--------------------------------------------------------------------------------
+0        5.8362e-13     0         +5.8362e-13    4.4274e-07     1313900     PASS
+1        5.4519e-13     0         +5.4519e-13    4.5383e-07     1295300     PASS
+2        5.9575e-13     0         +5.9575e-13    2.7616e-07     1306500     PASS
+3        5.3203e-13     0         +5.3203e-13    4.8531e-08     1296800     PASS
+4        4.8013e-13     0         +4.8013e-13    2.5394e-07     1285800     PASS
+5        4.9245e-13     0         +4.9245e-13    4.9537e-07     1287300     PASS
+6        3.9243e-13     0         +3.9243e-13    1.9616e-07     1305300     PASS
+7        3.7860e-13     0         +3.7860e-13    1.8019e-07     1288400     PASS
+8        4.1820e-13     0         +4.1820e-13    1.2538e-07     1312100     PASS
+9        5.4226e-13     0         +5.4226e-13    1.6789e-07     1319400     PASS
+10       4.3233e-13     0         +4.3233e-13    6.3783e-08     1301000     PASS
+11       5.0726e-13     0         +5.0726e-13    7.9855e-08     1320000     PASS
+12       6.3285e-13     0         +6.3285e-13    4.5615e-07     1303100     PASS
+13       6.2869e-13     0         +6.2869e-13    6.7714e-07     1283500     PASS
+14       6.8805e-13     0         +6.8805e-13    1.4371e-07     1287800     PASS
+15       4.6328e-13     0         +4.6328e-13    7.1186e-08     1296500     PASS
+16       4.0905e-13     0         +4.0905e-13    1.3082e-07     1303500     PASS
+17       4.3982e-13     0         +4.3982e-13    3.7998e-08     1304100     PASS
+18       4.5066e-13     0         +4.5066e-13    2.2863e-07     1318900     PASS
+19       4.7137e-13     0         +4.7137e-13    1.4830e-07     1291600     PASS
+20       4.5035e-13     0         +4.5035e-13    1.2628e-07     1301400     PASS
+21       4.5237e-13     0         +4.5237e-13    1.0525e-07     1294100     PASS
+22       3.3334e-13     0         +3.3334e-13    3.0724e-07     1295900     PASS
+23       4.4254e-13     0         +4.4254e-13    1.7309e-07     1326500     PASS
+--------------------------------------------------------------------------------
+Total Fevals:         31238700 (11.32 M evals/sec)
+Wall-Clock Time:      2.760 s
+Overall Verification: SUCCESS
+
+================================================================================
+SYSTEM & BUILD TELEMETRY
+================================================================================
+Host:                 isotope
+OS / Kernel:          Linux 7.0.0-43-generic (x86_64)
+Hardware Threads:     24
+Working Dir:          /home/dantopa/repos-isotope/github/jop/c++/pagmo
+Executable:           ./pagmo-rosenbrock-stress
+Source File:          pagmo-rosenbrock-stress.cpp
+Compiled At:          Nov 15 2026 19:53:23
+Compiler:             GCC 15.2.0 (C++17)
+Build Flags:          Release (-DNDEBUG) [Optimized] 
+Pagmo Version:        2.19.1
+
