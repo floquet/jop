@@ -1,0 +1,6 @@
+Benchmark:  ZDT1
+Dimensions: nx=30, nobj=2
+Front size: 100 / 100
+Anchor F_min_f1: (0.000013, 1.128033)
+Anchor F_max_f1: (0.986031, 0.075303)
+PASS: DEAP <-> pagmo2 ZDT1 pybind11 bridge verified.
