@@ -1,0 +1,18 @@
+dantopa@isotope:~/repos-isotope/github/spacklandia/scripts/gemini$ source ~/spack/share/spack/setup-env.sh
+spack load pagmo2
+
+cd ~/repos-$(hostname)/github/jop/python/pagmoo/cpp/zdt
+make clean && make PAGMO_PREFIX=$(spack location -i pagmo2) test
+ldd pagmo_benchmarks*.so | grep pagmo
+rm -f pagmo_benchmarks*.so
+g++ -O3 -Wall -Wextra -std=c++17 -fPIC -shared -I/usr/include/python3.14 -I/usr/lib/python3/dist-packages/pybind11/include -I"/home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/include" pagmo_benchmarks.cpp \
+	-L"/home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib" -Wl,-rpath,"/home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib" -lpagmo -o pagmo_benchmarks.cpython-314-x86_64-linux-gnu.so
+python3 test_deap_zdt.py 2>&1 | tee test_deap_zdt_$(hostname).log
+Benchmark:  ZDT1
+Dimensions: nx=30, nobj=2
+Front size: 100 / 100
+Anchor F_min_f1: (0.000013, 1.128033)
+Anchor F_max_f1: (0.986031, 0.075303)
+PASS: DEAP <-> pagmo2 ZDT1 pybind11 bridge verified.
+	libpagmo.so.8 => /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/libpagmo.so.8 (0x000070bd05200000)
+
